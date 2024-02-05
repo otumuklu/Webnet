@@ -1,0 +1,42 @@
+---
+title: Research Areas
+---
+
+```{=html}
+<link href="../html/pages.css" rel="stylesheet">
+```
+
+## Hypersonic Flow Modeling
+
+```{=html}
+          <div style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden;">
+            <iframe src="DoubleWedge3D_780Pa_Mach7.mp4" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                    frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+          </div>
+
+```
+Spatial variation of the span wise velocities (m/s) at (a) x=0.025~m, (b) x=0.04~m, (c) x=0.05~m, and (d) x=0.064~m constant planes along with (e) the surface heating values (W/m$^2$) and surface streamlines superimposed with the density gradient magnitude for $Re$ = 374,000(1/m). 
+
+<img src="DoubleCone.png" style="height: 100%; width: 100%;"/>
+Comparisons of the surface parameters for the unit $Re =9.35 \times 10^4~m^{-1}$ a) Spatial distribution of the translational temperatures, b)  surface heating values (kW/m$^2$) for the continuum SU2-NEMO 2-D and 3-D solutions for the lowest pressure case,  $Re = 9.35 \times 10^4~m^{-1}$.
+
+<img src="DoubleCone2.png" style="height: 100%; width: 100%;"/>
+
+## Supersonic Jet Expansion Flows
+<img src="FreeJets.png" style="height: 100%; width: 100%;"/>
+Comparison of the velocity profiles for the free expansion jet with a NPR of 4.03: a) the spatial distribution of the velocity magnitude (m/s) for the current work vs. b) the experiment (Henderson (2005)), and c) the streamwise component at the centerline.
+
+
+<img src="ImpingingJet.png" style="height: 100%; width: 100%;"/>
+Flow field structure of the impinging jet with a NPR of 4.03 and $h/D$=2.08 where $h$ the normal distance from the nozzle lip to the wall and $D$ is the nozzle diameter: a) Velocity magnitude (m/s), b) Temperature(K), c) pressure (Pa), d) turbulent kinetic energy.
+
+
+
+
+
+## Rarefied Turbulence Modeling
+
+<img src="TurbulenceModeling.png" style="height: 100%; width: 100%;"/>
+Comparison of DSMC (SPARTA) and NS solutions for argon at the freestream pressures of 100~Pa at $Ma$ 7 for (a) temperature field (K), (b) the axial velocity (m/s), and (c) axial velocity along the stagnation line with various Navier-Stokes turbulence models using SU2.
+

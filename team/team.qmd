@@ -1,0 +1,160 @@
+---
+title: Team
+---
+```{=html}
+<link href="../html/pages.css" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+```
+
+
+```{=html}
+
+<body>
+
+
+    <div class="container">
+        <div id="scrolling-text" class="hidden">
+          Text that appears as you scroll down...
+        </div>
+        <!-- Add your content here -->
+        <div class="content">
+          <!-- Your main content goes here -->
+          <!-- You can add a long content to enable scrolling -->
+          <h2><u>Principal Investigator</u></h2>
+          <br> </br>
+  
+
+          <div style="display: flex; align-items: center;">
+            <img src="Photos/TumukluOzgur.jpg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Ozgur Tumuklu</b>, Ph.D.</span>
+                <br>
+                Assistant Professor
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+                <br>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/ozgur-tumuklu-37811919/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:tumuko@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="mailto:ozgurtumuklu@gmail.com"><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h2> <u> Graduate Researchers</u></h2>
+        <br> </br>
+
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/TylerMartinus.jpeg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Tyler Martinus</b></span>
+                <br>
+                M.S. Student
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+                <br>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/tyler-martinus/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:tumuko@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="mailto:ozgurtumuklu@gmail.com"><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h2><u> Undergraduate Researchers </u></h2>
+        <br> </br>
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/JosephFranciamore.jpg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Joseph D. Franciamore </b></span>
+                <br>
+                Undergraduate Hypersonics and Plasma Dynamics Researcher 
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                 George M. Low Center for Industrial Innovation, Troy, NY 12180 
+                <br>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/joseph-franciamore-0556b3293/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:francj4@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="mailto:jfranciamore12@gmail.com "><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+                
+    
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/CaseyDuncan.jpg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Casey Duncan </b></span>
+                <br>
+                Undergraduate  Researcher 
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+
+                <br>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:duncac5@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="#"><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Johnny Aiello </b></span>
+                <br>
+                Undergraduate  Researcher 
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+
+                <br>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:aiellj@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="#"><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        </div>
+      </div>
+```

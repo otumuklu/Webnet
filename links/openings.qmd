@@ -1,0 +1,27 @@
+---
+title: ""
+---
+
+```{=html}
+<link href="../html/pages.css" rel="stylesheet">
+```
+## Announcement:
+
+Ph.D. and M.S. Positions Available in Numerical Modeling Software Development"
+
+We are pleased to announce multiple openings for PhD positions in the field of numerical modeling software development. If you possess a passion for advancing computational techniques and a keen interest in developing innovative numerical models, we invite you to apply.
+
+Candidates will have the opportunity to contribute to cutting-edge research projects aimed at enhancing numerical modeling software across various disciplines. Successful applicants will work closely with a team of experts to develop and refine algorithms, implement numerical methods, and optimize software performance.
+
+Ideal candidates should demonstrate a strong background in mathematics, computer science, engineering, or a related field. Proficiency in programming languages such as Python, C/C++, MPI, CUDA, and familiarity with numerical methods and simulation techniques are highly desirable.
+
+These positions offer a stimulating research environment, access to state-of-the-art resources, and opportunities for professional development and collaboration. Successful candidates will join a dynamic team dedicated to pushing the boundaries of numerical modeling and computational science.
+
+If you are motivated to make meaningful contributions to the field of numerical modeling software development, we encourage you to apply. To learn more about the application process and eligibility criteria, please
+```{=html}
+            <div class="btn-box">
+               <a href="../contact/index.qmd">contact Us.</a>
+            </div>
+```
+Join us in shaping the future of numerical modeling and computational research. Apply now and be part of our innovative team!
+

@@ -1,0 +1,34 @@
+---
+title: Teaching
+
+---
+
+```{=html}
+<link href="../html/pages.css" rel="stylesheet">
+```
+
+## Compressible Flows (MANE 4960/6960) (Spring 2024)
+This course is tailored as a technical elective for senior and graduate students, offering a comprehensive exploration of compressible flow principles. Throughout the duration of the course,  an extensive range of unique concepts and their real-world applications are thoroughly examined. This will include a detailed analysis of fundamental elements such as the speed of sound and Mach number, isentropic quasi 1-D flow in variable area ducts, converging nozzles, choking phenomena, converging-diverging nozzles, moving shocks, blast waves, shock tubes, Rayleigh flow, Fanno flow, normal and oblique shocks, expansion fans, and other relevant topics that will be revealed, time permitting. Moreover, our focus will extend to the intricate development of potential flow theory under minor disturbances across subsonic, transonic, supersonic, and hypersonic nonequilibrium flow regimes, with a specific emphasis on its application within the realm of aerothermodynamics. The practical implications of the material will be elucidated within the framework of the professor’s ongoing research, contemporary advancements, and historical context.
+
+
+<img src="CompressibleFlows.jpeg" style="height: 100%; width: 100%;"/>
+Syllabus:
+<iframe src="Syllabus_MANE_4960.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
+
+## Fluid Mechanics (MANE 2720) (Fall 2023)
+
+Explore the fundamental aspects of fluid mechanics, encompassing fluid properties, statics, dynamics of both incompressible viscous and inviscid flows, control volume formulations of continuity, momentum, and energy equations, dimensional analysis, viscous flow in pipes, boundary layers, drag, momentum integral theory, and the realm of turbomachinery.'
+
+<img src="daVinci.png" style="height: 100%; width: 100%;"/>
+Leonardo da Vinci, movement of water, 1507-9. Windsor, Royal Library, 12660v.
+Syllabus:
+<iframe src="Syllabus_MANE_2720.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+Slides from the first week: 
+<iframe src="MANE2720_Tumuklu_Week1.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
+
+
+
+
+

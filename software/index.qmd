@@ -1,0 +1,8 @@
+---
+title: "Software"
+---
+
+```{=html}
+<link href="../html/pages.css" rel="stylesheet">
+```
+

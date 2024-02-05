@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "projects/index.html#hypersonic-flow-modeling",
+    "href": "projects/index.html#hypersonic-flow-modeling",
+    "title": "Research Areas",
+    "section": "Hypersonic Flow Modeling",
+    "text": "Hypersonic Flow Modeling\n          \n            \n          \n\nSpatial variation of the span wise velocities (m/s) at (a) x=0.025~m, (b) x=0.04~m, (c) x=0.05~m, and (d) x=0.064~m constant planes along with (e) the surface heating values (W/m\\(^2\\)) and surface streamlines superimposed with the density gradient magnitude for \\(Re\\) = 374,000(1/m).\n Comparisons of the surface parameters for the unit \\(Re =9.35 \\times 10^4~m^{-1}\\) a) Spatial distribution of the translational temperatures, b) surface heating values (kW/m\\(^2\\)) for the continuum SU2-NEMO 2-D and 3-D solutions for the lowest pressure case, \\(Re = 9.35 \\times 10^4~m^{-1}\\)."
+  },
+  {
+    "objectID": "projects/index.html#supersonic-jet-expansion-flows",
+    "href": "projects/index.html#supersonic-jet-expansion-flows",
+    "title": "Research Areas",
+    "section": "Supersonic Jet Expansion Flows",
+    "text": "Supersonic Jet Expansion Flows\n Comparison of the velocity profiles for the free expansion jet with a NPR of 4.03: a) the spatial distribution of the velocity magnitude (m/s) for the current work vs. b) the experiment (Henderson (2005)), and c) the streamwise component at the centerline.\n Flow field structure of the impinging jet with a NPR of 4.03 and \\(h/D\\)=2.08 where \\(h\\) the normal distance from the nozzle lip to the wall and \\(D\\) is the nozzle diameter: a) Velocity magnitude (m/s), b) Temperature(K), c) pressure (Pa), d) turbulent kinetic energy."
+  },
+  {
+    "objectID": "projects/index.html#rarefied-turbulence-modeling",
+    "href": "projects/index.html#rarefied-turbulence-modeling",
+    "title": "Research Areas",
+    "section": "Rarefied Turbulence Modeling",
+    "text": "Rarefied Turbulence Modeling\n Comparison of DSMC (SPARTA) and NS solutions for argon at the freestream pressures of 100~Pa at \\(Ma\\) 7 for (a) temperature field (K), (b) the axial velocity (m/s), and (c) axial velocity along the stagnation line with various Navier-Stokes turbulence models using SU2."
+  },
+  {
+    "objectID": "links/news.html#news",
+    "href": "links/news.html#news",
+    "title": "Rensselaer HAVA Laboratory",
+    "section": "News:",
+    "text": "News:\n\nThe HAVA website (version 1) was officially released on January 27, 2024. Tyler’s contributions to the name and logo are highly appreciated. Go HAVA! \nJohnny Aiello has joined the team on January 20, 2024. Welcome, Johnny! He will be working on multiphase supersonic expansion jets.\nCasey Duncon has joined the team on January 17, 2024. Welcome, Casey! He will be working on porous reactive materials in hypersonic reacting flows.\nOzgur Tumuklu attended SciTech 2024 (January 8-12, 2024) in Orlando, FL sponsored by RPI MANE. He presented a talk titled “Characterization of Hypersonic Instabilities over a Double Cone.” Slides can be found here:\nJoseph Franciamore joined the HAVA group on November 10, 2023. Welcome, Joe! He will be working on the effect of magnetic fields on hypersonic boundary layers.\nTyler Martinus has joined the HAVA group. Welcome! Tyler will be working on the expansion characteristics of jets at different ambient pressures.\nOzgur Tumuklu’s paper was highlighted as an editor’s pick in Physics of Fluids. https://doi.org/10.1063/5.0169648\nOn August 16, 2023, Dr. Tumuklu joined RPI’s MANE department."
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Rensselaer HAVA Laboratory",
+    "section": "",
+    "text": "Contact Form\n\n\n  \n    First Name\n    \n\n    Last Name\n    \n\n\n    Subject"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": " Dr. Ozgur Tumuklu",
+    "section": "",
+    "text": "Dr. Ozgur Tumuklu\n             Faculty, MANE Department\n             Hypersonic Flows, Nonequilibrim, Rarefied Flows, and Transport\n\n        \n        \n            \n            \n            \n        \n            \n                 Openings \n                 News"
+  },
+  {
+    "objectID": "teaching/index.html#compressible-flows-mane-49606960-spring-2024",
+    "href": "teaching/index.html#compressible-flows-mane-49606960-spring-2024",
+    "title": "Teaching",
+    "section": "Compressible Flows (MANE 4960/6960) (Spring 2024)",
+    "text": "Compressible Flows (MANE 4960/6960) (Spring 2024)\nThis course is tailored as a technical elective for senior and graduate students, offering a comprehensive exploration of compressible flow principles. Throughout the duration of the course, an extensive range of unique concepts and their real-world applications are thoroughly examined. This will include a detailed analysis of fundamental elements such as the speed of sound and Mach number, isentropic quasi 1-D flow in variable area ducts, converging nozzles, choking phenomena, converging-diverging nozzles, moving shocks, blast waves, shock tubes, Rayleigh flow, Fanno flow, normal and oblique shocks, expansion fans, and other relevant topics that will be revealed, time permitting. Moreover, our focus will extend to the intricate development of potential flow theory under minor disturbances across subsonic, transonic, supersonic, and hypersonic nonequilibrium flow regimes, with a specific emphasis on its application within the realm of aerothermodynamics. The practical implications of the material will be elucidated within the framework of the professor’s ongoing research, contemporary advancements, and historical context.\n Syllabus:"
+  },
+  {
+    "objectID": "teaching/index.html#fluid-mechanics-mane-2720-fall-2023",
+    "href": "teaching/index.html#fluid-mechanics-mane-2720-fall-2023",
+    "title": "Teaching",
+    "section": "Fluid Mechanics (MANE 2720) (Fall 2023)",
+    "text": "Fluid Mechanics (MANE 2720) (Fall 2023)\nExplore the fundamental aspects of fluid mechanics, encompassing fluid properties, statics, dynamics of both incompressible viscous and inviscid flows, control volume formulations of continuity, momentum, and energy equations, dimensional analysis, viscous flow in pipes, boundary layers, drag, momentum integral theory, and the realm of turbomachinery.’\n Leonardo da Vinci, movement of water, 1507-9. Windsor, Royal Library, 12660v. Syllabus:  Slides from the first week:"
+  },
+  {
+    "objectID": "team/team.html",
+    "href": "team/team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Text that appears as you scroll down...\n        \n        \n        \n          \n          \n          Principal Investigator\n           \n  \n\n          \n            \n            \n                Ozgur Tumuklu, Ph.D.\n                \n                Assistant Professor\n                \n                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)\n                \n                Rensselaer Polytechnic Institute (RPI)\n                \n                Erik Jonsson Engineering Center, Troy, NY 12180\n                \n                \n                    \n                    \n                    \n                     \n                     \n                \n            \n        \n        \n        \n          Graduate Researchers\n         \n\n        \n            \n            \n                Tyler Martinus\n                \n                M.S. Student\n                \n                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)\n                \n                Rensselaer Polytechnic Institute (RPI)\n                \n                Erik Jonsson Engineering Center, Troy, NY 12180\n                \n                \n                    \n                    \n                    \n                     \n                     \n                \n            \n        \n        \n        \n         Undergraduate Researchers \n         \n        \n            \n            \n                Joseph D. Franciamore \n                \n                Undergraduate Hypersonics and Plasma Dynamics Researcher \n                \n                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)\n                \n                Rensselaer Polytechnic Institute (RPI)\n                \n                 George M. Low Center for Industrial Innovation, Troy, NY 12180 \n                \n                \n                    \n                    \n                    \n                     \n                     \n                \n            \n        \n        \n        \n                \n    \n        \n            \n            \n                Casey Duncan \n                \n                Undergraduate  Researcher \n                \n                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)\n                \n                Rensselaer Polytechnic Institute (RPI)\n                \n                Erik Jonsson Engineering Center, Troy, NY 12180\n\n                \n                \n                    \n                    \n                    \n                     \n                     \n                \n            \n        \n        \n        \n        \n            \n            \n                Johnny Aiello \n                \n                Undergraduate  Researcher \n                \n                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)\n                \n                Rensselaer Polytechnic Institute (RPI)\n                \n                Erik Jonsson Engineering Center, Troy, NY 12180"
+  },
+  {
+    "objectID": "publications/index.html#presentations",
+    "href": "publications/index.html#presentations",
+    "title": "Scientific Publications",
+    "section": "Presentations:",
+    "text": "Presentations:\n*Characterization of Hypersonic Instabilities over a Double Cone,” presented at AIAA SciTech 2024. The conference proceeding can be found in:\n            \n                 Paper"
+  },
+  {
+    "objectID": "publications/index.html#in-review",
+    "href": "publications/index.html#in-review",
+    "title": "Scientific Publications",
+    "section": "In Review",
+    "text": "In Review"
+  },
+  {
+    "objectID": "publications/index.html#accepted",
+    "href": "publications/index.html#accepted",
+    "title": "Scientific Publications",
+    "section": "Accepted",
+    "text": "Accepted"
+  },
+  {
+    "objectID": "publications/index.html#section",
+    "href": "publications/index.html#section",
+    "title": "Scientific Publications",
+    "section": "2024",
+    "text": "2024"
+  },
+  {
+    "objectID": "links/openings.html#announcement",
+    "href": "links/openings.html#announcement",
+    "title": "Rensselaer HAVA Laboratory",
+    "section": "Announcement:",
+    "text": "Announcement:\nPh.D. and M.S. Positions Available in Numerical Modeling Software Development”\nWe are pleased to announce multiple openings for PhD positions in the field of numerical modeling software development. If you possess a passion for advancing computational techniques and a keen interest in developing innovative numerical models, we invite you to apply.\nCandidates will have the opportunity to contribute to cutting-edge research projects aimed at enhancing numerical modeling software across various disciplines. Successful applicants will work closely with a team of experts to develop and refine algorithms, implement numerical methods, and optimize software performance.\nIdeal candidates should demonstrate a strong background in mathematics, computer science, engineering, or a related field. Proficiency in programming languages such as Python, C/C++, MPI, CUDA, and familiarity with numerical methods and simulation techniques are highly desirable.\nThese positions offer a stimulating research environment, access to state-of-the-art resources, and opportunities for professional development and collaboration. Successful candidates will join a dynamic team dedicated to pushing the boundaries of numerical modeling and computational science.\nIf you are motivated to make meaningful contributions to the field of numerical modeling software development, we encourage you to apply. To learn more about the application process and eligibility criteria, please\n            \n               contact Us.\n            \nJoin us in shaping the future of numerical modeling and computational research. Apply now and be part of our innovative team!"
+  }
+]
