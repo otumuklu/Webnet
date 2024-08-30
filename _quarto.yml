@@ -19,8 +19,8 @@ website:
         href: projects/index.qmd
       - text: "Team"
         href: team/team.qmd
-          #      - text: "Software"
-          #   href:  software/index.qmd
+      - text: "Software"
+        href:  software/index.qmd
       - text: "Teaching"
         href: teaching/index.qmd
       - text: "Publications"
