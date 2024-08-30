@@ -27,8 +27,7 @@ about:
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <div class="home-content">
-            <h1> Dr. Ozgur Tumuklu</h1>
-            <h3> Faculty, MANE Department</h3>
+            <h1>Hypersonics Aerothermal Vehicle Aerodynamics (HAVA) Laboratory </h1>
             <p> Hypersonic Flows, Nonequilibrim, Rarefied Flows, and Transport</p>
 
         </div>
