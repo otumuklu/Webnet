@@ -46,21 +46,29 @@ input[type=submit]:hover {
 ```
 
 ```{=html}
+
+Please feel free to reach out to us if you'd like to learn more about our capabilities or explore opportunities for collaboration. We are always open to discussing how we can work together to achieve mutual goals and create innovative solutions.
+
+<br>
+<br>
+Exceptional graduate students are encouraged to contact the Principal Investigator, Dr. Ozgur Tumuklu, at tumuko@rpi.edu for potential research opportunities and collaboration.
+
 <h3>Contact Form</h3>
 
-<div class="container">
-  <form action="action_page.php" method="POST">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<form action="send_email.php" method="POST"> <label for="name">Name:</label><br> <input type="text" id="name" name="name" required><br><br> <label for="email">Email:</label><br> <input type="email" id="email" name="email" required><br><br> <label for="subject">Subject:</label><br> <input type="text" id="subject" name="subject" required><br><br> <label for="message">Message:</label><br> <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br> <input type="submit" value="Send"> </form>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+<br>
 
+<h3>Where We're Located?</h3>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.776523035785!2d-73.68286802402913!3d42.729620571161036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0fa08064a661%3A0x9988e3fc27d910a9!2sDepartment%20of%20Mechanical%2C%20Aerospace%2C%20and%20Nuclear%20Engineering!5e0!3m2!1sen!2sus!4v1696722460555!5m2!1sen!2sus" width="750" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </p>
 
-    <input type="submit" value="Submit">
-  </form>
-</div>
+<br>
+<section id="footer-contact-info" class="block block-block clearfix">
+<a href="https://mane.rpi.edu/"  style="color: white;"> Mechanical, Aerospace & Nuclear Engineering</a><br/>
+<a href="http://eng.rpi.edu/"  style="color: white;">School of Engineering</a>, <a href="http://www.rpi.edu/" style="color: white;">Rensselaer Polytechnic Institute</a><br/>
+Jonsson Engineering Center, Troy, NY USA 12180-3590
+
+</section>
 ```
