@@ -8,6 +8,9 @@ title: Team
 
 
 ```{=html}
+Our team is driven by a shared passion for excellence and collaboration. Together, we leverage our diverse skills and experiences to deliver innovative solutions and achieve outstanding results. We believe that unity and teamwork are the foundations of our success, allowing us to overcome challenges and reach new heights. Our motivation is inspired by Henry Ford's wisdom:
+<br>
+"Coming together is a beginning, staying together is progress, and working together is success."
 
 <body>
 
