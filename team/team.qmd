@@ -206,10 +206,6 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-                
-    
         <!--div style="display: flex; align-items: center;">
             <img src="Photos/CaseyDuncan.jpg" width="200" height="200"/>
             <div style="text-align: left; margin-left: 20px;">
