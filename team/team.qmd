@@ -77,8 +77,32 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                 </div>
             </div>
         </div>
+        <br> <div style="display: flex; align-items: center;">
+            <img src="Photos/mkoca.jpg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Meliksah Koca</b></span>
+                <br>
+                Ph.D. Student
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+                <br>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:kocam@rpi.edu"><i class='bx bx-mail-send'></i></a>
+                    <a href="mailto:"><i class='bx bxl-gmail' ></i></a>
+                </div>
+            </div>
+        </div>
         <br>
         <br>
+
+
 
         <div style="display: flex; align-items: center;">
             <img src="Photos/TylerMartinus.jpeg" width="200" height="200"/>
@@ -97,8 +121,33 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                     <a href="#"><i class='bx bxl-github'></i></a>
                     <a href="#"><i class='bx bxl-twitter'></i></a>
                     <a href="https://www.linkedin.com/in/tyler-martinus/"><i class='bx bxl-linkedin'></i></a>
-                    <a href="mailto:tumuko@rpi.edu"><i class='bx bx-mail-send'></i></a> 
-                    <a href="mailto:ozgurtumuklu@gmail.com"><i class='bx bxl-gmail' ></i></a> 
+                    <a href="mailto:martit6@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="#"><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/Mateo.png" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b> Mateo Gutierrez </b></span>
+                <br>
+                M.S. Student (Co-term) 
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+                <br>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:gutiel2@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="#"><i class='bx bxl-gmail' ></i></a> 
                 </div>
             </div>
         </div>
