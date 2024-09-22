@@ -9,6 +9,31 @@ toc-location: right
 ```
 
 ## Presentations:
+
+*Dynamics of Jet Expansion and Impingement Across a Spectrum of Nozzle Pressure Ratios" presented at AIAA Aviation 2024. The conference proceeding can be found in:
+```{=html}
+            <div class="btn-box">
+                <a> Paper </a>
+            </div>
+```
+<iframe src="TumukluAviation2024Jetv2Final.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
+* Effect of Spanwise Instabilities on Hypersonic Flows​, presented at AIAA Aviation 2024. The conference proceeding can be found in:
+```{=html}
+            <div class="btn-box">
+                <a> Paper </a>
+            </div>
+```
+<iframe src="DoubleWedgeAviation2024Final.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
+*Laminar Hypersonic Boundary Layer Manipulation via MHD-Leveraging Devices​, presented at AIAA Aviation 2024. The conference proceeding can be found in:
+```{=html}
+            <div class="btn-box">
+                <a> Paper </a>
+            </div>
+```
+<iframe src="AVIATION-2024-HAVA.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
 *Characterization of Hypersonic Instabilities over a Double Cone," presented at AIAA SciTech 2024. The conference proceeding can be found in:
 ```{=html}
             <div class="btn-box">
@@ -18,13 +43,5 @@ toc-location: right
 <iframe src="Scitech2024_Tumuklu_DoubleCone.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
 
 
-
-## In Review
-
-## Accepted
-
-
-
-## 2024
 
 
