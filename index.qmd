@@ -27,7 +27,7 @@ about:
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <div class="home-content">
-            <h1>Hypersonics Aerothermal Vehicle Analysis (HAVA) Laboratory </h1>
+            <h1>Hypersonic Aerothermal Vehicle Analysis (HAVA) Laboratory </h1>
             <p> Hypersonic Flows, Nonequilibrim, Rarefied Flows, and Transport</p>
 
         </div>
