@@ -282,7 +282,28 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
         </div>
         <br>
         <br>
+<div style="display: flex; align-items: center;">
+            <img src="Photos/SimoA.jpeg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Simon Averbukh </b></span>
+                <br>
+                Undergraduate  Researcher 
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
 
+                <br>
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/simon-averbukh/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:averbs@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
 
         </div>
       </div>
