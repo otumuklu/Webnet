@@ -70,6 +70,7 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                 Erik Jonsson Engineering Center, Troy, NY 12180
                 <br>
                 <div class="home-sci">
+                    <a href="Resumes/CV-BatuhanYALCIN.pdf"><i class='bx bx-id-card'></i></a>
                     <a href="https://github.com/batuhanyalcin"><i class='bx bxl-github'></i></a>
                     <a href="https://www.linkedin.com/in/batuhan-yalcn/"><i class='bx bxl-linkedin'></i></a>
                     <a href="mailto:yalcib@rpi.edu"><i class='bx bx-mail-send'></i></a>
