@@ -4,7 +4,18 @@ title: Research Area
 Our team conducts research on a wide spectrum of flow modeling, including rarefied flows, turbulence modeling, magnetohydrodynamics, multiphase and hypersonic flow modeling, among others.
 ```{=html}
 <link href="../html/pages.css" rel="stylesheet">
-```
+
+```<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js" integrity="sha384-R3KGKk8jJA2o5U6d3k1z9DkSw/pzbKz7bVFNMT+M5l6d5itoM3DkEJBn59HA3xS7" crossorigin="anonymous"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
 ## In a nutshell:
 <iframe src="VPR_Poster.pdf" style="width: 800px;height: 1100px;border: none;"></iframe> 
 
@@ -95,13 +106,21 @@ Our team has been working with <a href="https://cefpac.rpi.edu/"  style="color: 
 The aim is to validate our numerical tools with the in-house experiments conducted by Prof. Miki Amitay's group and to predict the flow field where experiments are expensive to carry out.
 The ultimate aim is to apply this technology to hypersonic flows, where the duration of the experiments is very short.
 ```{=html}
-          <div style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 100%; height: 0; overflow: hidden;">
             <iframe src="movieMiki2.mp4" 
                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
                     frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
           </div>
 ```
-Subsonic turbulent flow in a diffuser using LES modeling (preliminary results).
+Subsonic turbulent flow in a diffuser using LES modeling.
+
+## DSMC Method To Model the Boltzmann Equation
+<p>Direct simulation Monte Carlo (DSMC) [1] is a kinetic approach that provides a numerical approximation to the solution of the Boltzmann equation of transport given as</p>
+
+$$\frac{\partial}{\partial t}(nf(c_i))+c_j\frac{\partial}{\partial x_j}(nf(c_i)) + \frac{\partial}{\partial c_j}(F_j~nf(c_i))= \left[ \frac{\partial (nf(c_i))}{\partial t} \right]$$
+where $f(c_i)$ and $n$ are the distribution function of class $c_i$ and number density, respectively. The external force field acting on gas molecules, $F_i$, is generally assumed to be zero for gas flows. The underlying mechanism behind  the DSMC method is to decouple collisions and particle motion by ensuring that the time step is smaller than the mean collision time and particles do not cross multiple cells in each time step.
+<p>As shown in Fig. 1, to solve the Boltzmann transport equation in a stochastic manner, particle states are initialized first. After introducing computational particles at inflow boundaries, the proceeding steps are as follows: (2) move the particles, (3) perform collisions stochastically within collision cells, and lastly (4) sample particle quantities to evaluate macroscopic properties. Newtonian mechanics is employed to perform the movement and gas-surface interactions of computational particles in DSMC and to apply boundary conditions. Therefore, details will be presented in the next versions of this document. Modeling of collisions is crucial since they determine the transport properties for thermal conductivity, diffusion, and viscosity. Therefore, special emphasis is paid on the explanation of the DSMC collision mechanism.</p>
+
 
 ## Rarefied Flow Modeling
 
