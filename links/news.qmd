@@ -11,8 +11,6 @@ title: ""
 
 * Meliksah Koca joined our research laboratory. Before RPI, he completed his post-MS studies at the Von Karman Institute in Belgium. Welcome, Meliksah! He will be working on multiphase and multiscale modeling.
 
-* Batuhan Yalcin joined the HAVA Lab on August 20, 2023. He will be pursuing his Ph.D. at RPI. Previously, he completed his undergraduate studies in Mechanical Engineering and Computer Science at Koc University. Welcome!
-
 * Ozgur and Joseph attended the Aviation Meeting in Las Vegas on July 28, 2024. Joe presented for the first time. He did very well, and it was a great experience for him.
 ```{=html}
 <head>
