@@ -10,7 +10,38 @@ toc-location: right
 
 ## Presentations:
 
-*Dynamics of Jet Expansion and Impingement Across a Spectrum of Nozzle Pressure Ratios" presented at AIAA Aviation 2024. The conference proceeding can be found in:
+*"Efficient Hypersonic Signature Analysis Through Simulation-Based Inference" presented at AIAA SciTech2025.
+The conference proceeding can be found in:
+```{=html}
+            <div class="btn-box">
+                <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2025-2157"> Paper </a>
+            </div>
+```
+<iframe src="BayesianWebsite.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
+
+*"Assessment of Externally Applied Magnetohydrodynamic Effects on the Boundary Layer in Shock-Dominated Hypersonic Flows" presented at AIAA SciTech2025.
+The conference proceeding can be found in:
+```{=html}
+            <div class="btn-box">
+                <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2025-2270"> Paper </a>
+            </div>
+```
+<iframe src="SciTech2025MHDWebsite.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
+* "Enhancing Pressure Recovery in a Serpentine Duct using Active Flow Control" presented at APS DFD 2024.
+The summary of the proceeding is available here:
+```{=html}
+            <div class="btn-box">
+                <a href="https://meetings.aps.org/Meeting/DFD24/Session/A33.8"> Summary </a>
+            </div>
+```
+<iframe src="APS_DFD24 Website.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
+
+
+
+* "Dynamics of Jet Expansion and Impingement Across a Spectrum of Nozzle Pressure Ratios" presented at AIAA Aviation 2024.
+The conference proceeding can be found in:
 ```{=html}
             <div class="btn-box">
                 <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2024-4086"> Paper </a>

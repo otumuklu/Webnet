@@ -3,14 +3,13 @@ title: Team
 ---
 ```{=html}
 <link href="../html/pages.css" rel="stylesheet">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>'
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
 ```
 
 
 ```{=html}
-Our team is driven by a shared passion for excellence and collaboration. Together, we leverage our diverse skills and experiences to deliver innovative solutions and achieve outstanding results. We believe that unity and teamwork are the foundations of our success, allowing us to overcome challenges and reach new heights. Our motivation is inspired by Henry Ford's wisdom:
-<br>
+Our team is driven by a shared passion for excellence and collaboration. Together, we use our diverse skills and experiences to come up with innovative solutions and achieve great things. We believe that working as a team is key to our success, helping us tackle challenges and reach higher goals. Our motivation is inspired by Henry Ford's wisdom:
 <br>
 "Coming together is a beginning, staying together is progress, and working together is success."
 
@@ -81,27 +80,7 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
 
 
 
-        <div style="display: flex; align-items: center;">
-            <img src="Photos/TylerMartinus.jpeg" width="200" height="200"/>
-            <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b>Tyler Martinus</b></span>
-                <br>
-                M.S. Student
-                <br>
-                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
-                <br>
-                Rensselaer Polytechnic Institute (RPI)
-                <br>
-                Erik Jonsson Engineering Center, Troy, NY 12180
-                <br>
-                <div class="home-sci">
-                    <a href="https://www.linkedin.com/in/tyler-martinus/"><i class='bx bxl-linkedin'></i></a>
-                    <a href="mailto:martit6@rpi.edu"><i class='bx bx-mail-send'></i></a> 
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
+
 
         <div style="display: flex; align-items: center;">
             <img src="Photos/Mateo.png" width="200" height="200"/>
@@ -150,7 +129,7 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
             <div style="text-align: left; margin-left: 20px;">
                 <span style="font-size: 20px;"><b> Ryan Ing </b></span>
                 <br>
-                M.Eng. Student (Co-term)
+                M.S. Student (Co-term)
                 <br>
                 Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
                 <br>
@@ -161,6 +140,28 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                 <div class="home-sci">
                     <a href="https://www.linkedin.com/in/ryan-ing1/"><i class='bx bxl-linkedin'></i></a>
                     <a href="mailto:ingr@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+         <div style="display: flex; align-items: center;">
+            <img src="Photos/JolieDolan.jpg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b> Jolie Dolan </b></span>
+                <br>
+                M.Eng. Student (Co-term)
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+                <br>
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/jolie-dolan-775209221/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:dolanj2@rpi.edu"><i class='bx bx-mail-send'></i></a> 
                 </div>
             </div>
         </div>
@@ -191,6 +192,8 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                 </div>
             </div>
         </div>
+        <br>
+        <br>
         <div style="display: flex; align-items: center;">
             <img src="Photos/CaseyDuncan.jpg" width="200" height="200"/>
             <div style="text-align: left; margin-left: 20px;">
@@ -279,10 +282,10 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
         </div>
         <br>
         <br>
-<div style="display: flex; align-items: center;">
-            <img src="Photos/SimoA.jpeg" width="200" height="200"/>
+            <div style="display: flex; align-items: center;">
+            <img src="Photos/JoyXiao.jpeg" width="200" height="250"/>
             <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b>Simon Averbukh </b></span>
+                <span style="font-size: 20px;"><b>Joy Xiao</b></span>
                 <br>
                 Undergraduate  Researcher 
                 <br>
@@ -294,8 +297,62 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
 
                 <br>
                 <div class="home-sci">
-                    <a href="https://www.linkedin.com/in/simon-averbukh/"><i class='bx bxl-linkedin'></i></a>
-                    <a href="mailto:averbs@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="https://www.linkedin.com/in/joy-xiao-898388336/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:xiaoy13@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+            <div style="display: flex; align-items: center;">
+            <img src="Photos/MarieBorca.jpeg" width="200" height="250"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b> Marie Borca-Tasciuc</b></span>
+                <br>
+                Undergraduate  Researcher 
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+
+                <br>
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/marie-borca-tasciuc-2b88922b2/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:borcat@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <h2> <u> Alumni</u></h2>
+        <br> </br>
+
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/TylerMartinus.jpeg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Tyler Martinus</b></span>
+                <br>
+                M.S. (2025)
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/tyler-martinus/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:martit6@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/rpi.png" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Nick Longchamp</b></span>
+                <br>
+                M.Eng. (2024)
+                <div class="home-sci">
+                    <a href="mailto:longcn@rpi.edu"><i class='bx bx-mail-send'></i></a> 
                 </div>
             </div>
         </div>
