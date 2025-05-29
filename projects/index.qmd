@@ -73,7 +73,7 @@ Spatial distribution of the translational temperatures, b)  surface heating valu
 ```{=html}
           <div style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden;">
             <iframe src="DC.mp4" 
-                    style="position: absolute; top: 0; left: 0; width: 90%; height: 100%;" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 112%;" 
                     frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
           </div>
 
