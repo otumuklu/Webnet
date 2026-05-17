@@ -9,14 +9,10 @@ title: Team
 
 
 ```{=html}
-Our team is driven by a shared passion for excellence and collaboration. Together, we use our diverse skills and experiences to come up with innovative solutions and achieve great things. We believe that working as a team is key to our success, helping us tackle challenges and reach higher goals. Our motivation is inspired by Henry Ford's wisdom:
-<br>
+Our team finds innovative solutions and achieves strong results by using our different skills and experiences. We believe teamwork is the key to success because it helps us overcome challenges and reach higher goals. Our motivation is inspired by Henry Ford’s wisdom:<br>
 "Coming together is a beginning, staying together is progress, and working together is success."
 
-
 <body>
-
-
     <div class="container">
         <div id="scrolling-text" class="hidden">
           Text that appears as you scroll down...
@@ -53,9 +49,10 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
         </div>
         <br>
         <br>
+
+
         <h2> <u> Graduate Researchers</u></h2>
         <br> </br>
-
         <br> <div style="display: flex; align-items: center;">
             <img src="Photos/mkoca.jpg" width="200" height="200"/>
             <div style="text-align: left; margin-left: 20px;">
@@ -101,17 +98,13 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
         </div>
         <br>
         <br>
-
-
-
-
-
-        <div style="display: flex; align-items: center;">
-            <img src="Photos/Mateo.png" width="200" height="200"/>
+           
+        <br> <div style="display: flex; align-items: center;">
+            <img src="Photos/DerinCepeloglu.jpeg" width="230" height="250"/>
             <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b> Mateo Gutierrez </b></span>
+                <span style="font-size: 20px;"><b>Derin Cepeloglu</b></span>
                 <br>
-                M.S. Student (Co-term) 
+                Ph.D. Student
                 <br>
                 Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
                 <br>
@@ -120,13 +113,63 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                 Erik Jonsson Engineering Center, Troy, NY 12180
                 <br>
                 <div class="home-sci">
-                    <a href="mailto:gutiel2@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                    <a href="https://www.linkedin.com/in/derin-%C3%A7epelo%C4%9Flu-06b63b251/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:cepeld@rpi.edu"><i class='bx bx-mail-send'></i></a>
                 </div>
             </div>
         </div>
         <br>
         <br>
 
+        <br>
+        <br>
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/RyanStouffer.png" width="250" height="250"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Ryan Stouffer </b></span>
+                <br>
+                M.S. Student
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+
+                <br>
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/stouffer-ryan/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:stoufr@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <br>
+        <br>
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/JohnnyAiello.jpeg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Johnny Aiello </b></span>
+                <br>
+               M.S. Student
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+
+                <br>
+                <div class="home-sci">
+                    <a href="mailto:aiellj@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+
+       <br>
+        <br>
          <div style="display: flex; align-items: center;">
             <img src="Photos/Michael.jpg" width="200" height="200"/>
             <div style="text-align: left; margin-left: 20px;">
@@ -153,7 +196,7 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
             <div style="text-align: left; margin-left: 20px;">
                 <span style="font-size: 20px;"><b> Ryan Ing </b></span>
                 <br>
-                M.S. Student (Co-term)
+                M.Eng. Student (Co-term)
                 <br>
                 Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
                 <br>
@@ -169,29 +212,6 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
         </div>
         <br>
         <br>
-
-         <div style="display: flex; align-items: center;">
-            <img src="Photos/JolieDolan.jpg" width="200" height="200"/>
-            <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b> Jolie Dolan </b></span>
-                <br>
-                M.Eng. Student (Co-term)
-                <br>
-                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
-                <br>
-                Rensselaer Polytechnic Institute (RPI)
-                <br>
-                Erik Jonsson Engineering Center, Troy, NY 12180
-                <br>
-                <div class="home-sci">
-                    <a href="https://www.linkedin.com/in/jolie-dolan-775209221/"><i class='bx bxl-linkedin'></i></a>
-                    <a href="mailto:dolanj2@rpi.edu"><i class='bx bx-mail-send'></i></a> 
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-
 
 
         <h2><u> Undergraduate Researchers </u></h2>
@@ -216,94 +236,9 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <div style="display: flex; align-items: center;">
-            <img src="Photos/CaseyDuncan.jpg" width="200" height="200"/>
-            <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b>Casey Duncan </b></span>
-                <br>
-                Undergraduate  Researcher 
-                <br>
-                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
-                <br>
-                Rensselaer Polytechnic Institute (RPI)
-                <br>
-                Erik Jonsson Engineering Center, Troy, NY 12180
+       
 
-                <br>
-                <div class="home-sci">
-                    <a href="https://www.linkedin.com/in/casey-duncan-0456962b7/"><i class='bx bxl-linkedin'></i></a>
-                    <a href="mailto:duncac5@rpi.edu"><i class='bx bx-mail-send'></i></a> 
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div style="display: flex; align-items: center;">
-            <img src="Photos/JohnnyAiello.jpeg" width="200" height="200"/>
-            <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b>Johnny Aiello </b></span>
-                <br>
-                Undergraduate  Researcher 
-                <br>
-                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
-                <br>
-                Rensselaer Polytechnic Institute (RPI)
-                <br>
-                Erik Jonsson Engineering Center, Troy, NY 12180
 
-                <br>
-                <div class="home-sci">
-                    <a href="mailto:aiellj@rpi.edu"><i class='bx bx-mail-send'></i></a> 
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-
-         <div style="display: flex; align-items: center;">
-            <img src="Photos/Rowen.jpg" width="200" height="200"/>
-            <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b>Rowen Costich </b></span>
-                <br>
-                Undergraduate  Researcher 
-                <br>
-                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
-                <br>
-                Rensselaer Polytechnic Institute (RPI)
-                <br>
-                Erik Jonsson Engineering Center, Troy, NY 12180
-
-                <br>
-                <div class="home-sci">
-                    <a href="mailto:costir@rpi.edu"><i class='bx bx-mail-send'></i></a> 
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-
-            <div style="display: flex; align-items: center;">
-            <img src="Photos/Benjamin.png" width="200" height="200"/>
-            <div style="text-align: left; margin-left: 20px;">
-                <span style="font-size: 20px;"><b>Benjamin Chaput </b></span>
-                <br>
-                Undergraduate  Researcher 
-                <br>
-                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
-                <br>
-                Rensselaer Polytechnic Institute (RPI)
-                <br>
-                Erik Jonsson Engineering Center, Troy, NY 12180
-
-                <br>
-                <div class="home-sci">
-                    <a href="https://www.linkedin.com/in/benchaput/"><i class='bx bxl-linkedin'></i></a>
-                    <a href="mailto:chapub@rpi.edu"><i class='bx bx-mail-send'></i></a> 
-                </div>
-            </div>
-        </div>
         <br>
         <br>
             <div style="display: flex; align-items: center;">
@@ -351,9 +286,79 @@ Our team is driven by a shared passion for excellence and collaboration. Togethe
         <br>
         <br>
 
+       <br>
+        <br>
+            <div style="display: flex; align-items: center;">
+            <img src="Photos/JoshuaPang.jpeg" width="230" height="250"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b> Joshua Pang</b></span>
+                <br>
+                Undergraduate  Researcher 
+                <br>
+                Department of Mechanical, Aerospace, and Nuclear Engineering (MANE)
+                <br>
+                Rensselaer Polytechnic Institute (RPI)
+                <br>
+                Erik Jonsson Engineering Center, Troy, NY 12180
+
+                <br>
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/joshua-pang-1b8838310/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:pangjoshuawy@gmail.com"><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <h2><u> High School Researchers </u></h2>
+        <br> </br>
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/MarcoSchares.jpg" width="200" height="250"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Marco Schares Suarez </b></span>
+                <br>
+                High School Aerodynamics Researcher 
+                <br>
+                 Pleasantville High School (11th Grade) 
+                <br>
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/marco-schares-suarez-124471331/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:marco.scharessuarez@gmail.com"><i class='bx bxl-gmail' ></i></a> 
+                </div>
+            </div>
+        </div>
 
         <h2> <u> Alumni</u></h2>
         <br> </br>
+
+        <div style="display: flex; align-items: center;">
+            <img src="Photos/Mateo.png" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b> Mateo Gutierrez </b></span>
+                <br>
+                M.S. (2025)
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <br>
+        <br>
+         <div style="display: flex; align-items: center;">
+            <img src="Photos/Rowen.jpg" width="200" height="200"/>
+            <div style="text-align: left; margin-left: 20px;">
+                <span style="font-size: 20px;"><b>Rowen Costich </b></span>
+                <br>
+                B.S. (2025)
+                <div class="home-sci">
+                    <a href="mailto:costir@rpi.edu"><i class='bx bx-mail-send'></i></a> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
 
         <div style="display: flex; align-items: center;">
             <img src="Photos/TylerMartinus.jpeg" width="200" height="200"/>

@@ -23,6 +23,8 @@ website:
           #   href:  software/index.qmd
       - text: "Teaching"
         href: teaching/index.qmd
+      - text: "Calculator"
+        href: calculator/index.qmd
       - text: "Publications"
         href: publications/index.qmd
       - text: "News"
@@ -59,6 +61,9 @@ website:
 project:
   type: website
   output-dir: docs
+  resources:
+    - calculator/calculator.css
+    - calculator/calculator.js
 
   preview: 
     port: 22222

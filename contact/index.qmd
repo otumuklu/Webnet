@@ -55,7 +55,25 @@ Exceptional graduate students are encouraged to contact the Principal Investigat
 
 <h3>Contact Form</h3>
 
-<form action="send_email.php" method="POST"> <label for="name">Name:</label><br> <input type="text" id="name" name="name" required><br><br> <label for="email">Email:</label><br> <input type="email" id="email" name="email" required><br><br> <label for="subject">Subject:</label><br> <input type="text" id="subject" name="subject" required><br><br> <label for="message">Message:</label><br> <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br> <input type="submit" value="Send"> </form>
+<form id="contact-form"> <label for="name">Name:</label><br> <input type="text" id="name" name="name" required><br><br> <label for="email">Email:</label><br> <input type="email" id="email" name="email" required><br><br> <label for="subject">Subject:</label><br> <input type="text" id="subject" name="subject" required><br><br> <label for="message">Message:</label><br> <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br> <input type="submit" value="Send"> </form>
+
+<p style="font-size: 0.95rem;">
+  The send button opens your email app with this form content filled in. You can also email
+  <a href="mailto:tumuko@rpi.edu">tumuko@rpi.edu</a> directly.
+</p>
+
+<script>
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const name = form.elements.name.value.trim();
+  const email = form.elements.email.value.trim();
+  const subject = form.elements.subject.value.trim();
+  const message = form.elements.message.value.trim();
+  const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+  window.location.href = `mailto:tumuko@rpi.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+});
+</script>
 
 <br>
 <br>
