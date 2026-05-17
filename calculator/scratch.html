@@ -1,0 +1,60 @@
+<HEAD><title>Compressible Aerodynamics Calculator</title>
+<SCRIPT LANGUAGE="JavaScript">
+
+function compute(form) {
+  with (Math) {g=eval(form.g.value)}
+  form.m.value=format(""+g)
+} 
+
+function format(s) {
+
+  val=eval(s)
+  
+  if(Math.abs(val)<1.0e+6 && Math.abs(val)>1.0e-5) {
+     if(val>0.0) return " "+s.substring(0,10)     //Medium size numbers w/o exponents
+     else return s.substring(0,11)}
+
+  ie=s.indexOf("e")     //Numbers with exponents
+
+  if(ie>0) {
+    mant=s.substring(0,ie)
+    if(val>=0.0) mant=" "+mant
+    if(mant.length>8) mant=mant.substring(0,8)
+    if(Math.abs(val)>1.0) mant=mant+"e+"
+    else if(Math.abs(val)<1.0) mant=mant+"e-"}
+
+  else if(Math.abs(val)>=1.0e+6) {     //Large numbers without exponents
+    if(val>0) mant=" "+s.substring(0,1)+"."+s.substring(1,6)+"e+"
+    else mant=s.substring(0,2)+"."+s.substring(1,6)+"e+"}
+
+  else if(Math.abs(val)<=1.0e-5) {      //Small numbers without exponents
+    ip=s.indexOf(".") 
+    t=s.substring(ip+1,s.length)
+    ix=1
+    while(t.substring(0,1)=="0") {
+      t=t.substring(1,t.length)
+      ix++}
+    if(val>0) mant=" "+t.substring(0,1)+"."+t.substring(1,6)+"e-"
+    else mant=s.substring(0,2)+"."+t.substring(1,6)+"e-"}
+
+  xpo=Math.abs(Math.floor(Math.log(Math.abs(val))/Math.log(10.0)))
+  xpos=""+xpo
+  if(xpo<10) return mant+"00"+xpos
+  if(xpo<100) return mant+"0"+xpos
+  return mant+xpos
+    
+}
+</SCRIPT>
+</HEAD>
+
+<BODY background="winback.gif">
+<FORM>
+<center><big><b>Scratch pad</b></big>
+<INPUT TYPE="text" NAME="g" SIZE=50 >
+= 
+<INPUT TYPE="text" NAME="m" SIZE=12>
+<INPUT TYPE="button" VALUE="Evaluate" ONCLICK="compute(this.form)">
+</center>
+</FORM>
+</BODY>
+</html>

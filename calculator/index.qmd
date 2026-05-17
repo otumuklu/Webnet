@@ -1,0 +1,315 @@
+---
+title: "HAVA Laboratory Tools"
+---
+
+```{=html}
+<link href="../html/pages.css" rel="stylesheet">
+<link href="calculator.css" rel="stylesheet">
+
+<section class="calc-shell">
+  <div class="calc-heading">
+    <p class="calc-kicker">Compressible Flow Calculator</p>
+    <p>
+      Interactive gas-dynamics relations for course work and preliminary analysis.
+      This version includes perfect-gas relations and reacting-air equilibrium
+      species concentrations for high-temperature estimates.
+    </p>
+  </div>
+
+  <div class="calc-stage">
+    <div class="calc-layout">
+      <nav class="calc-tabs" aria-label="Calculator modes">
+        <button class="calc-tab is-active" type="button" data-panel="isentropic">Isentropic</button>
+        <button class="calc-tab" type="button" data-panel="normal-shock">Normal shock</button>
+        <button class="calc-tab" type="button" data-panel="oblique-shock">Oblique shock</button>
+        <button class="calc-tab" type="button" data-panel="speed-sound">Speed of sound</button>
+        <span class="calc-tab-break" aria-hidden="true"></span>
+        <button class="calc-tab" type="button" data-panel="reacting-air">Reacting Air</button>
+        <button class="calc-tab" type="button" data-panel="reacting-normal-shock">Reacting normal shock</button>
+        <button class="calc-tab" type="button" data-panel="reacting-oblique-shock">Reacting oblique shock</button>
+      </nav>
+
+      <section class="calc-panel is-active" id="isentropic" aria-labelledby="isentropic-title">
+        <div class="panel-head">
+          <h2 id="isentropic-title">Isentropic Flow Relations</h2>
+          <span>Perfect gas</span>
+        </div>
+
+        <form class="calc-form" id="isentropic-form">
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            Input
+            <select name="input">
+            <option value="mach">Mach number</option>
+            <option value="tt0">T/T₀</option>
+            <option value="pp0">p/p₀</option>
+            <option value="rr0">ρ/ρ₀</option>
+            <option value="area-sub">A/A* subsonic</option>
+            <option value="area-sup">A/A* supersonic</option>
+            <option value="mach-angle">Mach angle, deg.</option>
+            <option value="pm-angle">Prandtl-Meyer angle, deg.</option>
+            </select>
+          </label>
+          <label>
+            Value
+          <input name="value" type="text" inputmode="decimal" value="2.0">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="isentropic-error" role="alert"></p>
+        <div class="result-grid" id="isentropic-results"></div>
+      </section>
+
+      <section class="calc-panel" id="normal-shock" aria-labelledby="normal-shock-title">
+        <div class="panel-head">
+          <h2 id="normal-shock-title">Normal Shock Relations</h2>
+          <span>Perfect gas</span>
+        </div>
+
+        <div class="calc-subsection-title">Non Dimensional Analysis</div>
+        <form class="calc-form" id="normal-shock-form">
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            Input
+            <select name="input">
+              <option value="m1">M₁</option>
+              <option value="m2">M₂</option>
+              <option value="p2p1">p₂/p₁</option>
+              <option value="r2r1">ρ₂/ρ₁</option>
+              <option value="t2t1">T₂/T₁</option>
+              <option value="p02p01">p₀₂/p₀₁</option>
+              <option value="p1p02">p₁/p₀₂</option>
+            </select>
+          </label>
+          <label>
+            Value
+          <input name="value" type="text" inputmode="decimal" value="2.0">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="normal-shock-error" role="alert"></p>
+        <div class="result-grid" id="normal-shock-results"></div>
+
+        <div class="calc-subsection-title">Dimensional Analysis</div>
+        <form class="calc-form normal-shock-dimensional-form" id="normal-shock-dimensional-form">
+          <label>
+            <span>M<sub>1</sub></span>
+            <input name="mach" type="text" inputmode="decimal" value="2.0">
+          </label>
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            <span>p<sub>1</sub>, Pa</span>
+            <input name="pressure" type="text" inputmode="decimal" value="101325">
+          </label>
+          <label>
+            <span>T<sub>1</sub>, K</span>
+            <input name="temperature" type="text" inputmode="decimal" value="288.15">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="normal-shock-dimensional-error" role="alert"></p>
+        <div class="result-grid" id="normal-shock-dimensional-results"></div>
+      </section>
+
+      <section class="calc-panel" id="reacting-normal-shock" aria-labelledby="reacting-normal-shock-title">
+        <div class="panel-head">
+          <h2 id="reacting-normal-shock-title">Reacting Normal Shock</h2>
+          <span>Hansen equilibrium</span>
+        </div>
+
+        <form class="calc-form reacting-normal-shock-form" id="reacting-normal-shock-form">
+          <label>
+            <span>M<sub>1</sub></span>
+            <input name="mach" type="text" inputmode="decimal" value="8">
+          </label>
+          <label>
+            <span>T<sub>1</sub>, K</span>
+            <input name="temperature" type="text" inputmode="decimal" value="227.13">
+          </label>
+          <label>
+            <span>p<sub>1</sub>, Pa</span>
+            <input name="pressure" type="text" inputmode="decimal" value="1090.16">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="reacting-normal-shock-error" role="alert"></p>
+        <div class="reacting-air-results" id="reacting-normal-shock-results"></div>
+      </section>
+
+      <section class="calc-panel" id="oblique-shock" aria-labelledby="oblique-shock-title">
+        <div class="panel-head">
+          <h2 id="oblique-shock-title">Oblique Shock Relations</h2>
+          <span>Perfect gas θ-β-M</span>
+        </div>
+
+        <div class="calc-subsection-title">Non Dimensional Analysis</div>
+        <form class="calc-form oblique-shock-form" id="oblique-shock-form">
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            <span>M<sub>1</sub></span>
+            <input name="mach" type="text" inputmode="decimal" value="2.0">
+          </label>
+          <label>
+            θ (turn angle), deg.
+            <input name="theta" type="text" inputmode="decimal" value="10">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="oblique-shock-error" role="alert"></p>
+        <div class="result-grid" id="oblique-shock-results"></div>
+
+        <div class="calc-subsection-title">Dimensional Analysis</div>
+        <form class="calc-form oblique-shock-dimensional-form" id="oblique-shock-dimensional-form">
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            <span>M<sub>1</sub></span>
+            <input name="mach" type="text" inputmode="decimal" value="2.0">
+          </label>
+          <label>
+            <span>p<sub>1</sub>, Pa</span>
+            <input name="pressure" type="text" inputmode="decimal" value="101325">
+          </label>
+          <label>
+            <span>T<sub>1</sub>, K</span>
+            <input name="temperature" type="text" inputmode="decimal" value="288.15">
+          </label>
+          <label>
+            <span>θ (turn angle), deg.</span>
+            <input name="theta" type="text" inputmode="decimal" value="10">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="oblique-shock-dimensional-error" role="alert"></p>
+        <div class="result-grid" id="oblique-shock-dimensional-results"></div>
+      </section>
+
+      <section class="calc-panel" id="reacting-oblique-shock" aria-labelledby="reacting-oblique-shock-title">
+        <div class="panel-head">
+          <h2 id="reacting-oblique-shock-title">Reacting Oblique Shock</h2>
+          <span>Hansen equilibrium</span>
+        </div>
+
+        <form class="calc-form reacting-oblique-shock-form" id="reacting-oblique-shock-form">
+          <label>
+            <span>M<sub>1</sub></span>
+            <input name="mach" type="text" inputmode="decimal" value="8">
+          </label>
+          <label>
+            <span>T<sub>1</sub>, K</span>
+            <input name="temperature" type="text" inputmode="decimal" value="227.13">
+          </label>
+          <label>
+            <span>p<sub>1</sub>, Pa</span>
+            <input name="pressure" type="text" inputmode="decimal" value="1090.16">
+          </label>
+          <label>
+            <span>θ (turn angle), deg.</span>
+            <input name="theta" type="text" inputmode="decimal" value="20">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="reacting-oblique-shock-error" role="alert"></p>
+        <div class="reacting-air-results" id="reacting-oblique-shock-results"></div>
+      </section>
+
+      <section class="calc-panel" id="speed-sound" aria-labelledby="speed-sound-title">
+        <div class="panel-head">
+          <h2 id="speed-sound-title">Speed of Sound</h2>
+          <span>a = sqrt(γRT)</span>
+        </div>
+
+        <form class="calc-form speed-form" id="speed-sound-form">
+          <label>
+            Gas
+            <select name="gas">
+              <option value="air">Air</option>
+              <option value="co2">CO₂</option>
+              <option value="argon">Argon</option>
+              <option value="nitrogen">N₂</option>
+              <option value="oxygen">O₂</option>
+              <option value="helium">Helium</option>
+              <option value="custom">Custom</option>
+            </select>
+          </label>
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            R, J/(kg K)
+            <input name="gasConstant" type="text" inputmode="decimal" value="287.05">
+          </label>
+          <label class="mw-field">
+            MW, kg/kmol
+            <input name="molecularWeight" type="text" inputmode="decimal" value="28.965">
+          </label>
+          <label>
+            T, K
+            <input name="temperature" type="text" inputmode="decimal" value="288.15">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="speed-sound-error" role="alert"></p>
+        <div class="result-grid" id="speed-sound-results"></div>
+      </section>
+
+      <section class="calc-panel" id="reacting-air" aria-labelledby="reacting-air-title">
+        <div class="panel-head">
+          <h2 id="reacting-air-title">Reacting Air Species</h2>
+          <span>Hansen equilibrium</span>
+        </div>
+
+        <form class="calc-form reacting-air-form" id="reacting-air-form">
+          <label>
+            T, K
+            <input name="temperature" type="text" inputmode="decimal" value="4000">
+          </label>
+          <label>
+            p, Pa
+            <input name="pressure" type="text" inputmode="decimal" value="5066.25">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-note">
+          Air composition is N<sub>2</sub>/O<sub>2</sub> = 80/20 by feed mole fraction.
+          Species are reported as mole fraction, mass fraction, and mol/m<sup>3</sup>.
+          <br>
+          X is mole fraction, Y is mass fraction, and Z is the reacting-air compressibility factor.
+        </p>
+        <p class="calc-error" id="reacting-air-error" role="alert"></p>
+        <div class="reacting-air-results" id="reacting-air-results"></div>
+      </section>
+    </div>
+
+    <div class="calc-side-image">
+      <img src="Kurt-trimmed.png" alt="Kurt">
+    </div>
+  </div>
+</section>
+
+<script src="calculator.js"></script>
+```
