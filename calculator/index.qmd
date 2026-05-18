@@ -1,5 +1,5 @@
 ---
-title: "Rensselaer Hava Laboratory Tools"
+title: "Hava Laboratory Tools"
 ---
 
 ```{=html}
@@ -8,6 +8,7 @@ title: "Rensselaer Hava Laboratory Tools"
 
 <section class="calc-shell">
   <div class="calc-heading">
+    <div style="margin-bottom: 2rem;"></div>
     <p class="calc-kicker">Compressible Flow Calculator</p>
     <p>
       Interactive gas-dynamics relations for course work and preliminary analysis.
@@ -314,26 +315,6 @@ title: "Rensselaer Hava Laboratory Tools"
           <label>
             <span>O<sub>2</sub> feed</span>
             <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
-          </label>
-          <label>
-            N feed
-            <input name="nFeed" type="text" inputmode="decimal" value="0">
-          </label>
-          <label>
-            O feed
-            <input name="oFeed" type="text" inputmode="decimal" value="0">
-          </label>
-          <label>
-            <span>O<sup>+</sup> feed</span>
-            <input name="oIonFeed" type="text" inputmode="decimal" value="0">
-          </label>
-          <label>
-            <span>N<sup>+</sup> feed</span>
-            <input name="nIonFeed" type="text" inputmode="decimal" value="0">
-          </label>
-          <label>
-            <span>e<sup>-</sup> feed</span>
-            <input name="electronFeed" type="text" inputmode="decimal" value="0">
           </label>
           <button type="submit">Calculate</button>
         </form>
