@@ -36,6 +36,7 @@ const HANSEN_FORMATION_OVER_R = {
   "N+": 113200 / 2 + 168800,
   "e-": 0,
 };
+const HANSEN_DEFAULT_XI = 0.25;
 const HANSEN_UNDISSOCIATED_AIR_MW = 0.8 * HANSEN_MOLAR_MASS[0] + 0.2 * HANSEN_MOLAR_MASS[1];
 const HANSEN_ELECTRON_MW = HANSEN_MOLAR_MASS[6];
 const HANSEN_COLLISION_TABLE = [
@@ -554,17 +555,18 @@ function lnQp(species, temperature) {
   throw new Error(`Unknown Hansen species: ${species}.`);
 }
 
-function hansenEquilibriumConstants(temperature) {
+function hansenEquilibriumConstants(temperature, xi = HANSEN_DEFAULT_XI) {
   const T = temperature;
+  const { xN2Feed, xO2Feed } = hansenFeedFractions(xi);
   const kpO2 = safeExp(-59000 / T + 2 * lnQp("O", T) - lnQp("O2", T));
   const kpN2 = safeExp(-113200 / T + 2 * lnQp("N", T) - lnQp("N2", T));
   const kpOIon = safeExp(-158000 / T + lnQp("O+", T) + lnQp("e-", T) - lnQp("O", T));
   const kpNIon = safeExp(-168800 / T + lnQp("N+", T) + lnQp("e-", T) - lnQp("N", T));
-  return { kpO2, kpN2, kpIon: 0.2 * kpOIon + 0.8 * kpNIon };
+  return { kpO2, kpN2, kpIon: xO2Feed * kpOIon + xN2Feed * kpNIon };
 }
 
-function hansenEpsilons(temperature, pressureAtm) {
-  const { kpO2, kpN2, kpIon } = hansenEquilibriumConstants(temperature);
+function hansenEpsilons(temperature, pressureAtm, xi = HANSEN_DEFAULT_XI) {
+  const { kpO2, kpN2, kpIon } = hansenEquilibriumConstants(temperature, xi);
   const p = pressureAtm;
   const a1 = 1 + (4 * p) / kpO2;
   const eps1 = Number.isFinite(a1) ? (-0.8 + Math.sqrt(0.64 + 0.8 * a1)) / (2 * a1) : 0;
@@ -586,7 +588,34 @@ function hansenMixtureGasConstant(xi) {
   return HANSEN_R_UNIVERSAL / molecularMassKg;
 }
 
-function hansenAir(temperature, pressureAtm, xi = 0.25) {
+function hansenFeedMolecularWeight(xi) {
+  const { xN2Feed, xO2Feed } = hansenFeedFractions(xi);
+  return xN2Feed * HANSEN_MOLAR_MASS[0] + xO2Feed * HANSEN_MOLAR_MASS[1];
+}
+
+function hansenXiFromSpeciesInput(data) {
+  const speciesFeed = {
+    n2: Number(data.get("n2Feed") ?? 0),
+    o2: Number(data.get("o2Feed") ?? 0),
+    n: Number(data.get("nFeed") ?? 0),
+    o: Number(data.get("oFeed") ?? 0),
+    nIon: Number(data.get("nIonFeed") ?? 0),
+    oIon: Number(data.get("oIonFeed") ?? 0),
+    electron: Number(data.get("electronFeed") ?? 0),
+  };
+  if (Object.values(speciesFeed).some((value) => !Number.isFinite(value) || value < 0)) {
+    throw new Error("Starting species concentrations must be nonnegative numeric values.");
+  }
+
+  const nitrogenAtoms = 2 * speciesFeed.n2 + speciesFeed.n + speciesFeed.nIon;
+  const oxygenAtoms = 2 * speciesFeed.o2 + speciesFeed.o + speciesFeed.oIon;
+  if (nitrogenAtoms <= 0 || oxygenAtoms <= 0) {
+    throw new Error("Starting species must include at least one nitrogen-bearing and one oxygen-bearing species.");
+  }
+  return oxygenAtoms / nitrogenAtoms;
+}
+
+function hansenAir(temperature, pressureAtm, xi = HANSEN_DEFAULT_XI) {
   if (pressureAtm <= 0 || !Number.isFinite(pressureAtm)) throw new Error("Pressure must be greater than 0 atm.");
 
   const { xN2Feed, xO2Feed } = hansenFeedFractions(xi);
@@ -606,7 +635,7 @@ function hansenAir(temperature, pressureAtm, xi = 0.25) {
     };
   }
 
-  const { eps1: eps1Air, eps2: eps2Air, eps3 } = hansenEpsilons(temperature, pressureAtm);
+  const { eps1: eps1Air, eps2: eps2Air, eps3 } = hansenEpsilons(temperature, pressureAtm, xi);
   const eps1 = Math.min((eps1Air * xO2Feed) / 0.2, xO2Feed);
   const eps2 = Math.min((eps2Air * xN2Feed) / 0.8, xN2Feed);
   const nShare = xN2Feed / (xN2Feed + xO2Feed);
@@ -797,7 +826,7 @@ function hansenEquilibriumState(temperature, pressurePa, xi) {
   };
 }
 
-function normalShockFull(mach1, temperature1, pressure1Pa, xi = 0.25) {
+function normalShockFull(mach1, temperature1, pressure1Pa, xi = HANSEN_DEFAULT_XI) {
   if (mach1 <= 1 || !Number.isFinite(mach1)) throw new Error("M1 must be greater than 1.");
   if (temperature1 <= 0 || !Number.isFinite(temperature1)) throw new Error("T1 must be greater than 0 K.");
   if (pressure1Pa <= 0 || !Number.isFinite(pressure1Pa)) throw new Error("p1 must be greater than 0 Pa.");
@@ -950,7 +979,7 @@ function normalShockFull(mach1, temperature1, pressure1Pa, xi = 0.25) {
   };
 }
 
-function reactingObliqueShock(mach1, temperature1, pressure1Pa, thetaDegrees, xi = 0.25) {
+function reactingObliqueShock(mach1, temperature1, pressure1Pa, thetaDegrees, xi = HANSEN_DEFAULT_XI) {
   if (mach1 <= 1 || !Number.isFinite(mach1)) throw new Error("M1 must be greater than 1.");
   if (thetaDegrees <= 0 || !Number.isFinite(thetaDegrees)) throw new Error("Turn angle must be greater than 0 degrees.");
   if (temperature1 <= 0 || !Number.isFinite(temperature1)) throw new Error("T1 must be greater than 0 K.");
@@ -1059,27 +1088,27 @@ function hansenViscosityReference(temperature) {
   return 1.462e-6 * Math.sqrt(temperature) / (1 + 112 / temperature);
 }
 
-function hansenThermalConductivityReference(temperature) {
-  return (19 / 4) * (UNIVERSAL_GAS_CONSTANT / HANSEN_UNDISSOCIATED_AIR_MW)
+function hansenThermalConductivityReference(temperature, feedMolecularWeight = HANSEN_UNDISSOCIATED_AIR_MW) {
+  return (19 / 4) * (UNIVERSAL_GAS_CONSTANT / feedMolecularWeight)
     * hansenViscosityReference(temperature);
 }
 
-function hansenViscosityRatio(speciesMoleFractions, meanFreePathRatios) {
+function hansenViscosityRatio(speciesMoleFractions, meanFreePathRatios, feedMolecularWeight = HANSEN_UNDISSOCIATED_AIR_MW) {
   return HANSEN_SPECIES.reduce((sum, species, index) => {
     const x = speciesMoleFractions[species];
     if (x <= 0) return sum;
-    return sum + x * Math.sqrt(HANSEN_MOLAR_MASS[index] / HANSEN_UNDISSOCIATED_AIR_MW)
+    return sum + x * Math.sqrt(HANSEN_MOLAR_MASS[index] / feedMolecularWeight)
       * meanFreePathRatios[species];
   }, 0);
 }
 
-function hansenMolecularConductivityRatio(speciesMoleFractions, meanFreePathRatios, temperature) {
+function hansenMolecularConductivityRatio(speciesMoleFractions, meanFreePathRatios, temperature, feedMolecularWeight = HANSEN_UNDISSOCIATED_AIR_MW) {
   return HANSEN_SPECIES.reduce((sum, species, index) => {
     const x = speciesMoleFractions[species];
     if (x <= 0) return sum;
     const cvOverR = speciesCvOverR(species, temperature);
     const euckenFactor = (4 * cvOverR + 9) / 19;
-    return sum + x * Math.sqrt(HANSEN_UNDISSOCIATED_AIR_MW / HANSEN_MOLAR_MASS[index])
+    return sum + x * Math.sqrt(feedMolecularWeight / HANSEN_MOLAR_MASS[index])
       * meanFreePathRatios[species] * euckenFactor;
   }, 0);
 }
@@ -1101,7 +1130,13 @@ function dlnKpDT(reaction, temperature) {
   return (lnK(temperature + step) - lnK(temperature - step)) / (2 * step);
 }
 
-function hansenReactiveConductivityRatio(speciesMoleFractions, temperature, reaction, coulombLog = 10) {
+function hansenReactiveConductivityRatio(
+  speciesMoleFractions,
+  temperature,
+  reaction,
+  coulombLog = 10,
+  feedMolecularWeight = HANSEN_UNDISSOCIATED_AIR_MW,
+) {
   const collisionData = hansenCollisionData(temperature);
   const stoichiometry = {
     O2: { O2: -1, O: 2 },
@@ -1121,7 +1156,7 @@ function hansenReactiveConductivityRatio(speciesMoleFractions, temperature, reac
       const sectionRatio = hansenCrossSectionRatio(speciesI, speciesJ, collisionData, coulombLog, "reaction");
       return innerSum + Math.sqrt(
         (HANSEN_MOLAR_MASS[i] * HANSEN_MOLAR_MASS[j])
-        / (HANSEN_UNDISSOCIATED_AIR_MW * (HANSEN_MOLAR_MASS[i] + HANSEN_MOLAR_MASS[j]))
+        / (feedMolecularWeight * (HANSEN_MOLAR_MASS[i] + HANSEN_MOLAR_MASS[j]))
       ) * sectionRatio * ai * (ai * xj - aj * xi) / xi;
     }, 0);
   }, 0);
@@ -1131,29 +1166,38 @@ function hansenReactiveConductivityRatio(speciesMoleFractions, temperature, reac
   return (12 * Math.sqrt(2) / 95) * slope * slope / Math.abs(denominator);
 }
 
-function hansenTransportProperties(temperature, pressureAtm, state, speciesMoleFractions, cpOverR) {
+function hansenTransportProperties(
+  temperature,
+  pressureAtm,
+  state,
+  speciesMoleFractions,
+  cpOverR,
+  xi = HANSEN_DEFAULT_XI,
+) {
+  const feedMolecularWeight = hansenFeedMolecularWeight(xi);
   const meanFreePathRatios = hansenMeanFreePathRatios(
     speciesMoleFractions,
     temperature,
     pressureAtm,
     state,
   );
-  const viscosityRatio = hansenViscosityRatio(speciesMoleFractions, meanFreePathRatios);
+  const viscosityRatio = hansenViscosityRatio(speciesMoleFractions, meanFreePathRatios, feedMolecularWeight);
   const molecularConductivityRatio = hansenMolecularConductivityRatio(
     speciesMoleFractions,
     meanFreePathRatios,
     temperature,
+    feedMolecularWeight,
   );
   const coulombLog = hansenCoulombLog(temperature, pressureAtm, speciesMoleFractions["e-"], state.Z);
   const reactiveConductivityRatio = temperature <= 1200
     ? 0
-    : hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "O2", coulombLog)
-      + hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "N2", coulombLog)
-      + hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "OIon", coulombLog)
-      + hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "NIon", coulombLog);
+    : hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "O2", coulombLog, feedMolecularWeight)
+      + hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "N2", coulombLog, feedMolecularWeight)
+      + hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "OIon", coulombLog, feedMolecularWeight)
+      + hansenReactiveConductivityRatio(speciesMoleFractions, temperature, "NIon", coulombLog, feedMolecularWeight);
   const conductivityRatio = molecularConductivityRatio + reactiveConductivityRatio;
   const viscosity = hansenViscosityReference(temperature) * viscosityRatio;
-  const thermalConductivity = hansenThermalConductivityReference(temperature) * conductivityRatio;
+  const thermalConductivity = hansenThermalConductivityReference(temperature, feedMolecularWeight) * conductivityRatio;
   const prandtl = conductivityRatio > 0
     ? (4 / 19) * cpOverR * viscosityRatio / conductivityRatio
     : null;
@@ -1167,11 +1211,11 @@ function hansenTransportProperties(temperature, pressureAtm, state, speciesMoleF
   };
 }
 
-function hansenSpeciesConcentrationsFromInput(temperature, pressurePa) {
+function hansenSpeciesConcentrationsFromInput(temperature, pressurePa, xi = HANSEN_DEFAULT_XI) {
   if (pressurePa <= 0 || !Number.isFinite(pressurePa)) throw new Error("Pressure must be greater than 0 Pa.");
   const pressureAtm = pressurePa / ATM_TO_PA;
-  const xi = 0.25;
   const state = hansenAir(temperature, pressureAtm, xi);
+  const { xN2Feed, xO2Feed } = hansenFeedFractions(xi);
   const totalConcentration = (pressureAtm * ATM_TO_PA) / (state.Z * HANSEN_R_UNIVERSAL * temperature);
   const gasConstant = hansenMixtureGasConstant(xi);
   const cpOverR = temperature <= 1200 ? 3.5 : hansenCpOverR(temperature, pressureAtm, xi);
@@ -1208,11 +1252,14 @@ function hansenSpeciesConcentrationsFromInput(temperature, pressurePa) {
     state,
     speciesMoleFractions,
     cpOverR,
+    xi,
   );
 
   const summaryResults = {
     "T, K": formatCompact(temperature),
     "p, Pa": formatCompact(pressurePa),
+    "N<sub>2</sub> feed": formatCompact(xN2Feed),
+    "O<sub>2</sub> feed": formatCompact(xO2Feed),
     Z: formatCompact(state.Z),
     "C<sub>total</sub>, mol/m<sup>3</sup>": formatCompact(totalConcentration),
     "MW<sub>mix</sub>, g/mol": formatCompact(mixtureMolarMass),
@@ -1404,7 +1451,8 @@ if (reactingNormalShockForm) {
       const mach = Number(data.get("mach"));
       const temperature = Number(data.get("temperature"));
       const pressure = Number(data.get("pressure"));
-      renderReactingAirResults(results, normalShockFull(mach, temperature, pressure));
+      const xi = hansenXiFromSpeciesInput(data);
+      renderReactingAirResults(results, normalShockFull(mach, temperature, pressure, xi));
     } catch (exception) {
       error.textContent = exception.message;
       results.innerHTML = "";
@@ -1432,7 +1480,8 @@ if (reactingObliqueShockForm) {
       const temperature = Number(data.get("temperature"));
       const pressure = Number(data.get("pressure"));
       const theta = Number(data.get("theta"));
-      renderReactingAirResults(results, reactingObliqueShock(mach, temperature, pressure, theta));
+      const xi = hansenXiFromSpeciesInput(data);
+      renderReactingAirResults(results, reactingObliqueShock(mach, temperature, pressure, theta, xi));
     } catch (exception) {
       error.textContent = exception.message;
       results.innerHTML = "";
@@ -1580,7 +1629,8 @@ if (reactingAirForm) {
       const data = new FormData(reactingAirForm);
       const temperature = Number(data.get("temperature"));
       const pressure = Number(data.get("pressure"));
-      renderReactingAirResults(results, hansenSpeciesConcentrationsFromInput(temperature, pressure));
+      const xi = hansenXiFromSpeciesInput(data);
+      renderReactingAirResults(results, hansenSpeciesConcentrationsFromInput(temperature, pressure, xi));
     } catch (exception) {
       error.textContent = exception.message;
       results.innerHTML = "";
