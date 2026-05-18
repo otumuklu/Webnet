@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HAVA Laboratory Tools – Rensselaer HAVA Laboratory</title>
+<title>Rensselaer Hava Laboratory Tools – Rensselaer HAVA Laboratory</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">HAVA Laboratory Tools</h1>
+<h1 class="title">Rensselaer Hava Laboratory Tools</h1>
 </div>
 
 
@@ -300,6 +300,14 @@ ul.task-list li input[type="checkbox"] {
             <span>p<sub>1</sub>, Pa</span>
             <input name="pressure" type="text" inputmode="decimal" value="1090.16">
           </label>
+          <label>
+            <span>N<sub>2</sub> feed</span>
+            <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
+          </label>
+          <label>
+            <span>O<sub>2</sub> feed</span>
+            <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
+          </label>
           <button type="submit">Calculate</button>
         </form>
 
@@ -385,6 +393,14 @@ ul.task-list li input[type="checkbox"] {
             <span>θ (turn angle), deg.</span>
             <input name="theta" type="text" inputmode="decimal" value="20">
           </label>
+          <label>
+            <span>N<sub>2</sub> feed</span>
+            <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
+          </label>
+          <label>
+            <span>O<sub>2</sub> feed</span>
+            <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
+          </label>
           <button type="submit">Calculate</button>
         </form>
 
@@ -449,11 +465,39 @@ ul.task-list li input[type="checkbox"] {
             p, Pa
             <input name="pressure" type="text" inputmode="decimal" value="5066.25">
           </label>
+          <label>
+            <span>N<sub>2</sub> feed</span>
+            <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
+          </label>
+          <label>
+            <span>O<sub>2</sub> feed</span>
+            <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
+          </label>
+          <label>
+            N feed
+            <input name="nFeed" type="text" inputmode="decimal" value="0">
+          </label>
+          <label>
+            O feed
+            <input name="oFeed" type="text" inputmode="decimal" value="0">
+          </label>
+          <label>
+            <span>O<sup>+</sup> feed</span>
+            <input name="oIonFeed" type="text" inputmode="decimal" value="0">
+          </label>
+          <label>
+            <span>N<sup>+</sup> feed</span>
+            <input name="nIonFeed" type="text" inputmode="decimal" value="0">
+          </label>
+          <label>
+            <span>e<sup>-</sup> feed</span>
+            <input name="electronFeed" type="text" inputmode="decimal" value="0">
+          </label>
           <button type="submit">Calculate</button>
         </form>
 
         <p class="calc-note">
-          Air composition is N<sub>2</sub>/O<sub>2</sub> = 80/20 by feed mole fraction.
+          Starting species values can be mole fractions or concentrations; the equilibrium chemistry uses their elemental N/O ratio.
           Species are reported as mole fraction, mass fraction, and mol/m<sup>3</sup>.
           <br>
           X is mole fraction, Y is mass fraction, and Z is the reacting-air compressibility factor.
@@ -464,7 +508,15 @@ ul.task-list li input[type="checkbox"] {
     </div>
 
     <div class="calc-side-image">
-      <img src="Kurt-trimmed.png" alt="Kurt">
+      <div class="calc-affiliation-row">
+        <img class="calc-rpi-logo" src="Rensselaer_poly_inst_Seal.png" alt="Rensselaer Polytechnic Institute seal">
+        <img class="calc-wolf-logo" src="Kurt-trimmed.png" alt="Kurt">
+      </div>
+      <p class="calc-credit">
+        Special thanks to Prof. William Devenport and the VT Compressible Aerodynamic Calculator for serving as a source of inspiration for this calculator and for Ozgur Tumuklu’s personal and classroom use over the years in perfect-gas calculations.
+        <br>
+        For the reacting air model, O. Tumuklu acknowledges the contributions of C. Frederick Hansen, whose algorithm was defined in the NASA TR R-50 technical report, and Semih Olcmen’s group for their recent publication: <a href="https://doi.org/10.3390/axioms15040283" target="_blank" rel="noopener">Axioms paper</a>.
+      </p>
     </div>
   </div>
 </section>
