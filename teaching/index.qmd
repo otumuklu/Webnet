@@ -20,7 +20,7 @@ and hypersonic nonequilibrium flow regimes, with a specific emphasis on its appl
 The practical implications of the material will be elucidated within the framework of the professor’s ongoing research,
 contemporary advancements, and historical context.
 
-<img src="CompressibleFlows.jpeg" style="height: 100%; width: 100%;"/>
+
 Syllabus:
 <iframe src="Syllabus_MANE_4960.pdf" style="width: 800px;height: 480px;border: none;"></iframe> 
 
