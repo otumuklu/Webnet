@@ -45,8 +45,5 @@ about:
             <a href="https://x.com/HAVAlabrpi"><i class='bx bxl-twitter'></i></a>
             <a href="https://www.linkedin.com/company/havalab/about/?viewAsMember=true"><i class='bx bxl-linkedin'></i></a>
         </div>
-        
-
 
 ```
-

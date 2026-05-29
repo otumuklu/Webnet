@@ -51,14 +51,7 @@ Spatial variation of the span wise velocities (m/s) at (a) x=0.025~m, (b) x=0.04
  (c) x=0.05~m, and (d) x=0.064~m constant planes along with (e) the surface heating values (W/m$^2$) 
  and surface streamlines superimposed with the density gradient magnitude for $Re$ = 374,000(1/m). 
 
-```{=html}
-          <div style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden;">
-            <iframe src="3D_3055.mp4" 
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                    frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
-          </div>
 
-```
 The spatial distribution of the spanwise velocity, 𝑊 (m/s), at three different x-constant planes: (a) x =
 0.04 m, (b) x = 0.064 m, and (c) x = 0.08 m along with (d) the numerical Schlieren in grayscale and the surface
 heat flux values along with the wedge surface (W/m^2 ) for the unit 𝑅𝑒 = 4.14 × 105 1/𝑚  (i.e., 𝑃∞ = 781 Pa) flow
@@ -68,6 +61,30 @@ over the 5/30◦ double-wedge configuration.
 Comparisons of the surface parameters for the unit $Re =9.35 \times 10^4~m^{-1}$ a) 
 Spatial distribution of the translational temperatures, b)  surface heating values (kW/m$^2$)
  for the continuum SU2-NEMO 2-D and 3-D solutions for the lowest pressure case,  $Re = 9.35 \times 10^4~m^{-1}$.
+
+
+```{=html}
+          <div style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden;">
+            <iframe src="3D_3055.mp4" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                    frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+          </div>
+
+```
+
+
+### HAVA-HYPERFDX1
+
+HAVA-HYPERFDX1 is an in-house high-fidelity GPU-accelerated solver framework developed by the HAVA Laboratory
+for hypersonic flow simulations involving strong shocks, separated regions, and high-temperature gas effects.
+The solver is designed to support detailed studies of canonical and vehicle-relevant configurations, including
+shock wave boundary layer interactions and compression-corner flows, where accurate resolution of gradients,
+surface loading, and unsteady structures is essential. The animation below illustrates a representative
+HAVA-HYPERFDX1 calculation, highlighting the ability of the solver to capture complex shock structures and
+their interaction with the surrounding flow field. This wake simulation was carried out using approximately 
+0.3 Billion grid points on my $3K desktop in less than 15 hours — not on large HPC clusters with thousands of nodes.
+
+<img src="FDX1.gif" style="height: 100%; width: 100%;"/>
 
 
 ```{=html}
@@ -210,4 +227,3 @@ predicting high-speed separated flows. Further details are presented in
 
 <img src="TurbulenceModeling.png" style="height: 100%; width: 100%;"/>
 Comparison of DSMC (SPARTA) and NS solutions for argon at the freestream pressures of 100~Pa at $Ma$ 7 for (a) temperature field (K), (b) the axial velocity (m/s), and (c) axial velocity along the stagnation line with various Navier-Stokes turbulence models using SU2.
-

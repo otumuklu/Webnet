@@ -207,6 +207,14 @@
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
+.reacting-cone-shock-form {
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+.reacting-cone-shock-form label > span {
+  white-space: normal;
+}
+
 .normal-shock-dimensional-form {
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
 }
@@ -222,12 +230,17 @@
 }
 
 .reacting-normal-shock-form button,
-.reacting-oblique-shock-form button {
+.reacting-oblique-shock-form button,
+.reacting-cone-shock-form button {
   justify-self: start;
   min-width: 120px;
 }
 
 .oblique-shock-form {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
+}
+
+.cone-shock-form {
   grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
 }
 
@@ -397,7 +410,9 @@
   .reacting-air-form,
   .reacting-normal-shock-form,
   .reacting-oblique-shock-form,
+  .reacting-cone-shock-form,
   .oblique-shock-form,
+  .cone-shock-form,
   .calc-form,
   .result-grid,
   .species-grid {
@@ -405,6 +420,7 @@
   }
 
   .reacting-oblique-shock-form button,
+  .reacting-cone-shock-form button,
   .reacting-normal-shock-form button {
     grid-column: 1 / -1;
     justify-self: start;
@@ -429,7 +445,9 @@
   .reacting-air-form,
   .reacting-normal-shock-form,
   .reacting-oblique-shock-form,
+  .reacting-cone-shock-form,
   .oblique-shock-form,
+  .cone-shock-form,
   .result-grid,
   .species-grid {
     grid-template-columns: 1fr;

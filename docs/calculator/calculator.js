@@ -417,6 +417,194 @@ function obliqueShockDimensional(gamma, mach1, pressure1Pa, temperature1, thetaD
   };
 }
 
+function nondimensionalVelocity(gamma, mach) {
+  return Math.sqrt(((gamma - 1) * mach * mach) / (2 + (gamma - 1) * mach * mach));
+}
+
+function machFromNondimensionalVelocity(gamma, velocityMagnitude) {
+  const velocitySquared = velocityMagnitude * velocityMagnitude;
+  if (velocitySquared <= 0 || velocitySquared >= 1) {
+    throw new Error("Taylor-Maccoll integration reached an invalid velocity state.");
+  }
+  return Math.sqrt((2 * velocitySquared) / ((gamma - 1) * (1 - velocitySquared)));
+}
+
+function taylorMaccollDerivative(gamma, theta, radialVelocity, polarVelocity) {
+  const velocitySquared = radialVelocity * radialVelocity + polarVelocity * polarVelocity;
+  const thermalTerm = ((gamma - 1) / 2) * (1 - velocitySquared);
+  const denominator = thermalTerm - polarVelocity * polarVelocity;
+  const sinTheta = Math.sin(theta);
+
+  if (
+    !Number.isFinite(thermalTerm)
+    || !Number.isFinite(denominator)
+    || Math.abs(denominator) < 1e-10
+    || Math.abs(sinTheta) < 1e-10
+  ) {
+    throw new Error("Taylor-Maccoll integration failed for this cone angle.");
+  }
+
+  const cotTheta = Math.cos(theta) / sinTheta;
+  const numerator = polarVelocity * polarVelocity * radialVelocity
+    - thermalTerm * (2 * radialVelocity + polarVelocity * cotTheta);
+
+  return {
+    radial: polarVelocity,
+    polar: numerator / denominator,
+  };
+}
+
+function integrateTaylorMaccoll(gamma, beta, coneAngle, radialVelocity, polarVelocity) {
+  const steps = Math.max(24, Math.ceil(Math.abs(beta - coneAngle) / 0.00035));
+  const step = (coneAngle - beta) / steps;
+  let theta = beta;
+  let vr = radialVelocity;
+  let vt = polarVelocity;
+
+  for (let i = 0; i < steps; i += 1) {
+    const k1 = taylorMaccollDerivative(gamma, theta, vr, vt);
+    const k2 = taylorMaccollDerivative(
+      gamma,
+      theta + step / 2,
+      vr + (step * k1.radial) / 2,
+      vt + (step * k1.polar) / 2,
+    );
+    const k3 = taylorMaccollDerivative(
+      gamma,
+      theta + step / 2,
+      vr + (step * k2.radial) / 2,
+      vt + (step * k2.polar) / 2,
+    );
+    const k4 = taylorMaccollDerivative(
+      gamma,
+      theta + step,
+      vr + step * k3.radial,
+      vt + step * k3.polar,
+    );
+
+    vr += (step / 6) * (k1.radial + 2 * k2.radial + 2 * k3.radial + k4.radial);
+    vt += (step / 6) * (k1.polar + 2 * k2.polar + 2 * k3.polar + k4.polar);
+    theta += step;
+
+    if (!Number.isFinite(vr) || !Number.isFinite(vt) || vr * vr + vt * vt >= 1) {
+      throw new Error("Taylor-Maccoll integration failed for this cone angle.");
+    }
+  }
+
+  return { radialVelocity: vr, polarVelocity: vt };
+}
+
+function conicalShockStateAtBeta(gamma, mach1, beta, coneAngle) {
+  const velocity1 = nondimensionalVelocity(gamma, mach1);
+  const normalMach1 = mach1 * Math.sin(beta);
+  if (normalMach1 <= 1) throw new Error("Shock angle must produce a supersonic normal Mach number.");
+
+  const shockRatios = normalShockRatios(gamma, normalMach1);
+  const densityRatio = shockRatios["ρ<sub>2</sub>/ρ<sub>1</sub>"];
+  const radialVelocity = velocity1 * Math.cos(beta);
+  const polarVelocity = -velocity1 * Math.sin(beta) / densityRatio;
+  const surface = integrateTaylorMaccoll(gamma, beta, coneAngle, radialVelocity, polarVelocity);
+
+  return {
+    radialVelocity,
+    polarVelocity,
+    surface,
+    shockRatios,
+  };
+}
+
+function coneShockBeta(gamma, mach1, coneAngle) {
+  const machAngle = Math.asin(1 / mach1);
+  const betaLow = Math.max(machAngle, coneAngle) + 1e-5;
+  const betaHigh = Math.PI / 2 - 1e-5;
+
+  let previousBeta = null;
+  let previousValue = null;
+
+  for (let i = 0; i <= 260; i += 1) {
+    const beta = betaLow + (i / 260) * (betaHigh - betaLow);
+    let value;
+
+    try {
+      value = conicalShockStateAtBeta(gamma, mach1, beta, coneAngle).surface.polarVelocity;
+    } catch (exception) {
+      continue;
+    }
+
+    if (Math.abs(value) < 1e-8) return beta;
+    if (previousValue !== null && previousValue * value < 0) {
+      return solveBisection(
+        (candidate) => conicalShockStateAtBeta(gamma, mach1, candidate, coneAngle).surface.polarVelocity,
+        previousBeta,
+        beta,
+        1e-9,
+        120,
+      );
+    }
+
+    previousBeta = beta;
+    previousValue = value;
+  }
+
+  return null;
+}
+
+function coneShockFromInput(gamma, mach1, coneAngleDegrees) {
+  if (gamma <= 1) throw new Error("Gamma must be greater than 1.");
+  if (mach1 <= 1 || !Number.isFinite(mach1)) throw new Error("M1 must be greater than 1.");
+  if (coneAngleDegrees <= 0 || !Number.isFinite(coneAngleDegrees)) {
+    throw new Error("Cone half-angle must be greater than 0 degrees.");
+  }
+  if (coneAngleDegrees >= 89) throw new Error("Cone half-angle must be less than 89 degrees.");
+
+  const coneAngle = coneAngleDegrees * DEG;
+  const beta = coneShockBeta(gamma, mach1, coneAngle);
+  if (!beta) {
+    throw new Error(`No attached conical shock found for M1 = ${format(mach1)} and cone angle = ${format(coneAngleDegrees)} degrees.`);
+  }
+  if (beta <= coneAngle) {
+    throw new Error("Invalid conical shock solution: shock angle must be greater than the cone half-angle.");
+  }
+
+  const state = conicalShockStateAtBeta(gamma, mach1, beta, coneAngle);
+  const shockVelocity = Math.hypot(state.radialVelocity, state.polarVelocity);
+  const surfaceVelocity = Math.hypot(state.surface.radialVelocity, state.surface.polarVelocity);
+  const shockMach = machFromNondimensionalVelocity(gamma, shockVelocity);
+  const surfaceMach = machFromNondimensionalVelocity(gamma, surfaceVelocity);
+  const shockTemperatureRatio = state.shockRatios["T<sub>2</sub>/T<sub>1</sub>"];
+  const shockPressureRatio = state.shockRatios["p<sub>2</sub>/p<sub>1</sub>"];
+  const shockDensityRatio = state.shockRatios["ρ<sub>2</sub>/ρ<sub>1</sub>"];
+  const surfaceToShockTemperatureRatio = (1 - surfaceVelocity * surfaceVelocity)
+    / (1 - shockVelocity * shockVelocity);
+  const surfaceToShockPressureRatio = Math.pow(
+    surfaceToShockTemperatureRatio,
+    gamma / (gamma - 1),
+  );
+  const surfaceToShockDensityRatio = Math.pow(
+    surfaceToShockTemperatureRatio,
+    1 / (gamma - 1),
+  );
+
+  return {
+    __sectionBefore: {
+      "M<sub>n,1</sub>": "Behind shock",
+      "M<sub>c</sub>": "Cone surface",
+    },
+    "M<sub>1</sub>": mach1,
+    "θ<sub>c</sub> cone half-angle, deg.": coneAngleDegrees,
+    "β shock angle from axis, deg.": beta * RAD,
+    "M<sub>n,1</sub>": mach1 * Math.sin(beta),
+    "M<sub>2</sub>": shockMach,
+    "p<sub>2</sub>/p<sub>1</sub>": shockPressureRatio,
+    "T<sub>2</sub>/T<sub>1</sub>": shockTemperatureRatio,
+    "ρ<sub>2</sub>/ρ<sub>1</sub>": shockDensityRatio,
+    "M<sub>c</sub>": surfaceMach,
+    "p<sub>c</sub>/p<sub>1</sub>": shockPressureRatio * surfaceToShockPressureRatio,
+    "T<sub>c</sub>/T<sub>1</sub>": shockTemperatureRatio * surfaceToShockTemperatureRatio,
+    "ρ<sub>c</sub>/ρ<sub>1</sub>": shockDensityRatio * surfaceToShockDensityRatio,
+  };
+}
+
 function speedOfSoundFromInput(gamma, gasConstant, temperature, gas = "custom", molecularWeight = null) {
   if (gamma <= 1) throw new Error("Gamma must be greater than 1.");
   if (gasConstant <= 0 || !Number.isFinite(gasConstant)) throw new Error("R must be greater than 0.");
@@ -842,15 +1030,18 @@ function normalShockFull(mach1, temperature1, pressure1Pa, xi = HANSEN_DEFAULT_X
   const h1 = hansenEquilibriumEnthalpy(temperature1, pressure1Pa / ATM_TO_PA, xi);
   const pRef = Math.max(pressure1Pa, 1);
   const hRef = Math.max(Math.abs(h1) + 0.5 * velocityNormal * velocityNormal, 1);
+  const downstreamTemperatureGuess = temperature1 * temperatureRatioIdeal;
+  const temperatureLowerBound = Math.max(1, Math.min(200, 0.75 * temperature1));
+  const temperatureUpperBound = Math.max(60000, 8 * temperature1, 1.5 * downstreamTemperatureGuess);
 
   const bounds = {
-    logTMin: Math.log(200),
-    logTMax: Math.log(60000),
+    logTMin: Math.log(temperatureLowerBound),
+    logTMax: Math.log(temperatureUpperBound),
     logRhoMin: Math.log(density1 * 1.0001),
     logRhoMax: Math.log(density1 * 100),
   };
   let x = [
-    Math.log(Math.min(Math.max(temperature1 * temperatureRatioIdeal, 300), 40000)),
+    Math.log(Math.min(Math.max(downstreamTemperatureGuess, temperatureLowerBound * 1.01), temperatureUpperBound * 0.98)),
     Math.log(Math.max(density1 * densityRatioIdeal, density1 * 1.01)),
   ];
 
@@ -962,14 +1153,14 @@ function normalShockFull(mach1, temperature1, pressure1Pa, xi = HANSEN_DEFAULT_X
         ]),
       },
       {
-        label: "Mole fractions downstream",
+        label: "Mole fraction (X) downstream",
         rows: HANSEN_SPECIES.map((species, index) => [
           HANSEN_SPECIES_LABELS[species],
           formatCompact(composition.moleFractions[index]),
         ]),
       },
       {
-        label: "Mass fractions downstream",
+        label: "Mass fraction (Y) downstream",
         rows: HANSEN_SPECIES.map((species, index) => [
           HANSEN_SPECIES_LABELS[species],
           formatCompact(composition.massFractions[index]),
@@ -992,25 +1183,31 @@ function reactingObliqueShock(mach1, temperature1, pressure1Pa, thetaDegrees, xi
   const betaMax = Math.PI / 2 - 1e-6;
 
   const residual = (beta) => {
-    const normalMach1 = mach1 * Math.sin(beta);
-    if (normalMach1 <= 1) return Number.NaN;
-    const shock = normalShockFull(normalMach1, temperature1, pressure1Pa, xi);
-    const normalVelocityRatio = shock.density1 / shock.density2;
-    return Math.tan(beta - theta) - normalVelocityRatio * Math.tan(beta);
+    try {
+      const normalMach1 = mach1 * Math.sin(beta);
+      if (normalMach1 <= 1) return Number.NaN;
+      const shock = normalShockFull(normalMach1, temperature1, pressure1Pa, xi);
+      const normalVelocityRatio = shock.density1 / shock.density2;
+      return Math.tan(beta - theta) - normalVelocityRatio * Math.tan(beta);
+    } catch (exception) {
+      return Number.NaN;
+    }
   };
 
-  let previousBeta = betaMin;
-  let previousResidual = residual(previousBeta);
+  let previousBeta = null;
+  let previousResidual = null;
   let bracket = null;
-  for (let i = 1; i <= 240; i += 1) {
+  for (let i = 0; i <= 240; i += 1) {
     const beta = betaMin + (i / 240) * (betaMax - betaMin);
     const value = residual(beta);
     if (Number.isFinite(previousResidual) && Number.isFinite(value) && previousResidual * value <= 0) {
       bracket = [previousBeta, beta];
       break;
     }
-    previousBeta = beta;
-    previousResidual = value;
+    if (Number.isFinite(value)) {
+      previousBeta = beta;
+      previousResidual = value;
+    }
   }
 
   if (!bracket) {
@@ -1048,17 +1245,184 @@ function reactingObliqueShock(mach1, temperature1, pressure1Pa, thetaDegrees, xi
         ]),
       },
       {
-        label: "Mole fractions downstream",
+        label: "Mole fraction (X) downstream",
         rows: HANSEN_SPECIES.map((species, index) => [
           HANSEN_SPECIES_LABELS[species],
           formatCompact(normalShock.moleFractions[index]),
         ]),
       },
       {
-        label: "Mass fractions downstream",
+        label: "Mass fraction (Y) downstream",
         rows: HANSEN_SPECIES.map((species, index) => [
           HANSEN_SPECIES_LABELS[species],
           formatCompact(normalShock.massFractions[index]),
+        ]),
+      },
+    ],
+  };
+}
+
+function reactingConeShockSurfaceAtBeta(gamma, mach1, beta, coneAngle, normalShock) {
+  const velocity1 = nondimensionalVelocity(gamma, mach1);
+  const densityRatio = normalShock.density2 / normalShock.density1;
+  const radialVelocity = velocity1 * Math.cos(beta);
+  const polarVelocity = -velocity1 * Math.sin(beta) / densityRatio;
+  const surface = integrateTaylorMaccoll(gamma, beta, coneAngle, radialVelocity, polarVelocity);
+
+  return {
+    radialVelocity,
+    polarVelocity,
+    surface,
+  };
+}
+
+function reactingConeShock(mach1, temperature1, pressure1Pa, coneAngleDegrees, xi = HANSEN_DEFAULT_XI) {
+  if (mach1 <= 1 || !Number.isFinite(mach1)) throw new Error("M1 must be greater than 1.");
+  if (coneAngleDegrees <= 0 || !Number.isFinite(coneAngleDegrees)) {
+    throw new Error("Cone half-angle must be greater than 0 degrees.");
+  }
+  if (coneAngleDegrees >= 89) throw new Error("Cone half-angle must be less than 89 degrees.");
+  if (temperature1 <= 0 || !Number.isFinite(temperature1)) throw new Error("T1 must be greater than 0 K.");
+  if (pressure1Pa <= 0 || !Number.isFinite(pressure1Pa)) throw new Error("p1 must be greater than 0 Pa.");
+
+  const coneAngle = coneAngleDegrees * DEG;
+  const upstream = hansenEquilibriumState(temperature1, pressure1Pa, xi);
+  const gamma = Math.min(Math.max(upstream.phiGamma, 1.05), 1.67);
+  const velocity1 = mach1 * upstream.soundSpeed;
+  const betaMin = Math.max(Math.asin(1 / mach1), coneAngle) + 1e-5;
+  const betaMax = Math.PI / 2 - 1e-5;
+  const shockCache = new Map();
+
+  const shockForBeta = (beta) => {
+    const key = beta.toPrecision(14);
+    if (!shockCache.has(key)) {
+      shockCache.set(key, normalShockFull(mach1 * Math.sin(beta), temperature1, pressure1Pa, xi));
+    }
+    return shockCache.get(key);
+  };
+
+  const residual = (beta) => {
+    try {
+      const normalMach1 = mach1 * Math.sin(beta);
+      if (normalMach1 <= 1) return Number.NaN;
+      const normalShock = shockForBeta(beta);
+      return reactingConeShockSurfaceAtBeta(gamma, mach1, beta, coneAngle, normalShock).surface.polarVelocity;
+    } catch (exception) {
+      return Number.NaN;
+    }
+  };
+
+  let previousBeta = null;
+  let previousResidual = null;
+  let bracket = null;
+  for (let i = 0; i <= 140; i += 1) {
+    const beta = betaMin + (i / 140) * (betaMax - betaMin);
+    const value = residual(beta);
+    if (Number.isFinite(previousResidual) && Number.isFinite(value) && previousResidual * value <= 0) {
+      bracket = [previousBeta, beta];
+      break;
+    }
+    if (Number.isFinite(value)) {
+      previousBeta = beta;
+      previousResidual = value;
+    }
+  }
+
+  if (!bracket) {
+    throw new Error("No attached reacting cone shock found for this M1 and cone angle.");
+  }
+
+  const beta = solveBisection(residual, bracket[0], bracket[1], 1e-9, 80);
+  if (beta <= coneAngle) {
+    throw new Error("Invalid reacting cone shock solution: shock angle must be greater than the cone half-angle.");
+  }
+  const normalMach1 = mach1 * Math.sin(beta);
+  const normalShock = shockForBeta(beta);
+  const coneVelocityState = reactingConeShockSurfaceAtBeta(gamma, mach1, beta, coneAngle, normalShock);
+  const tangentialVelocity = velocity1 * Math.cos(beta);
+  const velocityBehindShock = Math.hypot(tangentialVelocity, normalShock.velocity2);
+  const downstream = hansenEquilibriumState(normalShock.temperature2, normalShock.pressure2Pa, xi);
+  const machBehindShock = velocityBehindShock / downstream.soundSpeed;
+  const shockVelocity = Math.hypot(coneVelocityState.radialVelocity, coneVelocityState.polarVelocity);
+  const surfaceVelocity = Math.hypot(
+    coneVelocityState.surface.radialVelocity,
+    coneVelocityState.surface.polarVelocity,
+  );
+  const surfaceMach = machFromNondimensionalVelocity(gamma, surfaceVelocity);
+  const surfaceToShockTemperatureRatio = (1 - surfaceVelocity * surfaceVelocity)
+    / (1 - shockVelocity * shockVelocity);
+  const surfaceToShockPressureRatio = Math.pow(surfaceToShockTemperatureRatio, gamma / (gamma - 1));
+  const surfaceTemperature = normalShock.temperature2 * surfaceToShockTemperatureRatio;
+  const surfacePressurePa = normalShock.pressure2Pa * surfaceToShockPressureRatio;
+  const surfaceState = hansenEquilibriumState(surfaceTemperature, surfacePressurePa, xi);
+  const shockSpeciesDensities = normalShock.massFractions.map((massFraction) => (
+    massFraction * normalShock.density2
+  ));
+  const surfaceSpeciesDensities = surfaceState.massFractions.map((massFraction) => (
+    massFraction * surfaceState.density
+  ));
+
+  return {
+    summaryResults: {
+      __sectionBefore: {
+        "M<sub>n,1</sub>": "Behind shock",
+        "M<sub>c</sub>": "Cone surface",
+      },
+      "M<sub>1</sub>": formatCompact(mach1),
+      "θ<sub>c</sub> cone half-angle, deg.": formatCompact(coneAngleDegrees),
+      "β shock angle from axis, deg.": formatCompact(beta * RAD),
+      "M<sub>n,1</sub>": formatCompact(normalMach1),
+      "M<sub>2</sub>": formatCompact(machBehindShock),
+      "T<sub>2</sub>, K": formatCompact(normalShock.temperature2),
+      "p<sub>2</sub>, Pa": formatCompact(normalShock.pressure2Pa),
+      "ρ<sub>2</sub>, kg/m<sup>3</sup>": formatCompact(normalShock.density2),
+      "V<sub>2</sub>, m/s": formatCompact(velocityBehindShock),
+      "M<sub>c</sub>": formatCompact(surfaceMach),
+      "T<sub>c</sub>, K": formatCompact(surfaceTemperature),
+      "p<sub>c</sub>, Pa": formatCompact(surfacePressurePa),
+      "ρ<sub>c</sub>, kg/m<sup>3</sup>": formatCompact(surfaceState.density),
+    },
+    speciesSections: [
+      {
+        label: "Species density behind shock, kg/m<sup>3</sup>",
+        rows: HANSEN_SPECIES.map((species, index) => [
+          HANSEN_SPECIES_LABELS[species],
+          formatCompact(shockSpeciesDensities[index]),
+        ]),
+      },
+      {
+        label: "Mole fraction (X) behind shock",
+        rows: HANSEN_SPECIES.map((species, index) => [
+          HANSEN_SPECIES_LABELS[species],
+          formatCompact(normalShock.moleFractions[index]),
+        ]),
+      },
+      {
+        label: "Mass fraction (Y) behind shock",
+        rows: HANSEN_SPECIES.map((species, index) => [
+          HANSEN_SPECIES_LABELS[species],
+          formatCompact(normalShock.massFractions[index]),
+        ]),
+      },
+      {
+        label: "Species density cone surface, kg/m<sup>3</sup>",
+        rows: HANSEN_SPECIES.map((species, index) => [
+          HANSEN_SPECIES_LABELS[species],
+          formatCompact(surfaceSpeciesDensities[index]),
+        ]),
+      },
+      {
+        label: "Mole fraction (X) cone surface",
+        rows: HANSEN_SPECIES.map((species, index) => [
+          HANSEN_SPECIES_LABELS[species],
+          formatCompact(surfaceState.moleFractions[index]),
+        ]),
+      },
+      {
+        label: "Mass fraction (Y) cone surface",
+        rows: HANSEN_SPECIES.map((species, index) => [
+          HANSEN_SPECIES_LABELS[species],
+          formatCompact(surfaceState.massFractions[index]),
         ]),
       },
     ],
@@ -1258,8 +1622,8 @@ function hansenSpeciesConcentrationsFromInput(temperature, pressurePa, xi = HANS
   const summaryResults = {
     "T, K": formatCompact(temperature),
     "p, Pa": formatCompact(pressurePa),
-    "N<sub>2</sub> feed": formatCompact(xN2Feed),
-    "O<sub>2</sub> feed": formatCompact(xO2Feed),
+    "N<sub>2</sub> (X)": formatCompact(xN2Feed),
+    "O<sub>2</sub>(X)": formatCompact(xO2Feed),
     Z: formatCompact(state.Z),
     "C<sub>total</sub>, mol/m<sup>3</sup>": formatCompact(totalConcentration),
     "MW<sub>mix</sub>, g/mol": formatCompact(mixtureMolarMass),
@@ -1271,11 +1635,11 @@ function hansenSpeciesConcentrationsFromInput(temperature, pressurePa, xi = HANS
   };
   const speciesSections = [
     {
-      label: "Mole fractions",
+      label: "Mole fraction (X)",
       rows: speciesRows.map((item) => [item.label, formatCompact(item.moleFraction)]),
     },
     {
-      label: "Mass fractions",
+      label: "Mass fraction (Y)",
       rows: speciesRows.map((item) => [item.label, formatCompact(item.massFraction)]),
     },
     {
@@ -1318,9 +1682,11 @@ function formatCompact(value) {
 
 function renderResults(target, results) {
   const rowBreakBefore = results.__rowBreakBefore ?? [];
+  const sectionBefore = results.__sectionBefore ?? {};
   target.innerHTML = Object.entries(results)
-    .filter(([label]) => !["t2t1", "p02p01", "p1p02", "__rowBreakBefore"].includes(label))
+    .filter(([label]) => !["t2t1", "p02p01", "p1p02", "__rowBreakBefore", "__sectionBefore"].includes(label))
     .map(([label, value]) => `
+      ${sectionBefore[label] ? `<div class="result-section-label">${sectionBefore[label]}</div>` : ""}
       ${label === "β strong, deg." ? `<div class="result-branch-label">Strong Oblique Shock</div>` : ""}
       <div class="result-item${["β weak, deg.", "β strong, deg."].includes(label) || rowBreakBefore.includes(label) ? " starts-new-row" : ""}">
         <span class="result-label">${label}</span>
@@ -1332,8 +1698,11 @@ function renderResults(target, results) {
 }
 
 function renderResultItems(results) {
+  const sectionBefore = results.__sectionBefore ?? {};
   return Object.entries(results)
+    .filter(([label]) => label !== "__sectionBefore")
     .map(([label, value]) => `
+      ${sectionBefore[label] ? `<div class="result-section-label">${sectionBefore[label]}</div>` : ""}
       <div class="result-item">
         <span class="result-label">${label}</span>
         <span class="result-value">${format(value)}</span>
@@ -1496,6 +1865,35 @@ if (reactingObliqueShockForm) {
   calculateReactingObliqueShock();
 }
 
+const reactingConeShockForm = document.getElementById("reacting-cone-shock-form");
+if (reactingConeShockForm) {
+  const error = document.getElementById("reacting-cone-shock-error");
+  const results = document.getElementById("reacting-cone-shock-results");
+  const calculateReactingConeShock = () => {
+    error.textContent = "";
+
+    try {
+      const data = new FormData(reactingConeShockForm);
+      const mach = Number(data.get("mach"));
+      const temperature = Number(data.get("temperature"));
+      const pressure = Number(data.get("pressure"));
+      const theta = Number(data.get("theta"));
+      const xi = hansenXiFromSpeciesInput(data);
+      renderReactingAirResults(results, reactingConeShock(mach, temperature, pressure, theta, xi));
+    } catch (exception) {
+      error.textContent = exception.message;
+      results.innerHTML = "";
+    }
+  };
+
+  reactingConeShockForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    calculateReactingConeShock();
+  });
+
+  calculateReactingConeShock();
+}
+
 const obliqueShockForm = document.getElementById("oblique-shock-form");
 if (obliqueShockForm) {
   const error = document.getElementById("oblique-shock-error");
@@ -1550,6 +1948,33 @@ if (obliqueShockDimensionalForm) {
   });
 
   calculateObliqueShockDimensional();
+}
+
+const coneShockForm = document.getElementById("cone-shock-form");
+if (coneShockForm) {
+  const error = document.getElementById("cone-shock-error");
+  const results = document.getElementById("cone-shock-results");
+  const calculateConeShock = () => {
+    error.textContent = "";
+
+    try {
+      const data = new FormData(coneShockForm);
+      const gamma = Number(data.get("gamma"));
+      const mach = Number(data.get("mach"));
+      const theta = Number(data.get("theta"));
+      renderResults(results, coneShockFromInput(gamma, mach, theta));
+    } catch (exception) {
+      error.textContent = exception.message;
+      results.innerHTML = "";
+    }
+  };
+
+  coneShockForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    calculateConeShock();
+  });
+
+  calculateConeShock();
 }
 
 const speedForm = document.getElementById("speed-sound-form");

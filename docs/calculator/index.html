@@ -179,13 +179,15 @@ ul.task-list li input[type="checkbox"] {
     <div class="calc-layout">
       <nav class="calc-tabs" aria-label="Calculator modes">
         <button class="calc-tab is-active" type="button" data-panel="isentropic">Isentropic</button>
+        <button class="calc-tab" type="button" data-panel="speed-sound">Speed of sound</button>
         <button class="calc-tab" type="button" data-panel="normal-shock">Normal shock</button>
         <button class="calc-tab" type="button" data-panel="oblique-shock">Oblique shock</button>
-        <button class="calc-tab" type="button" data-panel="speed-sound">Speed of sound</button>
+        <button class="calc-tab" type="button" data-panel="cone-shock">Cone shock</button>
         <span class="calc-tab-break" aria-hidden="true"></span>
         <button class="calc-tab" type="button" data-panel="reacting-air">Reacting Air</button>
         <button class="calc-tab" type="button" data-panel="reacting-normal-shock">Reacting normal shock</button>
         <button class="calc-tab" type="button" data-panel="reacting-oblique-shock">Reacting oblique shock</button>
+        <button class="calc-tab" type="button" data-panel="reacting-cone-shock">Reacting cone shock</button>
       </nav>
 
       <section class="calc-panel is-active" id="isentropic" aria-labelledby="isentropic-title">
@@ -221,6 +223,48 @@ ul.task-list li input[type="checkbox"] {
 
         <p class="calc-error" id="isentropic-error" role="alert"></p>
         <div class="result-grid" id="isentropic-results"></div>
+      </section>
+
+      <section class="calc-panel" id="speed-sound" aria-labelledby="speed-sound-title">
+        <div class="panel-head">
+          <h2 id="speed-sound-title" class="anchored">Speed of Sound</h2>
+          <span>a = sqrt(γRT)</span>
+        </div>
+
+        <form class="calc-form speed-form" id="speed-sound-form">
+          <label>
+            Gas
+            <select name="gas">
+              <option value="air">Air</option>
+              <option value="co2">CO₂</option>
+              <option value="argon">Argon</option>
+              <option value="nitrogen">N₂</option>
+              <option value="oxygen">O₂</option>
+              <option value="helium">Helium</option>
+              <option value="custom">Custom</option>
+            </select>
+          </label>
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            R, J/(kg K)
+            <input name="gasConstant" type="text" inputmode="decimal" value="287.05">
+          </label>
+          <label class="mw-field">
+            MW, kg/kmol
+            <input name="molecularWeight" type="text" inputmode="decimal" value="28.965">
+          </label>
+          <label>
+            T, K
+            <input name="temperature" type="text" inputmode="decimal" value="288.15">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="speed-sound-error" role="alert"></p>
+        <div class="result-grid" id="speed-sound-results"></div>
       </section>
 
       <section class="calc-panel" id="normal-shock" aria-labelledby="normal-shock-title">
@@ -302,11 +346,11 @@ ul.task-list li input[type="checkbox"] {
             <input name="pressure" type="text" inputmode="decimal" value="1090.16">
           </label>
           <label>
-            <span>N<sub>2</sub> feed</span>
+            <span>N<sub>2</sub> (X)</span>
             <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
           </label>
           <label>
-            <span>O<sub>2</sub> feed</span>
+            <span>O<sub>2</sub>(X)</span>
             <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
           </label>
           <button type="submit">Calculate</button>
@@ -371,6 +415,32 @@ ul.task-list li input[type="checkbox"] {
         <div class="result-grid" id="oblique-shock-dimensional-results"></div>
       </section>
 
+      <section class="calc-panel" id="cone-shock" aria-labelledby="cone-shock-title">
+        <div class="panel-head">
+          <h2 id="cone-shock-title" class="anchored">Conical Shock Relations</h2>
+          <span>Perfect gas Taylor-Maccoll</span>
+        </div>
+
+        <form class="calc-form cone-shock-form" id="cone-shock-form">
+          <label>
+            Gamma, γ
+            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+          </label>
+          <label>
+            <span>M<sub>1</sub></span>
+            <input name="mach" type="text" inputmode="decimal" value="2.0">
+          </label>
+          <label>
+            Cone half-angle, deg.
+            <input name="theta" type="text" inputmode="decimal" value="10">
+          </label>
+          <button type="submit">Calculate</button>
+        </form>
+
+        <p class="calc-error" id="cone-shock-error" role="alert"></p>
+        <div class="result-grid" id="cone-shock-results"></div>
+      </section>
+
       <section class="calc-panel" id="reacting-oblique-shock" aria-labelledby="reacting-oblique-shock-title">
         <div class="panel-head">
           <h2 id="reacting-oblique-shock-title" class="anchored">Reacting Oblique Shock</h2>
@@ -395,11 +465,11 @@ ul.task-list li input[type="checkbox"] {
             <input name="theta" type="text" inputmode="decimal" value="20">
           </label>
           <label>
-            <span>N<sub>2</sub> feed</span>
+            <span>N<sub>2</sub> (X)</span>
             <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
           </label>
           <label>
-            <span>O<sub>2</sub> feed</span>
+            <span>O<sub>2</sub>(X)</span>
             <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
           </label>
           <button type="submit">Calculate</button>
@@ -409,46 +479,42 @@ ul.task-list li input[type="checkbox"] {
         <div class="reacting-air-results" id="reacting-oblique-shock-results"></div>
       </section>
 
-      <section class="calc-panel" id="speed-sound" aria-labelledby="speed-sound-title">
+      <section class="calc-panel" id="reacting-cone-shock" aria-labelledby="reacting-cone-shock-title">
         <div class="panel-head">
-          <h2 id="speed-sound-title" class="anchored">Speed of Sound</h2>
-          <span>a = sqrt(γRT)</span>
+          <h2 id="reacting-cone-shock-title" class="anchored">Reacting Cone Shock</h2>
+          <span>Hansen equilibrium Taylor-Maccoll</span>
         </div>
 
-        <form class="calc-form speed-form" id="speed-sound-form">
+        <form class="calc-form reacting-cone-shock-form" id="reacting-cone-shock-form">
           <label>
-            Gas
-            <select name="gas">
-              <option value="air">Air</option>
-              <option value="co2">CO₂</option>
-              <option value="argon">Argon</option>
-              <option value="nitrogen">N₂</option>
-              <option value="oxygen">O₂</option>
-              <option value="helium">Helium</option>
-              <option value="custom">Custom</option>
-            </select>
+            <span>M<sub>1</sub></span>
+            <input name="mach" type="text" inputmode="decimal" value="8">
           </label>
           <label>
-            Gamma, γ
-            <input name="gamma" type="text" inputmode="decimal" value="1.4">
+            <span>T<sub>1</sub>, K</span>
+            <input name="temperature" type="text" inputmode="decimal" value="227.13">
           </label>
           <label>
-            R, J/(kg K)
-            <input name="gasConstant" type="text" inputmode="decimal" value="287.05">
-          </label>
-          <label class="mw-field">
-            MW, kg/kmol
-            <input name="molecularWeight" type="text" inputmode="decimal" value="28.965">
+            <span>p<sub>1</sub>, Pa</span>
+            <input name="pressure" type="text" inputmode="decimal" value="1090.16">
           </label>
           <label>
-            T, K
-            <input name="temperature" type="text" inputmode="decimal" value="288.15">
+            <span>Cone half-angle, deg.</span>
+            <input name="theta" type="text" inputmode="decimal" value="20">
+          </label>
+          <label>
+            <span>N<sub>2</sub> (X)</span>
+            <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
+          </label>
+          <label>
+            <span>O<sub>2</sub>(X)</span>
+            <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
           </label>
           <button type="submit">Calculate</button>
         </form>
 
-        <p class="calc-error" id="speed-sound-error" role="alert"></p>
-        <div class="result-grid" id="speed-sound-results"></div>
+        <p class="calc-error" id="reacting-cone-shock-error" role="alert"></p>
+        <div class="reacting-air-results" id="reacting-cone-shock-results"></div>
       </section>
 
       <section class="calc-panel" id="reacting-air" aria-labelledby="reacting-air-title">
@@ -467,11 +533,11 @@ ul.task-list li input[type="checkbox"] {
             <input name="pressure" type="text" inputmode="decimal" value="5066.25">
           </label>
           <label>
-            <span>N<sub>2</sub> feed</span>
+            <span>N<sub>2</sub> (X)</span>
             <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
           </label>
           <label>
-            <span>O<sub>2</sub> feed</span>
+            <span>O<sub>2</sub>(X)</span>
             <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
           </label>
           <button type="submit">Calculate</button>
@@ -479,7 +545,7 @@ ul.task-list li input[type="checkbox"] {
 
         <p class="calc-note">
           Starting species values can be mole fractions or concentrations; the equilibrium chemistry uses their elemental N/O ratio.
-          Species are reported as mole fraction, mass fraction, and mol/m<sup>3</sup>.
+          Species are reported as mole fraction (X), mass fraction (Y), and mol/m<sup>3</sup>.
           <br>
           X is mole fraction, Y is mass fraction, and Z is the reacting-air compressibility factor.
         </p>
