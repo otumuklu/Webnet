@@ -35,43 +35,7 @@ Control" at APS DFD 2024 on 11/24/2025 in Utah, NV.
 * Meliksah Koca joined our research laboratory. Before RPI, he completed his post-MS studies at the Von Karman Institute in Belgium. Welcome, Meliksah! He will be working on multiphase and multiscale modeling.
 
 * Ozgur and Joseph attended the Aviation Meeting in Las Vegas on July 28, 2024. Joe presented for the first time. He did very well, and it was a great experience for him.
-```{=html}
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Photos Side by Side</title>
-    <style>
-        .photo-container {
-            display: flex;
-            justify-content: space-between;
-        }
-        .photo-container img {
-            width: 50%;
-            height: auto;
-        }
-    </style>
-        <style>
-        .photo-container1 {
-            display: flex;
-            justify-content: space-between;
-        }
-        .photo-container1 img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="photo-container1">
-      <img src="photos/IMG_8679.jpg" alt="Photo 1">
-    </div>
-    <div class="photo-container">
-        <img src="photos/IMG_8715.jpg" alt="Photo 2">
-        <img src="photos/IMG_8719.jpg" alt="Photo 3">
-    </div>
-</body>
-<div style="height: 50px;"></div> <!-- 50px empty space -->
-```
+
 * Mateo Gutierrez has been awarded an NSF ACCESS Explore Computational Award on May 10, 2024 for the project titled "Nonlinear Modal Stability Formulation for Hypersonic Nonequilibrium Flows." Congratulations!
 
 * Mateo Gutierrez has joined the team on April 15, 2024. Welcome, Mateo! He will be working on hypersonic flow modeling with different discretization schemes.
