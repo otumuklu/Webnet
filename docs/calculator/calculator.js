@@ -1643,7 +1643,7 @@ function hansenSpeciesConcentrationsFromInput(temperature, pressurePa, xi = HANS
       rows: speciesRows.map((item) => [item.label, formatCompact(item.massFraction)]),
     },
     {
-      label: "Concentrations",
+      label: "Concentrations (mol/m<sup>3</sup>)",
       rows: speciesRows.map((item) => [item.label, formatCompact(item.concentration)]),
     },
   ];

@@ -386,7 +386,7 @@ title: "Hava Laboratory Tools"
         </form>
 
         <p class="calc-note">
-          Species are reported as mole fraction (X), mass fraction (Y), and mol/m<sup>3</sup>.
+          Species are reported as mole fraction (X), mass fraction (Y), and species concentrations (mol/m<sup>3</sup>).
           <br>
           X is mole fraction, Y is mass fraction, and Z is the reacting-air compressibility factor.
         </p>
