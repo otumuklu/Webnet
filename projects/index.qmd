@@ -84,7 +84,9 @@ HAVA-HYPERFDX1 calculation, highlighting the ability of the solver to capture co
 their interaction with the surrounding flow field. This wake simulation was carried out using approximately 
 0.3 Billion grid points on my $3K desktop in less than 15 hours — not on large HPC clusters with thousands of nodes.
 
-<img src="FDX1.gif" style="height: 100%; width: 100%;"/>
+<video style="height: 100%; width: 100%;" controls autoplay loop muted playsinline>
+  <source src="FDX1.mp4" type="video/mp4">
+</video>
 
 
 ```{=html}
