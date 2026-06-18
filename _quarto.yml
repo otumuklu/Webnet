@@ -19,12 +19,12 @@ website:
         href: projects/index.qmd
       - text: "Team"
         href: team/team.qmd
-          #      - text: "Software"
-          #   href:  software/index.qmd
       - text: "Teaching"
         href: teaching/index.qmd
       - text: "Calculator"
         href: calculator/index.qmd
+      - text: "Software"
+        href: software/index.qmd
       - text: "Publications"
         href: publications/index.qmd
       - text: "News"
