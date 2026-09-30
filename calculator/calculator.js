@@ -2043,22 +2043,289 @@ if (speedForm) {
   calculateSpeed();
 }
 
+function drawReactingAirChart(canvas, history, series, yLabel, logarithmicTime = true, logarithmicMoleFraction = false) {
+  const context = canvas.getContext("2d");
+  const width = canvas.width = Math.max(640, canvas.clientWidth * 2);
+  const height = canvas.height = 360;
+  const left = 94;
+  const right = 24;
+  const top = 54;
+  const bottom = 56;
+  const plotWidth = width - left - right;
+  const plotHeight = height - top - bottom;
+  const times = history.map((point) => Math.max(point.t, 1e-15));
+  const xMin = Math.min(...times);
+  const xMax = Math.max(...times);
+  const values = series.flatMap((item) => history.map((point) => point[item.key]));
+  const yMin = Math.min(...values);
+  const yMax = Math.max(...values);
+  const yRange = Math.max(yMax - yMin, Math.abs(yMax) * 0.05, 1e-9);
+  const fractionAxis = yLabel === "mole fraction";
+  const useLogarithmicY = logarithmicMoleFraction && fractionAxis;
+  const positiveValues = values.filter((value) => Number.isFinite(value) && value > 0);
+  const yLow = useLogarithmicY
+    ? (positiveValues.length ? Math.min(...positiveValues) : 1e-30)
+    : (fractionAxis ? 0 : yMin - 0.06 * yRange);
+  const yHigh = useLogarithmicY
+    ? Math.max(positiveValues.length ? Math.max(...positiveValues) : yLow, yLow * 10)
+    : (fractionAxis ? 1 : yMax + 0.06 * yRange);
+  const xPosition = (value) => left + (logarithmicTime
+    ? (Math.log(value) - Math.log(xMin)) / Math.max(Math.log(xMax) - Math.log(xMin), 1e-12)
+    : (value - xMin) / Math.max(xMax - xMin, 1e-12)) * plotWidth;
+  const yPosition = (value) => {
+    const fraction = useLogarithmicY
+      ? (Math.log10(Math.max(value, yLow)) - Math.log10(yLow)) / (Math.log10(yHigh) - Math.log10(yLow))
+      : (value - yLow) / Math.max(yHigh - yLow, 1e-12);
+    return top + (1 - fraction) * plotHeight;
+  };
+
+  context.clearRect(0, 0, width, height);
+  context.fillStyle = "rgba(255, 255, 255, 0.035)";
+  context.fillRect(left, top, plotWidth, plotHeight);
+  context.font = "24px sans-serif";
+  context.fillStyle = "#cde0ee";
+  context.fillText(yLabel, 12, top - 30);
+  context.textAlign = "right";
+  context.fillText("time [s]", width - 12, height - 12);
+  context.strokeStyle = "rgba(210, 230, 242, 0.16)";
+  context.lineWidth = 1;
+  context.textAlign = "right";
+  for (let index = 0; index <= 5; index += 1) {
+    const fraction = index / 5;
+    const y = top + (1 - fraction) * plotHeight;
+    const value = useLogarithmicY
+      ? 10 ** (Math.log10(yLow) + fraction * (Math.log10(yHigh) - Math.log10(yLow)))
+      : yLow + fraction * (yHigh - yLow);
+    context.beginPath();
+    context.moveTo(left, y);
+    context.lineTo(left + plotWidth, y);
+    context.stroke();
+    context.fillStyle = "#cde0ee";
+    context.fillText(useLogarithmicY ? value.toExponential(1) : String(Number(value.toPrecision(3))), left - 10, y + 8);
+  }
+  context.textAlign = "center";
+  const logMin = Math.log10(xMin);
+  const logMax = Math.log10(xMax);
+  for (let index = 0; index <= 5; index += 1) {
+    const fraction = index / 5;
+    const exponent = logMin + fraction * (logMax - logMin);
+    const x = left + fraction * plotWidth;
+    context.beginPath();
+    context.moveTo(x, top);
+    context.lineTo(x, top + plotHeight);
+    context.stroke();
+    context.fillStyle = "#cde0ee";
+    context.fillText(`1e${Math.round(exponent)}`, x, top + plotHeight + 30);
+  }
+  context.strokeStyle = "rgba(210, 230, 242, 0.35)";
+  context.lineWidth = 2;
+  context.strokeRect(left, top, plotWidth, plotHeight);
+  context.textAlign = "left";
+  context.font = "18px sans-serif";
+  series.forEach((item) => {
+    context.beginPath();
+    history.forEach((point, index) => {
+      const x = xPosition(point.t);
+      const y = yPosition(point[item.key]);
+      if (index === 0) context.moveTo(x, y); else context.lineTo(x, y);
+    });
+    context.strokeStyle = item.color;
+    context.lineWidth = 3;
+    context.stroke();
+    context.fillStyle = item.color;
+    context.fillText(item.label, left + 12 + series.indexOf(item) * 150, top - 8);
+  });
+}
+
+function renderFiniteRateReactingAirResults(target, result) {
+  const finalState = result.final;
+  const speciesRows = result.species.flatMap((species) => [
+    [`X<sub>${species}</sub>`, finalState.X[species]],
+    [`Y<sub>${species}</sub>`, finalState.Y[species]],
+    [`c<sub>${species}</sub>, mol/m<sup>3</sup>`, finalState.concentration[species]],
+  ]);
+  target.className = "reacting-air-results";
+  target.innerHTML = `
+    <div class="result-section-label gas-properties-label">${result.model} final state</div>
+    <div class="result-grid reacting-summary-grid">
+      ${renderResultItems({
+        "T, K": finalState.T,
+        "T<sub>v</sub>, K": finalState.Tv,
+        "p, Pa": finalState.pressure,
+        "time, s": finalState.t,
+      })}
+    </div>
+    <div class="result-grid species-grid">
+      ${renderSpeciesSections(result.species.map((species, index) => ({
+        label: species,
+        rows: speciesRows[index * 3] ? speciesRows.slice(index * 3, index * 3 + 3) : [],
+      })))}
+    </div>
+    <div class="reacting-chart-block">
+      <div class="result-section-label">Temperature history</div>
+      <canvas class="reacting-air-chart" data-chart="temperature" aria-label="Temperature history"></canvas>
+      <div class="result-section-label">Neutral mole-fraction history</div>
+      <canvas class="reacting-air-chart" data-chart="composition" aria-label="Species mole fraction history"></canvas>
+      ${result.model === "Park 11" ? `
+      <div class="result-section-label">Ionized species and electron mole-fraction history (log scale)</div>
+      <canvas class="reacting-air-chart" data-chart="ionized" aria-label="Ionized species and electron mole-fraction history"></canvas>
+      ` : ""}
+    </div>
+  `;
+  drawReactingAirChart(target.querySelector('[data-chart="temperature"]'), result.history, [
+    { key: "T", label: "T", color: "#ff6b5e" },
+    { key: "Tv", label: "Tv", color: "#5bb8ff" },
+  ], "temperature [K]");
+  const neutralSpecies = result.model === "Park 11"
+    ? result.species.filter((species) => !species.includes("+") && species !== "e-")
+    : result.species;
+  drawReactingAirChart(target.querySelector('[data-chart="composition"]'), result.history, neutralSpecies.map((species, index) => ({
+    key: "X", label: species, color: ["#5bb8ff", "#ffb15b", "#67d69a", "#ff6b5e", "#c68cff"][index],
+  })).map((item) => ({ ...item, key: `X_${item.label}` })), "mole fraction");
+  if (result.model === "Park 11") {
+    const ionizedSpecies = result.species.filter((species) => species.includes("+") || species === "e-");
+    drawReactingAirChart(target.querySelector('[data-chart="ionized"]'), result.history, ionizedSpecies.map((species, index) => ({
+      key: `X_${species}`,
+      label: species,
+      color: ["#c68cff", "#ffd166", "#ff6b5e", "#67d69a", "#5bb8ff", "#ffb15b"][index],
+    })), "mole fraction", true, true);
+  }
+}
+
+function loadScriptOnce(src, globalName) {
+  return new Promise((resolve, reject) => {
+    if (globalName && globalThis[globalName]) {
+      resolve();
+      return;
+    }
+    const existing = document.querySelector(`script[data-dynamic-src="${src}"]`);
+    if (existing && existing.dataset.loaded === "true") {
+      resolve();
+      return;
+    }
+    if (existing) existing.remove();
+    const script = document.createElement("script");
+    script.src = src;
+    script.async = false;
+    script.dataset.dynamicSrc = src;
+    script.onload = () => { script.dataset.loaded = "true"; resolve(); };
+    script.onerror = () => reject(new Error(`Could not load ${src}.`));
+    document.head.appendChild(script);
+  });
+}
+
+async function ensureReactingAirModels() {
+  if (globalThis.ReactingAirModels) return;
+  await loadScriptOnce("reacting_air_data.js?v=9", "REACTING_AIR_REFERENCE_TABLES");
+  await loadScriptOnce("reacting_air.js?v=9", "ReactingAirModels");
+}
+
+async function runFiniteRateDirect(method, input) {
+  await ensureReactingAirModels();
+  if (!globalThis.ReactingAirModels || typeof ReactingAirModels[method] !== "function") {
+    throw new Error(`Reacting-air model ${method} is not available.`);
+  }
+  return ReactingAirModels[method](input);
+}
+
+function runFiniteRateInWorker(method, input) {
+  return new Promise((resolve, reject) => {
+    if (typeof Worker === "undefined") {
+      runFiniteRateDirect(method, input).then(resolve).catch(reject);
+      return;
+    }
+    const worker = new Worker("reacting_air.js?v=9");
+    worker.onmessage = (event) => {
+      worker.terminate();
+      if (event.data.ok) resolve(event.data.result); else reject(new Error(event.data.error));
+    };
+    worker.onerror = (event) => {
+      worker.terminate();
+      runFiniteRateDirect(method, input)
+        .then(resolve)
+        .catch((error) => reject(new Error(error.message || event.message || "Reacting-air worker failed.")));
+    };
+    worker.postMessage({ method, input });
+  });
+}
+
+const REACTING_AIR_MODEL_SPECIES = {
+  hansen: ["N2", "O2"],
+  park5: ["N2", "O2", "NO", "N", "O"],
+  park11: ["N2", "O2", "NO", "N2+", "O2+", "NO+", "N", "O", "N+", "O+", "e-"],
+  qk5: ["N2", "O2", "NO", "N", "O"],
+  mmt: ["N2", "O2", "NO", "N", "O"],
+};
+const REACTING_AIR_SPECIES_LABELS = {
+  N2: "N<sub>2</sub>", O2: "O<sub>2</sub>", NO: "NO", "N2+": "N<sub>2</sub><sup>+</sup>",
+  "O2+": "O<sub>2</sub><sup>+</sup>", "NO+": "NO<sup>+</sup>", N: "N", O: "O",
+  "N+": "N<sup>+</sup>", "O+": "O<sup>+</sup>", "e-": "e<sup>-</sup>",
+};
+
+function renderReactingAirComposition(model) {
+  const container = document.getElementById("reacting-air-composition");
+  const vibrationalField = document.querySelector(".reacting-air-tv-field");
+  const knabField = document.querySelector(".reacting-air-knab-field");
+  if (vibrationalField) vibrationalField.classList.toggle("is-hidden", model === "hansen");
+  if (knabField) knabField.classList.toggle("is-hidden", model !== "park11");
+  if (!container) return;
+  const species = REACTING_AIR_MODEL_SPECIES[model] || REACTING_AIR_MODEL_SPECIES.hansen;
+  container.innerHTML = `
+    <div class="reacting-air-composition-title">Initial species mole fractions, X</div>
+    <div class="reacting-air-species-grid">
+      ${species.map((speciesName) => `
+        <label>
+          <span class="reacting-air-species-label">${REACTING_AIR_SPECIES_LABELS[speciesName] || speciesName}</span>
+          <input data-species="${speciesName}" name="${speciesName === "N2" ? "n2Feed" : speciesName === "O2" ? "o2Feed" : `species_${speciesName}`}" type="text" inputmode="decimal" value="${speciesName === "N2" ? "0.8" : speciesName === "O2" ? "0.2" : "0"}">
+        </label>
+      `).join("")}
+    </div>
+  `;
+}
+
 const reactingAirForm = document.getElementById("reacting-air-form");
 if (reactingAirForm) {
   const error = document.getElementById("reacting-air-error");
   const results = document.getElementById("reacting-air-results");
-  const calculateReactingAir = () => {
+  const submit = reactingAirForm.querySelector("button[type=submit]");
+  const modelSelect = reactingAirForm.elements.model;
+  renderReactingAirComposition(modelSelect.value);
+  modelSelect.addEventListener("change", () => renderReactingAirComposition(modelSelect.value));
+  const calculateReactingAir = async () => {
     error.textContent = "";
+    submit.disabled = true;
 
     try {
       const data = new FormData(reactingAirForm);
+      const model = data.get("model");
       const temperature = Number(data.get("temperature"));
       const pressure = Number(data.get("pressure"));
       const xi = hansenXiFromSpeciesInput(data);
-      renderReactingAirResults(results, hansenSpeciesConcentrationsFromInput(temperature, pressure, xi));
+      const composition = {};
+      reactingAirForm.querySelectorAll("[data-species]").forEach((input) => {
+        composition[input.dataset.species] = Number(input.value);
+      });
+      if (model === "hansen") {
+        renderReactingAirResults(results, hansenSpeciesConcentrationsFromInput(temperature, pressure, xi));
+      } else if (["park5", "park11", "qk5", "mmt"].includes(model)) {
+        const runner = model === "park11" ? "runPark11" : model === "qk5" ? "runQK5" : model === "mmt" ? "runMMT" : "runPark5";
+        const workerResult = await runFiniteRateInWorker(runner, {
+          temperature,
+          vibrationalTemperature: Number(data.get("vibrationalTemperature")),
+          pressure,
+          endTime: Number(data.get("endTime")),
+          n2Feed: Number(data.get("n2Feed")),
+          o2Feed: Number(data.get("o2Feed")),
+          composition,
+          knabVV: model === "park11" && data.get("knabVV") === "on",
+        });
+        renderFiniteRateReactingAirResults(results, workerResult);
+      }
     } catch (exception) {
       error.textContent = exception.message;
       results.innerHTML = "";
+    } finally {
+      submit.disabled = false;
     }
   };
 

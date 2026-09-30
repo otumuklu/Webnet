@@ -238,12 +238,19 @@ The following graphs show the surface parameters for a freestream velocity of 4 
 
 **HAVA-STABLX1** is a GPU-accelerated stability solver for compressible flows, built to study how small disturbances evolve and where transition-sensitive regions appear. It evaluates stability behavior across Mach number, Reynolds number, disturbance frequency, and streamwise wavenumber ranges, producing clear maps of growth and decay trends. By tracking dominant instability modes, including Tollmien-Schlichting and Mack modes, HAVA-STABLX1 helps us identify unstable pockets, compare flow regimes, and investigate high-speed flow transition with greater speed and consistency. Its GPU acceleration makes it well suited for large-scale studies that require many repeated stability evaluations while maintaining reliable, high-resolution results.
 
-The following graph shows the growth rates for hypersonic flow over a flat plate.
+The following graph shows the growth rates for hypersonic flow over a flat plate at Mach 6.
 
 ```{=html}
 <div class="software-figure-row">
   <img src="../projects/cheb_stability_curve_ci_M6.png" alt="Temperature field verification result">
   <img src="../projects/cheb_stability_curve_omega_i.png" alt="Stagnation line verification result">
+</div>
+```
+Extensive validation and verification studies are ongoing, and the following graphs compare the existing data for Mach 4 and Mach 8 flows.
+```{=html}
+<div class="software-figure-row">
+  <img src="../projects/ci_zero_M_4.png" alt="Temperature field verification result">
+  <img src="../projects/ci_zero_M_4.png" alt="Stagnation line verification result">
 </div>
 ```
 

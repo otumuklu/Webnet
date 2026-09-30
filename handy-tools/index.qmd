@@ -1,0 +1,1121 @@
+---
+title: "Tools"
+---
+
+```{=html}
+<link href="../html/pages.css" rel="stylesheet">
+<style>
+  .digitizer-shell,
+  .digitizer-shell *,
+  .digitizer-shell *::before,
+  .digitizer-shell *::after {
+    box-sizing: border-box;
+  }
+
+  .digitizer-shell {
+    margin-top: 1.5rem;
+  }
+
+  .digitizer-hero {
+    background: linear-gradient(135deg, rgba(8, 27, 41, 0.96), rgba(0, 171, 240, 0.16));
+    border: 1px solid rgba(0, 171, 240, 0.22);
+    border-radius: 20px;
+    color: #edf6ff;
+    padding: 2rem;
+  }
+
+  .digitizer-hero h1 {
+    color: #ffffff;
+    margin: 0.25rem 0 0.65rem;
+  }
+
+  .digitizer-hero p {
+    max-width: 75ch;
+    margin-bottom: 0;
+  }
+
+  .digitizer-grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 2.35fr) minmax(280px, 0.65fr);
+    margin-top: 1.25rem;
+  }
+
+  .digitizer-card {
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(8, 27, 41, 0.12);
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(8, 27, 41, 0.08);
+    color: #081b29;
+    padding: 1.2rem;
+  }
+
+  .digitizer-card h2,
+  .digitizer-card h3 {
+    margin-top: 0;
+  }
+
+  .digitizer-toolbar {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 0.9rem;
+  }
+
+  .digitizer-toolbar label,
+  .digitizer-axis label {
+    display: grid;
+    gap: 0.35rem;
+    font-size: 0.92rem;
+    font-weight: 600;
+    min-width: 0;
+  }
+
+  .digitizer-toolbar input,
+  .digitizer-toolbar select,
+  .digitizer-axis input {
+    background: #f7fbff;
+    border: 1px solid rgba(8, 27, 41, 0.18);
+    border-radius: 10px;
+    color: #081b29;
+    font: inherit;
+    min-height: 2.5rem;
+    min-width: 0;
+    padding: 0.45rem 0.7rem;
+    width: 100%;
+  }
+
+  .digitizer-toolbar input[type="file"] {
+    overflow: hidden;
+    padding: 0.35rem 0.45rem;
+  }
+
+  .digitizer-toolbar input[type="color"] {
+    cursor: pointer;
+    min-height: 2.8rem;
+    padding: 0.2rem;
+  }
+
+  .digitizer-toolbar input[type="range"] {
+    accent-color: #f06b18;
+    padding: 0;
+  }
+
+  .digitizer-toolbar label:first-child,
+  .digitizer-toolbar label:nth-child(2) {
+    grid-column: span 1;
+  }
+
+  .digitizer-actions {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 1rem;
+  }
+
+  .digitizer-button {
+    align-items: center;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    color: #081b29;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 700;
+    justify-content: center;
+    min-height: 2.65rem;
+    padding: 0.45rem 1rem;
+    text-decoration: none;
+    transition: 0.22s ease;
+    width: 100%;
+  }
+
+  .digitizer-button:hover {
+    background: #081b29;
+    color: #00abf0;
+  }
+
+  .digitizer-button.is-secondary {
+    background: transparent;
+    color: #081b29;
+  }
+
+  .digitizer-button.is-secondary:hover {
+    background: #081b29;
+    color: #00abf0;
+  }
+
+  .digitizer-stage {
+    border-radius: 18px;
+    height: 72vh;
+    min-height: 520px;
+    max-height: 84vh;
+    overflow: auto;
+    position: relative;
+  }
+
+  .digitizer-stage canvas {
+    background: #081b29;
+    border-radius: 18px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    touch-action: none;
+    width: 100%;
+  }
+
+  .digitizer-status {
+    background: rgba(0, 171, 240, 0.08);
+    border-left: 4px solid #00abf0;
+    border-radius: 12px;
+    margin-top: 0.9rem;
+    padding: 0.85rem 1rem;
+  }
+
+  .digitizer-status strong {
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  .digitizer-pill {
+    background: #00abf0;
+    border-radius: 999px;
+    color: #081b29;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .digitizer-note {
+    background: rgba(237, 237, 237, 0.88);
+    border-left: 4px solid #00abf0;
+    border-radius: 12px;
+    padding: 0.95rem 1rem;
+  }
+
+  .digitizer-results {
+    margin-top: 1rem;
+    overflow: auto;
+    max-height: 34rem;
+  }
+
+  .digitizer-results table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .digitizer-results th,
+  .digitizer-results td {
+    border-bottom: 1px solid rgba(8, 27, 41, 0.1);
+    padding: 0.55rem 0.5rem;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .digitizer-results th {
+    background: #f6fbff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .digitizer-layout {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .digitizer-axis {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .digitizer-axis .full {
+    grid-column: 1 / -1;
+  }
+
+  .digitizer-help {
+    color: rgba(8, 27, 41, 0.74);
+    font-size: 0.95rem;
+    margin: 0.6rem 0 0;
+  }
+
+  @media (max-width: 980px) {
+    .digitizer-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .digitizer-stage {
+      height: 62vh;
+      min-height: 420px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .digitizer-toolbar,
+    .digitizer-actions,
+    .digitizer-axis {
+      grid-template-columns: 1fr;
+    }
+
+    .digitizer-axis .full {
+      grid-column: auto;
+    }
+  }
+</style>
+
+<section class="digitizer-shell">
+  <div class="digitizer-hero">
+    <span class="digitizer-pill">Tools</span>
+    <h1>Data Digitiziar</h1>
+    <p>
+      A self-contained browser digitizer for plot images. Upload a figure, define the plot area,
+      calibrate the axes, and extract points or color-matched curves entirely in the browser. 
+    </p>
+  </div>
+
+  <div class="digitizer-grid">
+    <div class="digitizer-card">
+      <h2>Image workspace</h2>
+      <p class="digitizer-help">
+        Upload a plot image, then drag to define the plot box. Click inside the box to add manual
+        points, then place one seed point on the target curve before running auto extraction.
+      </p>
+
+      <div class="digitizer-toolbar">
+        <label>
+          Upload image
+          <input id="digitizer-file" type="file" accept="image/*">
+        </label>
+
+        <label>
+          Mode
+          <select id="digitizer-mode">
+            <option value="manual">Manual points</option>
+            <option value="auto">Auto extract by color</option>
+          </select>
+        </label>
+
+        <label>
+          Target color
+          <input id="digitizer-color" type="color" value="#ff0000">
+        </label>
+
+        <label>
+          Tolerance
+          <input id="digitizer-tolerance" type="range" min="0" max="180" value="60">
+        </label>
+
+        <label>
+          Sample step
+          <input id="digitizer-step" type="range" min="1" max="20" value="2">
+        </label>
+
+        <label>
+          Canvas zoom
+          <input id="digitizer-zoom" type="range" min="50" max="250" value="100">
+        </label>
+      </div>
+
+      <div class="digitizer-actions">
+        <button id="digitizer-plotbox-btn" class="digitizer-button" type="button">Set plot box</button>
+        <button id="digitizer-legendbox-btn" class="digitizer-button is-secondary" type="button">Set legend box</button>
+        <button id="digitizer-reset-box-btn" class="digitizer-button is-secondary" type="button">Use full image</button>
+        <button id="digitizer-clear-legend-btn" class="digitizer-button is-secondary" type="button">Clear legend box</button>
+        <button id="digitizer-extract-btn" class="digitizer-button" type="button">Extract points</button>
+        <button id="digitizer-clear-btn" class="digitizer-button is-secondary" type="button">Clear points</button>
+        <button id="digitizer-undo-btn" class="digitizer-button is-secondary" type="button">Undo last point</button>
+        <button id="digitizer-download-btn" class="digitizer-button is-secondary" type="button">Download CSV</button>
+      </div>
+
+      <div id="digitizer-stage" class="digitizer-stage" style="margin-top: 1rem;">
+        <canvas id="digitizer-canvas" aria-label="Digitizer canvas"></canvas>
+      </div>
+
+      <div class="digitizer-status" id="digitizer-status">
+        <strong>Ready</strong>
+        Upload an image to begin.
+      </div>
+    </div>
+
+    <div class="digitizer-layout">
+      <div class="digitizer-card">
+        <h2>Axis calibration</h2>
+        <div class="digitizer-axis">
+          <label>
+            X minimum
+            <input id="digitizer-xmin" type="number" value="0" step="any">
+          </label>
+          <label>
+            X maximum
+            <input id="digitizer-xmax" type="number" value="1" step="any">
+          </label>
+          <label>
+            Y minimum
+            <input id="digitizer-ymin" type="number" value="0" step="any">
+          </label>
+          <label>
+            Y maximum
+            <input id="digitizer-ymax" type="number" value="1" step="any">
+          </label>
+          <label class="full">
+            Plot left
+            <input id="digitizer-left" type="number" value="0" step="1">
+          </label>
+          <label>
+            Plot right
+            <input id="digitizer-right" type="number" value="1" step="1">
+          </label>
+          <label>
+            Plot top
+            <input id="digitizer-top" type="number" value="0" step="1">
+          </label>
+          <label>
+            Plot bottom
+            <input id="digitizer-bottom" type="number" value="1" step="1">
+          </label>
+        </div>
+        <p class="digitizer-help">
+          The plot box can be set manually on the canvas. Add an orange legend exclusion box when
+          the legend overlaps the plot. The axis inputs turn pixel positions into physical
+          coordinates for export.
+        </p>
+      </div>
+
+      <div class="digitizer-card">
+        <h2>Results</h2>
+        <div class="digitizer-note" id="digitizer-summary">
+          No points yet. Manual clicks and auto extraction will appear here.
+        </div>
+        <div class="digitizer-results" id="digitizer-results"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  const fileInput = document.getElementById('digitizer-file');
+  const modeInput = document.getElementById('digitizer-mode');
+  const colorInput = document.getElementById('digitizer-color');
+  const toleranceInput = document.getElementById('digitizer-tolerance');
+  const stepInput = document.getElementById('digitizer-step');
+  const zoomInput = document.getElementById('digitizer-zoom');
+  const stage = document.getElementById('digitizer-stage');
+  const canvas = document.getElementById('digitizer-canvas');
+  const ctx = canvas.getContext('2d');
+  const statusBox = document.getElementById('digitizer-status');
+  const summaryBox = document.getElementById('digitizer-summary');
+  const resultsBox = document.getElementById('digitizer-results');
+  const plotBoxBtn = document.getElementById('digitizer-plotbox-btn');
+  const legendBoxBtn = document.getElementById('digitizer-legendbox-btn');
+  const resetBoxBtn = document.getElementById('digitizer-reset-box-btn');
+  const clearLegendBtn = document.getElementById('digitizer-clear-legend-btn');
+  const extractBtn = document.getElementById('digitizer-extract-btn');
+  const clearBtn = document.getElementById('digitizer-clear-btn');
+  const undoBtn = document.getElementById('digitizer-undo-btn');
+  const downloadBtn = document.getElementById('digitizer-download-btn');
+  const xminInput = document.getElementById('digitizer-xmin');
+  const xmaxInput = document.getElementById('digitizer-xmax');
+  const yminInput = document.getElementById('digitizer-ymin');
+  const ymaxInput = document.getElementById('digitizer-ymax');
+  const leftInput = document.getElementById('digitizer-left');
+  const rightInput = document.getElementById('digitizer-right');
+  const topInput = document.getElementById('digitizer-top');
+  const bottomInput = document.getElementById('digitizer-bottom');
+
+  const state = {
+    image: null,
+    imageUrl: null,
+    naturalWidth: 0,
+    naturalHeight: 0,
+    plotBox: null,
+    legendBox: null,
+    points: [],
+    selectionMode: null,
+    dragStart: null,
+    dragCurrent: null,
+  };
+
+  function setStatus(title, message) {
+    statusBox.innerHTML = '<strong>' + title + '</strong><span>' + message + '</span>';
+  }
+
+  function readNumber(input, fallback) {
+    const value = Number(input.value);
+    return Number.isFinite(value) ? value : fallback;
+  }
+
+  function hexToRgb(hex) {
+    const clean = hex.replace('#', '');
+    return [
+      parseInt(clean.slice(0, 2), 16),
+      parseInt(clean.slice(2, 4), 16),
+      parseInt(clean.slice(4, 6), 16),
+    ];
+  }
+
+  function resizeCanvasToImage() {
+    if (!state.image) return;
+    canvas.width = state.naturalWidth;
+    canvas.height = state.naturalHeight;
+    leftInput.value = 0;
+    topInput.value = 0;
+    rightInput.value = state.naturalWidth - 1;
+    bottomInput.value = state.naturalHeight - 1;
+    state.plotBox = {
+      left: 0,
+      top: 0,
+      right: state.naturalWidth - 1,
+      bottom: state.naturalHeight - 1,
+    };
+    state.legendBox = null;
+    applyCanvasDisplayScale();
+  }
+
+  function applyCanvasDisplayScale() {
+    if (!canvas.width || !stage) return;
+
+    const fitScale = stage.clientWidth > 0 ? stage.clientWidth / canvas.width : 1;
+    const zoomFactor = Math.max(50, Number(zoomInput.value) || 100) / 100;
+    const displayScale = fitScale * zoomFactor;
+
+    canvas.style.width = Math.round(canvas.width * displayScale) + 'px';
+    canvas.style.height = Math.round(canvas.height * displayScale) + 'px';
+  }
+
+  function canvasPoint(event) {
+    const rect = canvas.getBoundingClientRect();
+    const scaleX = canvas.width / rect.width;
+    const scaleY = canvas.height / rect.height;
+    return {
+      x: Math.max(0, Math.min(canvas.width - 1, (event.clientX - rect.left) * scaleX)),
+      y: Math.max(0, Math.min(canvas.height - 1, (event.clientY - rect.top) * scaleY)),
+    };
+  }
+
+  function syncInputsToPlotBox() {
+    if (!state.plotBox) return;
+    leftInput.value = Math.round(state.plotBox.left);
+    rightInput.value = Math.round(state.plotBox.right);
+    topInput.value = Math.round(state.plotBox.top);
+    bottomInput.value = Math.round(state.plotBox.bottom);
+  }
+
+  function syncPlotBoxFromInputs() {
+    if (!state.image) return;
+    const maxX = state.naturalWidth - 1;
+    const maxY = state.naturalHeight - 1;
+    const left = Math.max(0, Math.min(maxX, readNumber(leftInput, 0)));
+    const right = Math.max(0, Math.min(maxX, readNumber(rightInput, maxX)));
+    const top = Math.max(0, Math.min(maxY, readNumber(topInput, 0)));
+    const bottom = Math.max(0, Math.min(maxY, readNumber(bottomInput, maxY)));
+    state.plotBox = {
+      left: Math.min(left, right),
+      right: Math.max(left, right),
+      top: Math.min(top, bottom),
+      bottom: Math.max(top, bottom),
+    };
+  }
+
+  function draw() {
+    if (!state.image) {
+      canvas.width = 1200;
+      canvas.height = 720;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#081b29';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = 'rgba(237, 246, 255, 0.9)';
+      ctx.font = '28px sans-serif';
+      ctx.fillText('Upload a plot image to start digitizing.', 36, 72);
+      ctx.font = '18px sans-serif';
+      ctx.fillText('Use Set plot box, then click points or extract a color-matched curve.', 36, 108);
+      return;
+    }
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(state.image, 0, 0, canvas.width, canvas.height);
+
+    if (state.plotBox) {
+      ctx.save();
+      ctx.fillStyle = 'rgba(8, 27, 41, 0.18)';
+      ctx.beginPath();
+      ctx.rect(0, 0, canvas.width, canvas.height);
+      ctx.rect(
+        state.plotBox.left,
+        state.plotBox.top,
+        state.plotBox.right - state.plotBox.left,
+        state.plotBox.bottom - state.plotBox.top,
+      );
+      ctx.fill('evenodd');
+
+      ctx.strokeStyle = '#00abf0';
+      ctx.lineWidth = Math.max(1.25, canvas.width / 950);
+      ctx.setLineDash([10, 6]);
+      ctx.strokeRect(
+        state.plotBox.left,
+        state.plotBox.top,
+        state.plotBox.right - state.plotBox.left,
+        state.plotBox.bottom - state.plotBox.top,
+      );
+      ctx.setLineDash([]);
+      ctx.restore();
+    }
+
+    if (state.legendBox) {
+      ctx.save();
+      ctx.strokeStyle = '#ff9f1a';
+      ctx.lineWidth = Math.max(1.25, canvas.width / 950);
+      ctx.setLineDash([6, 4]);
+      ctx.strokeRect(
+        state.legendBox.left,
+        state.legendBox.top,
+        state.legendBox.right - state.legendBox.left,
+        state.legendBox.bottom - state.legendBox.top,
+      );
+      ctx.setLineDash([]);
+      ctx.restore();
+    }
+
+    if (state.selectionMode && state.dragStart && state.dragCurrent) {
+      const left = Math.min(state.dragStart.x, state.dragCurrent.x);
+      const top = Math.min(state.dragStart.y, state.dragCurrent.y);
+      const width = Math.abs(state.dragCurrent.x - state.dragStart.x);
+      const height = Math.abs(state.dragCurrent.y - state.dragStart.y);
+      ctx.save();
+      ctx.strokeStyle = state.selectionMode === 'legend' ? '#ffbf69' : '#7ef1ff';
+      ctx.lineWidth = 3;
+      ctx.setLineDash([8, 5]);
+      ctx.strokeRect(left, top, width, height);
+      ctx.restore();
+    }
+
+    for (const point of state.points) {
+      ctx.beginPath();
+      ctx.fillStyle = point.source === 'manual' ? '#ffb347' : '#29d17b';
+      ctx.arc(point.pixelX, point.pixelY, Math.max(2.5, canvas.width / 550), 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function pointToData(point) {
+    const xmin = readNumber(xminInput, 0);
+    const xmax = readNumber(xmaxInput, 1);
+    const ymin = readNumber(yminInput, 0);
+    const ymax = readNumber(ymaxInput, 1);
+    const box = state.plotBox;
+
+    if (!box) return null;
+
+    const xSpan = box.right - box.left || 1;
+    const ySpan = box.bottom - box.top || 1;
+    const dataX = xmin + ((point.pixelX - box.left) / xSpan) * (xmax - xmin);
+    const dataY = ymax - ((point.pixelY - box.top) / ySpan) * (ymax - ymin);
+
+    return { dataX, dataY };
+  }
+
+  function renderResults() {
+    if (!state.points.length) {
+      summaryBox.textContent = 'No points yet. Manual clicks and auto extraction will appear here.';
+      resultsBox.innerHTML = '';
+      return;
+    }
+
+    const rows = state.points.map(function (point, index) {
+      const mapped = pointToData(point);
+      return {
+        index: index + 1,
+        source: point.source,
+        pixelX: point.pixelX.toFixed(2),
+        pixelY: point.pixelY.toFixed(2),
+        dataX: mapped ? mapped.dataX.toFixed(6) : '',
+        dataY: mapped ? mapped.dataY.toFixed(6) : '',
+      };
+    });
+
+    summaryBox.innerHTML = '<strong>' + rows.length + ' points captured</strong><span>Manual clicks are orange, auto extracted points are green.</span>';
+    resultsBox.innerHTML = [
+      '<table>',
+      '<thead><tr><th>#</th><th>Source</th><th>Pixel X</th><th>Pixel Y</th><th>Data X</th><th>Data Y</th></tr></thead>',
+      '<tbody>',
+      rows.map(function (row) {
+        return '<tr><td>' + row.index + '</td><td>' + row.source + '</td><td>' + row.pixelX + '</td><td>' + row.pixelY + '</td><td>' + row.dataX + '</td><td>' + row.dataY + '</td></tr>';
+      }).join(''),
+      '</tbody></table>',
+    ].join('');
+  }
+
+  function addPoint(point, source) {
+    state.points.push({ pixelX: point.x, pixelY: point.y, source: source });
+    draw();
+    renderResults();
+  }
+
+  function pointInsideBox(point) {
+    if (!state.plotBox) return true;
+    return point.x >= state.plotBox.left && point.x <= state.plotBox.right && point.y >= state.plotBox.top && point.y <= state.plotBox.bottom;
+  }
+
+  function pointInsideLegend(point) {
+    if (!state.legendBox) return false;
+    return point.x >= state.legendBox.left && point.x <= state.legendBox.right && point.y >= state.legendBox.top && point.y <= state.legendBox.bottom;
+  }
+
+  function extractColorPoints() {
+    if (!state.image) {
+      setStatus('No image loaded', 'Upload an image before extracting points.');
+      return;
+    }
+
+    syncPlotBoxFromInputs();
+    const box = state.plotBox;
+    if (!box || box.right <= box.left || box.bottom <= box.top) {
+      setStatus('Invalid plot box', 'The plot box must have a real width and height.');
+      return;
+    }
+
+    const tolerance = Number(toleranceInput.value);
+    const step = Math.max(1, Number(stepInput.value));
+    const [targetR, targetG, targetB] = hexToRgb(colorInput.value);
+
+    const offscreen = document.createElement('canvas');
+    offscreen.width = canvas.width;
+    offscreen.height = canvas.height;
+    const offCtx = offscreen.getContext('2d');
+    offCtx.drawImage(state.image, 0, 0, canvas.width, canvas.height);
+    const imageData = offCtx.getImageData(box.left, box.top, box.right - box.left + 1, box.bottom - box.top + 1).data;
+    const width = box.right - box.left + 1;
+    const height = box.bottom - box.top + 1;
+    const extracted = [];
+    const maxJump = Math.max(8, height * 0.12);
+    const maxSlope = Math.max(3, height * 0.06);
+    const maxGapColumns = 12;
+    const xSamples = [];
+    const columnRuns = [];
+
+    function buildRuns(columnYs) {
+      const runs = [];
+      let start = columnYs[0];
+      let end = columnYs[0];
+
+      for (let i = 1; i < columnYs.length; i += 1) {
+        if (columnYs[i] <= end + 1) {
+          end = columnYs[i];
+          continue;
+        }
+
+        runs.push({
+          y: (start + end) / 2,
+          length: end - start + 1,
+        });
+        start = columnYs[i];
+        end = columnYs[i];
+      }
+
+      runs.push({
+        y: (start + end) / 2,
+        length: end - start + 1,
+      });
+
+      return runs;
+    }
+
+    function pickRun(runs, predictedY) {
+      if (!runs.length) return null;
+
+      let best = null;
+      for (const run of runs) {
+        const score = Math.abs(run.y - predictedY) + Math.max(0, 3 - run.length) * 2;
+        if (!best || score < best.score) {
+          best = { run: run, score: score };
+        }
+      }
+
+      return best ? best.run : null;
+    }
+
+    for (let x = 0; x < width; x += step) {
+      const matches = [];
+
+      for (let y = 0; y < height; y += 1) {
+        const absoluteX = box.left + x;
+        const absoluteY = box.top + y;
+        if (pointInsideLegend({ x: absoluteX, y: absoluteY })) {
+          continue;
+        }
+
+        const index = (y * width + x) * 4;
+        const r = imageData[index];
+        const g = imageData[index + 1];
+        const b = imageData[index + 2];
+        const distance = Math.sqrt((r - targetR) ** 2 + (g - targetG) ** 2 + (b - targetB) ** 2);
+
+        if (distance <= tolerance) {
+          matches.push(y);
+        }
+      }
+
+      xSamples.push(x);
+      columnRuns.push(matches.length ? buildRuns(matches) : []);
+    }
+
+    function track(direction, seedIndex, seedY) {
+      let previousY = seedY;
+      let slope = 0;
+      let gaps = 0;
+
+      for (let i = seedIndex + direction; i >= 0 && i < xSamples.length; i += direction) {
+        const runs = columnRuns[i];
+        const predictedY = previousY + slope;
+
+        if (!runs.length) {
+          gaps += 1;
+          if (gaps > maxGapColumns) {
+            break;
+          }
+          continue;
+        }
+
+        const bestRun = pickRun(runs, predictedY);
+        if (!bestRun) {
+          continue;
+        }
+
+        const jump = bestRun.y - previousY;
+        if (Math.abs(jump) > maxJump) {
+          gaps += 1;
+          if (gaps > maxGapColumns) {
+            break;
+          }
+          continue;
+        }
+
+        gaps = 0;
+        slope = Math.max(-maxSlope, Math.min(maxSlope, 0.65 * slope + 0.35 * jump));
+        previousY = bestRun.y;
+
+        extracted.push({
+          x: box.left + xSamples[i],
+          y: box.top + bestRun.y,
+          source: 'auto',
+        });
+      }
+    }
+
+    const manualCandidates = state.points.filter(function (point) {
+      return point.source === 'manual' &&
+        point.pixelX >= box.left && point.pixelX <= box.right &&
+        point.pixelY >= box.top && point.pixelY <= box.bottom;
+    });
+
+    let seedX = Math.floor(width * 0.5);
+    let seedY = Math.floor(height * 0.5);
+
+    if (manualCandidates.length) {
+      const seedPoint = manualCandidates[manualCandidates.length - 1];
+      seedX = Math.max(0, Math.min(width - 1, seedPoint.pixelX - box.left));
+      seedY = Math.max(0, Math.min(height - 1, seedPoint.pixelY - box.top));
+    }
+
+    let seedIndex = 0;
+    let bestSeedDist = Number.POSITIVE_INFINITY;
+    for (let i = 0; i < xSamples.length; i += 1) {
+      const dist = Math.abs(xSamples[i] - seedX);
+      if (dist < bestSeedDist) {
+        bestSeedDist = dist;
+        seedIndex = i;
+      }
+    }
+
+    const seedRuns = columnRuns[seedIndex] || [];
+    let chosenSeedRun = pickRun(seedRuns, seedY);
+
+    if (!chosenSeedRun) {
+      let bestAutoSeed = null;
+      const midX = Math.floor(xSamples.length / 2);
+      const midY = height / 2;
+
+      for (let i = 0; i < columnRuns.length; i += 1) {
+        const runs = columnRuns[i];
+        for (const run of runs) {
+          const score =
+            run.length * 5 -
+            Math.abs(i - midX) * 0.3 -
+            Math.abs(run.y - midY) * 0.08;
+
+          if (!bestAutoSeed || score > bestAutoSeed.score) {
+            bestAutoSeed = {
+              score: score,
+              index: i,
+              run: run,
+            };
+          }
+        }
+      }
+
+      if (bestAutoSeed) {
+        seedIndex = bestAutoSeed.index;
+        chosenSeedRun = bestAutoSeed.run;
+      }
+    }
+
+    if (!chosenSeedRun) {
+      setStatus('No matches', 'No matching curve pixels were found near the seed column.');
+      return;
+    }
+
+    extracted.push({
+      x: box.left + xSamples[seedIndex],
+      y: box.top + chosenSeedRun.y,
+      source: 'auto',
+    });
+
+    track(1, seedIndex, chosenSeedRun.y);
+    track(-1, seedIndex, chosenSeedRun.y);
+
+    extracted.sort(function (a, b) {
+      return a.x - b.x;
+    });
+
+    if (!extracted.length) {
+      setStatus('No matches', 'The chosen color did not match any pixels inside the plot box.');
+      return;
+    }
+
+    state.points = state.points.filter(function (point) {
+      return point.source !== 'auto';
+    }).concat(extracted.map(function (point) {
+      return { pixelX: point.x, pixelY: point.y, source: point.source };
+    }));
+
+    draw();
+    renderResults();
+    setStatus('Auto extraction complete', extracted.length + ' points were captured using the selected color.');
+  }
+
+  function downloadCsv() {
+    if (!state.points.length) {
+      setStatus('No data', 'Add or extract points before downloading a CSV.');
+      return;
+    }
+
+    const lines = ['source,pixel_x,pixel_y,data_x,data_y'];
+    for (const point of state.points) {
+      const mapped = pointToData(point);
+      lines.push([
+        point.source,
+        point.pixelX.toFixed(4),
+        point.pixelY.toFixed(4),
+        mapped ? mapped.dataX.toFixed(8) : '',
+        mapped ? mapped.dataY.toFixed(8) : '',
+      ].join(','));
+    }
+
+    const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'data_digitiziar_points.csv';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    setStatus('CSV downloaded', 'The digitized points have been exported.');
+  }
+
+  fileInput.addEventListener('change', function () {
+    const file = fileInput.files && fileInput.files[0];
+    if (!file) return;
+
+    if (state.imageUrl) {
+      URL.revokeObjectURL(state.imageUrl);
+    }
+
+    state.imageUrl = URL.createObjectURL(file);
+    const image = new Image();
+    image.onload = function () {
+      state.image = image;
+      state.naturalWidth = image.naturalWidth;
+      state.naturalHeight = image.naturalHeight;
+      resizeCanvasToImage();
+      state.points = [];
+      draw();
+      renderResults();
+      setStatus('Image loaded', 'Drag on the canvas to define the plot box, then digitize points.');
+    };
+    image.src = state.imageUrl;
+  });
+
+  modeInput.addEventListener('change', function () {
+    setStatus('Mode changed', modeInput.value === 'manual' ? 'Manual point placement is active.' : 'Auto color extraction is active.');
+  });
+
+  zoomInput.addEventListener('input', function () {
+    applyCanvasDisplayScale();
+  });
+
+  window.addEventListener('resize', function () {
+    applyCanvasDisplayScale();
+  });
+
+  plotBoxBtn.addEventListener('click', function () {
+    state.selectionMode = state.selectionMode === 'plot' ? null : 'plot';
+    state.dragStart = null;
+    state.dragCurrent = null;
+    plotBoxBtn.textContent = state.selectionMode === 'plot' ? 'Drawing plot box...' : 'Set plot box';
+    legendBoxBtn.textContent = 'Set legend box';
+    setStatus(state.selectionMode === 'plot' ? 'Plot box mode' : 'Plot box mode off', state.selectionMode === 'plot' ? 'Drag across the canvas to define the plot area.' : '');
+    draw();
+  });
+
+  legendBoxBtn.addEventListener('click', function () {
+    state.selectionMode = state.selectionMode === 'legend' ? null : 'legend';
+    state.dragStart = null;
+    state.dragCurrent = null;
+    legendBoxBtn.textContent = state.selectionMode === 'legend' ? 'Drawing legend box...' : 'Set legend box';
+    plotBoxBtn.textContent = 'Set plot box';
+    setStatus(state.selectionMode === 'legend' ? 'Legend box mode' : 'Legend box mode off', state.selectionMode === 'legend' ? 'Drag across the legend area to exclude it from extraction.' : '');
+    draw();
+  });
+
+  resetBoxBtn.addEventListener('click', function () {
+    if (!state.image) return;
+    state.plotBox = {
+      left: 0,
+      top: 0,
+      right: state.naturalWidth - 1,
+      bottom: state.naturalHeight - 1,
+    };
+    syncInputsToPlotBox();
+    draw();
+    setStatus('Plot box reset', 'The full image is now the plot area.');
+  });
+
+  clearLegendBtn.addEventListener('click', function () {
+    state.legendBox = null;
+    if (state.selectionMode === 'legend') {
+      state.selectionMode = null;
+      legendBoxBtn.textContent = 'Set legend box';
+    }
+    draw();
+    setStatus('Legend box cleared', 'Legend exclusion has been removed.');
+  });
+
+  extractBtn.addEventListener('click', function () {
+    extractColorPoints();
+  });
+
+  clearBtn.addEventListener('click', function () {
+    state.points = [];
+    draw();
+    renderResults();
+    setStatus('Points cleared', 'All digitized points were removed.');
+  });
+
+  undoBtn.addEventListener('click', function () {
+    state.points.pop();
+    draw();
+    renderResults();
+    setStatus('Last point removed', 'The most recent point was deleted.');
+  });
+
+  downloadBtn.addEventListener('click', downloadCsv);
+
+  for (const input of [xminInput, xmaxInput, yminInput, ymaxInput, leftInput, rightInput, topInput, bottomInput]) {
+    input.addEventListener('change', function () {
+      if (input === leftInput || input === rightInput || input === topInput || input === bottomInput) {
+        syncPlotBoxFromInputs();
+      }
+      draw();
+      renderResults();
+    });
+  }
+
+  canvas.addEventListener('pointerdown', function (event) {
+    if (!state.image) return;
+    const point = canvasPoint(event);
+
+    if (state.selectionMode) {
+      state.dragStart = point;
+      state.dragCurrent = point;
+      canvas.setPointerCapture(event.pointerId);
+      draw();
+      return;
+    }
+
+    if (state.selectionMode) return;
+    if (modeInput.value !== 'manual') return;
+    if (!pointInsideBox(point)) {
+      setStatus('Outside plot box', 'Click inside the plot box to add a manual point.');
+      return;
+    }
+    if (pointInsideLegend(point)) {
+      setStatus('Inside legend box', 'That point is inside the legend exclusion box.');
+      return;
+    }
+
+    addPoint(point, 'manual');
+    setStatus('Point added', 'Manual point ' + state.points.length + ' captured.');
+  });
+
+  canvas.addEventListener('pointermove', function (event) {
+    if (!state.selectionMode || !state.dragStart) return;
+    state.dragCurrent = canvasPoint(event);
+    draw();
+  });
+
+  canvas.addEventListener('pointerup', function (event) {
+    if (!state.selectionMode || !state.dragStart) return;
+
+    state.dragCurrent = canvasPoint(event);
+    const left = Math.min(state.dragStart.x, state.dragCurrent.x);
+    const right = Math.max(state.dragStart.x, state.dragCurrent.x);
+    const top = Math.min(state.dragStart.y, state.dragCurrent.y);
+    const bottom = Math.max(state.dragStart.y, state.dragCurrent.y);
+
+    if (right - left < 8 || bottom - top < 8) {
+      setStatus('Plot box too small', 'Drag a larger region to define the plot area.');
+      state.dragStart = null;
+      state.dragCurrent = null;
+      draw();
+      return;
+    }
+
+    if (state.selectionMode === 'legend') {
+      state.legendBox = { left: left, top: top, right: right, bottom: bottom };
+      state.selectionMode = null;
+      legendBoxBtn.textContent = 'Set legend box';
+      state.dragStart = null;
+      state.dragCurrent = null;
+      draw();
+      setStatus('Legend box saved', 'The orange box will be excluded from auto extraction.');
+      return;
+    }
+
+    state.plotBox = { left: left, top: top, right: right, bottom: bottom };
+    syncInputsToPlotBox();
+    state.dragStart = null;
+    state.dragCurrent = null;
+    state.selectionMode = null;
+    plotBoxBtn.textContent = 'Set plot box';
+    draw();
+    setStatus('Plot box saved', 'Use the axis fields to calibrate the digitized points.');
+  });
+
+  canvas.addEventListener('pointerleave', function () {
+    if (!state.selectionMode) return;
+    state.dragCurrent = null;
+    draw();
+  });
+
+  draw();
+  renderResults();
+})();
+</script>
+```

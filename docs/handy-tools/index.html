@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Tools – Rensselaer HAVA Laboratory</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c391065f2e9c8df8ce817c1446d62ced.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo_havalab.png" alt="" class="navbar-logo light-content">
+    <img src="../img/logo_havalab.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Rensselaer HAVA Laboratory</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../projects/index.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../team/team.html"> 
+<span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../calculator/index.html"> 
+<span class="menu-text">Calculator</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../handy-tools/index.html" aria-current="page"> 
+<span class="menu-text">Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../software/index.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publications/index.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../links/news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../links/outreach.html"> 
+<span class="menu-text">Outreach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact/index.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:tumuko@rpi.edu"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tools</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<link href="../html/pages.css" rel="stylesheet">
+<style>
+  .digitizer-shell,
+  .digitizer-shell *,
+  .digitizer-shell *::before,
+  .digitizer-shell *::after {
+    box-sizing: border-box;
+  }
+
+  .digitizer-shell {
+    margin-top: 1.5rem;
+  }
+
+  .digitizer-hero {
+    background: linear-gradient(135deg, rgba(8, 27, 41, 0.96), rgba(0, 171, 240, 0.16));
+    border: 1px solid rgba(0, 171, 240, 0.22);
+    border-radius: 20px;
+    color: #edf6ff;
+    padding: 2rem;
+  }
+
+  .digitizer-hero h1 {
+    color: #ffffff;
+    margin: 0.25rem 0 0.65rem;
+  }
+
+  .digitizer-hero p {
+    max-width: 75ch;
+    margin-bottom: 0;
+  }
+
+  .digitizer-grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 2.35fr) minmax(280px, 0.65fr);
+    margin-top: 1.25rem;
+  }
+
+  .digitizer-card {
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(8, 27, 41, 0.12);
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(8, 27, 41, 0.08);
+    color: #081b29;
+    padding: 1.2rem;
+  }
+
+  .digitizer-card h2,
+  .digitizer-card h3 {
+    margin-top: 0;
+  }
+
+  .digitizer-toolbar {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 0.9rem;
+  }
+
+  .digitizer-toolbar label,
+  .digitizer-axis label {
+    display: grid;
+    gap: 0.35rem;
+    font-size: 0.92rem;
+    font-weight: 600;
+    min-width: 0;
+  }
+
+  .digitizer-toolbar input,
+  .digitizer-toolbar select,
+  .digitizer-axis input {
+    background: #f7fbff;
+    border: 1px solid rgba(8, 27, 41, 0.18);
+    border-radius: 10px;
+    color: #081b29;
+    font: inherit;
+    min-height: 2.5rem;
+    min-width: 0;
+    padding: 0.45rem 0.7rem;
+    width: 100%;
+  }
+
+  .digitizer-toolbar input[type="file"] {
+    overflow: hidden;
+    padding: 0.35rem 0.45rem;
+  }
+
+  .digitizer-toolbar input[type="color"] {
+    cursor: pointer;
+    min-height: 2.8rem;
+    padding: 0.2rem;
+  }
+
+  .digitizer-toolbar input[type="range"] {
+    accent-color: #f06b18;
+    padding: 0;
+  }
+
+  .digitizer-toolbar label:first-child,
+  .digitizer-toolbar label:nth-child(2) {
+    grid-column: span 1;
+  }
+
+  .digitizer-actions {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 1rem;
+  }
+
+  .digitizer-button {
+    align-items: center;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    color: #081b29;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 700;
+    justify-content: center;
+    min-height: 2.65rem;
+    padding: 0.45rem 1rem;
+    text-decoration: none;
+    transition: 0.22s ease;
+    width: 100%;
+  }
+
+  .digitizer-button:hover {
+    background: #081b29;
+    color: #00abf0;
+  }
+
+  .digitizer-button.is-secondary {
+    background: transparent;
+    color: #081b29;
+  }
+
+  .digitizer-button.is-secondary:hover {
+    background: #081b29;
+    color: #00abf0;
+  }
+
+  .digitizer-stage {
+    border-radius: 18px;
+    height: 72vh;
+    min-height: 520px;
+    max-height: 84vh;
+    overflow: auto;
+    position: relative;
+  }
+
+  .digitizer-stage canvas {
+    background: #081b29;
+    border-radius: 18px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    touch-action: none;
+    width: 100%;
+  }
+
+  .digitizer-status {
+    background: rgba(0, 171, 240, 0.08);
+    border-left: 4px solid #00abf0;
+    border-radius: 12px;
+    margin-top: 0.9rem;
+    padding: 0.85rem 1rem;
+  }
+
+  .digitizer-status strong {
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  .digitizer-pill {
+    background: #00abf0;
+    border-radius: 999px;
+    color: #081b29;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .digitizer-note {
+    background: rgba(237, 237, 237, 0.88);
+    border-left: 4px solid #00abf0;
+    border-radius: 12px;
+    padding: 0.95rem 1rem;
+  }
+
+  .digitizer-results {
+    margin-top: 1rem;
+    overflow: auto;
+    max-height: 34rem;
+  }
+
+  .digitizer-results table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .digitizer-results th,
+  .digitizer-results td {
+    border-bottom: 1px solid rgba(8, 27, 41, 0.1);
+    padding: 0.55rem 0.5rem;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .digitizer-results th {
+    background: #f6fbff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .digitizer-layout {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .digitizer-axis {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .digitizer-axis .full {
+    grid-column: 1 / -1;
+  }
+
+  .digitizer-help {
+    color: rgba(8, 27, 41, 0.74);
+    font-size: 0.95rem;
+    margin: 0.6rem 0 0;
+  }
+
+  @media (max-width: 980px) {
+    .digitizer-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .digitizer-stage {
+      height: 62vh;
+      min-height: 420px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .digitizer-toolbar,
+    .digitizer-actions,
+    .digitizer-axis {
+      grid-template-columns: 1fr;
+    }
+
+    .digitizer-axis .full {
+      grid-column: auto;
+    }
+  }
+</style>
+
+<section class="digitizer-shell">
+  <div class="digitizer-hero">
+    <span class="digitizer-pill">Tools</span>
+    <h1>Data Digitiziar</h1>
+    <p>
+      A self-contained browser digitizer for plot images. Upload a figure, define the plot area,
+      calibrate the axes, and extract points or color-matched curves entirely in the browser. 
+    </p>
+  </div>
+
+  <div class="digitizer-grid">
+    <div class="digitizer-card">
+      <h2 class="anchored">Image workspace</h2>
+      <p class="digitizer-help">
+        Upload a plot image, then drag to define the plot box. Click inside the box to add manual
+        points, then place one seed point on the target curve before running auto extraction.
+      </p>
+
+      <div class="digitizer-toolbar">
+        <label>
+          Upload image
+          <input id="digitizer-file" type="file" accept="image/*">
+        </label>
+
+        <label>
+          Mode
+          <select id="digitizer-mode">
+            <option value="manual">Manual points</option>
+            <option value="auto">Auto extract by color</option>
+          </select>
+        </label>
+
+        <label>
+          Target color
+          <input id="digitizer-color" type="color" value="#ff0000">
+        </label>
+
+        <label>
+          Tolerance
+          <input id="digitizer-tolerance" type="range" min="0" max="180" value="60">
+        </label>
+
+        <label>
+          Sample step
+          <input id="digitizer-step" type="range" min="1" max="20" value="2">
+        </label>
+
+        <label>
+          Canvas zoom
+          <input id="digitizer-zoom" type="range" min="50" max="250" value="100">
+        </label>
+      </div>
+
+      <div class="digitizer-actions">
+        <button id="digitizer-plotbox-btn" class="digitizer-button" type="button">Set plot box</button>
+        <button id="digitizer-legendbox-btn" class="digitizer-button is-secondary" type="button">Set legend box</button>
+        <button id="digitizer-reset-box-btn" class="digitizer-button is-secondary" type="button">Use full image</button>
+        <button id="digitizer-clear-legend-btn" class="digitizer-button is-secondary" type="button">Clear legend box</button>
+        <button id="digitizer-extract-btn" class="digitizer-button" type="button">Extract points</button>
+        <button id="digitizer-clear-btn" class="digitizer-button is-secondary" type="button">Clear points</button>
+        <button id="digitizer-undo-btn" class="digitizer-button is-secondary" type="button">Undo last point</button>
+        <button id="digitizer-download-btn" class="digitizer-button is-secondary" type="button">Download CSV</button>
+      </div>
+
+      <div id="digitizer-stage" class="digitizer-stage" style="margin-top: 1rem;">
+        <canvas id="digitizer-canvas" aria-label="Digitizer canvas"></canvas>
+      </div>
+
+      <div class="digitizer-status" id="digitizer-status">
+        <strong>Ready</strong>
+        Upload an image to begin.
+      </div>
+    </div>
+
+    <div class="digitizer-layout">
+      <div class="digitizer-card">
+        <h2 class="anchored">Axis calibration</h2>
+        <div class="digitizer-axis">
+          <label>
+            X minimum
+            <input id="digitizer-xmin" type="number" value="0" step="any">
+          </label>
+          <label>
+            X maximum
+            <input id="digitizer-xmax" type="number" value="1" step="any">
+          </label>
+          <label>
+            Y minimum
+            <input id="digitizer-ymin" type="number" value="0" step="any">
+          </label>
+          <label>
+            Y maximum
+            <input id="digitizer-ymax" type="number" value="1" step="any">
+          </label>
+          <label class="full">
+            Plot left
+            <input id="digitizer-left" type="number" value="0" step="1">
+          </label>
+          <label>
+            Plot right
+            <input id="digitizer-right" type="number" value="1" step="1">
+          </label>
+          <label>
+            Plot top
+            <input id="digitizer-top" type="number" value="0" step="1">
+          </label>
+          <label>
+            Plot bottom
+            <input id="digitizer-bottom" type="number" value="1" step="1">
+          </label>
+        </div>
+        <p class="digitizer-help">
+          The plot box can be set manually on the canvas. Add an orange legend exclusion box when
+          the legend overlaps the plot. The axis inputs turn pixel positions into physical
+          coordinates for export.
+        </p>
+      </div>
+
+      <div class="digitizer-card">
+        <h2 class="anchored">Results</h2>
+        <div class="digitizer-note" id="digitizer-summary">
+          No points yet. Manual clicks and auto extraction will appear here.
+        </div>
+        <div class="digitizer-results" id="digitizer-results"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  const fileInput = document.getElementById('digitizer-file');
+  const modeInput = document.getElementById('digitizer-mode');
+  const colorInput = document.getElementById('digitizer-color');
+  const toleranceInput = document.getElementById('digitizer-tolerance');
+  const stepInput = document.getElementById('digitizer-step');
+  const zoomInput = document.getElementById('digitizer-zoom');
+  const stage = document.getElementById('digitizer-stage');
+  const canvas = document.getElementById('digitizer-canvas');
+  const ctx = canvas.getContext('2d');
+  const statusBox = document.getElementById('digitizer-status');
+  const summaryBox = document.getElementById('digitizer-summary');
+  const resultsBox = document.getElementById('digitizer-results');
+  const plotBoxBtn = document.getElementById('digitizer-plotbox-btn');
+  const legendBoxBtn = document.getElementById('digitizer-legendbox-btn');
+  const resetBoxBtn = document.getElementById('digitizer-reset-box-btn');
+  const clearLegendBtn = document.getElementById('digitizer-clear-legend-btn');
+  const extractBtn = document.getElementById('digitizer-extract-btn');
+  const clearBtn = document.getElementById('digitizer-clear-btn');
+  const undoBtn = document.getElementById('digitizer-undo-btn');
+  const downloadBtn = document.getElementById('digitizer-download-btn');
+  const xminInput = document.getElementById('digitizer-xmin');
+  const xmaxInput = document.getElementById('digitizer-xmax');
+  const yminInput = document.getElementById('digitizer-ymin');
+  const ymaxInput = document.getElementById('digitizer-ymax');
+  const leftInput = document.getElementById('digitizer-left');
+  const rightInput = document.getElementById('digitizer-right');
+  const topInput = document.getElementById('digitizer-top');
+  const bottomInput = document.getElementById('digitizer-bottom');
+
+  const state = {
+    image: null,
+    imageUrl: null,
+    naturalWidth: 0,
+    naturalHeight: 0,
+    plotBox: null,
+    legendBox: null,
+    points: [],
+    selectionMode: null,
+    dragStart: null,
+    dragCurrent: null,
+  };
+
+  function setStatus(title, message) {
+    statusBox.innerHTML = '<strong>' + title + '</strong><span>' + message + '</span>';
+  }
+
+  function readNumber(input, fallback) {
+    const value = Number(input.value);
+    return Number.isFinite(value) ? value : fallback;
+  }
+
+  function hexToRgb(hex) {
+    const clean = hex.replace('#', '');
+    return [
+      parseInt(clean.slice(0, 2), 16),
+      parseInt(clean.slice(2, 4), 16),
+      parseInt(clean.slice(4, 6), 16),
+    ];
+  }
+
+  function resizeCanvasToImage() {
+    if (!state.image) return;
+    canvas.width = state.naturalWidth;
+    canvas.height = state.naturalHeight;
+    leftInput.value = 0;
+    topInput.value = 0;
+    rightInput.value = state.naturalWidth - 1;
+    bottomInput.value = state.naturalHeight - 1;
+    state.plotBox = {
+      left: 0,
+      top: 0,
+      right: state.naturalWidth - 1,
+      bottom: state.naturalHeight - 1,
+    };
+    state.legendBox = null;
+    applyCanvasDisplayScale();
+  }
+
+  function applyCanvasDisplayScale() {
+    if (!canvas.width || !stage) return;
+
+    const fitScale = stage.clientWidth > 0 ? stage.clientWidth / canvas.width : 1;
+    const zoomFactor = Math.max(50, Number(zoomInput.value) || 100) / 100;
+    const displayScale = fitScale * zoomFactor;
+
+    canvas.style.width = Math.round(canvas.width * displayScale) + 'px';
+    canvas.style.height = Math.round(canvas.height * displayScale) + 'px';
+  }
+
+  function canvasPoint(event) {
+    const rect = canvas.getBoundingClientRect();
+    const scaleX = canvas.width / rect.width;
+    const scaleY = canvas.height / rect.height;
+    return {
+      x: Math.max(0, Math.min(canvas.width - 1, (event.clientX - rect.left) * scaleX)),
+      y: Math.max(0, Math.min(canvas.height - 1, (event.clientY - rect.top) * scaleY)),
+    };
+  }
+
+  function syncInputsToPlotBox() {
+    if (!state.plotBox) return;
+    leftInput.value = Math.round(state.plotBox.left);
+    rightInput.value = Math.round(state.plotBox.right);
+    topInput.value = Math.round(state.plotBox.top);
+    bottomInput.value = Math.round(state.plotBox.bottom);
+  }
+
+  function syncPlotBoxFromInputs() {
+    if (!state.image) return;
+    const maxX = state.naturalWidth - 1;
+    const maxY = state.naturalHeight - 1;
+    const left = Math.max(0, Math.min(maxX, readNumber(leftInput, 0)));
+    const right = Math.max(0, Math.min(maxX, readNumber(rightInput, maxX)));
+    const top = Math.max(0, Math.min(maxY, readNumber(topInput, 0)));
+    const bottom = Math.max(0, Math.min(maxY, readNumber(bottomInput, maxY)));
+    state.plotBox = {
+      left: Math.min(left, right),
+      right: Math.max(left, right),
+      top: Math.min(top, bottom),
+      bottom: Math.max(top, bottom),
+    };
+  }
+
+  function draw() {
+    if (!state.image) {
+      canvas.width = 1200;
+      canvas.height = 720;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#081b29';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = 'rgba(237, 246, 255, 0.9)';
+      ctx.font = '28px sans-serif';
+      ctx.fillText('Upload a plot image to start digitizing.', 36, 72);
+      ctx.font = '18px sans-serif';
+      ctx.fillText('Use Set plot box, then click points or extract a color-matched curve.', 36, 108);
+      return;
+    }
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(state.image, 0, 0, canvas.width, canvas.height);
+
+    if (state.plotBox) {
+      ctx.save();
+      ctx.fillStyle = 'rgba(8, 27, 41, 0.18)';
+      ctx.beginPath();
+      ctx.rect(0, 0, canvas.width, canvas.height);
+      ctx.rect(
+        state.plotBox.left,
+        state.plotBox.top,
+        state.plotBox.right - state.plotBox.left,
+        state.plotBox.bottom - state.plotBox.top,
+      );
+      ctx.fill('evenodd');
+
+      ctx.strokeStyle = '#00abf0';
+      ctx.lineWidth = Math.max(1.25, canvas.width / 950);
+      ctx.setLineDash([10, 6]);
+      ctx.strokeRect(
+        state.plotBox.left,
+        state.plotBox.top,
+        state.plotBox.right - state.plotBox.left,
+        state.plotBox.bottom - state.plotBox.top,
+      );
+      ctx.setLineDash([]);
+      ctx.restore();
+    }
+
+    if (state.legendBox) {
+      ctx.save();
+      ctx.strokeStyle = '#ff9f1a';
+      ctx.lineWidth = Math.max(1.25, canvas.width / 950);
+      ctx.setLineDash([6, 4]);
+      ctx.strokeRect(
+        state.legendBox.left,
+        state.legendBox.top,
+        state.legendBox.right - state.legendBox.left,
+        state.legendBox.bottom - state.legendBox.top,
+      );
+      ctx.setLineDash([]);
+      ctx.restore();
+    }
+
+    if (state.selectionMode && state.dragStart && state.dragCurrent) {
+      const left = Math.min(state.dragStart.x, state.dragCurrent.x);
+      const top = Math.min(state.dragStart.y, state.dragCurrent.y);
+      const width = Math.abs(state.dragCurrent.x - state.dragStart.x);
+      const height = Math.abs(state.dragCurrent.y - state.dragStart.y);
+      ctx.save();
+      ctx.strokeStyle = state.selectionMode === 'legend' ? '#ffbf69' : '#7ef1ff';
+      ctx.lineWidth = 3;
+      ctx.setLineDash([8, 5]);
+      ctx.strokeRect(left, top, width, height);
+      ctx.restore();
+    }
+
+    for (const point of state.points) {
+      ctx.beginPath();
+      ctx.fillStyle = point.source === 'manual' ? '#ffb347' : '#29d17b';
+      ctx.arc(point.pixelX, point.pixelY, Math.max(2.5, canvas.width / 550), 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function pointToData(point) {
+    const xmin = readNumber(xminInput, 0);
+    const xmax = readNumber(xmaxInput, 1);
+    const ymin = readNumber(yminInput, 0);
+    const ymax = readNumber(ymaxInput, 1);
+    const box = state.plotBox;
+
+    if (!box) return null;
+
+    const xSpan = box.right - box.left || 1;
+    const ySpan = box.bottom - box.top || 1;
+    const dataX = xmin + ((point.pixelX - box.left) / xSpan) * (xmax - xmin);
+    const dataY = ymax - ((point.pixelY - box.top) / ySpan) * (ymax - ymin);
+
+    return { dataX, dataY };
+  }
+
+  function renderResults() {
+    if (!state.points.length) {
+      summaryBox.textContent = 'No points yet. Manual clicks and auto extraction will appear here.';
+      resultsBox.innerHTML = '';
+      return;
+    }
+
+    const rows = state.points.map(function (point, index) {
+      const mapped = pointToData(point);
+      return {
+        index: index + 1,
+        source: point.source,
+        pixelX: point.pixelX.toFixed(2),
+        pixelY: point.pixelY.toFixed(2),
+        dataX: mapped ? mapped.dataX.toFixed(6) : '',
+        dataY: mapped ? mapped.dataY.toFixed(6) : '',
+      };
+    });
+
+    summaryBox.innerHTML = '<strong>' + rows.length + ' points captured</strong><span>Manual clicks are orange, auto extracted points are green.</span>';
+    resultsBox.innerHTML = [
+      '<table>',
+      '<thead><tr><th>#</th><th>Source</th><th>Pixel X</th><th>Pixel Y</th><th>Data X</th><th>Data Y</th></tr></thead>',
+      '<tbody>',
+      rows.map(function (row) {
+        return '<tr><td>' + row.index + '</td><td>' + row.source + '</td><td>' + row.pixelX + '</td><td>' + row.pixelY + '</td><td>' + row.dataX + '</td><td>' + row.dataY + '</td></tr>';
+      }).join(''),
+      '</tbody></table>',
+    ].join('');
+  }
+
+  function addPoint(point, source) {
+    state.points.push({ pixelX: point.x, pixelY: point.y, source: source });
+    draw();
+    renderResults();
+  }
+
+  function pointInsideBox(point) {
+    if (!state.plotBox) return true;
+    return point.x >= state.plotBox.left && point.x <= state.plotBox.right && point.y >= state.plotBox.top && point.y <= state.plotBox.bottom;
+  }
+
+  function pointInsideLegend(point) {
+    if (!state.legendBox) return false;
+    return point.x >= state.legendBox.left && point.x <= state.legendBox.right && point.y >= state.legendBox.top && point.y <= state.legendBox.bottom;
+  }
+
+  function extractColorPoints() {
+    if (!state.image) {
+      setStatus('No image loaded', 'Upload an image before extracting points.');
+      return;
+    }
+
+    syncPlotBoxFromInputs();
+    const box = state.plotBox;
+    if (!box || box.right <= box.left || box.bottom <= box.top) {
+      setStatus('Invalid plot box', 'The plot box must have a real width and height.');
+      return;
+    }
+
+    const tolerance = Number(toleranceInput.value);
+    const step = Math.max(1, Number(stepInput.value));
+    const [targetR, targetG, targetB] = hexToRgb(colorInput.value);
+
+    const offscreen = document.createElement('canvas');
+    offscreen.width = canvas.width;
+    offscreen.height = canvas.height;
+    const offCtx = offscreen.getContext('2d');
+    offCtx.drawImage(state.image, 0, 0, canvas.width, canvas.height);
+    const imageData = offCtx.getImageData(box.left, box.top, box.right - box.left + 1, box.bottom - box.top + 1).data;
+    const width = box.right - box.left + 1;
+    const height = box.bottom - box.top + 1;
+    const extracted = [];
+    const maxJump = Math.max(8, height * 0.12);
+    const maxSlope = Math.max(3, height * 0.06);
+    const maxGapColumns = 12;
+    const xSamples = [];
+    const columnRuns = [];
+
+    function buildRuns(columnYs) {
+      const runs = [];
+      let start = columnYs[0];
+      let end = columnYs[0];
+
+      for (let i = 1; i < columnYs.length; i += 1) {
+        if (columnYs[i] <= end + 1) {
+          end = columnYs[i];
+          continue;
+        }
+
+        runs.push({
+          y: (start + end) / 2,
+          length: end - start + 1,
+        });
+        start = columnYs[i];
+        end = columnYs[i];
+      }
+
+      runs.push({
+        y: (start + end) / 2,
+        length: end - start + 1,
+      });
+
+      return runs;
+    }
+
+    function pickRun(runs, predictedY) {
+      if (!runs.length) return null;
+
+      let best = null;
+      for (const run of runs) {
+        const score = Math.abs(run.y - predictedY) + Math.max(0, 3 - run.length) * 2;
+        if (!best || score < best.score) {
+          best = { run: run, score: score };
+        }
+      }
+
+      return best ? best.run : null;
+    }
+
+    for (let x = 0; x < width; x += step) {
+      const matches = [];
+
+      for (let y = 0; y < height; y += 1) {
+        const absoluteX = box.left + x;
+        const absoluteY = box.top + y;
+        if (pointInsideLegend({ x: absoluteX, y: absoluteY })) {
+          continue;
+        }
+
+        const index = (y * width + x) * 4;
+        const r = imageData[index];
+        const g = imageData[index + 1];
+        const b = imageData[index + 2];
+        const distance = Math.sqrt((r - targetR) ** 2 + (g - targetG) ** 2 + (b - targetB) ** 2);
+
+        if (distance <= tolerance) {
+          matches.push(y);
+        }
+      }
+
+      xSamples.push(x);
+      columnRuns.push(matches.length ? buildRuns(matches) : []);
+    }
+
+    function track(direction, seedIndex, seedY) {
+      let previousY = seedY;
+      let slope = 0;
+      let gaps = 0;
+
+      for (let i = seedIndex + direction; i >= 0 && i < xSamples.length; i += direction) {
+        const runs = columnRuns[i];
+        const predictedY = previousY + slope;
+
+        if (!runs.length) {
+          gaps += 1;
+          if (gaps > maxGapColumns) {
+            break;
+          }
+          continue;
+        }
+
+        const bestRun = pickRun(runs, predictedY);
+        if (!bestRun) {
+          continue;
+        }
+
+        const jump = bestRun.y - previousY;
+        if (Math.abs(jump) > maxJump) {
+          gaps += 1;
+          if (gaps > maxGapColumns) {
+            break;
+          }
+          continue;
+        }
+
+        gaps = 0;
+        slope = Math.max(-maxSlope, Math.min(maxSlope, 0.65 * slope + 0.35 * jump));
+        previousY = bestRun.y;
+
+        extracted.push({
+          x: box.left + xSamples[i],
+          y: box.top + bestRun.y,
+          source: 'auto',
+        });
+      }
+    }
+
+    const manualCandidates = state.points.filter(function (point) {
+      return point.source === 'manual' &&
+        point.pixelX >= box.left && point.pixelX <= box.right &&
+        point.pixelY >= box.top && point.pixelY <= box.bottom;
+    });
+
+    let seedX = Math.floor(width * 0.5);
+    let seedY = Math.floor(height * 0.5);
+
+    if (manualCandidates.length) {
+      const seedPoint = manualCandidates[manualCandidates.length - 1];
+      seedX = Math.max(0, Math.min(width - 1, seedPoint.pixelX - box.left));
+      seedY = Math.max(0, Math.min(height - 1, seedPoint.pixelY - box.top));
+    }
+
+    let seedIndex = 0;
+    let bestSeedDist = Number.POSITIVE_INFINITY;
+    for (let i = 0; i < xSamples.length; i += 1) {
+      const dist = Math.abs(xSamples[i] - seedX);
+      if (dist < bestSeedDist) {
+        bestSeedDist = dist;
+        seedIndex = i;
+      }
+    }
+
+    const seedRuns = columnRuns[seedIndex] || [];
+    let chosenSeedRun = pickRun(seedRuns, seedY);
+
+    if (!chosenSeedRun) {
+      let bestAutoSeed = null;
+      const midX = Math.floor(xSamples.length / 2);
+      const midY = height / 2;
+
+      for (let i = 0; i < columnRuns.length; i += 1) {
+        const runs = columnRuns[i];
+        for (const run of runs) {
+          const score =
+            run.length * 5 -
+            Math.abs(i - midX) * 0.3 -
+            Math.abs(run.y - midY) * 0.08;
+
+          if (!bestAutoSeed || score > bestAutoSeed.score) {
+            bestAutoSeed = {
+              score: score,
+              index: i,
+              run: run,
+            };
+          }
+        }
+      }
+
+      if (bestAutoSeed) {
+        seedIndex = bestAutoSeed.index;
+        chosenSeedRun = bestAutoSeed.run;
+      }
+    }
+
+    if (!chosenSeedRun) {
+      setStatus('No matches', 'No matching curve pixels were found near the seed column.');
+      return;
+    }
+
+    extracted.push({
+      x: box.left + xSamples[seedIndex],
+      y: box.top + chosenSeedRun.y,
+      source: 'auto',
+    });
+
+    track(1, seedIndex, chosenSeedRun.y);
+    track(-1, seedIndex, chosenSeedRun.y);
+
+    extracted.sort(function (a, b) {
+      return a.x - b.x;
+    });
+
+    if (!extracted.length) {
+      setStatus('No matches', 'The chosen color did not match any pixels inside the plot box.');
+      return;
+    }
+
+    state.points = state.points.filter(function (point) {
+      return point.source !== 'auto';
+    }).concat(extracted.map(function (point) {
+      return { pixelX: point.x, pixelY: point.y, source: point.source };
+    }));
+
+    draw();
+    renderResults();
+    setStatus('Auto extraction complete', extracted.length + ' points were captured using the selected color.');
+  }
+
+  function downloadCsv() {
+    if (!state.points.length) {
+      setStatus('No data', 'Add or extract points before downloading a CSV.');
+      return;
+    }
+
+    const lines = ['source,pixel_x,pixel_y,data_x,data_y'];
+    for (const point of state.points) {
+      const mapped = pointToData(point);
+      lines.push([
+        point.source,
+        point.pixelX.toFixed(4),
+        point.pixelY.toFixed(4),
+        mapped ? mapped.dataX.toFixed(8) : '',
+        mapped ? mapped.dataY.toFixed(8) : '',
+      ].join(','));
+    }
+
+    const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'data_digitiziar_points.csv';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    setStatus('CSV downloaded', 'The digitized points have been exported.');
+  }
+
+  fileInput.addEventListener('change', function () {
+    const file = fileInput.files && fileInput.files[0];
+    if (!file) return;
+
+    if (state.imageUrl) {
+      URL.revokeObjectURL(state.imageUrl);
+    }
+
+    state.imageUrl = URL.createObjectURL(file);
+    const image = new Image();
+    image.onload = function () {
+      state.image = image;
+      state.naturalWidth = image.naturalWidth;
+      state.naturalHeight = image.naturalHeight;
+      resizeCanvasToImage();
+      state.points = [];
+      draw();
+      renderResults();
+      setStatus('Image loaded', 'Drag on the canvas to define the plot box, then digitize points.');
+    };
+    image.src = state.imageUrl;
+  });
+
+  modeInput.addEventListener('change', function () {
+    setStatus('Mode changed', modeInput.value === 'manual' ? 'Manual point placement is active.' : 'Auto color extraction is active.');
+  });
+
+  zoomInput.addEventListener('input', function () {
+    applyCanvasDisplayScale();
+  });
+
+  window.addEventListener('resize', function () {
+    applyCanvasDisplayScale();
+  });
+
+  plotBoxBtn.addEventListener('click', function () {
+    state.selectionMode = state.selectionMode === 'plot' ? null : 'plot';
+    state.dragStart = null;
+    state.dragCurrent = null;
+    plotBoxBtn.textContent = state.selectionMode === 'plot' ? 'Drawing plot box...' : 'Set plot box';
+    legendBoxBtn.textContent = 'Set legend box';
+    setStatus(state.selectionMode === 'plot' ? 'Plot box mode' : 'Plot box mode off', state.selectionMode === 'plot' ? 'Drag across the canvas to define the plot area.' : '');
+    draw();
+  });
+
+  legendBoxBtn.addEventListener('click', function () {
+    state.selectionMode = state.selectionMode === 'legend' ? null : 'legend';
+    state.dragStart = null;
+    state.dragCurrent = null;
+    legendBoxBtn.textContent = state.selectionMode === 'legend' ? 'Drawing legend box...' : 'Set legend box';
+    plotBoxBtn.textContent = 'Set plot box';
+    setStatus(state.selectionMode === 'legend' ? 'Legend box mode' : 'Legend box mode off', state.selectionMode === 'legend' ? 'Drag across the legend area to exclude it from extraction.' : '');
+    draw();
+  });
+
+  resetBoxBtn.addEventListener('click', function () {
+    if (!state.image) return;
+    state.plotBox = {
+      left: 0,
+      top: 0,
+      right: state.naturalWidth - 1,
+      bottom: state.naturalHeight - 1,
+    };
+    syncInputsToPlotBox();
+    draw();
+    setStatus('Plot box reset', 'The full image is now the plot area.');
+  });
+
+  clearLegendBtn.addEventListener('click', function () {
+    state.legendBox = null;
+    if (state.selectionMode === 'legend') {
+      state.selectionMode = null;
+      legendBoxBtn.textContent = 'Set legend box';
+    }
+    draw();
+    setStatus('Legend box cleared', 'Legend exclusion has been removed.');
+  });
+
+  extractBtn.addEventListener('click', function () {
+    extractColorPoints();
+  });
+
+  clearBtn.addEventListener('click', function () {
+    state.points = [];
+    draw();
+    renderResults();
+    setStatus('Points cleared', 'All digitized points were removed.');
+  });
+
+  undoBtn.addEventListener('click', function () {
+    state.points.pop();
+    draw();
+    renderResults();
+    setStatus('Last point removed', 'The most recent point was deleted.');
+  });
+
+  downloadBtn.addEventListener('click', downloadCsv);
+
+  for (const input of [xminInput, xmaxInput, yminInput, ymaxInput, leftInput, rightInput, topInput, bottomInput]) {
+    input.addEventListener('change', function () {
+      if (input === leftInput || input === rightInput || input === topInput || input === bottomInput) {
+        syncPlotBoxFromInputs();
+      }
+      draw();
+      renderResults();
+    });
+  }
+
+  canvas.addEventListener('pointerdown', function (event) {
+    if (!state.image) return;
+    const point = canvasPoint(event);
+
+    if (state.selectionMode) {
+      state.dragStart = point;
+      state.dragCurrent = point;
+      canvas.setPointerCapture(event.pointerId);
+      draw();
+      return;
+    }
+
+    if (state.selectionMode) return;
+    if (modeInput.value !== 'manual') return;
+    if (!pointInsideBox(point)) {
+      setStatus('Outside plot box', 'Click inside the plot box to add a manual point.');
+      return;
+    }
+    if (pointInsideLegend(point)) {
+      setStatus('Inside legend box', 'That point is inside the legend exclusion box.');
+      return;
+    }
+
+    addPoint(point, 'manual');
+    setStatus('Point added', 'Manual point ' + state.points.length + ' captured.');
+  });
+
+  canvas.addEventListener('pointermove', function (event) {
+    if (!state.selectionMode || !state.dragStart) return;
+    state.dragCurrent = canvasPoint(event);
+    draw();
+  });
+
+  canvas.addEventListener('pointerup', function (event) {
+    if (!state.selectionMode || !state.dragStart) return;
+
+    state.dragCurrent = canvasPoint(event);
+    const left = Math.min(state.dragStart.x, state.dragCurrent.x);
+    const right = Math.max(state.dragStart.x, state.dragCurrent.x);
+    const top = Math.min(state.dragStart.y, state.dragCurrent.y);
+    const bottom = Math.max(state.dragStart.y, state.dragCurrent.y);
+
+    if (right - left < 8 || bottom - top < 8) {
+      setStatus('Plot box too small', 'Drag a larger region to define the plot area.');
+      state.dragStart = null;
+      state.dragCurrent = null;
+      draw();
+      return;
+    }
+
+    if (state.selectionMode === 'legend') {
+      state.legendBox = { left: left, top: top, right: right, bottom: bottom };
+      state.selectionMode = null;
+      legendBoxBtn.textContent = 'Set legend box';
+      state.dragStart = null;
+      state.dragCurrent = null;
+      draw();
+      setStatus('Legend box saved', 'The orange box will be excluded from auto extraction.');
+      return;
+    }
+
+    state.plotBox = { left: left, top: top, right: right, bottom: bottom };
+    syncInputsToPlotBox();
+    state.dragStart = null;
+    state.dragCurrent = null;
+    state.selectionMode = null;
+    plotBoxBtn.textContent = 'Set plot box';
+    draw();
+    setStatus('Plot box saved', 'Use the axis fields to calibrate the digitized points.');
+  });
+
+  canvas.addEventListener('pointerleave', function () {
+    if (!state.selectionMode) return;
+    state.dragCurrent = null;
+    draw();
+  });
+
+  draw();
+  renderResults();
+})();
+</script>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

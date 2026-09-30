@@ -12,8 +12,8 @@ title: "Hava Laboratory Tools"
     <p class="calc-kicker">Compressible Flow Calculator</p>
     <p>
       Interactive gas-dynamics relations for course work and preliminary analysis.
-      This version includes perfect-gas relations and reacting-air equilibrium
-      species concentrations for high-temperature estimates.
+      This version includes perfect-gas relations, reacting-air equilibrium, and
+      finite-rate Park chemistry for high-temperature estimates.
     </p>
   </div>
 
@@ -362,33 +362,48 @@ title: "Hava Laboratory Tools"
       <section class="calc-panel" id="reacting-air" aria-labelledby="reacting-air-title">
         <div class="panel-head">
           <h2 id="reacting-air-title">Reacting Air Species</h2>
-          <span>Hansen equilibrium</span>
+          <span>Equilibrium and finite-rate models</span>
         </div>
 
         <form class="calc-form reacting-air-form" id="reacting-air-form">
           <label>
-            T, K
-            <input name="temperature" type="text" inputmode="decimal" value="4000">
+            Model
+            <select name="model">
+              <option value="hansen">Hansen equilibrium</option>
+              <option value="park5">Park 5-species finite-rate</option>
+              <option value="park11">Park 11-species finite-rate</option>
+              <option value="qk5">QK 5-species finite-rate</option>
+              <option value="mmt">MMT 5-species finite-rate</option>
+            </select>
           </label>
           <label>
-            p, Pa
+            Initial T, K
+            <input name="temperature" type="text" inputmode="decimal" value="4000">
+          </label>
+          <label class="reacting-air-tv-field is-hidden">
+            Initial Tv, K
+            <input name="vibrationalTemperature" type="text" inputmode="decimal" value="1000">
+          </label>
+          <label>
+            Initial p, Pa
             <input name="pressure" type="text" inputmode="decimal" value="5066.25">
           </label>
           <label>
-            <span>N<sub>2</sub> (X)</span>
-            <input name="n2Feed" type="text" inputmode="decimal" value="0.8">
+            End time, s
+            <input name="endTime" type="text" inputmode="decimal" value="1e-3">
           </label>
-          <label>
-            <span>O<sub>2</sub>(X)</span>
-            <input name="o2Feed" type="text" inputmode="decimal" value="0.2">
+          <label class="reacting-air-knab-field is-hidden">
+            Knab V-V coupling
+            <input name="knabVV" type="checkbox">
           </label>
+          <div class="reacting-air-composition" id="reacting-air-composition"></div>
           <button type="submit">Calculate</button>
         </form>
 
         <p class="calc-note">
-          Species are reported as mole fraction (X), mass fraction (Y), and species concentrations (mol/m<sup>3</sup>).
+          Hansen returns an equilibrium state. Park 5, QK 5, Park 11, and MMT integrate finite-rate two-temperature models from the supplied initial state.
           <br>
-          X is mole fraction, Y is mass fraction, and Z is the reacting-air compressibility factor.
+          Species are reported as mole fraction (X), mass fraction (Y), and concentration (mol/m<sup>3</sup>).
         </p>
         <p class="calc-error" id="reacting-air-error" role="alert"></p>
         <div class="reacting-air-results" id="reacting-air-results"></div>
@@ -408,5 +423,7 @@ title: "Hava Laboratory Tools"
   </div>
 </section>
 
-<script src="calculator.js"></script>
+<script src="reacting_air_data.js?v=9"></script>
+<script src="reacting_air.js?v=9"></script>
+<script src="calculator.js?v=9"></script>
 ```

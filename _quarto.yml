@@ -23,12 +23,16 @@ website:
         href: teaching/index.qmd
       - text: "Calculator"
         href: calculator/index.qmd
+      - text: "Tools"
+        href: handy-tools/index.qmd
       - text: "Software"
         href: software/index.qmd
       - text: "Publications"
         href: publications/index.qmd
       - text: "News"
         href: links/news.qmd
+      - text: "Outreach"
+        href: links/outreach.qmd
       - text: "Contact"
         href: contact/index.qmd
     
@@ -64,6 +68,8 @@ project:
   resources:
     - calculator/calculator.css
     - calculator/calculator.js
+    - calculator/reacting_air.js
+    - calculator/reacting_air_data.js
 
   preview: 
     port: 22222
