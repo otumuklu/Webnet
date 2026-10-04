@@ -294,6 +294,167 @@ title: "Tools"
     margin: 0.6rem 0 0;
   }
 
+  .tools-tabs {
+    border-bottom: 2px solid rgba(8, 27, 41, 0.12);
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .tools-tab {
+    background: none;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    color: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: -2px;
+    padding: 0.6rem 1rem;
+  }
+
+  .tools-tab.is-active {
+    border-bottom-color: #00abf0;
+    color: #00abf0;
+  }
+
+  .tools-credit {
+    color: #ffffff;
+    margin: 2rem 0 1rem;
+    text-align: center;
+  }
+
+  .tools-subtabs {
+    margin-top: 1rem;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  .pdf-field {
+    display: grid;
+    font-weight: 600;
+    gap: 0.35rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .pdf-field input,
+  .pdf-field select,
+  .digitizer-axis textarea,
+  .digitizer-axis input[type="text"],
+  .digitizer-axis input[type="date"] {
+    background: #f7fbff;
+    border: 1px solid rgba(8, 27, 41, 0.18);
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .pdf-row {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .pdf-stage {
+    background: #e7eef4;
+    border-radius: 12px;
+    max-height: 80vh;
+    overflow: auto;
+    padding: 0.5rem;
+  }
+
+  .pdf-page-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: fit-content;
+  }
+
+  .pdf-page-wrap canvas {
+    background: #fff;
+    display: block;
+  }
+
+  .pdf-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  .pdf-item {
+    cursor: move;
+    outline: 1px dashed transparent;
+    position: absolute;
+    touch-action: none;
+    user-select: none;
+    white-space: pre;
+  }
+
+  .pdf-item.is-selected,
+  .pdf-item:hover {
+    outline-color: #00abf0;
+  }
+
+  .pdf-item img {
+    height: 100%;
+    pointer-events: none;
+    width: 100%;
+  }
+
+  .pdf-handle {
+    background: #00abf0;
+    bottom: -6px;
+    cursor: nwse-resize;
+    height: 12px;
+    position: absolute;
+    right: -6px;
+    width: 12px;
+  }
+
+  #pdf-sig-canvas {
+    background: #fff;
+    border: 1px solid rgba(8, 27, 41, 0.18);
+    border-radius: 10px;
+    cursor: crosshair;
+    max-width: 100%;
+    touch-action: none;
+  }
+
+  .pdf-list {
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+  }
+
+  .pdf-list li {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .pdf-list li span {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .pdf-list li .digitizer-button {
+    flex: none;
+    padding: 0.35rem 0.7rem;
+    width: auto;
+  }
+
+  #pdf-status {
+    background: rgba(255, 255, 255, 0.96);
+    color: #081b29;
+  }
+
+  #pdf-status strong {
+    display: block;
+  }
+
   @media (max-width: 980px) {
     .digitizer-grid {
       grid-template-columns: 1fr;
@@ -324,6 +485,12 @@ title: "Tools"
 </style>
 
 <section class="digitizer-shell">
+  <div class="tools-tabs" role="tablist">
+    <button type="button" class="tools-tab is-active" data-tools-tab="digitizer">Data Digitizer</button>
+    <button type="button" class="tools-tab" data-tools-tab="pdf">PDF Tools</button>
+  </div>
+
+<div data-tools-panel="digitizer">
   <div class="digitizer-hero">
     <span class="digitizer-pill">Tools</span>
     <h1>Data Digitiziar</h1>
@@ -482,6 +649,148 @@ title: "Tools"
       </div>
     </div>
   </div>
+</div>
+
+<div data-tools-panel="pdf" id="pdf-tools-root" hidden>
+  <div class="digitizer-hero">
+    <span class="digitizer-pill">Tools</span>
+    <h1>PDF Tools</h1>
+    <p>
+      Add text, dates, signatures, and stamps to a PDF, or merge and split PDFs. Everything runs
+      in your browser; files are never uploaded.
+    </p>
+  </div>
+
+  <div class="tools-tabs tools-subtabs">
+    <button type="button" class="tools-tab is-active" data-pdf-tab="edit">Edit / Sign</button>
+    <button type="button" class="tools-tab" data-pdf-tab="merge">Merge</button>
+    <button type="button" class="tools-tab" data-pdf-tab="split">Split</button>
+    <button type="button" class="tools-tab" data-pdf-tab="compress">Compress</button>
+  </div>
+
+  <div class="digitizer-note" id="pdf-status" style="margin-top: 1rem;"><strong>Status</strong><span>Choose a PDF to begin.</span></div>
+
+  <div data-pdf-panel="edit">
+    <div class="digitizer-grid">
+      <div class="digitizer-card">
+        <label class="pdf-field">Choose a PDF <input id="pdf-edit-file" type="file" accept="application/pdf"></label>
+        <div class="pdf-row" style="margin: 0.8rem 0;">
+          <button id="pdf-edit-prev" class="digitizer-button is-secondary" type="button">Previous</button>
+          <span id="pdf-edit-page-label">No PDF loaded</span>
+          <button id="pdf-edit-next" class="digitizer-button is-secondary" type="button">Next</button>
+          <button id="pdf-delete-item" class="digitizer-button is-secondary" type="button">Delete selected</button>
+          <button id="pdf-edit-download" class="digitizer-button" type="button">Download edited PDF</button>
+        </div>
+        <p class="digitizer-help">Drag items to place them. Select an item and press Delete to remove it; drag the corner handle to resize images.</p>
+        <div id="pdf-edit-stage" class="pdf-stage">
+          <div class="pdf-page-wrap">
+            <canvas id="pdf-edit-canvas"></canvas>
+            <div id="pdf-edit-overlay" class="pdf-overlay"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="digitizer-layout">
+        <div class="digitizer-card">
+          <h2>Text</h2>
+          <div class="digitizer-axis">
+            <label class="full">Text to place <textarea id="pdf-text" rows="3"></textarea></label>
+            <label>Text color <input id="pdf-text-color" type="color" value="#20252b"></label>
+            <label>Font size (pt) <input id="pdf-font-size" type="number" min="6" max="72" value="12"></label>
+            <label class="full">Font family
+              <select id="pdf-font-family">
+                <option>Arial</option>
+                <option>Times New Roman</option>
+                <option>Courier New</option>
+              </select>
+            </label>
+            <div class="full"><button id="pdf-add-text" class="digitizer-button" type="button">Add text</button></div>
+            <label>Date <input id="pdf-date" type="date"></label>
+            <label>Date font size (pt) <input id="pdf-date-size" type="number" min="6" max="72" value="12"></label>
+            <div style="align-self: end;"><button id="pdf-add-date" class="digitizer-button" type="button">Add date</button></div>
+          </div>
+        </div>
+
+        <div class="digitizer-card">
+          <h2>Signature</h2>
+          <div class="digitizer-axis">
+            <label>Method
+              <select id="pdf-sig-mode">
+                <option value="draw">Draw</option>
+                <option value="type">Type</option>
+              </select>
+            </label>
+            <label>Ink <input id="pdf-sig-color" type="color" value="#14191e"></label>
+            <div class="full" id="pdf-sig-draw-box">
+              <canvas id="pdf-sig-canvas" width="420" height="130"></canvas>
+              <button id="pdf-sig-clear" class="digitizer-button is-secondary" type="button">Clear</button>
+            </div>
+            <div class="full digitizer-axis" id="pdf-sig-type-box" hidden>
+              <label>Name <input id="pdf-sig-name" type="text"></label>
+              <label>Style
+                <select id="pdf-sig-style">
+                  <option>Handwritten</option>
+                  <option>Classic italic</option>
+                  <option>Casual</option>
+                  <option>Modern italic</option>
+                  <option>Bold italic</option>
+                </select>
+              </label>
+            </div>
+            <div class="full"><button id="pdf-sig-add" class="digitizer-button" type="button">Add signature</button></div>
+          </div>
+        </div>
+
+        <div class="digitizer-card">
+          <h2>Stamp</h2>
+          <label class="pdf-field">Stamp image or PDF <input id="pdf-stamp-file" type="file" accept="image/png,image/jpeg,application/pdf"></label>
+          <p class="digitizer-help">PDF stamps use the first page.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-pdf-panel="merge" hidden>
+    <div class="digitizer-card" style="margin-top: 1.25rem;">
+      <h2>Merge PDFs</h2>
+      <label class="pdf-field">Add PDFs in merge order <input id="pdf-merge-file" type="file" accept="application/pdf" multiple></label>
+      <ol id="pdf-merge-list" class="pdf-list"></ol>
+      <button id="pdf-merge-btn" class="digitizer-button" type="button">Merge and download</button>
+    </div>
+  </div>
+
+  <div data-pdf-panel="split" hidden>
+    <div class="digitizer-card" style="margin-top: 1.25rem;">
+      <h2>Split PDF</h2>
+      <label class="pdf-field">Choose a PDF <input id="pdf-split-file" type="file" accept="application/pdf"></label>
+      <label class="pdf-field">Pages to extract (e.g. 1, 3-5, 8) <input id="pdf-split-pages" type="text"></label>
+      <label class="pdf-field">Output
+        <select id="pdf-split-output">
+          <option value="single">One PDF with selected pages</option>
+          <option value="zip">Separate PDFs in a ZIP</option>
+        </select>
+      </label>
+      <button id="pdf-split-btn" class="digitizer-button" type="button">Split and download</button>
+    </div>
+  </div>
+
+  <div data-pdf-panel="compress" hidden>
+    <div class="digitizer-card" style="margin-top: 1.25rem;">
+      <h2>Compress PDF</h2>
+      <p class="digitizer-help">Pages are re-rendered as JPEG images, so text becomes non-selectable. Best for scanned documents.</p>
+      <label class="pdf-field">Choose a PDF <input id="pdf-compress-file" type="file" accept="application/pdf"></label>
+      <label class="pdf-field">Quality
+        <select id="pdf-compress-preset">
+          <option value="150,0.75">Balanced (150 dpi)</option>
+          <option value="110,0.6">Smaller (110 dpi)</option>
+          <option value="200,0.85">Higher quality (200 dpi)</option>
+        </select>
+      </label>
+      <button id="pdf-compress-btn" class="digitizer-button" type="button">Compress and download</button>
+    </div>
+  </div>
+</div>
+<p class="tools-credit">Designed and developed by Ozgur Tumuklu. For issues, please contact ozgurtumuklu@gmail.com</p>
 </section>
 
 <script>
@@ -1276,5 +1585,20 @@ title: "Tools"
   draw();
   renderResults();
 })();
+
+(function () {
+  const tabs = document.querySelectorAll('[data-tools-tab]');
+  const panels = document.querySelectorAll('[data-tools-panel]');
+  tabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      tabs.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+      panels.forEach(function (p) { p.hidden = p.dataset.toolsPanel !== btn.dataset.toolsTab; });
+    });
+  });
+})();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="pdf-tools.js?v=1"></script>
 ```
