@@ -250,7 +250,7 @@ Extensive validation and verification studies are ongoing, and the following gra
 ```{=html}
 <div class="software-figure-row">
   <img src="../projects/ci_zero_M_4.png" alt="Temperature field verification result">
-  <img src="../projects/ci_zero_M_4.png" alt="Stagnation line verification result">
+  <img src="../projects/ci_zero_M_8.png" alt="Stagnation line verification result">
 </div>
 ```
 

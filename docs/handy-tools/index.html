@@ -243,7 +243,8 @@ ul.task-list li input[type="checkbox"] {
 
   .digitizer-toolbar input,
   .digitizer-toolbar select,
-  .digitizer-axis input {
+  .digitizer-axis input,
+  .digitizer-axis select {
     background: #f7fbff;
     border: 1px solid rgba(8, 27, 41, 0.18);
     border-radius: 10px;
@@ -368,6 +369,32 @@ ul.task-list li input[type="checkbox"] {
     padding: 0.95rem 1rem;
   }
 
+  .digitizer-note strong {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .digitizer-output-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 0.9rem;
+    margin-top: 0.9rem;
+  }
+
+  .digitizer-output-options label {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .digitizer-output-options input {
+    accent-color: #00abf0;
+    height: 1rem;
+    width: 1rem;
+  }
+
   .digitizer-results {
     margin-top: 1rem;
     overflow: auto;
@@ -409,6 +436,28 @@ ul.task-list li input[type="checkbox"] {
     grid-column: 1 / -1;
   }
 
+  .digitizer-scale-bar {
+    background: rgba(0, 171, 240, 0.08);
+    border: 1px solid rgba(0, 171, 240, 0.18);
+    border-radius: 12px;
+    grid-column: 1 / -1;
+    padding: 0.8rem;
+  }
+
+  .digitizer-scale-bar legend {
+    float: none;
+    font-size: 0.92rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    width: auto;
+  }
+
+  .digitizer-scale-controls {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .digitizer-help {
     color: rgba(8, 27, 41, 0.74);
     font-size: 0.95rem;
@@ -433,8 +482,13 @@ ul.task-list li input[type="checkbox"] {
       grid-template-columns: 1fr;
     }
 
-    .digitizer-axis .full {
+    .digitizer-axis .full,
+    .digitizer-scale-bar {
       grid-column: auto;
+    }
+
+    .digitizer-scale-controls {
+      grid-template-columns: 1fr;
     }
   }
 </style>
@@ -517,6 +571,25 @@ ul.task-list li input[type="checkbox"] {
       <div class="digitizer-card">
         <h2 class="anchored">Axis calibration</h2>
         <div class="digitizer-axis">
+          <fieldset class="digitizer-scale-bar">
+            <legend>Axis scale</legend>
+            <div class="digitizer-scale-controls">
+              <label>
+                X axis
+                <select id="digitizer-xscale">
+                  <option value="linear">Linear</option>
+                  <option value="log">Log</option>
+                </select>
+              </label>
+              <label>
+                Y axis
+                <select id="digitizer-yscale">
+                  <option value="linear">Linear</option>
+                  <option value="log">Log</option>
+                </select>
+              </label>
+            </div>
+          </fieldset>
           <label>
             X minimum
             <input id="digitizer-xmin" type="number" value="0" step="any">
@@ -533,7 +606,7 @@ ul.task-list li input[type="checkbox"] {
             Y maximum
             <input id="digitizer-ymax" type="number" value="1" step="any">
           </label>
-          <label class="full">
+          <label>
             Plot left
             <input id="digitizer-left" type="number" value="0" step="1">
           </label>
@@ -552,8 +625,7 @@ ul.task-list li input[type="checkbox"] {
         </div>
         <p class="digitizer-help">
           The plot box can be set manually on the canvas. Add an orange legend exclusion box when
-          the legend overlaps the plot. The axis inputs turn pixel positions into physical
-          coordinates for export.
+          the legend overlaps the plot. Use log scale only with positive axis limits.
         </p>
       </div>
 
@@ -561,6 +633,20 @@ ul.task-list li input[type="checkbox"] {
         <h2 class="anchored">Results</h2>
         <div class="digitizer-note" id="digitizer-summary">
           No points yet. Manual clicks and auto extraction will appear here.
+        </div>
+        <div class="digitizer-output-options" aria-label="Optional output columns">
+          <label>
+            <input id="digitizer-show-source" type="checkbox">
+            Source
+          </label>
+          <label>
+            <input id="digitizer-show-pixelx" type="checkbox">
+            Pixel X
+          </label>
+          <label>
+            <input id="digitizer-show-pixely" type="checkbox">
+            Pixel Y
+          </label>
         </div>
         <div class="digitizer-results" id="digitizer-results"></div>
       </div>
@@ -590,6 +676,11 @@ ul.task-list li input[type="checkbox"] {
   const clearBtn = document.getElementById('digitizer-clear-btn');
   const undoBtn = document.getElementById('digitizer-undo-btn');
   const downloadBtn = document.getElementById('digitizer-download-btn');
+  const showSourceInput = document.getElementById('digitizer-show-source');
+  const showPixelXInput = document.getElementById('digitizer-show-pixelx');
+  const showPixelYInput = document.getElementById('digitizer-show-pixely');
+  const xscaleInput = document.getElementById('digitizer-xscale');
+  const yscaleInput = document.getElementById('digitizer-yscale');
   const xminInput = document.getElementById('digitizer-xmin');
   const xmaxInput = document.getElementById('digitizer-xmax');
   const yminInput = document.getElementById('digitizer-ymin');
@@ -619,6 +710,40 @@ ul.task-list li input[type="checkbox"] {
   function readNumber(input, fallback) {
     const value = Number(input.value);
     return Number.isFinite(value) ? value : fallback;
+  }
+
+  function mapAxisValue(fraction, min, max, scale) {
+    if (scale === 'log') {
+      if (min <= 0 || max <= 0) return null;
+      const logMin = Math.log10(min);
+      const logMax = Math.log10(max);
+      return 10 ** (logMin + fraction * (logMax - logMin));
+    }
+
+    return min + fraction * (max - min);
+  }
+
+  function formatDataValue(value, precision) {
+    if (!Number.isFinite(value)) return '';
+    if (value === 0) return '0';
+
+    const absolute = Math.abs(value);
+    if (absolute < 0.0001 || absolute >= 1000000) {
+      return value.toExponential(precision).replace(/\.?0+e/, 'e');
+    }
+
+    return Number(value.toPrecision(precision + 2)).toString();
+  }
+
+  function activeOutputColumns() {
+    const columns = [{ key: 'index', label: '#' }];
+
+    if (showSourceInput.checked) columns.push({ key: 'source', label: 'Source' });
+    if (showPixelXInput.checked) columns.push({ key: 'pixelX', label: 'Pixel X' });
+    if (showPixelYInput.checked) columns.push({ key: 'pixelY', label: 'Pixel Y' });
+
+    columns.push({ key: 'dataX', label: 'Data X' }, { key: 'dataY', label: 'Data Y' });
+    return columns;
   }
 
   function hexToRgb(hex) {
@@ -784,8 +909,12 @@ ul.task-list li input[type="checkbox"] {
 
     const xSpan = box.right - box.left || 1;
     const ySpan = box.bottom - box.top || 1;
-    const dataX = xmin + ((point.pixelX - box.left) / xSpan) * (xmax - xmin);
-    const dataY = ymax - ((point.pixelY - box.top) / ySpan) * (ymax - ymin);
+    const xFraction = (point.pixelX - box.left) / xSpan;
+    const yFraction = (box.bottom - point.pixelY) / ySpan;
+    const dataX = mapAxisValue(xFraction, xmin, xmax, xscaleInput.value);
+    const dataY = mapAxisValue(yFraction, ymin, ymax, yscaleInput.value);
+
+    if (dataX === null || dataY === null) return null;
 
     return { dataX, dataY };
   }
@@ -804,18 +933,27 @@ ul.task-list li input[type="checkbox"] {
         source: point.source,
         pixelX: point.pixelX.toFixed(2),
         pixelY: point.pixelY.toFixed(2),
-        dataX: mapped ? mapped.dataX.toFixed(6) : '',
-        dataY: mapped ? mapped.dataY.toFixed(6) : '',
+        dataX: mapped ? formatDataValue(mapped.dataX, 6) : '',
+        dataY: mapped ? formatDataValue(mapped.dataY, 6) : '',
       };
     });
 
-    summaryBox.innerHTML = '<strong>' + rows.length + ' points captured</strong><span>Manual clicks are orange, auto extracted points are green.</span>';
+    const hasUnmappedRows = rows.some(function (row) {
+      return row.dataX === '' || row.dataY === '';
+    });
+    const scaleNote = hasUnmappedRows ? ' Log axes require positive minimum and maximum values.' : '';
+    const columns = activeOutputColumns();
+    summaryBox.innerHTML = '<strong>' + rows.length + ' points captured</strong><span>Manual clicks are orange, auto extracted points are green.' + scaleNote + '</span>';
     resultsBox.innerHTML = [
       '<table>',
-      '<thead><tr><th>#</th><th>Source</th><th>Pixel X</th><th>Pixel Y</th><th>Data X</th><th>Data Y</th></tr></thead>',
+      '<thead><tr>' + columns.map(function (column) {
+        return '<th>' + column.label + '</th>';
+      }).join('') + '</tr></thead>',
       '<tbody>',
       rows.map(function (row) {
-        return '<tr><td>' + row.index + '</td><td>' + row.source + '</td><td>' + row.pixelX + '</td><td>' + row.pixelY + '</td><td>' + row.dataX + '</td><td>' + row.dataY + '</td></tr>';
+        return '<tr>' + columns.map(function (column) {
+          return '<td>' + row[column.key] + '</td>';
+        }).join('') + '</tr>';
       }).join(''),
       '</tbody></table>',
     ].join('');
@@ -1075,16 +1213,33 @@ ul.task-list li input[type="checkbox"] {
       return;
     }
 
-    const lines = ['source,pixel_x,pixel_y,data_x,data_y'];
+    const columns = activeOutputColumns();
+    const csvLabels = {
+      index: 'index',
+      source: 'source',
+      pixelX: 'pixel_x',
+      pixelY: 'pixel_y',
+      dataX: 'data_x',
+      dataY: 'data_y',
+    };
+    const lines = [columns.map(function (column) {
+      return csvLabels[column.key];
+    }).join(',')];
+
     for (const point of state.points) {
       const mapped = pointToData(point);
-      lines.push([
-        point.source,
-        point.pixelX.toFixed(4),
-        point.pixelY.toFixed(4),
-        mapped ? mapped.dataX.toFixed(8) : '',
-        mapped ? mapped.dataY.toFixed(8) : '',
-      ].join(','));
+      const row = {
+        index: String(lines.length),
+        source: point.source,
+        pixelX: point.pixelX.toFixed(4),
+        pixelY: point.pixelY.toFixed(4),
+        dataX: mapped ? formatDataValue(mapped.dataX, 10) : '',
+        dataY: mapped ? formatDataValue(mapped.dataY, 10) : '',
+      };
+
+      lines.push(columns.map(function (column) {
+        return row[column.key];
+      }).join(','));
     }
 
     const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8;' });
@@ -1197,7 +1352,11 @@ ul.task-list li input[type="checkbox"] {
 
   downloadBtn.addEventListener('click', downloadCsv);
 
-  for (const input of [xminInput, xmaxInput, yminInput, ymaxInput, leftInput, rightInput, topInput, bottomInput]) {
+  for (const input of [showSourceInput, showPixelXInput, showPixelYInput]) {
+    input.addEventListener('change', renderResults);
+  }
+
+  for (const input of [xscaleInput, yscaleInput, xminInput, xmaxInput, yminInput, ymaxInput, leftInput, rightInput, topInput, bottomInput]) {
     input.addEventListener('change', function () {
       if (input === leftInput || input === rightInput || input === topInput || input === bottomInput) {
         syncPlotBoxFromInputs();
