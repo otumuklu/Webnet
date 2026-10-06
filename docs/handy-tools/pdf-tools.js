@@ -50,8 +50,8 @@
     parseInt(hex.slice(5, 7), 16) / 255
   );
 
-  function parsePages(text, count) {
-    const pages = [];
+  function parsePageGroups(text, count) {
+    const groups = [];
     text.split(',').forEach((part) => {
       part = part.trim();
       if (!part) return;
@@ -60,10 +60,16 @@
       const start = Number(m[1]);
       const end = Number(m[2] || m[1]);
       if (start < 1 || end < start || end > count) throw new Error('Page numbers must be between 1 and ' + count + '.');
-      for (let p = start; p <= end; p++) pages.push(p);
+      const group = [];
+      for (let p = start; p <= end; p++) group.push(p);
+      groups.push(group);
     });
-    if (!pages.length) throw new Error('Enter at least one page number.');
-    return Array.from(new Set(pages));
+    if (!groups.length) throw new Error('Enter at least one page number.');
+    return groups;
+  }
+
+  function parsePages(text, count) {
+    return Array.from(new Set(parsePageGroups(text, count).flat()));
   }
 
   // Sub-tabs
@@ -597,7 +603,10 @@
       } else {
         if (!window.JSZip) throw new Error('ZIP library failed to load.');
         const zip = new window.JSZip();
-        for (const p of pages) zip.file('page_' + String(p).padStart(3, '0') + '.pdf', await extract([p]));
+        for (const g of parsePageGroups($('pdf-split-pages').value, splitCount)) {
+          const name = g.length === 1 ? 'page_' + g[0] : 'pages_' + g[0] + '-' + g[g.length - 1];
+          zip.file(name + '.pdf', await extract(g));
+        }
         download(await zip.generateAsync({ type: 'uint8array' }), baseName(splitFile) + '_split.zip', 'application/zip');
       }
       setStatus('Split complete.');

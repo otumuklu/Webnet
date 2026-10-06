@@ -767,7 +767,7 @@ title: "Tools"
       <label class="pdf-field">Output
         <select id="pdf-split-output">
           <option value="single">One PDF with selected pages</option>
-          <option value="zip">Separate PDFs in a ZIP</option>
+          <option value="zip">One PDF per comma-separated range, in a ZIP</option>
         </select>
       </label>
       <button id="pdf-split-btn" class="digitizer-button" type="button">Split and download</button>
