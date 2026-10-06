@@ -6,7 +6,8 @@ title: ""
 <link href="../html/pages.css" rel="stylesheet">
 ```
 ## Announcement:
-
+Currently, no positions are available.
+<!--
 Ph.D. and M.S. Positions Available in Numerical Modeling Software Development"
 
 We are pleased to announce multiple openings for PhD positions in the field of numerical modeling software development. If you possess a passion for advancing computational techniques and a keen interest in developing innovative numerical models, we invite you to apply.
@@ -24,4 +25,4 @@ If you are motivated to make meaningful contributions to the field of numerical 
             </div>
 ```
 Join us in shaping the future of numerical modeling and computational research. Apply now and be part of our innovative team!
-
+-->
