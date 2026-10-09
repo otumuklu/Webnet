@@ -2217,7 +2217,7 @@ function loadScriptOnce(src, globalName) {
 async function ensureReactingAirModels() {
   if (globalThis.ReactingAirModels) return;
   await loadScriptOnce("reacting_air_data.js?v=9", "REACTING_AIR_REFERENCE_TABLES");
-  await loadScriptOnce("reacting_air.js?v=9", "ReactingAirModels");
+  await loadScriptOnce("reacting_air.js?v=10", "ReactingAirModels");
 }
 
 async function runFiniteRateDirect(method, input) {
@@ -2234,7 +2234,7 @@ function runFiniteRateInWorker(method, input) {
       runFiniteRateDirect(method, input).then(resolve).catch(reject);
       return;
     }
-    const worker = new Worker("reacting_air.js?v=9");
+    const worker = new Worker("reacting_air.js?v=10");
     worker.onmessage = (event) => {
       worker.terminate();
       if (event.data.ok) resolve(event.data.result); else reject(new Error(event.data.error));
@@ -2265,8 +2265,10 @@ const REACTING_AIR_SPECIES_LABELS = {
 function renderReactingAirComposition(model) {
   const container = document.getElementById("reacting-air-composition");
   const vibrationalField = document.querySelector(".reacting-air-tv-field");
+  const endTimeField = document.querySelector(".reacting-air-end-time-field");
   const knabField = document.querySelector(".reacting-air-knab-field");
   if (vibrationalField) vibrationalField.classList.toggle("is-hidden", model === "hansen");
+  if (endTimeField) endTimeField.classList.toggle("is-hidden", model === "hansen");
   if (knabField) knabField.classList.toggle("is-hidden", model !== "park11");
   if (!container) return;
   const species = REACTING_AIR_MODEL_SPECIES[model] || REACTING_AIR_MODEL_SPECIES.hansen;

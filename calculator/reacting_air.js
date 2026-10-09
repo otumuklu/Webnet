@@ -111,8 +111,7 @@
     const sum = species.reduce((total, speciesName) => total + values[speciesName], 0);
     if (sum <= 0) throw new Error("N2 and O2 composition must contain positive total mole fraction.");
     const X = {}; species.forEach((s) => { X[s] = values[s] / sum; });
-    let invW = 0; species.forEach((s) => { invW += X[s] / W[s]; });
-    const Wmix = 1 / invW;
+    const Wmix = species.reduce((sumW, s) => sumW + X[s] * W[s], 0);
     const Y = {}; species.forEach((s) => { Y[s] = X[s] * W[s] / Wmix; });
     return { X, Y, Wmix };
   }
@@ -383,7 +382,7 @@
     const compositionSum = species.reduce((sum, s) => sum + X0[s], 0);
     if (!(compositionSum > 0)) throw new Error("Initial species composition must contain a positive total.");
     species.forEach((s) => { X0[s] /= compositionSum; });
-    let invW = 0; species.forEach((s) => { invW += X0[s] / config.weights[s]; }); const Wmix0 = 1 / invW;
+    const Wmix0 = species.reduce((sumW, s) => sumW + X0[s] * config.weights[s], 0);
     const rho = pressure0 / ((R_UNIVERSAL / Wmix0) * T0);
     const state = species.map((s) => X0[s] * config.weights[s] / Wmix0);
     const energy = config.vibSpecies.reduce((sum, s) => sum + rho * state[species.indexOf(s)] * vibEnergy(Tv0, s), 0);
@@ -643,10 +642,9 @@
       const Tv = mmtSolveTv(Ck, point.Ev, point.tvGuess);
       const T = mmtTemperature(Ck, point.Ev, E0);
       const X = {}; const Y = {}; const concentration = {};
-      let invW = 0;
-      MMT_SPECIES.forEach((s, i) => { X[s] = Ck[i] / Math.max(ctot, 1e-300); invW += X[s] / (MMT_MOLAR_MASS[s] * 1000); concentration[s] = Ck[i]; });
-      const Wmix = 1 / Math.max(invW, 1e-300);
-      MMT_SPECIES.forEach((s) => { Y[s] = X[s] * (MMT_MOLAR_MASS[s] * 1000) / Wmix; });
+      MMT_SPECIES.forEach((s, i) => { X[s] = Ck[i] / Math.max(ctot, 1e-300); concentration[s] = Ck[i]; });
+      const Wmix = MMT_SPECIES.reduce((sumW, s) => sumW + X[s] * MMT_MOLAR_MASS[s], 0);
+      MMT_SPECIES.forEach((s) => { Y[s] = X[s] * MMT_MOLAR_MASS[s] / Math.max(Wmix, 1e-300); });
       return { t: point.t, T, Tv, X, Y, concentration, ...Object.fromEntries(MMT_SPECIES.map((s) => [`X_${s}`, X[s]])), pressure: ctot * MMT_R * T };
     });
     return { model: "MMT 5", species: MMT_SPECIES, history, final: history[history.length - 1] };

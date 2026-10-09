@@ -96,6 +96,43 @@
   color: #9ecfe8;
 }
 
+.calc-references {
+  width: 100%;
+  margin-top: 1.15rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  color: #d9e2ee;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.calc-references h2 {
+  color: #9ecfe8;
+  font-size: 0.95rem;
+  font-weight: 800;
+  margin: 0 0 0.55rem;
+}
+
+.calc-references ul {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.calc-references li {
+  padding-left: 0.15rem;
+}
+
+.calc-references span {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.calc-references a {
+  color: #9ecfe8;
+}
+
 .calc-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -295,6 +332,10 @@
 }
 
 .reacting-air-tv-field.is-hidden {
+  display: none;
+}
+
+.reacting-air-end-time-field.is-hidden {
   display: none;
 }
 

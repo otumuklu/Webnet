@@ -388,7 +388,7 @@ title: "Hava Laboratory Tools"
             Initial p, Pa
             <input name="pressure" type="text" inputmode="decimal" value="5066.25">
           </label>
-          <label>
+          <label class="reacting-air-end-time-field is-hidden">
             End time, s
             <input name="endTime" type="text" inputmode="decimal" value="1e-3">
           </label>
@@ -416,14 +416,38 @@ title: "Hava Laboratory Tools"
       </div>
       <p class="calc-credit">
         Special thanks to Prof. William Devenport and the VT Compressible Aerodynamics Calculator for serving as a source of inspiration for this calculator and for Ozgur Tumuklu’s personal and classroom use over the years in perfect-gas calculations.
-        <br>
-        For the reacting air model, O. Tumuklu acknowledges the contributions of C. Frederick Hansen, whose algorithm was defined in the NASA TR R-50 technical report, and Semih Olcmen’s group for their recent publication: <a href="https://doi.org/10.3390/axioms15040283" target="_blank" rel="noopener">Axioms paper</a>.
       </p>
+      <div class="calc-references" aria-labelledby="calc-references-title">
+        <h2 id="calc-references-title">References</h2>
+        <ul>
+          <li>
+            <span>Standard air calculations:</span> Anderson, J. D., Jr., <em>Modern Compressible Flow: With Historical Perspective</em>, 3rd ed., McGraw-Hill, 2003.
+          </li>
+          <li>
+            <span>Hansen model:</span> Hansen, C. F., “Approximations for the Thermodynamic and Transport Properties of High-Temperature Air,” NASA Technical Report R-50, 1959.
+          </li>
+          <li>
+            <span>Hansen model:</span> Dunn, A., Ranstead, J., and Ölçmen, S., “Reconstruction of Hansen’s High-Temperature Air Model,” <em>Axioms</em>, Vol. 15, No. 4, Article 283, 2026, <a href="https://www.mdpi.com/2075-1680/15/4/283" target="_blank" rel="noopener">doi:10.3390/axioms15040283</a>.
+          </li>
+          <li>
+            <span>Park model:</span> Park, C., “Two-temperature interpretation of dissociation rate data,” <em>AIAA Journal</em>, Vol. 29, No. 2, 1991.
+          </li>
+          <li>
+            <span>Park model:</span> Park, C., “A review of reaction rates in high-temperature air,” <em>AIAA Journal</em>, Vol. 32, No. 3, 1994.
+          </li>
+          <li>
+            <span>QK model:</span> Scanlon, T. J., White, C., Borg, M. K., Palharini, R. C., Farbar, E., Boyd, I. D., Reese, J. M., and Brown, R. E., “Open source Direct Simulation Monte Carlo chemistry modelling for hypersonic flows,” <em>AIAA Journal</em>, Vol. 53, No. 6, 2015.
+          </li>
+          <li>
+            <span>MMT model:</span> Torres, J. P., Gross, M., Candler, G. V., and Schwartzentruber, T. E., “Modified Marrone-Treanor Model: Parameterization and Benchmarking for Five-Species Air,” <a href="https://arxiv.org/abs/2506.20521" target="_blank" rel="noopener">arXiv:2506.20521</a>, 2025.
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
 <script src="reacting_air_data.js?v=9"></script>
-<script src="reacting_air.js?v=9"></script>
-<script src="calculator.js?v=9"></script>
+<script src="reacting_air.js?v=10"></script>
+<script src="calculator.js?v=10"></script>
 ```
