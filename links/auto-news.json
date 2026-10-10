@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T12:14:37.660832+00:00",
+  "updated": "2026-10-10T12:38:36.618443+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,13 +20,6 @@
   ],
   "industry": [
     {
-      "title": "Avolon Orders 250 Jets: 140 Boeing 737 MAX and 110 Airbus Aircraft - MiGFlug",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT1pzajlmaEJCMzl1czhqOHJEaUNra3RsWlY4SjZ3bV9UZWUtY1lBTVlqZ3FQWWpFSnU5WVpwY05wdG1od0pHRDN5U1NyWE81ejNRWnd5X3N2LXJaSzNVaEsxSUg1eS1peW5CanliRVBIT2U3N2t0RFU4aTcwUTE0d0ItZVVrOXdQd0JFVzJQZGhxM2VEcUdCSnV3OXphZFZwNHFZSQ?oc=5",
-      "summary": "Avolon Orders 250 Jets: 140 Boeing 737 MAX and 110 Airbus Aircraft",
-      "date": "2026-10-10",
-      "source": "MiGFlug"
-    },
-    {
       "title": "Avolon Agrees To Buy 250 Jets From Boeing, Airbus - Aero-News Network",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkhwVHBTRkVGZ2FGUHZfc0JuVHNZX21fNUtNYk9RZjQ3WGhwTkI5X1dOZjAtMHBhVkpQdjdKYzZyUmxTdl9pVmY0cHdWcWlrUmdoUzZHU1V6TU9lR0JzQU52MkdLT2RkUDZvY29oOGRGVTZaak9sZGU4cGJwRkVrQmdSRHRtMjBCUWhoY3Y4emhNQ0VDWEw4?oc=5",
       "summary": "Avolon Agrees To Buy 250 Jets From Boeing, Airbus",
@@ -34,25 +27,18 @@
       "source": "Aero-News Network"
     },
     {
+      "title": "Kalitta Air reportedly behind Airbus A350F order despite Boeing-dominated fleet - Air Data News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2hyaDYwRmpUTFN1RVdaTGtoR0lMSnNIRWpyaG0zdDYzTUpralI1ekkyOVNIeW1FYjhqSk1IeXhOclcyWVd1dEFwaU91Ynl2MFhvZk5sa1R4M2Y2X3RZeUkzMDdsRWFDSGMyLWhZaHlsY2FBTDZpS0ZyYktEMlQyeVVMOV9qWWZ2bXdINXA3YTAySEk0Wl90ZTVtQjZmUUlkUzF4WXA0ZS1xUmhEa3c?oc=5",
+      "summary": "Kalitta Air reportedly behind Airbus A350F order despite Boeing-dominated fleet",
+      "date": "2026-10-10",
+      "source": "Air Data News"
+    },
+    {
       "title": "Brake! Time for ESA\u2019s Hera asteroid mission to go slow - European Space Agency (ESA)",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbENiTVVseGwxSnhqdUExZkRPN2txU1FIRFpjbFFEV0FVN2N5clZWMzFVU3FERnVHWWJXNVJmRWhzck84LXRLYW9CbzgyZlgycXhfQm5MX0IwMWlaRVRuWmNxS2JzU0R3NEh5NThlRHgzZG56czQ5N1RDS0tFcHdRRS1PRzR3ZUtzXzJHRVA2eG82a2VCRFhV?oc=5",
       "summary": "Brake! Time for ESA\u2019s Hera asteroid mission to go slow",
       "date": "2026-10-10",
       "source": "European Space Agency (ESA)"
-    },
-    {
-      "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
-      "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
-      "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations. \u201cIn alignment with the President\u2019s National [\u2026]",
-      "date": "2026-10-09",
-      "source": "NASA"
-    },
-    {
-      "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
-      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
-      "summary": "NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash. When Northrop Grumman 24th cargo resupply mission for NASA undocked from the International Space Station, it carried a fleet of 12 small, experimental capsules designed to [\u2026]",
-      "date": "2026-10-09",
-      "source": "NASA"
     },
     {
       "title": "Lockheed Martin to bring 1,250 new jobs in Colorado expansion - Denver Gazette",
