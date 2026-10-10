@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T00:52:18.961515+00:00",
+  "updated": "2026-10-10T12:14:37.660832+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -19,6 +19,20 @@
     "Simons Foundation"
   ],
   "industry": [
+    {
+      "title": "Avolon Orders 250 Jets: 140 Boeing 737 MAX and 110 Airbus Aircraft - MiGFlug",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT1pzajlmaEJCMzl1czhqOHJEaUNra3RsWlY4SjZ3bV9UZWUtY1lBTVlqZ3FQWWpFSnU5WVpwY05wdG1od0pHRDN5U1NyWE81ejNRWnd5X3N2LXJaSzNVaEsxSUg1eS1peW5CanliRVBIT2U3N2t0RFU4aTcwUTE0d0ItZVVrOXdQd0JFVzJQZGhxM2VEcUdCSnV3OXphZFZwNHFZSQ?oc=5",
+      "summary": "Avolon Orders 250 Jets: 140 Boeing 737 MAX and 110 Airbus Aircraft",
+      "date": "2026-10-10",
+      "source": "MiGFlug"
+    },
+    {
+      "title": "Avolon Agrees To Buy 250 Jets From Boeing, Airbus - Aero-News Network",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkhwVHBTRkVGZ2FGUHZfc0JuVHNZX21fNUtNYk9RZjQ3WGhwTkI5X1dOZjAtMHBhVkpQdjdKYzZyUmxTdl9pVmY0cHdWcWlrUmdoUzZHU1V6TU9lR0JzQU52MkdLT2RkUDZvY29oOGRGVTZaak9sZGU4cGJwRkVrQmdSRHRtMjBCUWhoY3Y4emhNQ0VDWEw4?oc=5",
+      "summary": "Avolon Agrees To Buy 250 Jets From Boeing, Airbus",
+      "date": "2026-10-10",
+      "source": "Aero-News Network"
+    },
     {
       "title": "Brake! Time for ESA\u2019s Hera asteroid mission to go slow - European Space Agency (ESA)",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbENiTVVseGwxSnhqdUExZkRPN2txU1FIRFpjbFFEV0FVN2N5clZWMzFVU3FERnVHWWJXNVJmRWhzck84LXRLYW9CbzgyZlgycXhfQm5MX0IwMWlaRVRuWmNxS2JzU0R3NEh5NThlRHgzZG56czQ5N1RDS0tFcHdRRS1PRzR3ZUtzXzJHRVA2eG82a2VCRFhV?oc=5",
@@ -48,20 +62,6 @@
       "source": "Denver Gazette"
     },
     {
-      "title": "Lessor Avolon orders 250 Boeing, Airbus jets with option for 100 more - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdko1U3lqODlKNXRDOHBrNndRT2J1RGVFVjhUY3QyM0g0MWt0RmtxTUVMdGtNYzJFNUI0eDZxQjJ2YkFQN1ZyZlZxLW9JbnlEUHZmUHdmQ1BJLVdwVE1Vb1phd05YX2VkX0RUWWlVR0hmNGxpcG1yY0lMajE2YUF3ZGdNc2JvWGhHVnl2eElUSlh5MDJvUm1KNjNvWU9ZSUpCc2gzVk9oaGdwSWVzMWNWLVlZZndNTVNad2dpNHd1SUNqMzdqTmc?oc=5",
-      "summary": "Lessor Avolon orders 250 Boeing, Airbus jets with option for 100 more",
-      "date": "2026-10-09",
-      "source": "Reuters"
-    },
-    {
-      "title": "Avolon orders 35 Airbus A330-900 and 75 A320neo Family aircraft - Airbus",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVTl0UWhnRGZxYWNubUFHSGdRYURMa0owOFZfVUlqU0RDZ0hVOTk0M3hHRmlyOFBYb0ZjeTA3SV9Hei04WFBpYVFuTnhYb0tfUjlHX09ISmJPWVhZak9yenVHNm5SVkszZlhhSkhPd21IamxXSGsyTnk4WjViZVhpR1JFM1FGX2QyTXhfMHJzUjNOTjJoR0JfNGJmeUtSa1EyN18zWVhNZ29YdXh3TGpnNE1IT0pVNE5aZ21UUnRn?oc=5",
-      "summary": "Avolon orders 35  A330-900 and 75 A320neo Family aircraft Airbus",
-      "date": "2026-10-09",
-      "source": "Airbus"
-    },
-    {
       "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
       "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
@@ -84,13 +84,6 @@
       "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
       "date": "2026-10-08",
       "source": "SpaceX"
-    },
-    {
-      "title": "Blue Origin Announces Constellation Park: New Texas Manufacturing Campus and 2,000 Advanced Jobs",
-      "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus",
-      "summary": "Blue Origin is expanding its footprint in the Lone Star State with a new state-of-the-art manufacturing campus in Hutto, Texas.",
-      "date": "2026-10-08",
-      "source": "Blue Origin"
     },
     {
       "title": "Northrop Grumman\u2019s Talon Blue Completed Its First Fully Autonomous Flight - Design and Development Today",
@@ -177,13 +170,6 @@
       "source": "PIB"
     },
     {
-      "title": "Arizona IAM Local 933 Opens Raytheon Negotiations, Demands Contract That Reflects Workers\u2019 Critical National Defense Role - GOIAM",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZEpEYTFRRW5JZlppZkQ0ZkI1VkZ6c1cwcHgzdTVoUm1FNDJ4dkc0amZCM2M3b0lkbWxHblR5elZUOV85aHp5Vy1vSVZjaWgyWFBwb2xjTFE3alpuMXktX1VSeUpGeXRaNWlTcUpRbjNXOTBtU0Y3T0E4bVpWSVI1dFl6ZS1yLXFFc2J2UXZOX2hmTUJBNXI0bHk4QUQySmY4SDk1THZhZGV1d2g1dTFrUnY0UkE5UEwwMVdoM0R6RHFqQnE0X0NMUW8xVWJIc3Zfa2VmUVUxQ2czbm9VOWNtdTlicVhablNs?oc=5",
-      "summary": "Arizona IAM Local 933 Opens Raytheon Negotiations, Demands Contract That Reflects Workers\u2019 Critical National Defense Role",
-      "date": "2026-10-06",
-      "source": "GOIAM"
-    },
-    {
       "title": "Resource competition intensifies with surge in megaconstellations",
       "url": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
       "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering [\u2026]",
@@ -196,16 +182,6 @@
       "summary": "DURANGO, Colo., Oct. 5, 2026 \u2014 Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His [\u2026]",
       "date": "2026-10-05",
       "source": "SpaceNews"
-    },
-    {
-      "title": "Engineering at AI Speed: Near-CFD Accuracy in 0.1 Seconds - Oil & Gas Journal",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS0tTNGxYbmZHNm9iZG42ZVJYVmt6X0t4SGxYd0pEak5ZblpOMFZZclFuenZlWndrb1pNTUFiVHlyTzBkSTREN1NOUnBNRmlFbTZraENKUlRzUEtoTC11alhYUmpEVV9OZFRRRl9rSlZXbUhjaHRmUmM0anFxbG1EZkNJZFFMVFhqVThJX3V5YnRKaXJReG1tUWZNRm1ncm5wUmZR?oc=5",
-      "summary": "Engineering at AI Speed: Near-CFD Accuracy in 0.1 Seconds",
-      "date": "2026-10-05",
-      "source": "Oil & Gas Journal",
-      "topics": [
-        "GPU-accelerated science and HPC"
-      ]
     },
     {
       "title": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production - Aerospace Manufacturing and Design",
@@ -233,23 +209,16 @@
       "topics": [
         "Quantum computing for fluid science"
       ]
+    },
+    {
+      "title": "RTX's Collins Aerospace to expand Iowa plant that makes engine components - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQnp3UXBJSVhUZU5xUFk4RzNVMlVORmJNQkt6SjNkWEVNVklyZmJGSDZSQWNabmIzUXVTWWJmd1FKVFhpd2VIRzQzNFNjeHhxMkszYnU3Q0FSN21wQWZpdWh6Vm84amh3YTRCeHdUOEFlcW5qV1hod0tZa0NrUW14Y2pYd0E0ckFETDFvdkxCMlhkRGhxVS1nSDZhNlVWSVZPU1B6VDJRTHpTQnNzREw2bktYdk1VNlFtMG5GaS1GM0IwQWRscDZPaHcyS3I?oc=5",
+      "summary": "RTX's Collins Aerospace to expand Iowa plant that makes engine components",
+      "date": "2026-09-29",
+      "source": "Reuters"
     }
   ],
   "papers": [
-    {
-      "title": "Kinetic Reduction and Hydrodynamics under Time-Dependent Helical Symmetry",
-      "url": "https://arxiv.org/abs/2610.10605",
-      "summary": "Translational and helical symmetries provide idealized descriptions of many flows encountered in nature and engineering. While translationally symmetric flows have been extensively studied within kinetic and continuum frameworks, the corresponding connection between microscopic dynamics and continuum behaviour for helical flows is less developed.",
-      "date": "2026-10-09",
-      "source": "arXiv"
-    },
-    {
-      "title": "A critical-layer instability of structural acoustic wall modes in a two-flexible-plate channel with Poiseuille flow: closed-form low-Mach corrections and parity-protected absorption",
-      "url": "https://arxiv.org/abs/2610.10798",
-      "summary": "A compressible fluid column between two thin elastic plates carrying plane Poiseuille flow supports discrete structural-acoustic wall modes. This paper analyses their coupled dispersion and reports a flow-induced instability.",
-      "date": "2026-10-09",
-      "source": "arXiv"
-    },
     {
       "title": "Characteristics of the inertial layer in turbulent channel flow at a friction Reynolds number of approximately 16000",
       "url": "https://doi.org/10.1103/ccj3-w1df",
