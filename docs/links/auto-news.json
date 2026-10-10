@@ -1,0 +1,578 @@
+{
+  "updated": "2026-10-10T00:52:18.961515+00:00",
+  "sources": [
+    "SpaceX",
+    "Blue Origin",
+    "SpaceNews",
+    "NASA",
+    "ESA",
+    "major aerospace companies",
+    "GPU and quantum computing",
+    "arXiv",
+    "AIAA",
+    "Journal of Fluid Mechanics",
+    "Physics of Fluids",
+    "Physical Review Fluids",
+    "Grants.gov",
+    "SpaceWERX",
+    "SBIR.gov",
+    "Simons Foundation"
+  ],
+  "industry": [
+    {
+      "title": "Brake! Time for ESA\u2019s Hera asteroid mission to go slow - European Space Agency (ESA)",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbENiTVVseGwxSnhqdUExZkRPN2txU1FIRFpjbFFEV0FVN2N5clZWMzFVU3FERnVHWWJXNVJmRWhzck84LXRLYW9CbzgyZlgycXhfQm5MX0IwMWlaRVRuWmNxS2JzU0R3NEh5NThlRHgzZG56czQ5N1RDS0tFcHdRRS1PRzR3ZUtzXzJHRVA2eG82a2VCRFhV?oc=5",
+      "summary": "Brake! Time for ESA\u2019s Hera asteroid mission to go slow",
+      "date": "2026-10-10",
+      "source": "European Space Agency (ESA)"
+    },
+    {
+      "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+      "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+      "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations. \u201cIn alignment with the President\u2019s National [\u2026]",
+      "date": "2026-10-09",
+      "source": "NASA"
+    },
+    {
+      "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+      "summary": "NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash. When Northrop Grumman 24th cargo resupply mission for NASA undocked from the International Space Station, it carried a fleet of 12 small, experimental capsules designed to [\u2026]",
+      "date": "2026-10-09",
+      "source": "NASA"
+    },
+    {
+      "title": "Lockheed Martin to bring 1,250 new jobs in Colorado expansion - Denver Gazette",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeTlEeDkyVUE1OTZ5Y2pwNTZDdkg2SnhVY09EUVlwYXN3VXdEaW5oaXBfbWlOcmk0M3RVSFVqNk1faUxKT09WWEQzcm83TXNqNWprZXM2ZXFqYTVuTWZJNnRDVG40VG9ZTTVGaE1VdmVxN0VHZndPN2I2Um5NeVVKZVNYVE96VGV6UzRlOGtROHhBeGtXeUtfQkU5TE1tSXhZcnZCdw?oc=5",
+      "summary": "Lockheed Martin to bring 1,250 new jobs in Colorado expansion",
+      "date": "2026-10-09",
+      "source": "Denver Gazette"
+    },
+    {
+      "title": "Lessor Avolon orders 250 Boeing, Airbus jets with option for 100 more - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdko1U3lqODlKNXRDOHBrNndRT2J1RGVFVjhUY3QyM0g0MWt0RmtxTUVMdGtNYzJFNUI0eDZxQjJ2YkFQN1ZyZlZxLW9JbnlEUHZmUHdmQ1BJLVdwVE1Vb1phd05YX2VkX0RUWWlVR0hmNGxpcG1yY0lMajE2YUF3ZGdNc2JvWGhHVnl2eElUSlh5MDJvUm1KNjNvWU9ZSUpCc2gzVk9oaGdwSWVzMWNWLVlZZndNTVNad2dpNHd1SUNqMzdqTmc?oc=5",
+      "summary": "Lessor Avolon orders 250 Boeing, Airbus jets with option for 100 more",
+      "date": "2026-10-09",
+      "source": "Reuters"
+    },
+    {
+      "title": "Avolon orders 35 Airbus A330-900 and 75 A320neo Family aircraft - Airbus",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVTl0UWhnRGZxYWNubUFHSGdRYURMa0owOFZfVUlqU0RDZ0hVOTk0M3hHRmlyOFBYb0ZjeTA3SV9Hei04WFBpYVFuTnhYb0tfUjlHX09ISmJPWVhZak9yenVHNm5SVkszZlhhSkhPd21IamxXSGsyTnk4WjViZVhpR1JFM1FGX2QyTXhfMHJzUjNOTjJoR0JfNGJmeUtSa1EyN18zWVhNZ29YdXh3TGpnNE1IT0pVNE5aZ21UUnRn?oc=5",
+      "summary": "Avolon orders 35  A330-900 and 75 A320neo Family aircraft Airbus",
+      "date": "2026-10-09",
+      "source": "Airbus"
+    },
+    {
+      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
+      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
+      "date": "2026-10-09",
+      "source": "425business.com"
+    },
+    {
+      "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbHRKcmNNYWFmMF9hSDRvZkdoUzNYUE9xX2JNUHZlSGg4NFJlX05hTHNLbnBuSE5Vb1pteUhUb1N1Sjc3ZmpycEdvYXFaS0ZneW5RY01Xd1dpMlM1RnU4ZDNwRThabzFvM3A0dEtfeFdNb1hxaEhuZFlVclVFZlNodFhlM2FGODA2Y1kxVlVB?oc=5",
+      "summary": "Fluid Simulations Gain From New Quantum Encoding Strategies",
+      "date": "2026-10-09",
+      "source": "Quantum Zeitgeist",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "BUILDING THE WORLD\u2019S MOST ADVANCED MOBILE NETWORK",
+      "url": "https://www.spacex.com/updates#starlink-mobile-spectrum",
+      "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
+      "date": "2026-10-08",
+      "source": "SpaceX"
+    },
+    {
+      "title": "Blue Origin Announces Constellation Park: New Texas Manufacturing Campus and 2,000 Advanced Jobs",
+      "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus",
+      "summary": "Blue Origin is expanding its footprint in the Lone Star State with a new state-of-the-art manufacturing campus in Hutto, Texas.",
+      "date": "2026-10-08",
+      "source": "Blue Origin"
+    },
+    {
+      "title": "Northrop Grumman\u2019s Talon Blue Completed Its First Fully Autonomous Flight - Design and Development Today",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcnhrb29kaHRGMWtwbmFpck9IdGtrd0ZSb0tVcUxiaUhpZk9ESV9TVlY2R3VWRmRvdmNVYVU2YUpKRzQwNk50OU84cjFMd1pCa2NBNUVHQlJIV3Z2UzU4M04yVTRtRjJaYWNTZF9TRnJlY3VDN1RiV0hHQ2pPQ08xWTVUTGRLQ1Q0N242eFpuTXZxb2F4Z3A4RjV4cC14c1NqMkpmV2Z1MDhobWV5dXZpYkNKUDF2ZE85MVZsYzVfbmdJd2xIOXdDdDJwSlZEQW9nTUVMQXpVY2hxVVpnMm5n?oc=5",
+      "summary": "Northrop Grumman\u2019s Talon Blue Completed Its First Fully Autonomous Flight",
+      "date": "2026-10-08",
+      "source": "Design and Development Today"
+    },
+    {
+      "title": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks",
+      "summary": "The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a \u2018switchback\u2019 in the solar wind\u2019s magnetic field. By fingerprinting the elusive particles within the switchback, Solar Orbiter has traced its origin back to the Sun\u2019s surface and revealed more about solar magnetism \u2013 the unruly instigator of dangerous solar storms.",
+      "date": "2026-10-08",
+      "source": "ESA Space Science"
+    },
+    {
+      "title": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry - Japan Wire by Kyodo News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80MnA5aWNhbmNnbXlNYVpPTmRUbUxJVlRCV0lyTS1iUU5qSFZoNi1BQVljOUNQRDJLNDNmQkQxU1dTUWhmZmF5NFlzdUxuZjJGZnRrZ3V2VENndw?oc=5",
+      "summary": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry",
+      "date": "2026-10-08",
+      "source": "Japan Wire by Kyodo News"
+    },
+    {
+      "title": "Milestones of China's space industry - China Daily",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaYUM0aU1qNVNJb3RhZUpRMjBqdDBaZUxSdGw0LWRCLUJPQ1IxOHBOMkJMUHJ1OGlaMzV1RmM3dGRmb2VFTHNuU0c2aVBMbHA4ZkdZQjc4SVJVbmhJNE4xOTFTVGl6MzhLSUxBYjVvLTlPXy03c3M2b01vb2RLdw?oc=5",
+      "summary": "Milestones of China's space industry",
+      "date": "2026-10-08",
+      "source": "China Daily"
+    },
+    {
+      "title": "Mars\u2019s oddest cloud may be even odder than we thought",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
+      "summary": "Scientists using the European Space Agency's Mars Express , in combination with a state-of-the-art meteorological model of the Red Planet, have found that there may be some very exotic physics behind Mars\u2019s most curious cloud.",
+      "date": "2026-10-07",
+      "source": "ESA Space Science"
+    },
+    {
+      "title": "G\u00e9raldine Naja with the WIA-Europe award",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Geraldine_Naja_with_the_WIA-Europe_award",
+      "summary": "Image: G\u00e9raldine Naja with the WIA-Europe award",
+      "date": "2026-10-07",
+      "source": "ESA Space Transportation"
+    },
+    {
+      "title": "Themis completes second fuelling rehearsal",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Themis_completes_second_fuelling_rehearsal",
+      "summary": "ESA\u2019s Themis reusable rocket stage demonstrator successfully completed its second \u2018wet dress rehearsal\u2019 at Esrange Space Center in Sweden on 29 September, testing the vehicle and ground procedures under representative cryogenic conditions.",
+      "date": "2026-10-07",
+      "source": "ESA Space Transportation"
+    },
+    {
+      "title": "Announcing the finalists for the 2026 SpaceNews Icon Awards - SpaceNews",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbHAzeTEyS0NjcVlBanhLdmhLWkF0NDlXcnFzWlQ4dU53MkRmZmRyRGZqeG9XNjNzazduZlItRkhHSGsyandRN254dWxTdEFod2Y5Z0x6dFVMbWdFUDVVa180cnNuNzE1SVhsb0xDUVZFVlAtSTFxajM5X3lBTDRZU1RnTjZENm5UalE?oc=5",
+      "summary": "Announcing the finalists for the 2026  Icon Awards SpaceNews",
+      "date": "2026-10-07",
+      "source": "SpaceNews"
+    },
+    {
+      "title": "VISTA Turns Launch Capacity to Space Capability - Voyager Technologies",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd1d5eS1UNG9Wam9KQUMzTVJpODJWYXpuZ05JZEpQcDg2TEU5d2puUzQ0MjR1NWt1TzBONEJYNkt3UEtINGhIaTJpeTVoX3VnRURNbjJUeDEzRUtNVVFxbkltTW9hWjFDMmFXeWlpdGl0UG1sekY4Qi1WY0p6czdBdU4yb1lMNDRHQlNHejNUN1RkOG8?oc=5",
+      "summary": "VISTA Turns Launch Capacity to Space Capability",
+      "date": "2026-10-07",
+      "source": "Voyager Technologies"
+    },
+    {
+      "title": "OTS Advances Space Cooperation With Joint Satellite Launch Planned for 2027 - The Astana Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSXROZ005ZFAyV0t4OG5FQmYzVXd1TDM5SGg4Mzd0TC03WGMwYk05VzE4M09MN21uejhHTGJyVGlpRnBIOW1TWEJCb19nWHdsS2EyUmdMa3diWDBzWklNb2JNUUJFcjVnSVQyeTAzV1pfTVFBQ19KZTVQYW1hdDJXWkREMTBHTWpoSzgzeW9WNjQ2dTFfTVRZb2dDY1MyOVFZZEZsWkh6Tzg4Y2FF?oc=5",
+      "summary": "OTS Advances Space Cooperation With Joint Satellite Launch Planned for 2027",
+      "date": "2026-10-07",
+      "source": "The Astana Times"
+    },
+    {
+      "title": "Alabama universities expand aerospace research, fuel state's bid for major space industry role - rocketcitynow.com",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNV1k0aUZxQkFEcVdsTnVlV1ZyZFlBbU9JanJDaGZ0Um9RekRNbkVBampHZVVWNkFoOWgxbnFrYUFBai1BSjVpOFdrM1pTWlpKNF93bHlfbkdxRm5ScnVGU1ZTbEQ5bVRQeGczaXhzQzlZYXkyRk9WZktRNTlscnFwTmpUbDcyY2RIMHdnbjhWcmtrczV3VHY3bWVRdFFHUTBXZ1NudEpFZHNPRjhvNE9Uc2ZqdnUtTUg0U1NJUk1wSWNFa05lSVF3R1Z5SzZVWGUybmxmbWxPNWRrSnNGWmoxZWFzbDJEQTRjSW1yc3NiYTU3ZlNOUTJkU1lMUWsydGJSN3FpVG5wUVJXZw?oc=5",
+      "summary": "Alabama universities expand aerospace research, fuel state's bid for major space industry role",
+      "date": "2026-10-07",
+      "source": "rocketcitynow.com"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - PIB",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-07",
+      "source": "PIB"
+    },
+    {
+      "title": "Arizona IAM Local 933 Opens Raytheon Negotiations, Demands Contract That Reflects Workers\u2019 Critical National Defense Role - GOIAM",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZEpEYTFRRW5JZlppZkQ0ZkI1VkZ6c1cwcHgzdTVoUm1FNDJ4dkc0amZCM2M3b0lkbWxHblR5elZUOV85aHp5Vy1vSVZjaWgyWFBwb2xjTFE3alpuMXktX1VSeUpGeXRaNWlTcUpRbjNXOTBtU0Y3T0E4bVpWSVI1dFl6ZS1yLXFFc2J2UXZOX2hmTUJBNXI0bHk4QUQySmY4SDk1THZhZGV1d2g1dTFrUnY0UkE5UEwwMVdoM0R6RHFqQnE0X0NMUW8xVWJIc3Zfa2VmUVUxQ2czbm9VOWNtdTlicVhablNs?oc=5",
+      "summary": "Arizona IAM Local 933 Opens Raytheon Negotiations, Demands Contract That Reflects Workers\u2019 Critical National Defense Role",
+      "date": "2026-10-06",
+      "source": "GOIAM"
+    },
+    {
+      "title": "Resource competition intensifies with surge in megaconstellations",
+      "url": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
+      "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering [\u2026]",
+      "date": "2026-10-05",
+      "source": "SpaceNews"
+    },
+    {
+      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
+      "url": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
+      "summary": "DURANGO, Colo., Oct. 5, 2026 \u2014 Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His [\u2026]",
+      "date": "2026-10-05",
+      "source": "SpaceNews"
+    },
+    {
+      "title": "Engineering at AI Speed: Near-CFD Accuracy in 0.1 Seconds - Oil & Gas Journal",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS0tTNGxYbmZHNm9iZG42ZVJYVmt6X0t4SGxYd0pEak5ZblpOMFZZclFuenZlWndrb1pNTUFiVHlyTzBkSTREN1NOUnBNRmlFbTZraENKUlRzUEtoTC11alhYUmpEVV9OZFRRRl9rSlZXbUhjaHRmUmM0anFxbG1EZkNJZFFMVFhqVThJX3V5YnRKaXJReG1tUWZNRm1ncm5wUmZR?oc=5",
+      "summary": "Engineering at AI Speed: Near-CFD Accuracy in 0.1 Seconds",
+      "date": "2026-10-05",
+      "source": "Oil & Gas Journal",
+      "topics": [
+        "GPU-accelerated science and HPC"
+      ]
+    },
+    {
+      "title": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production - Aerospace Manufacturing and Design",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVdMdzBrQUI3MGVOTnRRUEtfZ0JWZjhnY1VUSXNGWF9IRzVzZ01KV19NU0lieUxGXzJ1WXgyRjZ6X2dvLW5XRWVyeVEycHowNjNoNlFCTlZQMXFPd1pZNHNhWGQ1ZTdyTjhvLW13WndKdkxUNkRmSWJpNXJRZGdnNHBOYmkzZTAyMkJ4cl85SFVxb1RHT0tFS3FxMTZPdUtqaS0zU25kRWpFXzhNcGU3VDJzRHhmcmR5N2xqc2FMcDRSQzRIUEl3?oc=5",
+      "summary": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production",
+      "date": "2026-10-02",
+      "source": "Aerospace Manufacturing and Design"
+    },
+    {
+      "title": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics - Quantum Computing Report",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaXhueWZ1cmgyWkFybVZoM2M4M09pOGRGUmlqSGNlVXFrNUp6MnB0SEU5TmhET2FSejQzSWd0UmhTRXJrZkNyX2p1SDNOTk5fZDBxNHljYjVmcG96LS1RVzNmY3dvakpxelM0SEJZQ0FGT2ZhUDE3dnA2MHhjY0Q5cWVvQ09TWG9yZm8zWG8tZWlfWER0OEFtaHpXc0Z5OXNfU09aUXM3YzFVZnBSUlpkR09hQXpucGl2aWNWaWk3aUhBTm5rQTNqcXJZcjNUMWpQYlkyVk1PV2c1TjBFUzB1Q2dubHU5Mm9ZdEJZVlJCOExKaVRDaTVVS1Nn0gH_AUFVX3lxTFBkc3FTSnVMSExaWkxOSkU1X2hvRFhEc3hTY05fZ3JTSTdrZ1V5b1A2elNwaFUxVGg4emIwOE9sQlV6SlpZc05EUnV2ZGhmX25ub2piWEs3LUFiTTRLUHlINExQbE5DRElUb2pzdzRHSWRJSnFPU0ZmTUNuVE9ZbnRvLWF1a3VSQWV5SGNkNUVETml5V1paaE1pZGlkSGJoQTVuT04wOU1ReWRzcVhGQ0ozQ3hsOW9yeTROczlIWWhfbWFQekFpOEtCRU9xRWNkLTNqVTV2QWJ3dGhNMm8zZ2YwY09YTXUzMXlwS0pVMk5BYk5mZHZRaG5STzE4emJZVQ?oc=5",
+      "summary": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics",
+      "date": "2026-10-02",
+      "source": "Quantum Computing Report",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "ORNL Quantum Algorithm Tackles Bottleneck In Fluid Dynamics Modeling - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NUTZpLWNtQjNwX2VNZ2QxNERXWjdDWUlNZUEyX1RUdXV1VnJCUGI5MWExVjJRaFBRVHp0VlgtTWYxYm5GUlo5SHRtWVJHZXZFM0IxTUJQY3pNU2FGbi1xNWM5M2NGVlBiUXBUcmlXSGFxaXZneWhoUVhRYkVydW8?oc=5",
+      "summary": "ORNL Quantum Algorithm Tackles Bottleneck In Fluid Dynamics Modeling",
+      "date": "2026-09-30",
+      "source": "Quantum Zeitgeist",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "title": "Kinetic Reduction and Hydrodynamics under Time-Dependent Helical Symmetry",
+      "url": "https://arxiv.org/abs/2610.10605",
+      "summary": "Translational and helical symmetries provide idealized descriptions of many flows encountered in nature and engineering. While translationally symmetric flows have been extensively studied within kinetic and continuum frameworks, the corresponding connection between microscopic dynamics and continuum behaviour for helical flows is less developed.",
+      "date": "2026-10-09",
+      "source": "arXiv"
+    },
+    {
+      "title": "A critical-layer instability of structural acoustic wall modes in a two-flexible-plate channel with Poiseuille flow: closed-form low-Mach corrections and parity-protected absorption",
+      "url": "https://arxiv.org/abs/2610.10798",
+      "summary": "A compressible fluid column between two thin elastic plates carrying plane Poiseuille flow supports discrete structural-acoustic wall modes. This paper analyses their coupled dispersion and reports a flow-induced instability.",
+      "date": "2026-10-09",
+      "source": "arXiv"
+    },
+    {
+      "title": "Characteristics of the inertial layer in turbulent channel flow at a friction Reynolds number of approximately 16000",
+      "url": "https://doi.org/10.1103/ccj3-w1df",
+      "summary": "",
+      "date": "2026-10-09",
+      "source": "Physical Review Fluids"
+    },
+    {
+      "title": "Particle-resolved direct numerical simulations on particle\u2013fluid density ratio effects in liquid\u2013solid suspensions",
+      "url": "https://doi.org/10.1017/jfm.2026.12079",
+      "summary": "Particle-resolved direct numerical simulations are employed to investigate homogeneous steady liquid\u2013solid suspensions over an extended range of particle\u2013fluid density ratios ( 0.05 less than or slanted equals rho Superscript asterisk Baseline less than or slanted equals 5.5 0.05 \u2a7d \u03c1 \u2217 \u2a7d 5.5 $0.05\\leqslant \\rho ^\\ast \\leqslant 5.5$ ). This parameter span, which includes floating ( rho Superscript asterisk Baseline le",
+      "date": "2026-10-09",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "On the significance of absolute and convective instabilities in transitional hypersonic compression ramp flows",
+      "url": "https://doi.org/10.1017/jfm.2026.12060",
+      "summary": "In real-life tunnel or flight environments, the laminar\u2013turbulent transition of compression ramp flows can be initiated by absolute and/or convective instabilities. Currently, the relative significance of the two instabilities in such flows remains unclear.",
+      "date": "2026-10-08",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "The \u2212bold 5 divided by bold 3 5 / 3 $\\boldsymbol{5/3}$ power law for energy spectra in the near and intermediate wake of a circular cylinder",
+      "url": "https://doi.org/10.1017/jfm.2026.12087",
+      "summary": "We investigate the occurrence and interpretation of an approximate negative 5 divided by 3 \u2212 5 / 3 $-5/3$ power law in one-dimensional velocity spectra in the wake of a circular cylinder using three-component hot-wire measurements in the mean-shear plane at x divided by d equals 10 x / d = 10 $x/d=10$ , 20 and 40 over Reynolds number italic Re Subscript d Baseline equals 2500 Re d = 2500 $ \\textit{Re}_d=2500$ \u201315 000",
+      "date": "2026-10-08",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "Explainable Stability Certification of Reinforcement Learning Control Policies Using Sparse Dynamics Identification",
+      "url": "https://doi.org/10.2514/1.g009769",
+      "summary": "Reinforcement learning (RL) is a promising alternative to classical guidance and control methods; however, the black-box nature of deep neural network policies and the lack of interpretable stability evidence remain barriers to real-world aerospace adoption. This paper presents an a posteriori methodology using Sparse Identification of Nonlinear Dynamics (SINDy) to recover sparse analytical representations of the clo",
+      "date": "2026-10-07",
+      "source": "Journal of Guidance, Control, and Dynamics"
+    },
+    {
+      "title": "Life Prediction of 2A12-T6 Aluminum Alloy Notch Components Under Sequential Loading",
+      "url": "https://doi.org/10.2514/1.c039139",
+      "summary": "Based on the Miner\u2019s rule, a life prediction method suitable for sequential vibration and mechanical fatigue loading is established. This method employs the Theory of Critical Distance to analyze the fatigue lives of specimens under constant-amplitude mechanical fatigue loading, and combines the Critical Distance Method with the Dirlik model in the frequency domain method to analyze the vibration fatigue lives of the",
+      "date": "2026-10-07",
+      "source": "Journal of Aircraft"
+    },
+    {
+      "title": "Learning-Based Data-Assisted Port-Hamiltonian Control for Free-Floating Space Manipulators",
+      "url": "https://doi.org/10.2514/1.g009638",
+      "summary": "",
+      "date": "2026-10-07",
+      "source": "Journal of Guidance, Control, and Dynamics"
+    },
+    {
+      "title": "Chemical regulation of displacement-front stability in porous media through viscosity ratio and miscibility control",
+      "url": "https://doi.org/10.1063/5.0353010",
+      "summary": "Multiphase displacement in porous media depends on viscous and capillary forces, molecular diffusion, and fluid phase behavior. An unfavorable viscosity ratio can promote/ viscous fingering and early breakthrough, reducing sweep efficiency.",
+      "date": "2026-10-07",
+      "source": "Physics of Fluids"
+    },
+    {
+      "title": "Three-dimensional delineation of the Lofoten Vortex using the R-tube method for the analysis of water exchange mechanisms based on the Regional Ocean Modeling System",
+      "url": "https://doi.org/10.1063/5.0350612",
+      "summary": "A new Lagrangian approach for the three-dimensional analysis of mesoscale eddies, the R-tube method, is presented as an extension of the Lagrangian Eddy Boundary Delineation Algorithm. The method is applied to the quasi-persistent Lofoten anticyclone in the Norwegian Sea using a high-resolution Regional Ocean Modeling System simulation.",
+      "date": "2026-10-07",
+      "source": "Physics of Fluids"
+    },
+    {
+      "title": "Dominant-mode closure for transient Taylor dispersion of reduced Brownian-rod transport in plane power-law channels",
+      "url": "https://doi.org/10.1103/y447-xmgm",
+      "summary": "Taylor-Aris and generalized Taylor dispersion theories characterize the long-time spreading reached after transverse homogenization in bounded shear. The present work considers the preasymptotic approach to that regime for anisotropic microstructures transported through finite channels with non-Newtonian carriers.",
+      "date": "2026-10-07",
+      "source": "Physical Review Fluids"
+    }
+  ],
+  "funding": [
+    {
+      "title": "ROSES 2025: B.8 Heliophysics Spaceflight Science Foundations",
+      "url": "https://www.grants.gov/search-results-detail/364039",
+      "date": "02/05/2027",
+      "source": "NASA Headquarters",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "space"
+      ]
+    },
+    {
+      "title": "ROSES 2025: B.7 The Heliophysics Low-Cost Access to Space",
+      "url": "https://www.grants.gov/search-results-detail/364032",
+      "date": "03/16/2027",
+      "source": "NASA Headquarters",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "space"
+      ]
+    },
+    {
+      "title": "UNITED STATES MILITARY ACADEMY Broad Agency Announcement",
+      "url": "https://www.grants.gov/search-results-detail/325932",
+      "date": "03/31/2027",
+      "source": "Dept of the Army -- Materiel Command",
+      "status": "Open",
+      "summary": "The USMA BAA seeks proposals from institutions of higher education, nonprofit organizations, state and local governments, foreign organizations, foreign public entities, and for-profit organizations (i.e., large and small businesses) for research based on the following campaigns: Socio-Cultural; Information Technology; Ballistics, Weapons, and Protections; Energy and Sustainability; Materials, Measurements, and Facil",
+      "topics": [
+        "quantum"
+      ]
+    },
+    {
+      "title": "NSF National Quantum Virtual Laboratory (NQVL)",
+      "url": "https://www.grants.gov/search-results-detail/355196",
+      "date": "04/06/2027",
+      "source": "U.S. National Science Foundation",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "quantum"
+      ]
+    },
+    {
+      "title": "Pioneering Aerospace Capabilities, Engineering and Research (PACER)",
+      "url": "https://www.grants.gov/search-results-detail/349554",
+      "date": "05/10/2043",
+      "source": "Air Force -- Research Lab",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "space"
+      ]
+    },
+    {
+      "title": "Transport Phenomena (TP)",
+      "url": "https://www.grants.gov/search-results-detail/362063",
+      "date": "08/20/2076",
+      "source": "U.S. National Science Foundation",
+      "status": "Open",
+      "summary": "The Transport Phenomena (TP) program supports fundamental research to understand, model, and control the transport of mass, momentum, energy, and species across multiple scales. Innovative TP research supports advances in artificial intelligence; manufacturing; biotechnology; microelectronics; energy generation, extraction, and utilization; nuclear energy; quantum science and engineering; and other national prioritie",
+      "topics": [
+        "multiphase",
+        "quantum",
+        "chemistry",
+        "flow physics",
+        "AI for flow physics"
+      ]
+    },
+    {
+      "title": "NSF-DFG Lead Agency Opportunity in Chemistry and Chemical Process and Transport Systems",
+      "url": "https://www.grants.gov/search-results-detail/359499",
+      "date": "10/06/2076",
+      "source": "U.S. National Science Foundation",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ]
+    },
+    {
+      "title": "Atmospheric and Geospace Sciences Postdoctoral Research Fellowships (AGS-PRF)",
+      "url": "https://www.grants.gov/search-results-detail/343875",
+      "date": "10/07/2076",
+      "source": "U.S. National Science Foundation",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "space"
+      ]
+    },
+    {
+      "title": "MPS Chemistry Research Programs (MPS Chem)",
+      "url": "https://www.grants.gov/search-results-detail/363617",
+      "date": "10/07/2076",
+      "source": "U.S. National Science Foundation",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ]
+    },
+    {
+      "title": "The DOE Quantum Genesis Q Competition",
+      "url": "https://www.grants.gov/search-results-detail/363869",
+      "date": "10/19/2026",
+      "source": "Office of Science",
+      "status": "Open",
+      "summary": "",
+      "topics": [
+        "quantum"
+      ]
+    },
+    {
+      "title": "DOW SBIR SPECIFIC TOPIC 26.BX RELEASE 6",
+      "url": "https://spacewerx.us/get-funded/",
+      "date": "10/21/2026",
+      "source": "SpaceWERX / Department of War",
+      "status": "Open \u00b7 closes Oct 21, 2026",
+      "summary": "Current Space Force small-business solicitation. See the official SpaceWERX page for the topic description and submission portal.",
+      "topics": [
+        "Aerospace SBIR/STTR",
+        "Space Force"
+      ]
+    },
+    {
+      "title": "DOW STTR SPECIFIC TOPIC 26.TX RELEASE 6",
+      "url": "https://spacewerx.us/get-funded/",
+      "date": "10/21/2026",
+      "source": "SpaceWERX / Department of War",
+      "status": "Open \u00b7 closes Oct 21, 2026",
+      "summary": "Current Space Force small-business solicitation. See the official SpaceWERX page for the topic description and submission portal.",
+      "topics": [
+        "Aerospace SBIR/STTR",
+        "Space Force"
+      ]
+    },
+    {
+      "title": "Simons Collaborations in Mathematics and the Physical Sciences",
+      "url": "https://www.simonsfoundation.org/grant/simons-collaborations-in-mathematics-and-the-physical-sciences/",
+      "date": "10/29/2026",
+      "source": "Simons Foundation",
+      "status": "Open \u00b7 LOI deadline",
+      "summary": "The foundation invites letters of intent for collaborative research in mathematics and the physical sciences. Program themes vary; confirm the current theme supports the proposed fluid-science topic.",
+      "topics": [
+        "Broad physical sciences; fluid fit to confirm"
+      ]
+    },
+    {
+      "title": "Space Technology Research Institutes",
+      "url": "https://www.grants.gov/search-results-detail/364024",
+      "date": "11/03/2026",
+      "source": "NASA Headquarters",
+      "status": "Open",
+      "summary": "The National Aeronautics and Space Administration (NASA) Headquarters has released the solicitation \u201cSpace Technology Research Institutes (STRI26),\u201d as an appendix to the Research and Technology Mission Directorate (RTMD) umbrella NASA Research Announcement (NRA) titled \"Space Technology Research, Development, Demonstration, and Infusion 2026 (SpaceTech REDDI 2026).\u201d. The solicitation is available by opening the NSPI",
+      "topics": [
+        "space"
+      ]
+    },
+    {
+      "title": "NSF Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs: A Pilot Emphasis on Scientific Instrumentation",
+      "url": "https://www.grants.gov/search-results-detail/362551",
+      "date": "11/04/2026",
+      "source": "U.S. National Science Foundation",
+      "status": "Open",
+      "summary": "In support of this mission, NSF is initiating a pilot emphasis area for its SBIR/STTR programs to invest in startups and small businesses that are specifically developing enabling technologies that include next-generation instrumentation, novel experimental platforms, and other scientific equipment to advance the frontiers of scientific discovery and strengthen the American scientific and engineering enterprise. This",
+      "topics": [
+        "AI for scientific research"
+      ]
+    },
+    {
+      "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+      "url": "https://www.grants.gov/search-results-detail/352741",
+      "date": "12/30/2026",
+      "source": "Naval Research Laboratory",
+      "status": "Open",
+      "summary": "NRL contributes to this requirement by conducting research in the following areas, organized into NRL'S three research directorates and Naval Center for Space Technology: Systems Directorate Code 5000 Materials Science and Component Technology Directorate Code 6000 Ocean and Atmospheric Science and Technology Directorate Code 7000 Naval Center for Space Technology Code 8000 A. MATERIALS SCIENCE AND COMPONENT TECHNOLO",
+      "topics": [
+        "space",
+        "chemistry",
+        "GPU/HPC computing"
+      ]
+    },
+    {
+      "title": "Chemical Process Systems (CPS)",
+      "url": "https://www.grants.gov/search-results-detail/362061",
+      "date": "",
+      "source": "U.S. National Science Foundation",
+      "status": "Open \u00b7 deadline not posted",
+      "summary": "Society relies on chemical processes to turn raw materials into useful products. The Chemical Process Systems (CPS) program invests in fundamental research on chemical and biochemical processes to make them more efficient, sustainable, and resilient.",
+      "topics": [
+        "quantum",
+        "chemistry"
+      ]
+    },
+    {
+      "title": "Long Range Broad Agency Announcement (BAA) for NSWC Crane",
+      "url": "https://www.grants.gov/search-results-detail/352238",
+      "date": "",
+      "source": "NSWC CRANE - N00164",
+      "status": "Open \u00b7 deadline not posted",
+      "summary": "Hypersonic Weapon Systems 8.",
+      "topics": [
+        "hypersonic"
+      ]
+    },
+    {
+      "title": "NASA 2026 SBIR Phase II Sequential Call for White Papers",
+      "url": "https://sam.gov/workspace/contract/opp/5e2d9a005b2b4b5d9fdc1d26fe2b5d5a/view",
+      "date": "",
+      "source": "NASA SBIR/STTR",
+      "status": "Call listed \u00b7 verify current submission window on SAM.gov",
+      "summary": "NASA\u2019s official SBIR/STTR page lists this Phase II Sequential call for eligible NASA Phase II awardees. The linked SAM.gov notice is authoritative for current dates and submission status.",
+      "topics": [
+        "Aerospace SBIR/STTR",
+        "NASA"
+      ]
+    },
+    {
+      "title": "Research Interests of the United States Air Force Academy (formerly USAFA-BAA-2021)",
+      "url": "https://www.grants.gov/search-results-detail/330175",
+      "date": "",
+      "source": "Air Force Academy",
+      "status": "Open \u00b7 deadline not posted",
+      "summary": "There are ongoing research projects spanning topics as diverse as super hypersonics, cyber security, spatial disorientation, athletic performance and homeland defense.",
+      "topics": [
+        "hypersonic"
+      ]
+    },
+    {
+      "title": "Simons Foundation Targeted Grants in Mathematics and the Physical Sciences",
+      "url": "https://www.simonsfoundation.org/grant/targeted-grants-in-mps/",
+      "date": "",
+      "source": "Simons Foundation",
+      "status": "Rolling \u00b7 LOI required",
+      "summary": "Rolling letters of intent support high-risk theoretical mathematics, physics, and computer science. This is a broad physical-sciences program; confirm that a proposed fluid-mechanics project fits with the foundation before applying.",
+      "topics": [
+        "Broad physical sciences; fluid fit to confirm"
+      ]
+    },
+    {
+      "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
+      "url": "https://www.grants.gov/search-results-detail/360954",
+      "date": "",
+      "source": "NASA Headquarters",
+      "status": "Open \u00b7 deadline not posted",
+      "summary": "The National Aeronautics and Space Administration (NASA) Headquarters, Space Technology Mission Directorate (STMD) will be releasing an Umbrella NASA Research Announcement (NRA) titled \u201cSpace Technology Research, Development, Demonstration, and Infusion-2026 (SpaceTech-REDDI-2026)\u201d on or about December 9, 2025. The solicitation is available by opening the NSPIRES homepage at https://nspires.nasaprs.com/ , selecting \u201c",
+      "topics": [
+        "space"
+      ]
+    }
+  ]
+}

@@ -160,37 +160,99 @@ ul.task-list li input[type="checkbox"] {
 <link href="../html/pages.css" rel="stylesheet">
 <section id="news" class="level2">
 <h2 class="anchored" data-anchor-id="news">News:</h2>
-<ul>
-<li><p>Tyler defended his MS thesis titled “Converging-diverging nozzle simulations at varying nozzle pressure ratios” on 03/12/2025. Congratulations, Tyler!</p></li>
-<li><p>Marie joined HAVA Lab. on 01/14/2025. Welcome, Marie!</p></li>
-<li><p>Ozgur and Mateo attended to the AIAA SciTech 2025 Conference on January 6th. 2025. Ozgur presented two papers, “Efficient Hypersonic Signature Analysis Through Amortized Inference” and “Assessment of Externally Applied Magnetohydrodynamic Effects on the Boundary Layer in Shock-Dominated Hypersonic Flows” on 01/09/2025.</p></li>
-<li><p>Joy Xiao joined as an undergraduate reseracher to the HAVA Lab on 12/27/2024. Welcome, Joy!</p></li>
-<li><p>Nick presented his poster on the topic “Computationally Investigating the Aerodynamic Properties of Drag-Reducing Aerospikes on Rocket Nose Cones at Hypersonic Speeds”on 12/10/2024 to complete his Master of Engineering degree. Congratulations, Nick!</p></li>
-<li><p>Jolie Dolan joined the HAVA Lab on 11/25/2025 to pursue her master’s of engineering degree. Welcome, Jolie!</p></li>
-<li><p>Ozgur presented his work on “Enhancing Pressure Recovery in a Serpentine Duct using Active Flow Control” at APS DFD 2024 on 11/24/2025 in Utah, NV.</p></li>
-<li><p>Ryan Ing has joined the HAVA Lab on 10/31/2024 to pursue his master’s degree. Welcome, Ryan!</p></li>
-<li><p>Michael Lauver joined the HAVA Lab. Previously, he completed his bachelor’s degree at the University of Colorado Boulder. Welcome, Michael!</p></li>
-<li><p>Meliksah Koca joined our research laboratory. Before RPI, he completed his post-MS studies at the Von Karman Institute in Belgium. Welcome, Meliksah! He will be working on multiphase and multiscale modeling.</p></li>
-<li><p>Ozgur and Joseph attended the Aviation Meeting in Las Vegas on July 28, 2024. Joe presented for the first time. He did very well, and it was a great experience for him.</p></li>
-<li><p>Mateo Gutierrez has been awarded an NSF ACCESS Explore Computational Award on May 10, 2024 for the project titled “Nonlinear Modal Stability Formulation for Hypersonic Nonequilibrium Flows.” Congratulations!</p></li>
-<li><p>Mateo Gutierrez has joined the team on April 15, 2024. Welcome, Mateo! He will be working on hypersonic flow modeling with different discretization schemes.</p></li>
-<li><p>Our project with Prof.&nbsp;Shankar Narayan on “Modeling Phase-change Kinetics in Nanostructures” has been awarded on March 18, 2023 by NFS Access.</p></li>
-<li><p>The HAVA Lab. has been supported by NSF Access compuational resources on the project titled “Advancing High-Fidelity Simulation Techniques for High-Speed Non-equilibrium Flows” Feb.&nbsp;20, 2023.</p></li>
-<li><p>Tyler Martinus has been awarded an NSF ACCESS Explore Computational Award on Feb.&nbsp;13, 2024 for the project titled “Dynamics of Jet Expansion and Impingement Across a Spectrum of Nozzle Pressure Ratios.” Congratulations!</p></li>
-<li><p>The HAVA website (version 1) was officially released on January 27, 2024. Tyler’s contributions to the name and logo are highly appreciated. Go HAVA! <img src="../img/logo_havalab.png" style="height: 60%; width: 60%; display: block; margin-left: auto; margin-right: auto;" alt="HavaLab Logo"></p></li>
-</ul>
-<div style="height: 30px;"></div> <!-- 20px empty space -->
-<ul>
-<li><p>Johnny Aiello has joined the team on January 20, 2024. Welcome, Johnny! He will be working on multiphase supersonic expansion jets.</p></li>
-<li><p>Casey Duncan has joined the team on January 17, 2024. Welcome, Casey! He will be working on porous reactive materials in hypersonic reacting flows.</p></li>
-<li><p>Ozgur Tumuklu attended SciTech 2024 (January 8-12, 2024) in Orlando, FL sponsored by RPI MANE. He presented a talk titled “Characterization of Hypersonic Instabilities over a Double Cone.”</p></li>
-<li><p>Joseph Franciamore joined the HAVA group on November 10, 2023. Welcome, Joe! He will be working on the effect of magnetic fields on hypersonic boundary layers.</p></li>
-<li><p>Tyler Martinus has joined the HAVA group. Welcome! Tyler will be working on the expansion characteristics of jets at different ambient pressures.</p></li>
-<li><p>Ozgur Tumuklu’s paper was highlighted as an editor’s pick in Physics of Fluids, <a href="https://doi.org/10.1063/5.0169648"> here. </a></p></li>
-<li><p>On August 16, 2023, Dr.&nbsp;Tumuklu joined RPI’s MANE department.</p></li>
-</ul>
+<section id="aerospace-briefing" class="level3">
+<h3 class="anchored" data-anchor-id="aerospace-briefing">Aerospace Briefing</h3>
+<p>Updates from aerospace industry reporting, recently published research, and open funding calls. Sources are checked every six hours; summaries link to the original material.</p>
+<section id="auto-news" aria-label="Latest aerospace news, research and funding">
+    <p id="auto-news-status" role="status">Loading the latest updates...</p>
+    <div class="auto-news-grid">
+        <section class="auto-news-group" aria-labelledby="auto-news-industry-title">
+            <h4 id="auto-news-industry-title" class="anchored">Industry</h4>
+            <ul id="auto-news-industry" class="auto-news-list"></ul>
+        </section>
+        <section class="auto-news-group" aria-labelledby="auto-news-papers-title">
+            <h4 id="auto-news-papers-title" class="anchored">Recent papers</h4>
+            <ul id="auto-news-papers" class="auto-news-list"></ul>
+        </section>
+        <section class="auto-news-group" aria-labelledby="auto-news-funding-title">
+            <h4 id="auto-news-funding-title" class="anchored">Funding opportunities</h4>
+            <ul id="auto-news-funding" class="auto-news-list"></ul>
+        </section>
+    </div>
+    <p id="auto-news-updated" class="auto-news-updated"></p>
+</section>
+<style>
+    #auto-news { margin: 1.5rem 0 2.5rem; }
+    .auto-news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1.5rem; }
+    .auto-news-group { border-top: 2px solid #187b77; padding-top: .7rem; min-width: 0; }
+    .auto-news-group h4 { margin: 0 0 .7rem; font-size: 1.05rem; }
+    .auto-news-list { list-style: none; padding: 0; margin: 0; }
+    .auto-news-list li { border-bottom: 1px solid #d8e0df; padding: .7rem 0; overflow-wrap: anywhere; }
+    .auto-news-list a { font-weight: 600; }
+    .auto-news-meta, .auto-news-summary, .auto-news-updated { color: #596665; font-size: .9rem; }
+    .auto-news-meta { margin: .2rem 0; }
+    .auto-news-summary { margin: .35rem 0 0; }
+    @media (prefers-reduced-motion: no-preference) {
+        .auto-news-group { animation: auto-news-arrive .35s ease-out both; }
+        .auto-news-group:nth-child(2) { animation-delay: .08s; }
+        .auto-news-group:nth-child(3) { animation-delay: .16s; }
+        @keyframes auto-news-arrive { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    }
+</style>
+<script>
+    (() => {
+        const status = document.getElementById("auto-news-status");
+        const text = (value) => document.createTextNode(value || "");
+        const renderItems = (targetId, items, showSummary) => {
+            const list = document.getElementById(targetId);
+            for (const item of items || []) {
+                const row = document.createElement("li");
+                const link = document.createElement("a");
+                link.href = item.url;
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+                link.append(text(item.title));
+                row.append(link);
+                const meta = document.createElement("p");
+                meta.className = "auto-news-meta";
+                meta.append(text([item.source, item.date, item.status, (item.topics || []).join(", ")].filter(Boolean).join(" · ")));
+                row.append(meta);
+                if (showSummary && item.summary) {
+                    const summary = document.createElement("p");
+                    summary.className = "auto-news-summary";
+                    summary.append(text(item.summary));
+                    row.append(summary);
+                }
+                list.append(row);
+            }
+            if (!list.children.length) {
+                const row = document.createElement("li");
+                row.append(text("No matching updates right now."));
+                list.append(row);
+            }
+        };
+        fetch("auto-news.json", { cache: "no-store" })
+            .then((response) => {
+                if (!response.ok) throw new Error("Feed unavailable");
+                return response.json();
+            })
+            .then((data) => {
+                renderItems("auto-news-industry", data.industry, true);
+                renderItems("auto-news-papers", data.papers, true);
+                renderItems("auto-news-funding", data.funding, false);
+                status.textContent = "Latest updates from trusted public sources.";
+                document.getElementById("auto-news-updated").textContent =
+                    `Feed last refreshed ${new Date(data.updated).toLocaleString()}.`;
+            })
+            .catch(() => {
+                status.textContent = "Automatic updates are temporarily unavailable. Please check back later.";
+                document.getElementById("auto-news-updated").textContent = "";
+            });
+    })();
+</script>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

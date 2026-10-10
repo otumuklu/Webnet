@@ -71,6 +71,7 @@ project:
     - calculator/reacting_air.js
     - calculator/reacting_air_data.js
     - handy-tools/pdf-tools.js
+    - links/auto-news.json
 
   preview: 
     port: 22222
