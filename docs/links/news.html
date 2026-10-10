@@ -165,6 +165,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Updates from aerospace industry reporting, recently published research, and open funding calls. Sources are checked every six hours; summaries link to the original material.</p>
 <section id="auto-news" aria-label="Latest aerospace news, research and funding">
     <p id="auto-news-status" role="status">Loading the latest updates...</p>
+    <nav class="auto-news-nav" aria-label="News sections">
+        <a href="#auto-news-industry-title">Industry</a>
+        <a href="#auto-news-papers-title">Recent Papers</a>
+        <a href="#auto-news-funding-title">Funding</a>
+    </nav>
     <div class="auto-news-grid">
         <section class="auto-news-group" aria-labelledby="auto-news-industry-title">
             <h4 id="auto-news-industry-title" class="anchored">Industry</h4>
@@ -183,12 +188,17 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <style>
     #auto-news { margin: 1.5rem 0 2.5rem; }
+    .auto-news-nav { display: flex; flex-wrap: wrap; gap: .65rem; margin: .8rem 0 1.25rem; }
+    .auto-news-nav a { display: inline-flex; align-items: center; justify-content: center; min-height: 2.5rem; padding: .5rem 1rem; border: 1px solid #00abf0; border-radius: 6px; background: #00abf0; color: #081b29; font-weight: 600; text-decoration: none; }
+    .auto-news-nav a:hover { background: transparent; color: #00abf0; text-decoration: none; }
+    .auto-news-nav a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
     .auto-news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1.5rem; }
-    .auto-news-group { border-top: 2px solid #187b77; padding-top: .7rem; min-width: 0; }
-    .auto-news-group h4 { margin: 0 0 .7rem; font-size: 1.05rem; }
+    .auto-news-group { border-top: 2px solid #187b77; padding-top: .7rem; min-width: 0; scroll-margin-top: 5rem; }
+    .auto-news-group h4 { margin: 0 0 .7rem; font-size: 1.05rem; color: #ff5252; }
     .auto-news-list { list-style: none; padding: 0; margin: 0; }
     .auto-news-list li { border-bottom: 1px solid #d8e0df; padding: .7rem 0; overflow-wrap: anywhere; }
-    .auto-news-list a { font-weight: 600; }
+    #auto-news .auto-news-list a, #auto-news .auto-news-list a:visited { color: #fff; font-weight: 400; text-decoration: none; }
+    #auto-news .auto-news-list a:hover, #auto-news .auto-news-list a:focus-visible { color: #00abf0; text-decoration: none; }
     .auto-news-meta, .auto-news-summary, .auto-news-updated { color: #596665; font-size: .9rem; }
     .auto-news-meta { margin: .2rem 0; }
     .auto-news-summary { margin: .35rem 0 0; }
