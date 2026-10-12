@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T06:05:03.447038+00:00",
+  "updated": "2026-10-12T15:35:19.402387+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,6 +20,13 @@
   ],
   "industry": [
     {
+      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
+      "url": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
+      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik\u2019s ASTRO HP star sensor on a LEO mission. This milestone underscores [\u2026]",
+      "date": "2026-10-12",
+      "source": "SpaceNews"
+    },
+    {
       "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
       "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
       "summary": "The ice reached its third-lowest maximum extent since satellite observations began.",
@@ -34,18 +41,25 @@
       "source": "RTX"
     },
     {
-      "title": "United Airlines Launched The Boeing 777 In 1990: Here's How The 777X Rewrites Things Decades Later - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejBqQ2NUSERWc0R5VVRaeW5IcHoyWnhGZWgyZlVXZ1d6VzM0MXZ2QUstbXBsbXhlYmJYLTJYcFZ1ZVdQSUNEN2JsT1BUdzZ4bWE0NzZpZV9kQ2RGd3pYSVdSd1pHTW1uSl9CQzJHLXlSVjREUnNQdGh6NFFOQU10UUJzZkRmZm10dUYtdm82R2xka182SkpRdVk4dDFQUFA1OHJGZg?oc=5",
-      "summary": "United Airlines Launched The Boeing 777 In 1990: Here's How The 777X Rewrites Things Decades Later",
+      "title": "Avolon orders 250 new Airbus and Boeing aircraft - Aerospace Global News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONDVBUlFUOFZWZ3dscE9xZHlKekFPTUgwYzV5NDUxYmNqdXlRMnhJZGxDdGlWNTM0RnZXWUVMWjZtY0dTNlBqREtKTHNtTmRoREJzVG8wdkF3M0FIM3l4b3FlNU41T3pVVXg0bmpfdWVIYmFhekMxa1pjMG5OWi1mYVJXRHhhcjFVaVE?oc=5",
+      "summary": "Avolon orders 250 new Airbus and Boeing aircraft",
       "date": "2026-10-12",
-      "source": "Simple Flying"
+      "source": "Aerospace Global News"
     },
     {
-      "title": "Kalitta Air Reportedly Mystery Customer Behind Order For 8 Airbus A350Fs - Aero-News Network",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNGFtbXVUVHhsNTNjN2diYk9jeVlOXzJiS0dTOHQ3dTRwMmNDRllFeTg0QmxLYWhlLVpXc0tWeDlKd0tZNW9MUktncmpXaGFaVnNQQ2ZqeDZWUThUSWc2VDlOQUh2X1N0LThKMVBXeGJ5NkpJRGlEb0tLVm1SS1hQcUY0bDFwSGRQaVluMFBmSXlFODFmZ3pJ?oc=5",
-      "summary": "Kalitta Air Reportedly Mystery Customer Behind Order For 8 Airbus A350Fs",
+      "title": "Airbus U740 Valkyrie uncrewed combat aircraft takes off for its maiden flight in Europe - Airbus",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQmw3VldVV2p2Y2NVMUt6NXFoSmwwcTR1VUZqUlpBNWJ4MkVXZXU3QUZpSTdYZkNCUkE1clBlcFd5RDVKZTRqTDVZMVlxWEJJZVVUenJMbUdhaGdtR3I0OVRBdmp0TnROU1JBeVN2d1FQVTZIN2lZZ2huemZKMWtDRnJkb2REV0xOYmdkaFkwTDFzMmd5YzQyRjRYN3hCdnVEWnVvMk42YmtMUnI1SlExRXpVbG16c05mY1NnMVJ3bFNEWTQxdUlrSWtueGg2STUteHVKalUwWElKUWlJb0E?oc=5",
+      "summary": "U740 Valkyrie uncrewed combat aircraft takes off for its maiden flight in Europe Airbus",
       "date": "2026-10-12",
-      "source": "Aero-News Network"
+      "source": "Airbus"
+    },
+    {
+      "title": "Space weather mission Sawa reveals Polish roots - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVFCLTVxb0RsX3V2MUNQWG50cFZRaVRJaEtsZTgxSm1MLUY0RVpRYUxIZXd1MjhjNndQTVFuSXpmTzFDZmpfSWRWelc2cnhDcGJ2bjZPYjYwcTVqVHlWUVBaWlVKT1p0NVlScjZicUhBY3c2WVNnWW4zYWp6TzdBd2t2c0EwcDdjZmNiczRDU2k5TDVwbzhnNGRR?oc=5",
+      "summary": "Space weather mission Sawa reveals Polish roots",
+      "date": "2026-10-12",
+      "source": "European Space Agency"
     },
     {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
@@ -67,13 +81,6 @@
       "summary": "Firefly Aerospace Inc. Price Today | xFLY Live Price, Chart & Market Cap",
       "date": "2026-10-11",
       "source": "OKX"
-    },
-    {
-      "title": "Brake! Time for ESA\u2019s Hera asteroid mission to go slow - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbENiTVVseGwxSnhqdUExZkRPN2txU1FIRFpjbFFEV0FVN2N5clZWMzFVU3FERnVHWWJXNVJmRWhzck84LXRLYW9CbzgyZlgycXhfQm5MX0IwMWlaRVRuWmNxS2JzU0R3NEh5NThlRHgzZG56czQ5N1RDS0tFcHdRRS1PRzR3ZUtzXzJHRVA2eG82a2VCRFhV?oc=5",
-      "summary": "Brake! Time for ESA\u2019s Hera asteroid mission to go slow",
-      "date": "2026-10-11",
-      "source": "European Space Agency"
     },
     {
       "title": "Satellite Launch Vehicle Slv Market to Accelerate on Mega-Constellation Demand, Forecast Points Higher Toward 2035 - IndexBox",
@@ -109,6 +116,13 @@
       "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
       "date": "2026-10-09",
       "source": "425business.com"
+    },
+    {
+      "title": "Commercial Space Growth Accelerates as New Technologies Expand Access Beyond Earth - nerdbot",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNTgwY0w0VUdwYUo2RXptMUM3YUlpN2h3ZEU0a3k5R2pyMkFzNGMtakNuanowMDNyLWFvODU2a2dfM2VZaldsdHduczh4NTNXWFppOTY2UXFZT3ZiMXlvOEw3Q0NDYVB6aGs1NVdycmV2MFpGTWFxMFI2VGZVbldEa0x0UlptX0M2VnF1UENVWnpvNTVDM3VhNjlPcVpZYmpzNUpaX2NhNy1iR0p5YWVHeDQ1cGQ?oc=5",
+      "summary": "Commercial Space Growth Accelerates as New Technologies Expand Access Beyond Earth",
+      "date": "2026-10-09",
+      "source": "nerdbot"
     },
     {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
@@ -156,13 +170,6 @@
       "source": "Japan Wire by Kyodo News"
     },
     {
-      "title": "Milestones of China's space industry - China Daily",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaYUM0aU1qNVNJb3RhZUpRMjBqdDBaZUxSdGw0LWRCLUJPQ1IxOHBOMkJMUHJ1OGlaMzV1RmM3dGRmb2VFTHNuU0c2aVBMbHA4ZkdZQjc4SVJVbmhJNE4xOTFTVGl6MzhLSUxBYjVvLTlPXy03c3M2b01vb2RLdw?oc=5",
-      "summary": "Milestones of China's space industry",
-      "date": "2026-10-08",
-      "source": "China Daily"
-    },
-    {
       "title": "Mars\u2019s oddest cloud may be even odder than we thought",
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
       "summary": "Scientists using the European Space Agency's Mars Express , in combination with a state-of-the-art meteorological model of the Red Planet, have found that there may be some very exotic physics behind Mars\u2019s most curious cloud.",
@@ -187,13 +194,6 @@
       "title": "Resource competition intensifies with surge in megaconstellations",
       "url": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
       "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering [\u2026]",
-      "date": "2026-10-05",
-      "source": "SpaceNews"
-    },
-    {
-      "title": "Agile Space Industries Strengthens Board and Corporate Development to Support Continued Growth",
-      "url": "https://spacenews.com/agile-space-industries-strengthens-board-and-corporate-development-to-support-continued-growth/",
-      "summary": "DURANGO, Colo., Oct. 5, 2026 \u2014 Agile Space Industries today announced that Jonathan Baliff has joined its Board of Directors, bringing extensive experience in aerospace, finance, and corporate leadership. His [\u2026]",
       "date": "2026-10-05",
       "source": "SpaceNews"
     },
@@ -234,32 +234,46 @@
       "source": "arXiv"
     },
     {
+      "title": "Regime transition between external air supply and turbulent entrainment in ventilated cavity flows",
+      "url": "https://doi.org/10.1063/5.0352061",
+      "summary": "Aeration in high-speed free-surface flows is governed by the competition between externally supplied air and turbulence-induced air entrainment, yet the transition between these supply-limited and entrainment-limited states remains poorly understood. Systematic laboratory experiments were conducted by varying the relative ventilation area (Aa/Aw), where Aa denotes the total geometric ventilation area of the two venti",
+      "date": "2026-10-12",
+      "source": "Physics of Fluids"
+    },
+    {
+      "title": "Influencing factors and physical mechanism of rheological evolution of oil-based complex fluids at ultralow temperatures",
+      "url": "https://doi.org/10.1063/5.0353257",
+      "summary": "Extreme low-temperature environments pose significant challenges to fluid physics. It is urgent to maintain good rheological behavior of oil-based complex fluids under extreme, low-temperature conditions.",
+      "date": "2026-10-12",
+      "source": "Physics of Fluids"
+    },
+    {
+      "title": "The weakly nonlinear admittance at open ends of two- and three-dimensional acoustic waveguides",
+      "url": "https://doi.org/10.1017/jfm.2026.12139",
+      "summary": "We formulate a weakly nonlinear exit condition for open ends of acoustic waveguides; to our knowledge, this is the first time a general acoustic open end has been analysed outside the linear regime. The formulation neglects mean flow, vortex separation and viscous effects.",
+      "date": "2026-10-12",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "Wave scattering by a sloping beach of an arbitrary angle. Revisited: regular solution",
+      "url": "https://doi.org/10.1017/jfm.2026.12121",
+      "summary": "In this paper, we revisit the classic problem of a wave field on a sloping beach of an arbitrary angle and propose a general approach that allows the computation of regular solutions of the problem regardless of the angle. We use the Mellin-transform technique, reducing the problem to singular integral equations with fixed-point singularities of a special kind.",
+      "date": "2026-10-12",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "Spatiotemporal instability and topological bifurcations of a weakly elastic film flowing down a vertical fibre",
+      "url": "https://doi.org/10.1017/jfm.2026.12072",
+      "summary": "This paper investigates the temporal, spatiotemporal and nonlinear instability of a weakly viscoelastic liquid film flowing down a vertical cylindrical fibre. The fluid is described by the Walters\u2019 liquid B model, and the analysis combines long-wave asymptotic modelling, a long-wave-weighted Orr\u2013Sommerfeld stability analysis and nonlinear numerical simulations.",
+      "date": "2026-10-12",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
       "title": "Characteristics of the inertial layer in turbulent channel flow at a friction Reynolds number of approximately 16000",
       "url": "https://doi.org/10.1103/ccj3-w1df",
       "summary": "",
       "date": "2026-10-09",
       "source": "Physical Review Fluids"
-    },
-    {
-      "title": "Particle-resolved direct numerical simulations on particle\u2013fluid density ratio effects in liquid\u2013solid suspensions",
-      "url": "https://doi.org/10.1017/jfm.2026.12079",
-      "summary": "Particle-resolved direct numerical simulations are employed to investigate homogeneous steady liquid\u2013solid suspensions over an extended range of particle\u2013fluid density ratios ( 0.05 less than or slanted equals rho Superscript asterisk Baseline less than or slanted equals 5.5 0.05 \u2a7d \u03c1 \u2217 \u2a7d 5.5 $0.05\\leqslant \\rho ^\\ast \\leqslant 5.5$ ). This parameter span, which includes floating ( rho Superscript asterisk Baseline le",
-      "date": "2026-10-09",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "On the significance of absolute and convective instabilities in transitional hypersonic compression ramp flows",
-      "url": "https://doi.org/10.1017/jfm.2026.12060",
-      "summary": "In real-life tunnel or flight environments, the laminar\u2013turbulent transition of compression ramp flows can be initiated by absolute and/or convective instabilities. Currently, the relative significance of the two instabilities in such flows remains unclear.",
-      "date": "2026-10-08",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "The \u2212bold 5 divided by bold 3 5 / 3 $\\boldsymbol{5/3}$ power law for energy spectra in the near and intermediate wake of a circular cylinder",
-      "url": "https://doi.org/10.1017/jfm.2026.12087",
-      "summary": "We investigate the occurrence and interpretation of an approximate negative 5 divided by 3 \u2212 5 / 3 $-5/3$ power law in one-dimensional velocity spectra in the wake of a circular cylinder using three-component hot-wire measurements in the mean-shear plane at x divided by d equals 10 x / d = 10 $x/d=10$ , 20 and 40 over Reynolds number italic Re Subscript d Baseline equals 2500 Re d = 2500 $ \\textit{Re}_d=2500$ \u201315 000",
-      "date": "2026-10-08",
-      "source": "Journal of Fluid Mechanics"
     },
     {
       "title": "Explainable Stability Certification of Reinforcement Learning Control Policies Using Sparse Dynamics Identification",
@@ -281,20 +295,6 @@
       "summary": "",
       "date": "2026-10-07",
       "source": "Journal of Guidance, Control, and Dynamics"
-    },
-    {
-      "title": "Chemical regulation of displacement-front stability in porous media through viscosity ratio and miscibility control",
-      "url": "https://doi.org/10.1063/5.0353010",
-      "summary": "Multiphase displacement in porous media depends on viscous and capillary forces, molecular diffusion, and fluid phase behavior. An unfavorable viscosity ratio can promote/ viscous fingering and early breakthrough, reducing sweep efficiency.",
-      "date": "2026-10-07",
-      "source": "Physics of Fluids"
-    },
-    {
-      "title": "Three-dimensional delineation of the Lofoten Vortex using the R-tube method for the analysis of water exchange mechanisms based on the Regional Ocean Modeling System",
-      "url": "https://doi.org/10.1063/5.0350612",
-      "summary": "A new Lagrangian approach for the three-dimensional analysis of mesoscale eddies, the R-tube method, is presented as an extension of the Lagrangian Eddy Boundary Delineation Algorithm. The method is applied to the quasi-persistent Lofoten anticyclone in the Norwegian Sea using a high-resolution Regional Ocean Modeling System simulation.",
-      "date": "2026-10-07",
-      "source": "Physics of Fluids"
     },
     {
       "title": "Dominant-mode closure for transient Taylor dispersion of reduced Brownian-rod transport in plane power-law channels",
