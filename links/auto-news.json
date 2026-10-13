@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T15:35:19.402387+00:00",
+  "updated": "2026-10-13T00:46:19.105749+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,11 +20,25 @@
   ],
   "industry": [
     {
+      "title": "Airbus conducts Europe\u2019s first flight of U740 Valkyrie combat drone \u2014 AeroTime - UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSlh4bkJ6dzNEX2Z2Q3RjNUJZZTJNSHpTWDg5WlBrMkVEMTdXT29uNFBrYWc0U1NjOExjal9yNnkxNUdqR25hMTBvYkVBSVNwbkZ6TDVGbGd3ZWEwemF5TW15b0xPcmt5bUdCZzlMdlBhQ29pMFFBamdEZG5PQUx3MU1sSG5Nc0lXd3pUdm5Kb0tkOUdWazVfVVFTS3BEWkw3?oc=5",
+      "summary": "Airbus conducts Europe\u2019s first flight of U740 Valkyrie combat drone \u2014 AeroTime",
+      "date": "2026-10-13",
+      "source": "UA.NEWS"
+    },
+    {
       "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
       "url": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
       "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik\u2019s ASTRO HP star sensor on a LEO mission. This milestone underscores [\u2026]",
       "date": "2026-10-12",
       "source": "SpaceNews"
+    },
+    {
+      "title": "NASA\u2019s SpaceX CRS-35 Mission to Launch Health Research",
+      "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+      "summary": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX\u2019s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station in Florida, advancing research that benefits life on Earth and future exploration. This research supports astronaut health during long-duration missions through [\u2026]",
+      "date": "2026-10-12",
+      "source": "NASA"
     },
     {
       "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
@@ -34,6 +48,13 @@
       "source": "NASA"
     },
     {
+      "title": "Lockheed Martin Expanding Aerospace Operations in Colorado - Advanced Manufacturing",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV3FzdzlmMHA0aV8yd1hmQ1drR2tuVjUtcjhqUjFUME9ObmlIV01XdTJPOTRmQnFqRjdBMlFfTDUyUjRaYURRbjJCU3E5WFZWanMxTnRQREcxeWl2d2V6S21YNXFlaW1JOGJtanhtNHdkeHhySkJBTlVuUERqaGhaRVkxS0dXMlN1S09idUQ1UW14WjNkOXdzSjAwbjNTbmNIVzNmUDFNc3JJa01yZ3hTS2dKXzZxWnFlcGZ6X0JXYjNpSnJfSFcxT1h0UUp3R1FIaHlSRDRLSXpYMkM2MDJMb3QwSWVqY1RscmY3cw?oc=5",
+      "summary": "Lockheed Martin Expanding Aerospace Operations in Colorado",
+      "date": "2026-10-12",
+      "source": "Advanced Manufacturing"
+    },
+    {
       "title": "News | Vietjet Air expands contract with RTX\u2019s Collins Aerospace - RTX",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZDJ6cUtYZFJob0x0RE1kaW54RWVfdEdlai0tRkdKU1hGbDcwQnZBWm9qemp4T1RTT3VCRFNFbUFfRlRkX1NQRHpyclM5WjJZNmg0cnZ2T0JxYnlhaUcxNmUwM1NJUjZMSktIcVlTMmJOVTNmbkVHMGpqdVBWdUxnbXMyUFc2ZVZJT01ubVFzRURFTF9rek9ZdGJHRXhvRG15dkxvTE5KRQ?oc=5",
       "summary": "News | Vietjet Air expands contract with \u2019s Collins Aerospace RTX",
@@ -41,18 +62,11 @@
       "source": "RTX"
     },
     {
-      "title": "Avolon orders 250 new Airbus and Boeing aircraft - Aerospace Global News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONDVBUlFUOFZWZ3dscE9xZHlKekFPTUgwYzV5NDUxYmNqdXlRMnhJZGxDdGlWNTM0RnZXWUVMWjZtY0dTNlBqREtKTHNtTmRoREJzVG8wdkF3M0FIM3l4b3FlNU41T3pVVXg0bmpfdWVIYmFhekMxa1pjMG5OWi1mYVJXRHhhcjFVaVE?oc=5",
-      "summary": "Avolon orders 250 new Airbus and Boeing aircraft",
+      "title": "The Aircraft Replacing The Iconic Boeing 737-800 - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15Ulg0VGVhYlhLQWhDQnVuY25XSDRmUUU2b2VzQlg4eUxBdDNyU05RQlI1dGR4YzgxZksyTWF4Y2t3eWdEWllKVHFobXJPMW5QWG4wanNMTGFna2JNWXJRQ00yRGZUV1BqWlE?oc=5",
+      "summary": "The Aircraft Replacing The Iconic Boeing 737-800",
       "date": "2026-10-12",
-      "source": "Aerospace Global News"
-    },
-    {
-      "title": "Airbus U740 Valkyrie uncrewed combat aircraft takes off for its maiden flight in Europe - Airbus",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQmw3VldVV2p2Y2NVMUt6NXFoSmwwcTR1VUZqUlpBNWJ4MkVXZXU3QUZpSTdYZkNCUkE1clBlcFd5RDVKZTRqTDVZMVlxWEJJZVVUenJMbUdhaGdtR3I0OVRBdmp0TnROU1JBeVN2d1FQVTZIN2lZZ2huemZKMWtDRnJkb2REV0xOYmdkaFkwTDFzMmd5YzQyRjRYN3hCdnVEWnVvMk42YmtMUnI1SlExRXpVbG16c05mY1NnMVJ3bFNEWTQxdUlrSWtueGg2STUteHVKalUwWElKUWlJb0E?oc=5",
-      "summary": "U740 Valkyrie uncrewed combat aircraft takes off for its maiden flight in Europe Airbus",
-      "date": "2026-10-12",
-      "source": "Airbus"
+      "source": "Simple Flying"
     },
     {
       "title": "Space weather mission Sawa reveals Polish roots - European Space Agency",
@@ -69,39 +83,11 @@
       "source": "Press Information Bureau"
     },
     {
-      "title": "Lockheed Martin Expansion Highlights Northern Colorado Aerospace Connections - North Forty News",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSTNpLXVhb3VLeHhQRExTT0p0R3BrZ2x2NVVQZXJ1Nm5EUlAyT0RfdWNIR0FGRFA0c1V4QzBXT29FZTJzUEpNSkRLY2VZcE5vS1VoNmtMUThFUkJISnhjSlNVLU9mTVI2T3NzclBhbU9CMFpBN0E5SGRmVVZTbUM5TUhrNTZYSVdxUm9tNTZzeFI4cTFYeXhfcXAxaERFbWxhQ1QxWFBrXy1UOHVESUFVRldmWjFSMTlQR09tWUVFTDJET1R0dmNLZmR1Qmk?oc=5",
-      "summary": "Lockheed Martin Expansion Highlights Northern Colorado Aerospace Connections",
-      "date": "2026-10-11",
-      "source": "North Forty News"
-    },
-    {
-      "title": "Firefly Aerospace Inc. Price Today | xFLY Live Price, Chart & Market Cap - OKX",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LdGZwcnZSRTU5aUQwM3NKVG56blExb2ZzWFFDam9FOUxObUV2Skw1dnRyMHFJaktGc290MnhhVDlNTHZJMHNMT2M4Vk1DVm1CbGVRbTAxTVhMaGh0YlBPTjRYekdva3hWVXRv?oc=5",
-      "summary": "Firefly Aerospace Inc. Price Today | xFLY Live Price, Chart & Market Cap",
-      "date": "2026-10-11",
-      "source": "OKX"
-    },
-    {
-      "title": "Satellite Launch Vehicle Slv Market to Accelerate on Mega-Constellation Demand, Forecast Points Higher Toward 2035 - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONTBaVThMZFJhSmthUXUyLXRMakE4NzNDcFJnMHpwUW1rWEdlNzRSSjY5M1hEU0c5RWZ0R2FjSGc3MWlwMU1sZ2h0SGhRM0tidTMzbGtkS2pwenl4d1J3Zy1MZ0duUV9aQUVRZkhkV25RbjVwYmM4UGxnbjdOLUhBOE51Q1JMeDNRUklJOHZWTF9vWi05bjNUSlRyMG5KdmJISTB6Q0ptSGsyRHFYc0pfN25wNC1zYnNTYVdqelNZRC1iVS1BcXFPcElncFhFcG5XczBaT0Rkc3RZc28?oc=5",
-      "summary": "Satellite Launch Vehicle Slv Market to Accelerate on Mega-Constellation Demand, Forecast Points Higher Toward 2035",
-      "date": "2026-10-11",
-      "source": "IndexBox"
-    },
-    {
       "title": "SpaceX launches 21 satellites to orbit for the US military after 5-day delay (video) - Space",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPclk4V3VJTVhwVlNuQndmejRuOVNVZnhpRjNnVXdHVkZBSE9JYVhoVE9VU1ZsdWItR2FKZGMtM2FKanNZZmQ1WUdBV0w4NGlOSFVoQXYyek5KQTdkVlpsMV9ELS1OWWdUZC1XT0dUUnlaQUs5UWJWdVhNTGpIMXlDeVlLUGEtTWRMVVpYT19SajMwOWVsX05aWlJWdklrLWZvUjJJcmNTLWJlZzZCeERXczFfSFRfUDdzTEU2ajZjWm1Ud0MxUjNITHc2c000V2ZmT0l6ZE9NVkxONnlDNXJZT1d2cEI?oc=5",
       "summary": "X launches 21 satellites to orbit for the US military after 5-day delay (video) Space",
       "date": "2026-10-10",
       "source": "Space"
-    },
-    {
-      "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
-      "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
-      "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations. \u201cIn alignment with the President\u2019s National [\u2026]",
-      "date": "2026-10-09",
-      "source": "NASA"
     },
     {
       "title": "NASA Seeks US Industry Plans for Commercial Space Stations - NASA (.gov)",
@@ -116,13 +102,6 @@
       "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
       "date": "2026-10-09",
       "source": "425business.com"
-    },
-    {
-      "title": "Commercial Space Growth Accelerates as New Technologies Expand Access Beyond Earth - nerdbot",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNTgwY0w0VUdwYUo2RXptMUM3YUlpN2h3ZEU0a3k5R2pyMkFzNGMtakNuanowMDNyLWFvODU2a2dfM2VZaldsdHduczh4NTNXWFppOTY2UXFZT3ZiMXlvOEw3Q0NDYVB6aGs1NVdycmV2MFpGTWFxMFI2VGZVbldEa0x0UlptX0M2VnF1UENVWnpvNTVDM3VhNjlPcVpZYmpzNUpaX2NhNy1iR0p5YWVHeDQ1cGQ?oc=5",
-      "summary": "Commercial Space Growth Accelerates as New Technologies Expand Access Beyond Earth",
-      "date": "2026-10-09",
-      "source": "nerdbot"
     },
     {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
@@ -198,6 +177,13 @@
       "source": "SpaceNews"
     },
     {
+      "title": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production - Aerospace Manufacturing and Design",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVdMdzBrQUI3MGVOTnRRUEtfZ0JWZjhnY1VUSXNGWF9IRzVzZ01KV19NU0lieUxGXzJ1WXgyRjZ6X2dvLW5XRWVyeVEycHowNjNoNlFCTlZQMXFPd1pZNHNhWGQ1ZTdyTjhvLW13WndKdkxUNkRmSWJpNXJRZGdnNHBOYmkzZTAyMkJ4cl85SFVxb1RHT0tFS3FxMTZPdUtqaS0zU25kRWpFXzhNcGU3VDJzRHhmcmR5N2xqc2FMcDRSQzRIUEl3?oc=5",
+      "summary": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production",
+      "date": "2026-10-02",
+      "source": "Aerospace Manufacturing and Design"
+    },
+    {
       "title": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics - Quantum Computing Report",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaXhueWZ1cmgyWkFybVZoM2M4M09pOGRGUmlqSGNlVXFrNUp6MnB0SEU5TmhET2FSejQzSWd0UmhTRXJrZkNyX2p1SDNOTk5fZDBxNHljYjVmcG96LS1RVzNmY3dvakpxelM0SEJZQ0FGT2ZhUDE3dnA2MHhjY0Q5cWVvQ09TWG9yZm8zWG8tZWlfWER0OEFtaHpXc0Z5OXNfU09aUXM3YzFVZnBSUlpkR09hQXpucGl2aWNWaWk3aUhBTm5rQTNqcXJZcjNUMWpQYlkyVk1PV2c1TjBFUzB1Q2dubHU5Mm9ZdEJZVlJCOExKaVRDaTVVS1Nn0gH_AUFVX3lxTFBkc3FTSnVMSExaWkxOSkU1X2hvRFhEc3hTY05fZ3JTSTdrZ1V5b1A2elNwaFUxVGg4emIwOE9sQlV6SlpZc05EUnV2ZGhmX25ub2piWEs3LUFiTTRLUHlINExQbE5DRElUb2pzdzRHSWRJSnFPU0ZmTUNuVE9ZbnRvLWF1a3VSQWV5SGNkNUVETml5V1paaE1pZGlkSGJoQTVuT04wOU1ReWRzcVhGQ0ozQ3hsOW9yeTROczlIWWhfbWFQekFpOEtCRU9xRWNkLTNqVTV2QWJ3dGhNMm8zZ2YwY09YTXUzMXlwS0pVMk5BYk5mZHZRaG5STzE4emJZVQ?oc=5",
       "summary": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics",
@@ -206,6 +192,20 @@
       "topics": [
         "Quantum computing for fluid science"
       ]
+    },
+    {
+      "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5",
+      "summary": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
+      "date": "2026-10-01",
+      "source": "CNBC"
+    },
+    {
+      "title": "NASA SmallSats Launch to Advance Science, Technology, Orbital Operations - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHFFdWVGQTl4bU50bUVzdzFoTWxtd0g2QVJwUVdrR2JlNFFVVHpHeWlSa2owVmhCRzc1ZkdDUFZab2RUX0c2NWVSamwwRWtINmJWT3Vid2tSTjNpM01MX1VyNEU0NmVMU1pqUUNMNllqQXRlTXNfSTZuZ19KRlUteGk4Zk4xdS1wM1ZFM3NPU09VTENpeWhsUXB6TGQyVjJfU1h3S2Y4ZmctRjAtTEhjbmpsY013NlNkdUtmTlZ2V3B0ZWc?oc=5",
+      "summary": "NASA SmallSats Launch to Advance Science, Technology, Orbital Operations",
+      "date": "2026-10-01",
+      "source": "NASA (.gov)"
     },
     {
       "title": "ORNL Quantum Algorithm Tackles Bottleneck In Fluid Dynamics Modeling - Quantum Zeitgeist",
@@ -234,16 +234,16 @@
       "source": "arXiv"
     },
     {
-      "title": "Regime transition between external air supply and turbulent entrainment in ventilated cavity flows",
-      "url": "https://doi.org/10.1063/5.0352061",
-      "summary": "Aeration in high-speed free-surface flows is governed by the competition between externally supplied air and turbulence-induced air entrainment, yet the transition between these supply-limited and entrainment-limited states remains poorly understood. Systematic laboratory experiments were conducted by varying the relative ventilation area (Aa/Aw), where Aa denotes the total geometric ventilation area of the two venti",
+      "title": "Influencing factors and physical mechanism of rheological evolution of oil-based complex fluids at ultralow temperatures",
+      "url": "https://doi.org/10.1063/5.0353257",
+      "summary": "Extreme low-temperature environments pose significant challenges to fluid physics. It is urgent to maintain good rheological behavior of oil-based complex fluids under extreme, low-temperature conditions.",
       "date": "2026-10-12",
       "source": "Physics of Fluids"
     },
     {
-      "title": "Influencing factors and physical mechanism of rheological evolution of oil-based complex fluids at ultralow temperatures",
-      "url": "https://doi.org/10.1063/5.0353257",
-      "summary": "Extreme low-temperature environments pose significant challenges to fluid physics. It is urgent to maintain good rheological behavior of oil-based complex fluids under extreme, low-temperature conditions.",
+      "title": "Near-wall flow reconstruction in turbulent channel flow using a physics-informed neural network",
+      "url": "https://doi.org/10.1063/5.0353315",
+      "summary": "Near-wall flow reconstruction from outer-region observations is challenging because the unobserved region contains the transition from viscous- to Reynolds-stress-dominated momentum transport and the buffer-layer maximum in turbulent kinetic energy production. We develop a physics-informed neural network with adaptive asymptotic hard constraints (AAHC-PINN) for a restricted statistical inverse problem in fully develo",
       "date": "2026-10-12",
       "source": "Physics of Fluids"
     },
