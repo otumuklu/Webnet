@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T00:46:19.105749+00:00",
+  "updated": "2026-10-13T14:18:06.230578+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,11 +20,60 @@
   ],
   "industry": [
     {
-      "title": "Airbus conducts Europe\u2019s first flight of U740 Valkyrie combat drone \u2014 AeroTime - UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSlh4bkJ6dzNEX2Z2Q3RjNUJZZTJNSHpTWDg5WlBrMkVEMTdXT29uNFBrYWc0U1NjOExjal9yNnkxNUdqR25hMTBvYkVBSVNwbkZ6TDVGbGd3ZWEwemF5TW15b0xPcmt5bUdCZzlMdlBhQ29pMFFBamdEZG5PQUx3MU1sSG5Nc0lXd3pUdm5Kb0tkOUdWazVfVVFTS3BEWkw3?oc=5",
-      "summary": "Airbus conducts Europe\u2019s first flight of U740 Valkyrie combat drone \u2014 AeroTime",
+      "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+      "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+      "summary": "A commercial lander that will be at the forefront of NASA\u2019s efforts to establish a Moon Base, humanity\u2019s first lunar outpost, has passed a series of critical tests at the agency\u2019s Jet Propulsion Laboratory in Southern California. The tests simulated the extreme temperatures and vacuum of space, as well as the intense shaking and ear-splitting [\u2026]",
       "date": "2026-10-13",
-      "source": "UA.NEWS"
+      "source": "NASA"
+    },
+    {
+      "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
+      "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
+      "summary": "NASA\u2019s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds of supplies and hardware, bound for the International Space Station. Following its successful launch, the SpaceX Dragon spacecraft will [\u2026]",
+      "date": "2026-10-13",
+      "source": "NASA"
+    },
+    {
+      "title": "Airbus, Boeing Face $3.2 Trillion Aircraft Market\u2014If They Can Deliver - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGpxWjJkYVhpTV8xQ0lGOXo4OEhxZTB4MkZuUEVzOWtNZ1JPb1RfNzJLN0dmdHFmX3B0UG5kVHlMVDJzencxcENCT0VlSXAwY200d2VkVWhnWVVvdF9VUEpRMXZhbEVjcTh6Y2h0YXJTNVZ2b2lmdHYxQlVONklRRWlfSm5BNWV6eERzRzJvOGU0S250X0R5dmlXRzVVWjZKMTVucTFOcDZ4UVNIUkp4d25iemthMXZWN3VsNA?oc=5",
+      "summary": "Airbus, Boeing Face $3.2 Trillion Aircraft Market\u2014If They Can Deliver",
+      "date": "2026-10-13",
+      "source": "Forbes"
+    },
+    {
+      "title": "Biman Orders Airbus A350s And A321neos - Aero-News Network",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZFJGUVB2YVJ5SDNXZDktSjhkMGpob0NOR1pQYU5vS0NScWRmR3Z2aGlla3h2UVFmV3hGQW50VWhKUlRGRC1CMlYzME1tZTRqNHNRc0hEM0VZNkt2am9zZnh0SDV5VklVS2hOZkQ5VjFPeF9OR3FOVmpPUnRWTGlVWEh2by0ta0lVUEozLThjYmlZOTh5MEMw?oc=5",
+      "summary": "Biman Orders Airbus A350s And A321neos",
+      "date": "2026-10-13",
+      "source": "Aero-News Network"
+    },
+    {
+      "title": "Mars moon lander set to launch on 19 October - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWVVVTnItRzQtci1aWjdkbEE1cXg3TzdOemc2U05GZ3h3N21iRHhRUWJSZHZkNWZMaXRwYXlKRzFib3d1aDNoeXY2b1FZNExGVDhHWmY4aGpOc0x4TGxRWFlDUmowbjhUcl85NTdrNS1SN1JWMEFwUXRjTjNBZmowaTlCUzRTNFVqemlUS240WTNsRlZQVm90TThkd19jbUk?oc=5",
+      "summary": "Mars moon lander set to launch on 19 October",
+      "date": "2026-10-13",
+      "source": "European Space Agency"
+    },
+    {
+      "title": "Mars moon lander set to launch on 19 October",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
+      "summary": "The Martian Moons eXploration ( MMX ) mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04:41 JST on 20 October 2026 (20:41 BST / 21:41 CEST on 19 October 2026). MMX will be the first mission to collect a sample from Mars\u2019s moon Phobos and bring it back to Earth. MMX is led by the Japan Aerospace Exploration Agency (JAXA), in collaboration with the National Aeronautics and Space Administration (NASA), the French space agency (CNES), the German Aerospace Center (DLR) and the European Space Agency (ESA).",
+      "date": "2026-10-13",
+      "source": "ESA Space Science"
+    },
+    {
+      "title": "Order No. 837: Beijing\u2019s rules for China\u2019s rocket exporters - Lowy Institute",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnNOWmc5TnF0dTdTb2pSR1VWQ2puMDNpVjhVd21CcmVndTVNZjhCWHRwVThwR3FwYkFnVWdFcmVUYnI5QzQtOHB2Rkt5OS1wR0R0eFlPMFFUUUtWdjRoTDhpenc1SWlhVEc1ZjVNSHV6RExQSUd5TXdqOU1YcFdUSkJhM2Q1Q3RDb2NaVjhtanM2ZHhrTFV4aEhURzRuOEpyWFZtSmxn?oc=5",
+      "summary": "Order No. 837: Beijing\u2019s rules for China\u2019s rocket exporters",
+      "date": "2026-10-13",
+      "source": "Lowy Institute"
+    },
+    {
+      "title": "Korea space agency to cut launch costs with reusable rocket, push mass satellite production - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSnJ5OWdpYWF0WlpBbll3VnNLVWo2d3lhbnp2bk52NDg0VDhGT20tWnBBZUZSSUd6VDBMT04yUThGajQ0cWt0Wjd5YVZPSjlFME9Xc3Vsd2VqaTZ2WXVXRXRNZ09jRlJkbDlKRGFyTFAtd2I4eDFoQWFHMGxsOU8zZWV4bnhBdG5CM3hmaVBBT29WWHJyaWh5YlR2VTlRNzM2c2FrZ0ZObzZsOGViSk8wMlQ5ZG1kQWdDZXNtenVZNGZydEcwaU5vQ3gtX3FvSGU3Rnc?oc=5",
+      "summary": "Korea space agency to cut launch costs with reusable rocket, push mass satellite production",
+      "date": "2026-10-13",
+      "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774"
     },
     {
       "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
@@ -32,20 +81,6 @@
       "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik\u2019s ASTRO HP star sensor on a LEO mission. This milestone underscores [\u2026]",
       "date": "2026-10-12",
       "source": "SpaceNews"
-    },
-    {
-      "title": "NASA\u2019s SpaceX CRS-35 Mission to Launch Health Research",
-      "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
-      "summary": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX\u2019s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station in Florida, advancing research that benefits life on Earth and future exploration. This research supports astronaut health during long-duration missions through [\u2026]",
-      "date": "2026-10-12",
-      "source": "NASA"
-    },
-    {
-      "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
-      "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
-      "summary": "The ice reached its third-lowest maximum extent since satellite observations began.",
-      "date": "2026-10-12",
-      "source": "NASA"
     },
     {
       "title": "Lockheed Martin Expanding Aerospace Operations in Colorado - Advanced Manufacturing",
@@ -62,20 +97,6 @@
       "source": "RTX"
     },
     {
-      "title": "The Aircraft Replacing The Iconic Boeing 737-800 - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15Ulg0VGVhYlhLQWhDQnVuY25XSDRmUUU2b2VzQlg4eUxBdDNyU05RQlI1dGR4YzgxZksyTWF4Y2t3eWdEWllKVHFobXJPMW5QWG4wanNMTGFna2JNWXJRQ00yRGZUV1BqWlE?oc=5",
-      "summary": "The Aircraft Replacing The Iconic Boeing 737-800",
-      "date": "2026-10-12",
-      "source": "Simple Flying"
-    },
-    {
-      "title": "Space weather mission Sawa reveals Polish roots - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVFCLTVxb0RsX3V2MUNQWG50cFZRaVRJaEtsZTgxSm1MLUY0RVpRYUxIZXd1MjhjNndQTVFuSXpmTzFDZmpfSWRWelc2cnhDcGJ2bjZPYjYwcTVqVHlWUVBaWlVKT1p0NVlScjZicUhBY3c2WVNnWW4zYWp6TzdBd2t2c0EwcDdjZmNiczRDU2k5TDVwbzhnNGRR?oc=5",
-      "summary": "Space weather mission Sawa reveals Polish roots",
-      "date": "2026-10-12",
-      "source": "European Space Agency"
-    },
-    {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
       "summary": "Strengthening India\u2019s Space Sovereignty",
@@ -90,18 +111,18 @@
       "source": "Space"
     },
     {
-      "title": "NASA Seeks US Industry Plans for Commercial Space Stations - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPemZaQm9sa3I0Z2tJaXNHTHc4MzlvMHE2MGZFZy0xMEI2bWNLWE05MXRYMWtIQlhOUVVqejZTX2F3d0VzX0Q0cFJCRjJ5aUVmUm1Bc19oWkQwc1VFUmlqT2xBemQzT3E4R0stcGtGTl9DQkZqRmh0TW1wMkswMWI4cEx5WDY5bGVyaWp0bGNEcWt2OEF6ZEVyZA?oc=5",
-      "summary": "NASA Seeks US Industry Plans for Commercial Space Stations",
-      "date": "2026-10-09",
-      "source": "NASA (.gov)"
-    },
-    {
       "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
       "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
       "date": "2026-10-09",
       "source": "425business.com"
+    },
+    {
+      "title": "NASA Seeks US Industry Plans for Commercial Space Stations - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPemZaQm9sa3I0Z2tJaXNHTHc4MzlvMHE2MGZFZy0xMEI2bWNLWE05MXRYMWtIQlhOUVVqejZTX2F3d0VzX0Q0cFJCRjJ5aUVmUm1Bc19oWkQwc1VFUmlqT2xBemQzT3E4R0stcGtGTl9DQkZqRmh0TW1wMkswMWI4cEx5WDY5bGVyaWp0bGNEcWt2OEF6ZEVyZA?oc=5",
+      "summary": "NASA Seeks US Industry Plans for Commercial Space Stations",
+      "date": "2026-10-09",
+      "source": "NASA (.gov)"
     },
     {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
@@ -119,13 +140,6 @@
       "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
       "date": "2026-10-08",
       "source": "SpaceX"
-    },
-    {
-      "title": "Northrop Grumman\u2019s Talon Blue Completed Its First Fully Autonomous Flight - Design and Development Today",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcnhrb29kaHRGMWtwbmFpck9IdGtrd0ZSb0tVcUxiaUhpZk9ESV9TVlY2R3VWRmRvdmNVYVU2YUpKRzQwNk50OU84cjFMd1pCa2NBNUVHQlJIV3Z2UzU4M04yVTRtRjJaYWNTZF9TRnJlY3VDN1RiV0hHQ2pPQ08xWTVUTGRLQ1Q0N242eFpuTXZxb2F4Z3A4RjV4cC14c1NqMkpmV2Z1MDhobWV5dXZpYkNKUDF2ZE85MVZsYzVfbmdJd2xIOXdDdDJwSlZEQW9nTUVMQXpVY2hxVVpnMm5n?oc=5",
-      "summary": "Northrop Grumman\u2019s Talon Blue Completed Its First Fully Autonomous Flight",
-      "date": "2026-10-08",
-      "source": "Design and Development Today"
     },
     {
       "title": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
@@ -147,13 +161,6 @@
       "summary": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry",
       "date": "2026-10-08",
       "source": "Japan Wire by Kyodo News"
-    },
-    {
-      "title": "Mars\u2019s oddest cloud may be even odder than we thought",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
-      "summary": "Scientists using the European Space Agency's Mars Express , in combination with a state-of-the-art meteorological model of the Red Planet, have found that there may be some very exotic physics behind Mars\u2019s most curious cloud.",
-      "date": "2026-10-07",
-      "source": "ESA Space Science"
     },
     {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
@@ -194,20 +201,6 @@
       ]
     },
     {
-      "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5",
-      "summary": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
-      "date": "2026-10-01",
-      "source": "CNBC"
-    },
-    {
-      "title": "NASA SmallSats Launch to Advance Science, Technology, Orbital Operations - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHFFdWVGQTl4bU50bUVzdzFoTWxtd0g2QVJwUVdrR2JlNFFVVHpHeWlSa2owVmhCRzc1ZkdDUFZab2RUX0c2NWVSamwwRWtINmJWT3Vid2tSTjNpM01MX1VyNEU0NmVMU1pqUUNMNllqQXRlTXNfSTZuZ19KRlUteGk4Zk4xdS1wM1ZFM3NPU09VTENpeWhsUXB6TGQyVjJfU1h3S2Y4ZmctRjAtTEhjbmpsY013NlNkdUtmTlZ2V3B0ZWc?oc=5",
-      "summary": "NASA SmallSats Launch to Advance Science, Technology, Orbital Operations",
-      "date": "2026-10-01",
-      "source": "NASA (.gov)"
-    },
-    {
       "title": "ORNL Quantum Algorithm Tackles Bottleneck In Fluid Dynamics Modeling - Quantum Zeitgeist",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NUTZpLWNtQjNwX2VNZ2QxNERXWjdDWUlNZUEyX1RUdXV1VnJCUGI5MWExVjJRaFBRVHp0VlgtTWYxYm5GUlo5SHRtWVJHZXZFM0IxTUJQY3pNU2FGbi1xNWM5M2NGVlBiUXBUcmlXSGFxaXZneWhoUVhRYkVydW8?oc=5",
       "summary": "ORNL Quantum Algorithm Tackles Bottleneck In Fluid Dynamics Modeling",
@@ -220,18 +213,46 @@
   ],
   "papers": [
     {
-      "title": "Early-time dynamics of the Richtmyer-Meshkov instability at Kelvin-Voigt viscoelastic interfaces",
-      "url": "https://arxiv.org/abs/2610.12634",
-      "summary": "The Richtmyer-Meshkov instability (RMI) is initiated when a shock wave interacts with a perturbed interface between two materials, imparting an initial velocity to the interfacial perturbation. When the materials are viscoelastic, the subsequent evolution is influenced by the coupled effects of inertia, viscous dissipation, and elastic resistance.",
-      "date": "2026-10-12",
-      "source": "arXiv"
+      "title": "Wavelet-Enhanced Feature Pyramid Network for Pose Estimation of Non-Cooperative Spacecraft",
+      "url": "https://doi.org/10.2514/1.i011815",
+      "summary": "Monocular six-degree-of-freedom pose estimation of non-cooperative spacecraft is critical for a variety of on-orbit missions. However, it remains a challenging task due to extreme illumination variations, pronounced scale differences, complex rotational motions, and the sparse geometric characteristics of spacecraft.",
+      "date": "2026-10-13",
+      "source": "Journal of Aerospace Information Systems"
     },
     {
-      "title": "Conjugate heat transfer in turbulent pipe flow with azimuthally non-uniform heating",
-      "url": "https://arxiv.org/abs/2610.12709",
-      "summary": "Turbulent conjugate heat transfer (CHT) in pipes with azimuthally non-uniform heating is studied theoretically and numerically with a focus on low-$\\mathrm{Pr}$ fluids. While the influence of the solid properties is well documented for uniform heat flux, their effect under azimuthally non-uniform heating has not been explored systematically.",
-      "date": "2026-10-12",
-      "source": "arXiv"
+      "title": "Restricted Three-Body Problem Fixed-Point Identification via High-Order Transfer Maps",
+      "url": "https://doi.org/10.2514/1.g009613",
+      "summary": "Periodic orbits (POs) play a central role in the circular restricted three-body problem (CRTBP). This paper presents a framework for identifying single- and multirevolution POs by searching for fixed points of selected Poincar\u00e9 maps of the CRTBP.",
+      "date": "2026-10-13",
+      "source": "Journal of Guidance, Control, and Dynamics"
+    },
+    {
+      "title": "Experimental Investigation of Disbond Growth in Sandwich Panels Under Pressurization and Compression",
+      "url": "https://doi.org/10.2514/1.j066289",
+      "summary": "Honeycomb-core sandwich structures are increasingly used in aircraft, making disbond propagation driven by ground\u2013air\u2013ground (GAG) pressurization cycles a significant safety concern. Because this mechanism involves coupled structural, thermodynamic, and fracture processes, its behavior remains insufficiently understood.",
+      "date": "2026-10-13",
+      "source": "AIAA Journal"
+    },
+    {
+      "title": "Generalized Forcing Method: Generation of diverse data for training linear transport PDE closure models",
+      "url": "https://doi.org/10.1103/52jk-xb5y",
+      "summary": "",
+      "date": "2026-10-13",
+      "source": "Physical Review Fluids"
+    },
+    {
+      "title": "Beyond classical similitude: group theoretic extrapolation of hypersonic stagnation-point boundary layers",
+      "url": "https://doi.org/10.1017/jfm.2026.12108",
+      "summary": "Motivated by the need to extrapolate the results from ground-based experiments to the conditions of high-speed flight, we present the Lie equivalence-symmetry analysis of the hypersonic stagnation-point boundary layers (BLs). We demonstrate the application of the equivalence symmetry on the set of coupled ordinary differential equations (ODEs) which are physically relevant in hypersonics.",
+      "date": "2026-10-13",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "Propagation and absorption of sound in a waveguide with side-wall impedance gradient",
+      "url": "https://doi.org/10.1017/jfm.2026.12050",
+      "summary": "Over the past two decades, acoustic retarding structures, analogised to sonic \u2018black holes\u2019 (SBH), have garnered significant attention for their potential to achieve perfect sound absorption. Typical designs feature annular rings with progressively smaller radii designed to bring sound waves to rest at zero radius.",
+      "date": "2026-10-13",
+      "source": "Journal of Fluid Mechanics"
     },
     {
       "title": "Influencing factors and physical mechanism of rheological evolution of oil-based complex fluids at ultralow temperatures",
@@ -255,52 +276,10 @@
       "source": "Journal of Fluid Mechanics"
     },
     {
-      "title": "Wave scattering by a sloping beach of an arbitrary angle. Revisited: regular solution",
-      "url": "https://doi.org/10.1017/jfm.2026.12121",
-      "summary": "In this paper, we revisit the classic problem of a wave field on a sloping beach of an arbitrary angle and propose a general approach that allows the computation of regular solutions of the problem regardless of the angle. We use the Mellin-transform technique, reducing the problem to singular integral equations with fixed-point singularities of a special kind.",
-      "date": "2026-10-12",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Spatiotemporal instability and topological bifurcations of a weakly elastic film flowing down a vertical fibre",
-      "url": "https://doi.org/10.1017/jfm.2026.12072",
-      "summary": "This paper investigates the temporal, spatiotemporal and nonlinear instability of a weakly viscoelastic liquid film flowing down a vertical cylindrical fibre. The fluid is described by the Walters\u2019 liquid B model, and the analysis combines long-wave asymptotic modelling, a long-wave-weighted Orr\u2013Sommerfeld stability analysis and nonlinear numerical simulations.",
-      "date": "2026-10-12",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
       "title": "Characteristics of the inertial layer in turbulent channel flow at a friction Reynolds number of approximately 16000",
       "url": "https://doi.org/10.1103/ccj3-w1df",
       "summary": "",
       "date": "2026-10-09",
-      "source": "Physical Review Fluids"
-    },
-    {
-      "title": "Explainable Stability Certification of Reinforcement Learning Control Policies Using Sparse Dynamics Identification",
-      "url": "https://doi.org/10.2514/1.g009769",
-      "summary": "Reinforcement learning (RL) is a promising alternative to classical guidance and control methods; however, the black-box nature of deep neural network policies and the lack of interpretable stability evidence remain barriers to real-world aerospace adoption. This paper presents an a posteriori methodology using Sparse Identification of Nonlinear Dynamics (SINDy) to recover sparse analytical representations of the clo",
-      "date": "2026-10-07",
-      "source": "Journal of Guidance, Control, and Dynamics"
-    },
-    {
-      "title": "Life Prediction of 2A12-T6 Aluminum Alloy Notch Components Under Sequential Loading",
-      "url": "https://doi.org/10.2514/1.c039139",
-      "summary": "Based on the Miner\u2019s rule, a life prediction method suitable for sequential vibration and mechanical fatigue loading is established. This method employs the Theory of Critical Distance to analyze the fatigue lives of specimens under constant-amplitude mechanical fatigue loading, and combines the Critical Distance Method with the Dirlik model in the frequency domain method to analyze the vibration fatigue lives of the",
-      "date": "2026-10-07",
-      "source": "Journal of Aircraft"
-    },
-    {
-      "title": "Learning-Based Data-Assisted Port-Hamiltonian Control for Free-Floating Space Manipulators",
-      "url": "https://doi.org/10.2514/1.g009638",
-      "summary": "",
-      "date": "2026-10-07",
-      "source": "Journal of Guidance, Control, and Dynamics"
-    },
-    {
-      "title": "Dominant-mode closure for transient Taylor dispersion of reduced Brownian-rod transport in plane power-law channels",
-      "url": "https://doi.org/10.1103/y447-xmgm",
-      "summary": "Taylor-Aris and generalized Taylor dispersion theories characterize the long-time spreading reached after transverse homogenization in bounded shear. The present work considers the preasymptotic approach to that regime for anisotropic microstructures transported through finite channels with non-Newtonian carriers.",
-      "date": "2026-10-07",
       "source": "Physical Review Fluids"
     }
   ],
