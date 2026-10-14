@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T22:49:56.503176+00:00",
+  "updated": "2026-10-14T04:59:29.130134+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -19,6 +19,20 @@
     "Simons Foundation"
   ],
   "industry": [
+    {
+      "title": "Boeing MAX Deliveries In First Three Quarters Hit Record High, Again - Aero-News Network",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZmd3eEJUaVV4OVQxRWdMOVlRc0NqcWdJRERoQWVjRWF5eTNTUnoydGNKNUtZeWUwRDVBMUF2c2lGWXBsU0FmNHlUWGZMNklVRU5GdkF3bl9WZ285TUJsWFdqc1labTVDbWJZd2tCaGk5eWVaS2J0THAzTFJVLUMwb0xhbjU1Q2pTVkd2M0xBWEJjTWdCQjFz?oc=5",
+      "summary": "Boeing MAX Deliveries In First Three Quarters Hit Record High, Again",
+      "date": "2026-10-14",
+      "source": "Aero-News Network"
+    },
+    {
+      "title": "Airbus Valkyrie Makes European Debut - Aero-News Network",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3FlZzZvR2lqT2s0S1V4Z0ptNndwR2NNR0xISlh4enE1OXlOSEptZFZPLXEzSk1VdS1DZkhMdlF5X2ZjenZsOWx4b25Pc3hyYldfUU15VnZNOVpWa1ZYRnJtV2w2eTJ4NDl4M2h0aG12VHBCcE1xZzBQbVZHYm9ZNHdvb0p0UWtkVmFvdG93WHQ0SlNBRGcw?oc=5",
+      "summary": "Airbus Valkyrie Makes European Debut",
+      "date": "2026-10-14",
+      "source": "Aero-News Network"
+    },
     {
       "title": "NASA\u2019s Record-Setting Perseverance Rover Team",
       "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
@@ -41,23 +55,9 @@
       "source": "ad-hoc-news.de"
     },
     {
-      "title": "Airbus And Boeing Report September 2026 Commercial Aircraft Orders and Deliveries - Forecast International",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZzBWWUdWemU1b201ZFNWSlE3NVFOSUdyWEZQM3l0MTExRHhyR0VxMXU5VFJrSklhbHM0ZngxUmdYTk5qaWtJNVpZR0ttS0lrNEQwTjhza0tza1hhb3FZeGJzZUdXSko4c0k4WTZCeFZVVGVxTlAwZjZKNHNia2tVdzZIWkxwQ1paelNXRF9VWWpMLVBXNVhtZFRSR1Q0MWR1SmtVNHFKNHlzcFNuemdKdzhsb0gwNW5XRHUtU0ZPZ1EzN0xmaEFneDNWZWpTdXBKZTE4ag?oc=5",
-      "summary": "Airbus And Boeing Report September 2026 Commercial Aircraft Orders and Deliveries",
-      "date": "2026-10-13",
-      "source": "Forecast International"
-    },
-    {
-      "title": "Airbus, Boeing Face $3.2 Trillion Aircraft Market\u2014If They Can Deliver - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGpxWjJkYVhpTV8xQ0lGOXo4OEhxZTB4MkZuUEVzOWtNZ1JPb1RfNzJLN0dmdHFmX3B0UG5kVHlMVDJzencxcENCT0VlSXAwY200d2VkVWhnWVVvdF9VUEpRMXZhbEVjcTh6Y2h0YXJTNVZ2b2lmdHYxQlVONklRRWlfSm5BNWV6eERzRzJvOGU0S250X0R5dmlXRzVVWjZKMTVucTFOcDZ4UVNIUkp4d25iemthMXZWN3VsNA?oc=5",
-      "summary": "Airbus, Boeing Face $3.2 Trillion Aircraft Market\u2014If They Can Deliver",
-      "date": "2026-10-13",
-      "source": "Forbes"
-    },
-    {
-      "title": "Mars moon lander set to launch on 19 October - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWVVVTnItRzQtci1aWjdkbEE1cXg3TzdOemc2U05GZ3h3N21iRHhRUWJSZHZkNWZMaXRwYXlKRzFib3d1aDNoeXY2b1FZNExGVDhHWmY4aGpOc0x4TGxRWFlDUmowbjhUcl85NTdrNS1SN1JWMEFwUXRjTjNBZmowaTlCUzRTNFVqemlUS240WTNsRlZQVm90TThkd19jbUk?oc=5",
-      "summary": "Mars moon lander set to launch on 19 October",
+      "title": "Student-built SCAMPI experiment launches to the International Space Station - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQVJaOUlmTTJDVklQUmtxYWl1cktqWS10YVJaZGtYcmtFWmhZSEpJM0VhR0ZKalpWbXdpOHZCbVF1ckpUOWlfOWx2ZEs2ZmdFVk1YX2pRUWZETV9WazQ0V2J6UVhuZklKUGxwNHk2ekFwZ1hfQlhnYjNmdjlhVTRtbFVFQnBrY2I5cXlZSHE4MkJzZnhFTF83cFNUZEFSb3RKSHE0WndzX1QzQUNiaUlsOGE0T2JfZE5iMUdPOVZ5R0pJLUMtcFFGeUp4MEJTTGRRVVNXWUpR?oc=5",
+      "summary": "Student-built SCAMPI experiment launches to the International Space Station",
       "date": "2026-10-13",
       "source": "European Space Agency"
     },
@@ -128,11 +128,11 @@
       "source": "Advanced Manufacturing"
     },
     {
-      "title": "SpaceX launches 21 satellites to orbit for the US military after 5-day delay (video) - Space",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPclk4V3VJTVhwVlNuQndmejRuOVNVZnhpRjNnVXdHVkZBSE9JYVhoVE9VU1ZsdWItR2FKZGMtM2FKanNZZmQ1WUdBV0w4NGlOSFVoQXYyek5KQTdkVlpsMV9ELS1OWWdUZC1XT0dUUnlaQUs5UWJWdVhNTGpIMXlDeVlLUGEtTWRMVVpYT19SajMwOWVsX05aWlJWdklrLWZvUjJJcmNTLWJlZzZCeERXczFfSFRfUDdzTEU2ajZjWm1Ud0MxUjNITHc2c000V2ZmT0l6ZE9NVkxONnlDNXJZT1d2cEI?oc=5",
-      "summary": "X launches 21 satellites to orbit for the US military after 5-day delay (video) Space",
+      "title": "Firefly Aerospace vs. Rocket Lab: Which Industrials Stock Is a Better Buy in 2026? - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObmloM2gzbERvVkpuZGhRZVZEcUk1d0stTVJ6NmVYS3U1Z1E5SXhfTFNQcTdvT2VwUGNRdklzSWpVeXNwUFFkeEZPS3FERkJQU1VBSFRvLUkwRnczcTMzRWpGQ0p4cXpBQzJKTmY1R3ZuY0JEYkxqak0zaHJkc19JNFpVZk1kRmtsMmMydEwyMk5OYWpSWjZkYmJrOWVPTGRKNVZONzBualRhRUV3UW1BeVFScE5veXdTUks1cGxydEFwSURoYWg4QjhrdVNJekZwMzRPYkRxQnpQaWZQNXhRQTQtVTFxcUIzbXlvY1JqTjBnSG9vUXc4dA?oc=5",
+      "summary": "Firefly Aerospace vs. Rocket Lab: Which Industrials Stock Is a Better Buy in 2026?",
       "date": "2026-10-10",
-      "source": "Space"
+      "source": "The Globe and Mail"
     },
     {
       "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
@@ -171,6 +171,13 @@
       "summary": "The History of Nuclear Power in Space",
       "date": "2026-10-08",
       "source": "Department of Energy (.gov)"
+    },
+    {
+      "title": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry - Japan Wire by Kyodo News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80MnA5aWNhbmNnbXlNYVpPTmRUbUxJVlRCV0lyTS1iUU5qSFZoNi1BQVljOUNQRDJLNDNmQkQxU1dTUWhmZmF5NFlzdUxuZjJGZnRrZ3V2VENndw?oc=5",
+      "summary": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry",
+      "date": "2026-10-08",
+      "source": "Japan Wire by Kyodo News"
     },
     {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
