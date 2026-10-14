@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T11:59:36.437959+00:00",
+  "updated": "2026-10-14T17:16:53.410187+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,37 +20,82 @@
   ],
   "industry": [
     {
-      "title": "Boeing remains busy with 777 freighter orders and deliveries - Air Cargo News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYk1rRklWbkxtSzdOVkt3Q2FCbVNNd3AwbUJicGpsV0dWVEQwR2RPZlFRVjVFOHlZUWVEZGtoMHBkbzdvR2RnR3gwNTNsQjdHdzNhNjJfOXVfWFdxZ0FZUmVJY19VQWVJbGgxb09HUllqZDJxUjB6YVRNS21WTy16TTBkNy1qUkgyMEVFZXZsRGNRRE5hek5ickVDNWVnNjBORDRzOGkzSDZsSE0?oc=5",
-      "summary": "Boeing remains busy with 777 freighter orders and deliveries",
+      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
+      "url": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be [\u2026]",
       "date": "2026-10-14",
-      "source": "Air Cargo News"
+      "source": "SpaceNews"
     },
     {
-      "title": "Airbus Valkyrie Makes European Debut - Aero-News Network",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3FlZzZvR2lqT2s0S1V4Z0ptNndwR2NNR0xISlh4enE1OXlOSEptZFZPLXEzSk1VdS1DZkhMdlF5X2ZjenZsOWx4b25Pc3hyYldfUU15VnZNOVpWa1ZYRnJtV2w2eTJ4NDl4M2h0aG12VHBCcE1xZzBQbVZHYm9ZNHdvb0p0UWtkVmFvdG93WHQ0SlNBRGcw?oc=5",
-      "summary": "Airbus Valkyrie Makes European Debut",
+      "title": "NASA\u2019s Space X CRS-35 Launch Jellyfish",
+      "url": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
+      "summary": "Sunlight illuminates the exhaust plumes of a SpaceX Falcon 9 rocket carrying the company\u2019s Dragon spacecraft on Oct. 13, 2026. This visual phenomenon is known as a \u201cjellyfish\u201d; it happens near sunrise or sunset when the exhaust plume from the rocket becomes brightly illuminated, creating a glowing shape resembling a jellyfish. The mission lifted off [\u2026]",
       "date": "2026-10-14",
-      "source": "Aero-News Network"
+      "source": "NASA"
     },
     {
-      "title": "ESA Astrolabe and shop temporarily close ahead of a new immersive exhibition - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLW1DTUJ0V0pyRzdQVERINTEzQmtPbllSYjlMTFFhZmNRQzZWb01aQVBZRkRUck9BVXhXZnZ5cU9HVng2V1V6bjRyUE5XNHRmR0ZvTjhmZ0FnR2x0MXBQZkZLOW5mRnB0b0duQXFrQlhpT2hfY2w3dG9LVTByNkpQREV4d0pyV2hVaUJVSDVJdVhCWlNmeFVRZEIzSmZtbVJLNFJBYVJoczlQbnRWaDRyaE1NNl9OUDJkYjhWUWZEWDJ5eXIx?oc=5",
-      "summary": "ESA Astrolabe and shop temporarily close ahead of a new immersive exhibition",
+      "title": "Israel Aerospace Industries wins two Lockheed Martin supplier awards - Israel National News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1NHVIa2tqY3E2YlRDZlJ3Snh6UDc1Ync3RXo2b0JXVHdfbWg2eVJQdDNYS2N0U0V3WDQxQmhqekhubjhCY2s4Y3RDN21WSzZQajczSHpnaXEwdw?oc=5",
+      "summary": "Israel Aerospace Industries wins two Lockheed Martin supplier awards",
+      "date": "2026-10-14",
+      "source": "Israel National News"
+    },
+    {
+      "title": "Barclays sets USD 223.00 target for RTX Corporation stock - ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbW1YLXNEaEE5MHpKTDBNaUEzUm5Camk0SnVDR3BuamhGenZWby1KTjJmaXFhbDNxN0cxaElJMmdwMENiZ2VYWmNHQnIxSHVSSDROZ3VRS1E0aFJYNVhwMTFoeDJmQ0Q0VXJOdk9veHNoUDBDSHRCMkVqSVhyZFNfR01GalRxSmRFamM3MXRNcGUxTW91cTl4MHdTSEM4R2Y1N0NaVFEyTWh4cVBuV25RYkFVd2xYSFU0Q3NpSA?oc=5",
+      "summary": "Barclays sets USD 223.00 target for RTX Corporation stock",
+      "date": "2026-10-14",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "title": "Northrop Grumman stock costs EUR 439.60 with a 15.5 price-to-earnings ratio - ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXVrZTFWSHRMWm8yM1dLZ3JXb1pmdXVCdkxPeXZzbl9wZDR5UUVoOF9sN3BJZ3RmUHRrUFhaZW9UOVlLZmw5NzBXVEJCU2JPbXROMVMydV9tYUdEWkRFLVVwUUFJWTBIY0JwZ2VuX3EwcGRJZWp5REowZHdxOTlfQ2dSNzY1SEhBMUctRkRaYldNdnpqd2F4UVR1M1g1T0V1Ni1ORXJxYzFIZjlKR0piZEwxcHFCcGUtc1R6bWo4b2J5UUxwMEJtS2NZRWY?oc=5",
+      "summary": "Northrop Grumman stock costs EUR 439.60 with a 15.5 price-to-earnings ratio",
+      "date": "2026-10-14",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "title": "Boeing delivers 161 commercial aircraft in Q3, including 57 in September - Aerospace Global News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUGNwOE45a282eV94cmkyU1JmM1gtZURRM0hFUnI5bUJLTi1sSndySmN6MTVRYjVXYnFSS3Y1M09LcUF1Vk5uSTNKOXVUaTFiQTdwUEQ1ZV9rSGxNZGJTOFJtelVNTzd2RGxMWUZYakJWMHpZSEx5UVBjc0pPN2pjZmNKS242bzFzUFFV?oc=5",
+      "summary": "Boeing delivers 161 commercial aircraft in Q3, including 57 in September",
+      "date": "2026-10-14",
+      "source": "Aerospace Global News"
+    },
+    {
+      "title": "Airbus forecasts growing services market to double by 2045 - Airbus",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTW5CQ0w1R280R1NkSHJPQUtnZ2VaQVFuRGhObGREdmpTTmdQRm1ndGNFOXczVjlOTk9zSTBrNHNTWDlrYnQyaGVCcWNFRGlBQzZSNXl3ekkyaTQxNU5UQk5yTXpGRXFKRFUtaUNxR0czYUNMRXpJeFdpX2NhT2pBa0FVYUE5eDdOd2twaGNwNEl4V0FJanpOYWlLek9lcWJaSEVxbGp1SWlISHp1Z01adkhNX3dIaWc?oc=5",
+      "summary": "forecasts growing services market to double by 2045 Airbus",
+      "date": "2026-10-14",
+      "source": "Airbus"
+    },
+    {
+      "title": "JAXA\u2019s Martian Moons eXploration (MMX) Mission Set to Launch Next Tuesday on H3 Rocket - SpaceWatch.GLOBAL",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZlV6SklmN0FkYndVY1FnS2ZWcklNQnAwVFFWQURGTGtxbW5tWHI1T3JVelZUeW1NQXdzLUROaXBVVTgzN3daOWlzaXR6N0dwbnVZT2dXUFNGTkpLQmNUOTdycjUyY3I4aGJrNnJnNHVqR2swN3BlZFdoUXhVTmk4M0lVMkZqOGlBRldCVDNhcnNvR1FZOEhlcFVELUtmOHhPVHJxTHp5VFdVOHZyMjR0RFJEMUp3dFdNa1E?oc=5",
+      "summary": "JAXA\u2019s Martian Moons eXploration (MMX) Mission Set to Launch Next Tuesday on H3 Rocket",
+      "date": "2026-10-14",
+      "source": "SpaceWatch.GLOBAL"
+    },
+    {
+      "title": "Earth Today, Jupiter Tomorrow: An insight into Juice\u2019s recent Earth flyby - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMjJqbjBWNnE1MFY5WHlnN3hlZHpneGFuY0hCUTE0cnRockpnV1p5UEtQMWdEVUlWSTNlQWhzdjRWeGtJcmYwcm1xc1JxT3c3OUhiLTVTdE9vYVN6a2xsdkVfcWtXUUVlYUI0QzlCUjRLckN0WFZScWdJZGlYbE5tZTdsTUhwWkNiOW5UMERtT0VTZlNFLXBEcHhoSU1STGVnb2ppNDhjc3ZoeDBDbjJMVWh0N19MQUhFM3dZ?oc=5",
+      "summary": "Earth Today, Jupiter Tomorrow: An insight into Juice\u2019s recent Earth flyby",
       "date": "2026-10-14",
       "source": "European Space Agency"
+    },
+    {
+      "title": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOek1zR1FLS01ZMmE3YU9kRU01Nk9rTndMXzlHazMtUzU2WmhiYm1PenpLWWJXczVMektNdmEzUGhwdjZDaV94OVV3aTBxU3VWcWlxN3pBMEhpLTVVQnV4VFFmWjZOeTFYRDl2Qkl1QjhlU1dQMTF1Q09FblRDbHY2WXVQWQ?oc=5",
+      "summary": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits",
+      "date": "2026-10-14",
+      "source": "Quantum Zeitgeist",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
     },
     {
       "title": "NASA\u2019s Record-Setting Perseverance Rover Team",
       "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
       "summary": "Description Members of NASA\u2019s Perseverance Mars mission team gather in the Mars Yard at the agency\u2019s Jet Propulsion Laboratory in Southern California with a certificate from Guinness World Records marking the rover distance record on the Red Planet. Positioned in front of the team is OPTIMISM (Operational Perseverance Twin for Integration of Mechanisms and Instruments [\u2026]",
-      "date": "2026-10-13",
-      "source": "NASA"
-    },
-    {
-      "title": "Transporter-18 SmallSats Encapsulation",
-      "url": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
-      "summary": "Three NASA-supported small spacecraft, along with many commercial payloads, are shown before being encapsulated in a SpaceX Falcon 9 ahead of launch on Oct. 1, 2026. The ASCENT Propulsion Dual Mode CubeSat, the Supernova Remnants and Proxies for ReIonization Testbed Experiment (SPRITE) CubeSat, and the Small Spacecraft Propulsion and Inspection Capability (SSPICY) mission will demonstrate [\u2026]",
       "date": "2026-10-13",
       "source": "NASA"
     },
@@ -97,16 +142,6 @@
       "source": "www.pib.gov.in"
     },
     {
-      "title": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOek1zR1FLS01ZMmE3YU9kRU01Nk9rTndMXzlHazMtUzU2WmhiYm1PenpLWWJXczVMektNdmEzUGhwdjZDaV94OVV3aTBxU3VWcWlxN3pBMEhpLTVVQnV4VFFmWjZOeTFYRDl2Qkl1QjhlU1dQMTF1Q09FblRDbHY2WXVQWQ?oc=5",
-      "summary": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits",
-      "date": "2026-10-13",
-      "source": "Quantum Zeitgeist",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
       "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
       "url": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
       "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik\u2019s ASTRO HP star sensor on a LEO mission. This milestone underscores [\u2026]",
@@ -114,25 +149,11 @@
       "source": "SpaceNews"
     },
     {
-      "title": "Lockheed Martin Expanding Aerospace Operations in Colorado - Advanced Manufacturing",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV3FzdzlmMHA0aV8yd1hmQ1drR2tuVjUtcjhqUjFUME9ObmlIV01XdTJPOTRmQnFqRjdBMlFfTDUyUjRaYURRbjJCU3E5WFZWanMxTnRQREcxeWl2d2V6S21YNXFlaW1JOGJtanhtNHdkeHhySkJBTlVuUERqaGhaRVkxS0dXMlN1S09idUQ1UW14WjNkOXdzSjAwbjNTbmNIVzNmUDFNc3JJa01yZ3hTS2dKXzZxWnFlcGZ6X0JXYjNpSnJfSFcxT1h0UUp3R1FIaHlSRDRLSXpYMkM2MDJMb3QwSWVqY1RscmY3cw?oc=5",
-      "summary": "Lockheed Martin Expanding Aerospace Operations in Colorado",
-      "date": "2026-10-12",
-      "source": "Advanced Manufacturing"
-    },
-    {
-      "title": "News | Vietjet Air expands contract with RTX\u2019s Collins Aerospace - RTX",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZDJ6cUtYZFJob0x0RE1kaW54RWVfdEdlai0tRkdKU1hGbDcwQnZBWm9qemp4T1RTT3VCRFNFbUFfRlRkX1NQRHpyclM5WjJZNmg0cnZ2T0JxYnlhaUcxNmUwM1NJUjZMSktIcVlTMmJOVTNmbkVHMGpqdVBWdUxnbXMyUFc2ZVZJT01ubVFzRURFTF9rek9ZdGJHRXhvRG15dkxvTE5KRQ?oc=5",
-      "summary": "News | Vietjet Air expands contract with \u2019s Collins Aerospace RTX",
-      "date": "2026-10-12",
-      "source": "RTX"
-    },
-    {
-      "title": "Firefly Aerospace vs. Rocket Lab: Which Industrials Stock Is a Better Buy in 2026? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcF9ZT1l3eWtJRTd5aEVRLWcxbl9tWDRGa3E3WElBYUt6ejRuRU9PQUU5UzFlQkRZcDB0WHZadTR0X1RPb2lfcEZ2Sl91YzRGR0hDUkhsNnhzN0hveUNpWnFocTZSSFJWby1ueXhsMlZKOVhrX3YtUElwS3E2c0d6aHo3ejVjcTZtZGZvMGVYUDg0WWJha1BMa3dJSUdzV3RkOWlZbkI4RDNsYzdfU1Z4Y3FaVXFfaTJJeldGeTI5bW1XOG9MT2RqNVE4MDdMOVQ3cERYanpKSjF1bjVuQkFLUnk0SGRLSTE1M2RMVGdPQWZkM3JQdGc?oc=5",
-      "summary": "Firefly Aerospace vs. Rocket Lab: Which Industrials Stock Is a Better Buy in 2026?",
-      "date": "2026-10-10",
-      "source": "The Globe and Mail"
+      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
+      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
+      "date": "2026-10-09",
+      "source": "425business.com"
     },
     {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
@@ -187,13 +208,6 @@
       "source": "ESA Space Transportation"
     },
     {
-      "title": "Resource competition intensifies with surge in megaconstellations",
-      "url": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
-      "summary": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk has talked about a constellation numbering [\u2026]",
-      "date": "2026-10-05",
-      "source": "SpaceNews"
-    },
-    {
       "title": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production - Aerospace Manufacturing and Design",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVdMdzBrQUI3MGVOTnRRUEtfZ0JWZjhnY1VUSXNGWF9IRzVzZ01KV19NU0lieUxGXzJ1WXgyRjZ6X2dvLW5XRWVyeVEycHowNjNoNlFCTlZQMXFPd1pZNHNhWGQ1ZTdyTjhvLW13WndKdkxUNkRmSWJpNXJRZGdnNHBOYmkzZTAyMkJ4cl85SFVxb1RHT0tFS3FxMTZPdUtqaS0zU25kRWpFXzhNcGU3VDJzRHhmcmR5N2xqc2FMcDRSQzRIUEl3?oc=5",
       "summary": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production",
@@ -209,13 +223,6 @@
       "topics": [
         "Quantum computing for fluid science"
       ]
-    },
-    {
-      "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5",
-      "summary": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
-      "date": "2026-10-01",
-      "source": "CNBC"
     },
     {
       "title": "ORNL Quantum Algorithm Tackles Bottleneck In Fluid Dynamics Modeling - Quantum Zeitgeist",
@@ -258,6 +265,20 @@
       "source": "Physics of Fluids"
     },
     {
+      "title": "Online learning of subgrid-scale models for quasigeostrophic turbulence in planetary interiors",
+      "url": "https://doi.org/10.1103/lcd6-p52d",
+      "summary": "",
+      "date": "2026-10-14",
+      "source": "Physical Review Fluids"
+    },
+    {
+      "title": "Effect of transient shell formation on shock-induced atomization of an evaporating nanofluid droplet",
+      "url": "https://doi.org/10.1103/9jns-3l1z",
+      "summary": "",
+      "date": "2026-10-14",
+      "source": "Physical Review Fluids"
+    },
+    {
       "title": "Wavelet-Enhanced Feature Pyramid Network for Pose Estimation of Non-Cooperative Spacecraft",
       "url": "https://doi.org/10.2514/1.i011815",
       "summary": "Monocular six-degree-of-freedom pose estimation of non-cooperative spacecraft is critical for a variety of on-orbit missions. However, it remains a challenging task due to extreme illumination variations, pronounced scale differences, complex rotational motions, and the sparse geometric characteristics of spacecraft.",
@@ -270,20 +291,6 @@
       "summary": "Periodic orbits (POs) play a central role in the circular restricted three-body problem (CRTBP). This paper presents a framework for identifying single- and multirevolution POs by searching for fixed points of selected Poincar\u00e9 maps of the CRTBP.",
       "date": "2026-10-13",
       "source": "Journal of Guidance, Control, and Dynamics"
-    },
-    {
-      "title": "Generalized Forcing Method: Generation of diverse data for training linear transport PDE closure models",
-      "url": "https://doi.org/10.1103/52jk-xb5y",
-      "summary": "",
-      "date": "2026-10-13",
-      "source": "Physical Review Fluids"
-    },
-    {
-      "title": "Mode competition and wake dynamics of a near-wall circular cylinder subjected to streamwise oscillatory flow",
-      "url": "https://doi.org/10.1103/tykf-lrt3",
-      "summary": "",
-      "date": "2026-10-13",
-      "source": "Physical Review Fluids"
     },
     {
       "title": "Beyond classical similitude: group theoretic extrapolation of hypersonic stagnation-point boundary layers",
@@ -300,9 +307,9 @@
       "source": "Journal of Fluid Mechanics"
     },
     {
-      "title": "Influencing factors and physical mechanism of rheological evolution of oil-based complex fluids at ultralow temperatures",
-      "url": "https://doi.org/10.1063/5.0353257",
-      "summary": "Extreme low-temperature environments pose significant challenges to fluid physics. It is urgent to maintain good rheological behavior of oil-based complex fluids under extreme, low-temperature conditions.",
+      "title": "Near-wall flow reconstruction in turbulent channel flow using a physics-informed neural network",
+      "url": "https://doi.org/10.1063/5.0353315",
+      "summary": "Near-wall flow reconstruction from outer-region observations is challenging because the unobserved region contains the transition from viscous- to Reynolds-stress-dominated momentum transport and the buffer-layer maximum in turbulent kinetic energy production. We develop a physics-informed neural network with adaptive asymptotic hard constraints (AAHC-PINN) for a restricted statistical inverse problem in fully develo",
       "date": "2026-10-12",
       "source": "Physics of Fluids"
     },
