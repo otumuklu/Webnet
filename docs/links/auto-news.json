@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T17:16:53.410187+00:00",
+  "updated": "2026-10-14T21:45:17.999784+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -27,9 +27,16 @@
       "source": "SpaceNews"
     },
     {
-      "title": "NASA\u2019s Space X CRS-35 Launch Jellyfish",
-      "url": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
-      "summary": "Sunlight illuminates the exhaust plumes of a SpaceX Falcon 9 rocket carrying the company\u2019s Dragon spacecraft on Oct. 13, 2026. This visual phenomenon is known as a \u201cjellyfish\u201d; it happens near sunrise or sunset when the exhaust plume from the rocket becomes brightly illuminated, creating a glowing shape resembling a jellyfish. The mission lifted off [\u2026]",
+      "title": "NASA to Host News Conference Previewing US Spacewalks 100, 101",
+      "url": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/",
+      "summary": "NASA will preview two upcoming spacewalks to complete solar array installation and power augmentation of the International Space Station during a news conference at 2 p.m. EDT, Tuesday, Oct. 20, from NASA\u2019s Johnson Space Center in Houston. NASA will stream the event through a variety of platforms. Learn where to watch online: https://www.nasa.gov/live NASA participants [\u2026]",
+      "date": "2026-10-14",
+      "source": "NASA"
+    },
+    {
+      "title": "NASA Astronauts to Answer Questions from Florida Students",
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
+      "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 12 p.m. EDT Friday, Oct. 16, and will stream live on the agency\u2019s Learn With NASA YouTube channel. This event is hosted by Sally Ride Elementary School [\u2026]",
       "date": "2026-10-14",
       "source": "NASA"
     },
@@ -41,18 +48,25 @@
       "source": "Israel National News"
     },
     {
-      "title": "Barclays sets USD 223.00 target for RTX Corporation stock - ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbW1YLXNEaEE5MHpKTDBNaUEzUm5Camk0SnVDR3BuamhGenZWby1KTjJmaXFhbDNxN0cxaElJMmdwMENiZ2VYWmNHQnIxSHVSSDROZ3VRS1E0aFJYNVhwMTFoeDJmQ0Q0VXJOdk9veHNoUDBDSHRCMkVqSVhyZFNfR01GalRxSmRFamM3MXRNcGUxTW91cTl4MHdTSEM4R2Y1N0NaVFEyTWh4cVBuV25RYkFVd2xYSFU0Q3NpSA?oc=5",
-      "summary": "Barclays sets USD 223.00 target for RTX Corporation stock",
+      "title": "RTX Q3 Preview: Two Growth Engines Make This Aerospace And Defense Leader A 'Buy' (RTX) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzNZY1JPNk02ci1BUVR0TERnM2JjR2VJa1lONEc0MXhWODluMi1iNFl3XzNEdk1EX3RKTGlTMEtRWldOSWFBQjBxMFFncExYQ2M0VXpiQXpJX0dHYUZXdXEyNzRTdG91Sld0NzFiQ3F6UzRsOVJyR3cxZV8wSmRQcEhCTDNUVUJwb21HSGFmZDlKamxQYlN3RWdsTkxPRlNxZFN1Yklndy1CQ3JOWVFNU01tR2IyWFZ5R1RN?oc=5",
+      "summary": "RTX Q3 Preview: Two Growth Engines Make This Aerospace And Defense Leader A 'Buy' (RTX)",
       "date": "2026-10-14",
-      "source": "ad-hoc-news.de"
+      "source": "Seeking Alpha"
     },
     {
-      "title": "Northrop Grumman stock costs EUR 439.60 with a 15.5 price-to-earnings ratio - ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXVrZTFWSHRMWm8yM1dLZ3JXb1pmdXVCdkxPeXZzbl9wZDR5UUVoOF9sN3BJZ3RmUHRrUFhaZW9UOVlLZmw5NzBXVEJCU2JPbXROMVMydV9tYUdEWkRFLVVwUUFJWTBIY0JwZ2VuX3EwcGRJZWp5REowZHdxOTlfQ2dSNzY1SEhBMUctRkRaYldNdnpqd2F4UVR1M1g1T0V1Ni1ORXJxYzFIZjlKR0piZEwxcHFCcGUtc1R6bWo4b2J5UUxwMEJtS2NZRWY?oc=5",
-      "summary": "Northrop Grumman stock costs EUR 439.60 with a 15.5 price-to-earnings ratio",
+      "title": "Air Force, Northrop Grumman Break Ground on B-21 Production Facility - Design and Development Today",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMDVha1pPR0VJX0xlQkltQzJROVdXR3JUZHg2WDQ1Nlc0Y0VabXF6QkJRb3pKcHRFU0VkaENhTHlwVHpRSEZlbHBORlVjNExmNENKSXFSTnF1TTZlUGgwUkxhQnVUMEtpMy1UOGVaUEVOVWtFNk5TcVJIVEEtamJpZUJqS0JidzdiX1dNOFB5VVo5cU1MZGZTWnZNS0l2dWdTUGQ0Wmh6bXZWdjFGVG9FV3VUWnFtNkV5c3NFNkxkSWdvVm1MejdpNWNMN29lQlo4bGdMbG1yZw?oc=5",
+      "summary": "Air Force, Northrop Grumman Break Ground on B-21 Production Facility",
       "date": "2026-10-14",
-      "source": "ad-hoc-news.de"
+      "source": "Design and Development Today"
+    },
+    {
+      "title": "Firefly Aerospace to Announce Third Quarter 2026 Financial Results on November 10, 2026 - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNMm9TZVNHdTRQcWlsZ0lIeHNXdTg0NFBuUV9ZZlYzcm5QOGFwSXNETVBwak9UMUk0dmpScEZacHo0VXdUMXo5Q19fWjdEaHBJTGoxRHlrVk9qX1FqQkdLaXRZTFVrUllIeDFFZFAtbERsa2NELW8zeEFGRUw5NUZGeEE3d245RjVRYVNLbEp3bmF6MHZzb3RtZlJIcXhTRG92X2RGMDdfTGU1MnJXcmdpMnZXR2hpQ0tjQ2h3TmozQ0ctXzF6TWgxQnpzLVJhS3pDS3ppWXZrSzVXeklNcDJEOExDRUhvYWlKUVJlZHJQWQ?oc=5",
+      "summary": "Firefly Aerospace to Announce Third Quarter 2026 Financial Results on November 10, 2026",
+      "date": "2026-10-14",
+      "source": "GlobeNewswire"
     },
     {
       "title": "Boeing delivers 161 commercial aircraft in Q3, including 57 in September - Aerospace Global News",
@@ -76,9 +90,9 @@
       "source": "SpaceWatch.GLOBAL"
     },
     {
-      "title": "Earth Today, Jupiter Tomorrow: An insight into Juice\u2019s recent Earth flyby - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMjJqbjBWNnE1MFY5WHlnN3hlZHpneGFuY0hCUTE0cnRockpnV1p5UEtQMWdEVUlWSTNlQWhzdjRWeGtJcmYwcm1xc1JxT3c3OUhiLTVTdE9vYVN6a2xsdkVfcWtXUUVlYUI0QzlCUjRLckN0WFZScWdJZGlYbE5tZTdsTUhwWkNiOW5UMERtT0VTZlNFLXBEcHhoSU1STGVnb2ppNDhjc3ZoeDBDbjJMVWh0N19MQUhFM3dZ?oc=5",
-      "summary": "Earth Today, Jupiter Tomorrow: An insight into Juice\u2019s recent Earth flyby",
+      "title": "Earth today, Jupiter tomorrow: An insight into Juice\u2019s recent Earth flyby - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS1JPa3dOOVU4ak5ROGVLZWJPUk9SWEtYSURpc1ZGRVpiRWxuOFRfcEFUdkFBSklkUTBpQi1NOTZXTjRCdkp2aG5wOVB0SHFyX0dvd1cwQmo3ZjRLaWd1UDl4ZzRWenFNTVdsSllQOFgyWDJFQ2RpTnk4SHVBNmJyUHVZZExHd2FkYl9UYWc4U0ZHZ3A0UGh4aVg2M1Rub1dTVnlocGJyUXZpMlRvbWRPNk56bVJaY0EtT0I4?oc=5",
+      "summary": "Earth today, Jupiter tomorrow: An insight into Juice\u2019s recent Earth flyby",
       "date": "2026-10-14",
       "source": "European Space Agency"
     },
@@ -91,13 +105,6 @@
       "topics": [
         "Quantum computing for fluid science"
       ]
-    },
-    {
-      "title": "NASA\u2019s Record-Setting Perseverance Rover Team",
-      "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
-      "summary": "Description Members of NASA\u2019s Perseverance Mars mission team gather in the Mars Yard at the agency\u2019s Jet Propulsion Laboratory in Southern California with a certificate from Guinness World Records marking the rover distance record on the Red Planet. Positioned in front of the team is OPTIMISM (Operational Perseverance Twin for Integration of Mechanisms and Instruments [\u2026]",
-      "date": "2026-10-13",
-      "source": "NASA"
     },
     {
       "title": "Mars moon lander set to launch on 19 October",
@@ -208,13 +215,6 @@
       "source": "ESA Space Transportation"
     },
     {
-      "title": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production - Aerospace Manufacturing and Design",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVdMdzBrQUI3MGVOTnRRUEtfZ0JWZjhnY1VUSXNGWF9IRzVzZ01KV19NU0lieUxGXzJ1WXgyRjZ6X2dvLW5XRWVyeVEycHowNjNoNlFCTlZQMXFPd1pZNHNhWGQ1ZTdyTjhvLW13WndKdkxUNkRmSWJpNXJRZGdnNHBOYmkzZTAyMkJ4cl85SFVxb1RHT0tFS3FxMTZPdUtqaS0zU25kRWpFXzhNcGU3VDJzRHhmcmR5N2xqc2FMcDRSQzRIUEl3?oc=5",
-      "summary": "Firefly Aerospace completes new cleanroom to accelerate spacecraft production",
-      "date": "2026-10-02",
-      "source": "Aerospace Manufacturing and Design"
-    },
-    {
       "title": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics - Quantum Computing Report",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaXhueWZ1cmgyWkFybVZoM2M4M09pOGRGUmlqSGNlVXFrNUp6MnB0SEU5TmhET2FSejQzSWd0UmhTRXJrZkNyX2p1SDNOTk5fZDBxNHljYjVmcG96LS1RVzNmY3dvakpxelM0SEJZQ0FGT2ZhUDE3dnA2MHhjY0Q5cWVvQ09TWG9yZm8zWG8tZWlfWER0OEFtaHpXc0Z5OXNfU09aUXM3YzFVZnBSUlpkR09hQXpucGl2aWNWaWk3aUhBTm5rQTNqcXJZcjNUMWpQYlkyVk1PV2c1TjBFUzB1Q2dubHU5Mm9ZdEJZVlJCOExKaVRDaTVVS1Nn0gH_AUFVX3lxTFBkc3FTSnVMSExaWkxOSkU1X2hvRFhEc3hTY05fZ3JTSTdrZ1V5b1A2elNwaFUxVGg4emIwOE9sQlV6SlpZc05EUnV2ZGhmX25ub2piWEs3LUFiTTRLUHlINExQbE5DRElUb2pzdzRHSWRJSnFPU0ZmTUNuVE9ZbnRvLWF1a3VSQWV5SGNkNUVETml5V1paaE1pZGlkSGJoQTVuT04wOU1ReWRzcVhGQ0ozQ3hsOW9yeTROczlIWWhfbWFQekFpOEtCRU9xRWNkLTNqVTV2QWJ3dGhNMm8zZ2YwY09YTXUzMXlwS0pVMk5BYk5mZHZRaG5STzE4emJZVQ?oc=5",
       "summary": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics",
@@ -307,9 +307,9 @@
       "source": "Journal of Fluid Mechanics"
     },
     {
-      "title": "Near-wall flow reconstruction in turbulent channel flow using a physics-informed neural network",
-      "url": "https://doi.org/10.1063/5.0353315",
-      "summary": "Near-wall flow reconstruction from outer-region observations is challenging because the unobserved region contains the transition from viscous- to Reynolds-stress-dominated momentum transport and the buffer-layer maximum in turbulent kinetic energy production. We develop a physics-informed neural network with adaptive asymptotic hard constraints (AAHC-PINN) for a restricted statistical inverse problem in fully develo",
+      "title": "Influencing factors and physical mechanism of rheological evolution of oil-based complex fluids at ultralow temperatures",
+      "url": "https://doi.org/10.1063/5.0353257",
+      "summary": "Extreme low-temperature environments pose significant challenges to fluid physics. It is urgent to maintain good rheological behavior of oil-based complex fluids under extreme, low-temperature conditions.",
       "date": "2026-10-12",
       "source": "Physics of Fluids"
     },
