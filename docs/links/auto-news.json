@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T11:36:39.355593+00:00",
+  "updated": "2026-10-15T17:05:47.923838+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,18 +20,39 @@
   ],
   "industry": [
     {
-      "title": "Here's Why Boeing's China Breakthrough Still Leaves It Behind Airbus In 2026 - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUWdJY2tPMGQyXzFfLWEtUTZ1aF9iM2c2THBVNWFlMkNxRTFnZlZkOGdfbWJtT21CTnBGWnFSZ2hKU2RMNnFvWXdOM09sODcxN3Fna29PNm13S3lwZ2ZCQmNrSVF3dkpkZnB1SUtuSGF5a2pocmxJOThPakhyeFNIWGlR?oc=5",
-      "summary": "Here's Why Boeing's China Breakthrough Still Leaves It Behind Airbus In 2026",
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 \u2014 Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new [\u2026]",
       "date": "2026-10-15",
-      "source": "Simple Flying"
+      "source": "SpaceNews"
     },
     {
-      "title": "Airbus forecasts aviation services market to exceed US$420 billion by 2045 - AviTrader Aviation News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNblo3T2lZaFNHbHBFUDlCSG82UnV0cW1jRG1ya2NWSG5NVVFWRzN4dGh6VWUtR0ljWlRJUGtKVThrTWpueDBDdUpLU3FNSEhKcnBwVFVxVEtQU2RJa0ZyckljeElyeThsWmpuOVcwRi0wS3lETWswMVdjU2pUVFhJYTVzZG5uUzVIaG9QbVJsN09pTHd1UzJ4Q2tCeEFqazlTeXUzaGxYNTZueXM?oc=5",
-      "summary": "Airbus forecasts aviation services market to exceed US$420 billion by 2045",
+      "title": "Rigorous Analysis Confirms NASA\u2019s Artemis II Heat Shield Performance",
+      "url": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
+      "summary": "NASA\u2019s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon\u2019s surface. Additional engineering data analysis of the Orion spacecraft\u2019s heat shield confirmed initial data showing the heat shield performed as expected. In particular, NASA measured whether the thermal protection [\u2026]",
       "date": "2026-10-15",
-      "source": "AviTrader Aviation News"
+      "source": "NASA"
+    },
+    {
+      "title": "Raytheon awarded $8 billion contract for strategic communications terminal modernization - Military Aerospace",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZXZLLWlBTWZhbWQwQmY1VkZOeldBbFUzeVUyWTd1RnN2ZTN1RUdSUVpYOER5dzJHQXhnb2p1SkdxNkM0UFV4UUk1RkJ5MFhrb0hoSnhlcjlaOHRXUmZBT3FhRDRzNUtLMUZILVJHeVRjWVhxUGFIMTk5OHBzS1oyNUZ2SEwzdzhKT2dIelN6NGZSbWNqd3dIX1hpSVBuTG5yT0o3TTlObkJ0cl9BM2pUX3FnWjFHUFBERlFCZlB3NTdzaTBtVmw0dXRab1BLR2xnaUV1U21acmFfbUhMQ0dNSmZXRWhJZ1FL?oc=5",
+      "summary": "Raytheon awarded $8 billion contract for strategic communications terminal modernization",
+      "date": "2026-10-15",
+      "source": "Military Aerospace"
+    },
+    {
+      "title": "Boeing\u2019s 737 MAX software issue not a safety risk, but concerns linger - The Seattle Times",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeW1GcURZcVVtRkVLYUthN1QxbGFrbHFmYTBuY2Z2dk5LZ25MS2NjYXZmS3pobmZ5UUIzX2N6YVdTSElwamw4amxQZmxsNTJxRk1aMHkyaTBXYlh4X05FeHpXM1RiZmp3dGtOZ0sza1dvWGhXWVdBZ0ZaMTB1bDZIV0tad2lRbnhNLVR5dHA4U3F6eWFkUjNITEpSUXlsZmtub0hqWUdlbW5kT0p5bWJOZ2RBZGZWYVN1WTk4OXFfVm5Udw?oc=5",
+      "summary": "Boeing\u2019s 737 MAX software issue not a safety risk, but concerns linger",
+      "date": "2026-10-15",
+      "source": "The Seattle Times"
+    },
+    {
+      "title": "Cathay Pacific Reportedly Plans to Order Up to 50 Airbus, Boeing Aircraft - marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdHFvSURlMGJyTmVTVWFhVS0zOXpZMEM2RU9jZDBjb09UZmw2S185djdpR2hnellzRk5BeGZTM3NMWWROb3RrS1Byd2FsdkUycU1HbzFoZGE0NlZUQXZqZkFYYjd6WTZEN1pkU3J5TFY1eE9md3ZDZHIzRGhOYWNtb3A0X2lyZ2ttQ0s0SU1iczN2SVVKS0tRZVNjZURGTkRja2libnB3eEhCX2tBY0tid1pUSVJxa0t1V2dnV0ZVbW9nZG8?oc=5",
+      "summary": "Cathay Pacific Reportedly Plans to Order Up to 50 Airbus, Boeing Aircraft",
+      "date": "2026-10-15",
+      "source": "marketscreener.com"
     },
     {
       "title": "JAXA Taps ArkEdge for Two Lunar Navigation Demos - Payload Space",
@@ -41,18 +62,46 @@
       "source": "Payload Space"
     },
     {
-      "title": "Swarming robots to tackle space debris - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3REUFlKellvRG9CdHZRVzdocEQ4U2ZoNVNLX0xZb0F0LTRQRGZNd0ZfcVBPWXRsd3lrYVZLRTlTYXFmUmlsc0NWaGJIWVR1eG9FSV9wejc5WlJHeUFlT1RGVlY0UFp1MW1rTENCZkFtc0lMSDhxeUlnVnVpN1pHMFlsUF9FLWpLTkJGZl9KZHhUQQ?oc=5",
-      "summary": "Swarming robots to tackle space debris",
+      "title": "Act for more sustainable space - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOamJQODhQYXVteHhuR08wb0I1bXFFU1NhcV93elpPMVFnRWUzQnZCa2VsV193QkZPdW5kdERYN2NTdHBIY0pZZzV2dFpCUk5PeE1lWWFoSHFILXpPemxOR2hGNWN6Mmx6cXVaMm11cWQ3TmczOGFmY2VNR25EZmpHVjBtUkFIdjVIVE9ocEx1bzdoZw?oc=5",
+      "summary": "Act for more sustainable space",
       "date": "2026-10-15",
       "source": "European Space Agency"
     },
     {
-      "title": "Strengthening India\u2019s Space Sovereignty - www.pib.gov.in",
+      "title": "Act for more sustainable space",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Act_for_more_sustainable_space",
+      "summary": "",
+      "date": "2026-10-15",
+      "source": "ESA Space Transportation"
+    },
+    {
+      "title": "China\u2019s Space Industry: How LandSpace Rockets and Satellite Networks Threaten American Supremacy - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNaGl3M29BczllSk9ENVUtZktsQXNzTk9fMjU5WHg0T0pvVG1TQ1kyR1M2M1Rac244cG5Kd04wcjJvMG8zY1hlaUhodTZMRHVsa0JXd1Y4czYwMmd0bWozMUc5d0c1VjAzRWFYMDJ2QnB5U1BsaWItVFRldm04QkdZWk1Ldm9vZXVMVkNiTE9TRFJNUlFvUjdXWlhrOFVYMnE2ZFJxblYtQTF2UGxlVFZnVVlzUlZXNkc4eW5pcXpSaVBEMkJnczhMalNkWER2cTRXS3duVVA2YkF2UGU5Ukk0MGl0WmtzQTRicUFrN25rbw?oc=5",
+      "summary": "China\u2019s Space Industry: How LandSpace Rockets and Satellite Networks Threaten American Supremacy",
+      "date": "2026-10-15",
+      "source": "\u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a"
+    },
+    {
+      "title": "South Gyeongsang Province Hosts Global Space Industry Conference in Jinju - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNkU5cHFhXzJEU1hJUk56cWNaNG5QcVJXZ1laaG5BdDFfZGtYY0dDckNlYkp2VFo4cDFPMF9VZmlTMTNuRkpUUW95cmhUVGYycFctblg3RnAtWnQ3VldSV3lQOEtzQ2djRjJqTndwRVdxRG9UNm5QS18zQmlJZzdBX1BNQkN3VFdJZVB6ei0zdWVNTmFOSW12aEtPUQ?oc=5",
+      "summary": "South Gyeongsang Province Hosts Global Space Industry Conference in Jinju",
+      "date": "2026-10-15",
+      "source": "Seoul Economic Daily"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
       "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-15",
-      "source": "www.pib.gov.in"
+      "source": "Press Information Bureau"
+    },
+    {
+      "title": "A Guide to Investing in Space ETFs - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdDNhQ1VGSkJRZFFWUzIwbjB4d3BWRXVVQm5FN3kxbmJfcE5yakpLZDV2T1ozSmEwb2dpUUtwNkdWTTZDaFp4TXpjZFhGVFdSTzJaTUJKbUZ3QkNZUzVWV1d1dEFZdXZBbjVPTE1yVkgtOUh2LUhpenhYdWoxS2YtU2FMYVNldkdNSTIyeXhaYkhhMUcwdHM2M3I0N3RDVHpFQ2RwOEtxZFZIQWY0NWVDd1AySjRYMlg0Z2xZ?oc=5",
+      "summary": "A Guide to Investing in Space ETFs",
+      "date": "2026-10-15",
+      "source": "The Globe and Mail"
     },
     {
       "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
@@ -69,25 +118,11 @@
       "source": "NASA"
     },
     {
-      "title": "NASA Astronauts to Answer Questions from Florida Students",
-      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
-      "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 12 p.m. EDT Friday, Oct. 16, and will stream live on the agency\u2019s Learn With NASA YouTube channel. This event is hosted by Sally Ride Elementary School [\u2026]",
-      "date": "2026-10-14",
-      "source": "NASA"
-    },
-    {
       "title": "Israel Aerospace Industries wins two Lockheed Martin supplier awards - Israel National News",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1NHVIa2tqY3E2YlRDZlJ3Snh6UDc1Ync3RXo2b0JXVHdfbWg2eVJQdDNYS2N0U0V3WDQxQmhqekhubjhCY2s4Y3RDN21WSzZQajczSHpnaXEwdw?oc=5",
       "summary": "Israel Aerospace Industries wins two Lockheed Martin supplier awards",
       "date": "2026-10-14",
       "source": "Israel National News"
-    },
-    {
-      "title": "RTX Q3 Preview: Two Growth Engines Make This Aerospace And Defense Leader A 'Buy' (RTX) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzNZY1JPNk02ci1BUVR0TERnM2JjR2VJa1lONEc0MXhWODluMi1iNFl3XzNEdk1EX3RKTGlTMEtRWldOSWFBQjBxMFFncExYQ2M0VXpiQXpJX0dHYUZXdXEyNzRTdG91Sld0NzFiQ3F6UzRsOVJyR3cxZV8wSmRQcEhCTDNUVUJwb21HSGFmZDlKamxQYlN3RWdsTkxPRlNxZFN1Yklndy1CQ3JOWVFNU01tR2IyWFZ5R1RN?oc=5",
-      "summary": "RTX Q3 Preview: Two Growth Engines Make This Aerospace And Defense Leader A 'Buy' (RTX)",
-      "date": "2026-10-14",
-      "source": "Seeking Alpha"
     },
     {
       "title": "Air Force, Northrop Grumman Break Ground on B-21 Production Facility - Design and Development Today",
@@ -102,6 +137,13 @@
       "summary": "Firefly Aerospace Schedules Third Quarter 2026 Financial Results for November 10",
       "date": "2026-10-14",
       "source": "SatNews Publishers"
+    },
+    {
+      "title": "From Space Tourism to National Security: The U.S. Spaceports Driving Aerospace Innovation - Clearance Jobs",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYzgzdno5VWhOUjNaN2FhcVdCaG1KeUtKYmNGcHJYZjRpWnREaWo4ZEdaNzNFTnRRdDJycEtKUjdQMERpdEVVOWxyQzgyeUxERktSWVM5azlyTnBESmQ3UXdjdHdkbnU1aHhaalEtd2lfSVBCbUIwSGZZbUY3TFVwZkZvT3lrSFZYM21FRmpHVlVYdDNNQTVBY3JHRUVWMUViTEJFcklCY2NoeFZZNGtzNlFrMHpPczIwRTBkT2lsbUI3RFNlZDVRYWJR?oc=5",
+      "summary": "From Space Tourism to National Security: The U.S. Spaceports Driving Aerospace Innovation",
+      "date": "2026-10-14",
+      "source": "Clearance Jobs"
     },
     {
       "title": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits - Quantum Zeitgeist",
@@ -142,34 +184,6 @@
       "source": "Korea JoongAng Daily"
     },
     {
-      "title": "Korea space agency to cut launch costs with reusable rocket, push mass satellite production - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSnJ5OWdpYWF0WlpBbll3VnNLVWo2d3lhbnp2bk52NDg0VDhGT20tWnBBZUZSSUd6VDBMT04yUThGajQ0cWt0Wjd5YVZPSjlFME9Xc3Vsd2VqaTZ2WXVXRXRNZ09jRlJkbDlKRGFyTFAtd2I4eDFoQWFHMGxsOU8zZWV4bnhBdG5CM3hmaVBBT29WWHJyaWh5YlR2VTlRNzM2c2FrZ0ZObzZsOGViSk8wMlQ5ZG1kQWdDZXNtenVZNGZydEcwaU5vQ3gtX3FvSGU3Rnc?oc=5",
-      "summary": "Korea space agency to cut launch costs with reusable rocket, push mass satellite production",
-      "date": "2026-10-13",
-      "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774"
-    },
-    {
-      "title": "Strengthening India\u2019s Space Sovereignty - www.pib.gov.in",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hZU45N3RiejNFNzMyUW9rMGJFWkNVYUxJVDRmbU9LbENrNzRvc2FiWVJhcUIxZUQ2ZWpjaUhNNWlKOUZtMG5RdnltRDN5MGJhclV4NFh4WTkzSUlydkRtU1FUT3RvN1VxcU9Xd1JHMkQ4RU52eTBZ?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-13",
-      "source": "www.pib.gov.in"
-    },
-    {
-      "title": "Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.",
-      "url": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
-      "summary": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik\u2019s ASTRO HP star sensor on a LEO mission. This milestone underscores [\u2026]",
-      "date": "2026-10-12",
-      "source": "SpaceNews"
-    },
-    {
-      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
-      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
-      "date": "2026-10-09",
-      "source": "425business.com"
-    },
-    {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbHRKcmNNYWFmMF9hSDRvZkdoUzNYUE9xX2JNUHZlSGg4NFJlX05hTHNLbnBuSE5Vb1pteUhUb1N1Sjc3ZmpycEdvYXFaS0ZneW5RY01Xd1dpMlM1RnU4ZDNwRThabzFvM3A0dEtfeFdNb1hxaEhuZFlVclVFZlNodFhlM2FGODA2Y1kxVlVB?oc=5",
       "summary": "Fluid Simulations Gain From New Quantum Encoding Strategies",
@@ -194,23 +208,9 @@
       "source": "ESA Space Science"
     },
     {
-      "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xdXdsX2xfOGVGUmlqX2pxQTY1ckp2R3lDdVA0Rmo5dFI1VWtrVmpEb0NOb2VmaUdiUzFRZ3ZsWGx2TjkwZ2hrN0s0WlI4Tmw3cHN1UERTT0YyOVFKN0h1X01OR0R1ZXMzR0ZSZmtVMA?oc=5",
-      "summary": "The History of Nuclear Power in Space",
-      "date": "2026-10-08",
-      "source": "Department of Energy (.gov)"
-    },
-    {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Geraldine_Naja_with_the_WIA-Europe_award",
       "summary": "Image: G\u00e9raldine Naja with the WIA-Europe award",
-      "date": "2026-10-07",
-      "source": "ESA Space Transportation"
-    },
-    {
-      "title": "Themis completes second fuelling rehearsal",
-      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Themis_completes_second_fuelling_rehearsal",
-      "summary": "ESA\u2019s Themis reusable rocket stage demonstrator successfully completed its second \u2018wet dress rehearsal\u2019 at Esrange Space Center in Sweden on 29 September, testing the vehicle and ground procedures under representative cryogenic conditions.",
       "date": "2026-10-07",
       "source": "ESA Space Transportation"
     },
@@ -255,6 +255,20 @@
       "source": "Physics of Fluids"
     },
     {
+      "title": "Characterization of turbulence in a Schwarz Diamond monolith using time-resolved MRI",
+      "url": "https://doi.org/10.1103/h7v1-p8sh",
+      "summary": "Periodic porous structures manufactured using additive manufacturing are candidates for intensified process devices. Detailed measurements of the velocity field are required to characterize the turbulent mixing generated by flow through the channel network.",
+      "date": "2026-10-15",
+      "source": "Physical Review Fluids"
+    },
+    {
+      "title": "Source mechanism of flow-induced noise of a porous-coated cylinder: A coherence approach",
+      "url": "https://doi.org/10.1103/t43b-fpf7",
+      "summary": "",
+      "date": "2026-10-15",
+      "source": "Physical Review Fluids"
+    },
+    {
       "title": "Magnetohydrodynamic drag on an oscillating sphere in a rotating spherical cavity",
       "url": "https://doi.org/10.1017/jfm.2026.12095",
       "summary": "Oscillating-sphere drag is a classical fluid-mechanics problem, yet no theory simultaneously accounts for confinement, rotation, viscosity and magnetic fields. We consider a conducting sphere undergoing translational oscillations inside a rotating spherical cavity, modelling confined magnetohydrodynamic (MHD) flows relevant to planetary interiors and liquid-metal experiments.",
@@ -267,20 +281,6 @@
       "summary": "We introduce a community challenge designed to facilitate direct comparisons between data-driven methods for compression, forecasting, and sensing of complex aerospace flows. The challenge is organized into three tracks that target these complementary capabilities: compression (compact representations for large datasets), forecasting (predicting future flow states from a finite history), and sensing (inferring unmeas",
       "date": "2026-10-14",
       "source": "AIAA Journal"
-    },
-    {
-      "title": "Online learning of subgrid-scale models for quasigeostrophic turbulence in planetary interiors",
-      "url": "https://doi.org/10.1103/lcd6-p52d",
-      "summary": "",
-      "date": "2026-10-14",
-      "source": "Physical Review Fluids"
-    },
-    {
-      "title": "Wave-crests around obstacles in odd viscous liquids",
-      "url": "https://doi.org/10.1103/sm6p-qky2",
-      "summary": "",
-      "date": "2026-10-14",
-      "source": "Physical Review Fluids"
     },
     {
       "title": "Wavelet-Enhanced Feature Pyramid Network for Pose Estimation of Non-Cooperative Spacecraft",
