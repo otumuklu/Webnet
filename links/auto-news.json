@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T10:50:35.332522+00:00",
+  "updated": "2026-10-17T15:39:52.695256+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,11 +20,11 @@
   ],
   "industry": [
     {
-      "title": "Boeing Stock: The Real Test Of Its Recovery Begins Now (NYSE:BA) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUTlpQVdndWlnUl9waE0zcjYtVG5UVXZ6T1FveWg5dFpYVngwdWstLUlEZ01oQ2gyaG9SUkxaTTYySjFZXzVnMlE1S2ttWHVJcmlDQW1kcE9va3JFSU1RbzJsSXhjT29fN01wWmdvUEZSUDM4LVYwV1pLUG4tdWhPbVc2ek1oSllVclBLUlY1Nk9KNUR1ZHZJM1BDLVUtYUpuN002RXp3NE5yQzBUZ19iNEtB?oc=5",
-      "summary": "Boeing Stock: The Real Test Of Its Recovery Begins Now (NYSE:BA)",
+      "title": "Why are Airbus A320neo, Boeing 737 MAX and A220 jets being dismantled so young? - Air Data News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRDN3aDNNaHBNaG8wM3doU2FOc0JwNFI2YWtWTU9aV3g4UTZMaTA5aFEtdFF1OGtZSEx3aDdoeHJwQkx1NDN4MFN2REp0c0xLSkYzNURnV1lCMXpvYnAxUTlrUzZBbmhQVVRCazU3ZUxSN2RVcHQ1R1VyV0l4c1ZpWF9TY2RfYUkyTFlhYll5aHRGVE5FREZidDZTNkNmVXgwakZmRXlnNUZmZw?oc=5",
+      "summary": "Why are Airbus A320neo, Boeing 737 MAX and A220 jets being dismantled so young?",
       "date": "2026-10-17",
-      "source": "Seeking Alpha"
+      "source": "Air Data News"
     },
     {
       "title": "GE9X Vs. Trent XWB: The Engines Behind The Boeing 777X & Airbus A350 - Simple Flying",
@@ -39,6 +39,30 @@
       "summary": "JAXA\u2019s H3 Rocket Set to Launch MMX for 10g of Phobos [2026]",
       "date": "2026-10-17",
       "source": "https://tech-insider.org/"
+    },
+    {
+      "title": "Earth from Space: West Antarctica - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUlrM1pJVlNlRVlQSDM0SnJXSEx5TFhKQkNLSkhhbzUwbXJmeUNVMHYwQTE3SXRya2c2MGxSZ3NleWt3dDZXSXJadjNoRWFydUN5QzhTWTlzMTlFVEtIc3VucXFvNXhHV3VSUGc2TUZRX1RqbldRRDRwdW1sa25KUVFiZktGV2traHc?oc=5",
+      "summary": "Earth from Space: West Antarctica",
+      "date": "2026-10-17",
+      "source": "European Space Agency"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-17",
+      "source": "Press Information Bureau"
+    },
+    {
+      "title": "D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators Using 728 Qubits - Quantum Computing Report",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORjhjeEd4YmR3UDVUaEQzSk95NkszdkdNdVFCdlNIenY0aEpLaTRIWTZ5Q09TSGhvN1RYWE5VQTVMRG83b3h1MTNGZzhFZkk1OEJKbmk4SUFpX0RPajNMZ0JEUXQxSmFSeEYySktEZTNZcEN3akFieEdkbGtrdHU5ZzVjcmlzRTdwNjE3NjdrcGptTElrRDVVbG92OVVDaHA2aFdNaTRjQkdmSnJ5YVFwVmUzUHZ1eURxNkhnRU8xejRTRFBPWFlLd0VHNmc2QTBRWk1ZS2wzNExfclpTT1F3dmN30gHnAUFVX3lxTFBmVWFET000YXREWEp1SU80OVNXWlRMZ3N2RENpMF92T0dVbEpWTnNZMmZRMHMwc1hNMjFwbk5EZ3JCZmdzSkxvN3BMem84dVcwSl9rci1jRW9RdDJjS1JZbkdfdUkwbWZXNElxOUEyZEh4TTZlTlZSS2ljQmI0U2ZxUUg3UDZfbzVpQzB6Q3hjQWZJMGttc2g1WXQzVTRqNFpSZUE1S3NnczlYcmtYeDFPbllFREJCR1IxaTEtd3FrWFVndWhLZHR6NXk1MUhMSU1FT201NzQ4MlJEWDNLcXFUX3RORmE4UQ?oc=5",
+      "summary": "D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators Using 728 Qubits",
+      "date": "2026-10-17",
+      "source": "Quantum Computing Report",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
     },
     {
       "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
@@ -69,25 +93,11 @@
       "source": "Business Wire"
     },
     {
-      "title": "Earth from Space: West Antarctica - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUlrM1pJVlNlRVlQSDM0SnJXSEx5TFhKQkNLSkhhbzUwbXJmeUNVMHYwQTE3SXRya2c2MGxSZ3NleWt3dDZXSXJadjNoRWFydUN5QzhTWTlzMTlFVEtIc3VucXFvNXhHV3VSUGc2TUZRX1RqbldRRDRwdW1sa25KUVFiZktGV2traHc?oc=5",
-      "summary": "Earth from Space: West Antarctica",
-      "date": "2026-10-16",
-      "source": "European Space Agency"
-    },
-    {
       "title": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space - Space",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTzdsemhSY2dtSXlSU0NLaXRTOUxhd3hBakZlenFuNEtWUHRSNWRuVm5BVXdfUXlkSkJFRUcxZnpVcUFoVVZyWG82OGhnSjZmN0dkbGJnWFdzcUs5TDhsUHJUNXBvcGRDU1FzckJlQnZZNmdWcHk3YmxZNkRNX183emh3?oc=5",
       "summary": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space",
       "date": "2026-10-16",
       "source": "Space"
-    },
-    {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-16",
-      "source": "Press Information Bureau"
     },
     {
       "title": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack - Quantum Computing Report",
@@ -135,20 +145,6 @@
       "source": "Open Access Government"
     },
     {
-      "title": "China\u2019s Space Industry: How LandSpace Rockets and Satellite Networks Threaten American Supremacy - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNaGl3M29BczllSk9ENVUtZktsQXNzTk9fMjU5WHg0T0pvVG1TQ1kyR1M2M1Rac244cG5Kd04wcjJvMG8zY1hlaUhodTZMRHVsa0JXd1Y4czYwMmd0bWozMUc5d0c1VjAzRWFYMDJ2QnB5U1BsaWItVFRldm04QkdZWk1Ldm9vZXVMVkNiTE9TRFJNUlFvUjdXWlhrOFVYMnE2ZFJxblYtQTF2UGxlVFZnVVlzUlZXNkc4eW5pcXpSaVBEMkJnczhMalNkWER2cTRXS3duVVA2YkF2UGU5Ukk0MGl0WmtzQTRicUFrN25rbw?oc=5",
-      "summary": "China\u2019s Space Industry: How LandSpace Rockets and Satellite Networks Threaten American Supremacy",
-      "date": "2026-10-15",
-      "source": "\u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a"
-    },
-    {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-15",
-      "source": "Press Information Bureau"
-    },
-    {
       "title": "A Guide to Investing in Space ETFs - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdDNhQ1VGSkJRZFFWUzIwbjB4d3BWRXVVQm5FN3kxbmJfcE5yakpLZDV2T1ozSmEwb2dpUUtwNkdWTTZDaFp4TXpjZFhGVFdSTzJaTUJKbUZ3QkNZUzVWV1d1dEFZdXZBbjVPTE1yVkgtOUh2LUhpenhYdWoxS2YtU2FMYVNldkdNSTIyeXhaYkhhMUcwdHM2M3I0N3RDVHpFQ2RwOEtxZFZIQWY0NWVDd1AySjRYMlg0Z2xZ?oc=5",
       "summary": "A Guide to Investing in Space ETFs",
@@ -194,6 +190,13 @@
       "source": "Texas State University"
     },
     {
+      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
+      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
+      "date": "2026-10-09",
+      "source": "425business.com"
+    },
+    {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbHRKcmNNYWFmMF9hSDRvZkdoUzNYUE9xX2JNUHZlSGg4NFJlX05hTHNLbnBuSE5Vb1pteUhUb1N1Sjc3ZmpycEdvYXFaS0ZneW5RY01Xd1dpMlM1RnU4ZDNwRThabzFvM3A0dEtfeFdNb1hxaEhuZFlVclVFZlNodFhlM2FGODA2Y1kxVlVB?oc=5",
       "summary": "Fluid Simulations Gain From New Quantum Encoding Strategies",
@@ -216,6 +219,13 @@
       "summary": "The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a \u2018switchback\u2019 in the solar wind\u2019s magnetic field. By fingerprinting the elusive particles within the switchback, Solar Orbiter has traced its origin back to the Sun\u2019s surface and revealed more about solar magnetism \u2013 the unruly instigator of dangerous solar storms.",
       "date": "2026-10-08",
       "source": "ESA Space Science"
+    },
+    {
+      "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xdXdsX2xfOGVGUmlqX2pxQTY1ckp2R3lDdVA0Rmo5dFI1VWtrVmpEb0NOb2VmaUdiUzFRZ3ZsWGx2TjkwZ2hrN0s0WlI4Tmw3cHN1UERTT0YyOVFKN0h1X01OR0R1ZXMzR0ZSZmtVMA?oc=5",
+      "summary": "The History of Nuclear Power in Space",
+      "date": "2026-10-08",
+      "source": "Department of Energy (.gov)"
     },
     {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
