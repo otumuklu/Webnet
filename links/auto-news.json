@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T15:39:52.695256+00:00",
+  "updated": "2026-10-17T20:40:11.056183+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,6 +20,13 @@
   ],
   "industry": [
     {
+      "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2lvVFhZc0hKY3g2M00zTjB1anFCbmU5UGdNd0QtSGJ0NlU1dmkybDlGRjNMUzhwd2JyU0NlWm5lbDdYRDR5OHNVel90bnlEMldwc0lGRGtOelRaN0pkRnJWV0lTb3gxUnBYcWh4YjIyZUJZaGhsRVMtalNMaFhBZFBtdDR5RTJzRzFNc085amRveGtMVzRvYzY2RXNpWEFn?oc=5",
+      "summary": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system",
+      "date": "2026-10-17",
+      "source": "Interesting Engineering"
+    },
+    {
       "title": "Why are Airbus A320neo, Boeing 737 MAX and A220 jets being dismantled so young? - Air Data News",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRDN3aDNNaHBNaG8wM3doU2FOc0JwNFI2YWtWTU9aV3g4UTZMaTA5aFEtdFF1OGtZSEx3aDdoeHJwQkx1NDN4MFN2REp0c0xLSkYzNURnV1lCMXpvYnAxUTlrUzZBbmhQVVRCazU3ZUxSN2RVcHQ1R1VyV0l4c1ZpWF9TY2RfYUkyTFlhYll5aHRGVE5FREZidDZTNkNmVXgwakZmRXlnNUZmZw?oc=5",
       "summary": "Why are Airbus A320neo, Boeing 737 MAX and A220 jets being dismantled so young?",
@@ -27,9 +34,9 @@
       "source": "Air Data News"
     },
     {
-      "title": "GE9X Vs. Trent XWB: The Engines Behind The Boeing 777X & Airbus A350 - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNFFIZmJtRnVaTzdzR25lNE0yUHIzSmxEdEZKLXRoTjdsNGZfS3NkZElnZGZJYjJGQVdOLWFUZWdWRXh5RDJmakNVbF8wMi1JdjZydHRfTjRLTkg4bFpTQ1hHU1IyM3VLZVdVLV9UYmVOR2tuUFREeE1Vd0s5MDdrN18zUzR0dw?oc=5",
-      "summary": "GE9X Vs. Trent XWB: The Engines Behind The Boeing 777X & Airbus A350",
+      "title": "Nearly 140 Airbus A330neos Now Face Inspections For Tools Left Inside Their Tails - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZMGZxeWN3X2RwTGhNSlFjR0R1X1djRURjdzNYN05UVDJ5SVRYWXJsTHpNMWVWbWh2TnJWMExiQzFFdHlaOS1iTDVmMDZVTHRqZ2VZSEFlZVRZTEV0b1pMUVFJYWRvbzNMM1RrSGVCRQ?oc=5",
+      "summary": "Nearly 140 Airbus A330neos Now Face Inspections For Tools Left Inside Their Tails",
       "date": "2026-10-17",
       "source": "Simple Flying"
     },
@@ -41,11 +48,11 @@
       "source": "https://tech-insider.org/"
     },
     {
-      "title": "Earth from Space: West Antarctica - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUlrM1pJVlNlRVlQSDM0SnJXSEx5TFhKQkNLSkhhbzUwbXJmeUNVMHYwQTE3SXRya2c2MGxSZ3NleWt3dDZXSXJadjNoRWFydUN5QzhTWTlzMTlFVEtIc3VucXFvNXhHV3VSUGc2TUZRX1RqbldRRDRwdW1sa25KUVFiZktGV2traHc?oc=5",
-      "summary": "Earth from Space: West Antarctica",
+      "title": "These Rival Aerospace Companies Are Competing With SpaceX - BGR",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYc0djY1J3bDJlZ0tnQk8xcFdaNlZLREp1blpUMHN4dzBUVVQ0SjV5YnRDQXdFa0hKa2N1RldwZVFKZ2wwLXBIV2VkanVWR3FRb09PQzRHNklURk5OTUhTZFllWjZVZkw5WnRoNDVR?oc=5",
+      "summary": "These Rival Aerospace Companies Are Competing With SpaceX",
       "date": "2026-10-17",
-      "source": "European Space Agency"
+      "source": "BGR"
     },
     {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
@@ -86,11 +93,11 @@
       "source": "Military Aerospace"
     },
     {
-      "title": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ21IZGtuR1BVZl9NUkpyejdMUW83emFwY3lncndQSjVzeURfenJiWlVLalpHTFFzeFVmWHNBZXRHWllEZ1lweVhjQjhOUVJVbGcyOGdhNVI3eWRhTlBEeWxMTjBkVkU1V2t2dGNIUHI0TGFwNk83YXV0RFFMSkJvMTkwZEJ2STZaZEF3UGNGZmU1SERnMnFtLXQ5Si1tazhPLUtEQ1E4dkppeFpzajNhcFR2ZDI2Y0NmY0d3b2RzcnFnUU4zT2lKNjVpenBFOXVfM2s4VG5LUnBJcEZ1T3pZUlVsbVc?oc=5",
-      "summary": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF",
+      "title": "Earth from Space: West Antarctica - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUlrM1pJVlNlRVlQSDM0SnJXSEx5TFhKQkNLSkhhbzUwbXJmeUNVMHYwQTE3SXRya2c2MGxSZ3NleWt3dDZXSXJadjNoRWFydUN5QzhTWTlzMTlFVEtIc3VucXFvNXhHV3VSUGc2TUZRX1RqbldRRDRwdW1sa25KUVFiZktGV2traHc?oc=5",
+      "summary": "Earth from Space: West Antarctica",
       "date": "2026-10-16",
-      "source": "Business Wire"
+      "source": "European Space Agency"
     },
     {
       "title": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space - Space",
@@ -143,13 +150,6 @@
       "summary": "NASA sends invites to US companies to develop commercial space stations",
       "date": "2026-10-15",
       "source": "Open Access Government"
-    },
-    {
-      "title": "A Guide to Investing in Space ETFs - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdDNhQ1VGSkJRZFFWUzIwbjB4d3BWRXVVQm5FN3kxbmJfcE5yakpLZDV2T1ozSmEwb2dpUUtwNkdWTTZDaFp4TXpjZFhGVFdSTzJaTUJKbUZ3QkNZUzVWV1d1dEFZdXZBbjVPTE1yVkgtOUh2LUhpenhYdWoxS2YtU2FMYVNldkdNSTIyeXhaYkhhMUcwdHM2M3I0N3RDVHpFQ2RwOEtxZFZIQWY0NWVDd1AySjRYMlg0Z2xZ?oc=5",
-      "summary": "A Guide to Investing in Space ETFs",
-      "date": "2026-10-15",
-      "source": "The Globe and Mail"
     },
     {
       "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
