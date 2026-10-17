@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T21:15:53.771434+00:00",
+  "updated": "2026-10-17T10:50:35.332522+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -19,6 +19,27 @@
     "Simons Foundation"
   ],
   "industry": [
+    {
+      "title": "Boeing Stock: The Real Test Of Its Recovery Begins Now (NYSE:BA) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUTlpQVdndWlnUl9waE0zcjYtVG5UVXZ6T1FveWg5dFpYVngwdWstLUlEZ01oQ2gyaG9SUkxaTTYySjFZXzVnMlE1S2ttWHVJcmlDQW1kcE9va3JFSU1RbzJsSXhjT29fN01wWmdvUEZSUDM4LVYwV1pLUG4tdWhPbVc2ek1oSllVclBLUlY1Nk9KNUR1ZHZJM1BDLVUtYUpuN002RXp3NE5yQzBUZ19iNEtB?oc=5",
+      "summary": "Boeing Stock: The Real Test Of Its Recovery Begins Now (NYSE:BA)",
+      "date": "2026-10-17",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "GE9X Vs. Trent XWB: The Engines Behind The Boeing 777X & Airbus A350 - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNFFIZmJtRnVaTzdzR25lNE0yUHIzSmxEdEZKLXRoTjdsNGZfS3NkZElnZGZJYjJGQVdOLWFUZWdWRXh5RDJmakNVbF8wMi1JdjZydHRfTjRLTkg4bFpTQ1hHU1IyM3VLZVdVLV9UYmVOR2tuUFREeE1Vd0s5MDdrN18zUzR0dw?oc=5",
+      "summary": "GE9X Vs. Trent XWB: The Engines Behind The Boeing 777X & Airbus A350",
+      "date": "2026-10-17",
+      "source": "Simple Flying"
+    },
+    {
+      "title": "JAXA\u2019s H3 Rocket Set to Launch MMX for 10g of Phobos [2026] - https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBybk9fWVc5WmJzdU9mekJrSlNCQ2VkT3VYSS1tLTRMLTVYT3BZNWVJRVlOMzhlWWthUk5XSE9Cdno1ZEpyMy1MUTBTQnRfbjJYX3ByMkFuRGxmNG1WMXRudkVRZG1NbWRFSms0V3RzZDM?oc=5",
+      "summary": "JAXA\u2019s H3 Rocket Set to Launch MMX for 10g of Phobos [2026]",
+      "date": "2026-10-17",
+      "source": "https://tech-insider.org/"
+    },
     {
       "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
       "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
@@ -48,27 +69,6 @@
       "source": "Business Wire"
     },
     {
-      "title": "FAA set to approve Boeing 737 MAX 10 as soon as next week, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNXdnbkZmNkxjeThiVE51Uy1GVU9XTVNnWVJaR1lYZmRkcmpxMTQyZzgzM0ZVVVdDN0lONjlZSXRpRDcyb21aZlMteWFfVnhDdGlYdDZMVFlsRzh5ckRqWW1vUWxZU01HbEU0OThSemlKYmt3dV91Z3ZWelZ6cFpjbVRGb1NrOTNWM3RGdjFwTDFMdVJpcHNkYWZCaldrcmRITG5iM2VfVQ?oc=5",
-      "summary": "FAA set to approve Boeing 737 MAX 10 as soon as next week, sources say",
-      "date": "2026-10-16",
-      "source": "Reuters"
-    },
-    {
-      "title": "Aviation Capital Group orders 75 Airbus A320neo Family aircraft - Airbus",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWkVndHE2T2VERFlTQTh1T3RvUXVXQ3daYV9fVHpRTVNtTUNZQlZRdzItQzZyZmlZLXYyRDM2NWpPaGkzQXV1WkY0NUNRd0NDbHZpT3lGbFFvWFJ4RnlUeVFCdkNGREQ5aW8zcG10empLNVBRcXlQUU5FN1BoV1h6WVQtRlIwMGJZME9jaFVyNGIxTlc5dUVHYzhydlVpZzF1Wmx2SlFhU0ozOGwtbTFCRndaSkVVeW1BLXRURFl3?oc=5",
-      "summary": "Aviation Capital Group orders 75  A320neo Family aircraft Airbus",
-      "date": "2026-10-16",
-      "source": "Airbus"
-    },
-    {
-      "title": "JAXA, Innovative Space Carrier Collaborate On Reusable Rocket Studies - Aviation Week",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSlQ0ZklyNm40TWdxS0FET19YWHR0YTdnS3NvemFfcmtvSnZDeXZUMDVtX0VFN0pPdUVmcXc2SE5UZGNIZW5UNU9TYjcwSFV1NEpEWm1wWWF6eGVWTWZ0REV3dTRCZ0YteHVIaDhya21fWEhXdm9yODg5cHNEdjRSRHRsUmRIbDVFYXpjcURTWkxRZXNOMFdXbnlMN1VtTktSZUdndnNBZ1Q0d2ZzUzZmOThyV1N2X0RLclJwZURLWWs?oc=5",
-      "summary": "JAXA, Innovative Space Carrier Collaborate On Reusable Rocket Studies",
-      "date": "2026-10-16",
-      "source": "Aviation Week"
-    },
-    {
       "title": "Earth from Space: West Antarctica - European Space Agency",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUlrM1pJVlNlRVlQSDM0SnJXSEx5TFhKQkNLSkhhbzUwbXJmeUNVMHYwQTE3SXRya2c2MGxSZ3NleWt3dDZXSXJadjNoRWFydUN5QzhTWTlzMTlFVEtIc3VucXFvNXhHV3VSUGc2TUZRX1RqbldRRDRwdW1sa25KUVFiZktGV2traHc?oc=5",
       "summary": "Earth from Space: West Antarctica",
@@ -81,6 +81,13 @@
       "summary": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space",
       "date": "2026-10-16",
       "source": "Space"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-16",
+      "source": "Press Information Bureau"
     },
     {
       "title": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack - Quantum Computing Report",
@@ -187,13 +194,6 @@
       "source": "Texas State University"
     },
     {
-      "title": "Order No. 837: Beijing\u2019s rules for China\u2019s rocket exporters - Lowy Institute",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnNOWmc5TnF0dTdTb2pSR1VWQ2puMDNpVjhVd21CcmVndTVNZjhCWHRwVThwR3FwYkFnVWdFcmVUYnI5QzQtOHB2Rkt5OS1wR0R0eFlPMFFUUUtWdjRoTDhpenc1SWlhVEc1ZjVNSHV6RExQSUd5TXdqOU1YcFdUSkJhM2Q1Q3RDb2NaVjhtanM2ZHhrTFV4aEhURzRuOEpyWFZtSmxn?oc=5",
-      "summary": "Order No. 837: Beijing\u2019s rules for China\u2019s rocket exporters",
-      "date": "2026-10-13",
-      "source": "Lowy Institute"
-    },
-    {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbHRKcmNNYWFmMF9hSDRvZkdoUzNYUE9xX2JNUHZlSGg4NFJlX05hTHNLbnBuSE5Vb1pteUhUb1N1Sjc3ZmpycEdvYXFaS0ZneW5RY01Xd1dpMlM1RnU4ZDNwRThabzFvM3A0dEtfeFdNb1hxaEhuZFlVclVFZlNodFhlM2FGODA2Y1kxVlVB?oc=5",
       "summary": "Fluid Simulations Gain From New Quantum Encoding Strategies",
@@ -223,33 +223,9 @@
       "summary": "Image: G\u00e9raldine Naja with the WIA-Europe award",
       "date": "2026-10-07",
       "source": "ESA Space Transportation"
-    },
-    {
-      "title": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics - Quantum Computing Report",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaXhueWZ1cmgyWkFybVZoM2M4M09pOGRGUmlqSGNlVXFrNUp6MnB0SEU5TmhET2FSejQzSWd0UmhTRXJrZkNyX2p1SDNOTk5fZDBxNHljYjVmcG96LS1RVzNmY3dvakpxelM0SEJZQ0FGT2ZhUDE3dnA2MHhjY0Q5cWVvQ09TWG9yZm8zWG8tZWlfWER0OEFtaHpXc0Z5OXNfU09aUXM3YzFVZnBSUlpkR09hQXpucGl2aWNWaWk3aUhBTm5rQTNqcXJZcjNUMWpQYlkyVk1PV2c1TjBFUzB1Q2dubHU5Mm9ZdEJZVlJCOExKaVRDaTVVS1Nn0gH_AUFVX3lxTFBkc3FTSnVMSExaWkxOSkU1X2hvRFhEc3hTY05fZ3JTSTdrZ1V5b1A2elNwaFUxVGg4emIwOE9sQlV6SlpZc05EUnV2ZGhmX25ub2piWEs3LUFiTTRLUHlINExQbE5DRElUb2pzdzRHSWRJSnFPU0ZmTUNuVE9ZbnRvLWF1a3VSQWV5SGNkNUVETml5V1paaE1pZGlkSGJoQTVuT04wOU1ReWRzcVhGQ0ozQ3hsOW9yeTROczlIWWhfbWFQekFpOEtCRU9xRWNkLTNqVTV2QWJ3dGhNMm8zZ2YwY09YTXUzMXlwS0pVMk5BYk5mZHZRaG5STzE4emJZVQ?oc=5",
-      "summary": "ORNL Develops LuGo Algorithm on Frontier Supercomputer, Reducing Quantum Circuit Gate Counts by 95% for Computational Fluid Dynamics",
-      "date": "2026-10-02",
-      "source": "Quantum Computing Report",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
     }
   ],
   "papers": [
-    {
-      "title": "Weber-number scaling and the distance dependence of drop size in full-cone pressure-swirl sprays",
-      "url": "https://arxiv.org/abs/2610.20650",
-      "summary": "A pressure-swirl nozzle converts the feed pressure into a swirling conical sheet that breaks into ligaments and then into drops. The size of the drops governs the deposition and drift of agricultural sprays, the capture of airborne dust and the combustion efficiency of fuel injectors.",
-      "date": "2026-10-16",
-      "source": "arXiv"
-    },
-    {
-      "title": "Pumping by Two-frequency Steady Streaming: Impact of Amplitude Ratio and Phase",
-      "url": "https://arxiv.org/abs/2610.20784",
-      "summary": "The classical phenomenon of steady streaming around a circular cylinder oscillating with a single frequency results in a symmetric quadrupole-like flow structure. In [H.S.\\ Lee, \\textit{et al.}, J.\\ Fluid Mech.\\ 1038, A34 (2026)], we demonstrated using asymptotic analysis and numerical simulations that a cylinder vibrating with two frequencies yields asymmet",
-      "date": "2026-10-16",
-      "source": "arXiv"
-    },
     {
       "title": "Adaptive Tracking Control for Underactuated Lunar Hopping Vehicles",
       "url": "https://doi.org/10.2514/1.a36655",
@@ -263,6 +239,20 @@
       "summary": "Designing lighter aircraft structures while satisfying strength, stability, and aeroelastic requirements remains a central challenge in preliminary aircraft design. Many early-stage aircraft structural optimization studies rely on beam, equivalent-plate, or semi-empirical structural representations, while many higher-fidelity studies focus on isolated components, particularly wings, rather than the simultaneous sizin",
       "date": "2026-10-16",
       "source": "Journal of Aircraft"
+    },
+    {
+      "title": "Application and Assessment of Machine Learning Methods for Aircraft Design Problems",
+      "url": "https://doi.org/10.2514/1.i011755",
+      "summary": "In this work, we present a comparative study on machine-learning-based surrogate modeling for multidisciplinary aerospace applications. The main objective of the work is to demonstrate the predictive capability of traditional machine learning methods, including linear regression, random forest, gradient boosting, extreme gradient boosting, support vector regression, Gaussian process regression, and multilayer percept",
+      "date": "2026-10-16",
+      "source": "Journal of Aerospace Information Systems"
+    },
+    {
+      "title": "A data-driven approach for morphological characterization and classification of flying inkjet droplets",
+      "url": "https://doi.org/10.1063/5.0348484",
+      "summary": "We present a data-driven framework for the characterization of flying inkjet droplets based on a compact parametric representation of droplet contours. Starting from a large image database of experimentally generated droplets, the outer contours are extracted and described using elliptic Fourier descriptors, providing an accurate and low-dimensional representation of a wide range of droplet morphologies.",
+      "date": "2026-10-16",
+      "source": "Physics of Fluids"
     },
     {
       "title": "Inertial migration of a force-driven sphere in shear flows of shear-thinning fluids",
@@ -286,25 +276,11 @@
       "source": "Physics of Fluids"
     },
     {
-      "title": "Jet-driven depressurization and thermal homogenization in cryogenic propellant tanks: A multi-scale experimental and numerical study",
-      "url": "https://doi.org/10.1063/5.0345225",
-      "summary": "Despite extensive studies on spray-bar thermodynamic venting system, the coupled effects of jet axial distribution, circulation flow rate, and subcooling on the dynamic interplay between depressurization and thermal homogenization under partial-fill conditions remain poorly understood, particularly regarding the competition between condensation-driven and mixing-driven mechanisms. An experimental and numerical study ",
-      "date": "2026-10-15",
-      "source": "Physics of Fluids"
-    },
-    {
       "title": "Magnetohydrodynamic drag on an oscillating sphere in a rotating spherical cavity",
       "url": "https://doi.org/10.1017/jfm.2026.12095",
       "summary": "Oscillating-sphere drag is a classical fluid-mechanics problem, yet no theory simultaneously accounts for confinement, rotation, viscosity and magnetic fields. We consider a conducting sphere undergoing translational oscillations inside a rotating spherical cavity, modelling confined magnetohydrodynamic (MHD) flows relevant to planetary interiors and liquid-metal experiments.",
       "date": "2026-10-15",
       "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Data-Driven Reduced-Complexity Modeling of Fluid Flows: A Community Challenge",
-      "url": "https://doi.org/10.2514/1.j066928",
-      "summary": "We introduce a community challenge designed to facilitate direct comparisons between data-driven methods for compression, forecasting, and sensing of complex aerospace flows. The challenge is organized into three tracks that target these complementary capabilities: compression (compact representations for large datasets), forecasting (predicting future flow states from a finite history), and sensing (inferring unmeas",
-      "date": "2026-10-14",
-      "source": "AIAA Journal"
     },
     {
       "title": "Beyond classical similitude: group theoretic extrapolation of hypersonic stagnation-point boundary layers",
