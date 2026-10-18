@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T15:55:23.110187+00:00",
+  "updated": "2026-10-18T20:49:43.699609+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,6 +20,79 @@
   ],
   "industry": [
     {
+      "title": "Boeing 737 MAX 10 to be certified despite software glitch, airlines may refuse delivery - report - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XV2xRbGRkV0hZckcyMEVBWlZlYlVXWXlGSW8zbFpYQ3p3RGI4Y3lCWkJHaVZadlhEQWNwRkU0OVdmZHZGbFRnYnlZVS1fNElkVWFSS3l0ZTY3aE5sRlkta2xrbklabmw2ZFlIWWdRbXc2LS1Bek84UQ?oc=5",
+      "summary": "Boeing 737 MAX 10 to be certified despite software glitch, airlines may refuse delivery - report",
+      "date": "2026-10-18",
+      "source": "The Jerusalem Post"
+    },
+    {
+      "title": "Airbus\u2019s initial hydrogen airliner likely to have 80 seats: Wagner - FlightGlobal",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS3NKWm4tX3dTckRKdFRzbWpoN29faEthSTFINTBWZmZpRy1tN2lmYUN4THpwTnV1NkJfYm56LTk4V3lEdUItdk52RWRCQjBnRHB1NXNRVE1rc1NqRHJDTG16RUt5cDgtS0NXdmpieDRja3A1UzJXenYtVmk5NHlvYThYQ0xRMEgzazdzYmNzTFNvcE4zTFQwMlRmVEJaT3JxNnprQVk3VzFLZXNHVUd2OE5NRzhqbXdXTDhwNU5HOA?oc=5",
+      "summary": "Airbus\u2019s initial hydrogen airliner likely to have 80 seats: Wagner",
+      "date": "2026-10-18",
+      "source": "FlightGlobal"
+    },
+    {
+      "title": "JAXA's Martian Moons Exploration mission launch: how to watch live - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mbHF3MzN2VHVlQVE1UjF6ODdfOEE5VC1IODBpRDl0YTJYWTM2azZhVmh1WDdRRFJGMEZXVmhseG05UVMtYU85bDFVVmNSanREWnc1TTJvb0ItaDcwOXJON3BxM3VGbC16R3pHMU1aZHhMdjJLdzJvTHJNOGNRdw?oc=5",
+      "summary": "JAXA's Martian Moons Exploration mission launch: how to watch live",
+      "date": "2026-10-18",
+      "source": "Mashable"
+    },
+    {
+      "title": "ESA Hera Mission Closes In on Asteroids After NASA DART Impact - cristinaiglesias.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX3hLeDlUdld0dGNLVDlDOU5jNkljdTlEWVl5SFk3aHBEel9JZVhEZEpCWndMaklTeHlsdnI1aGM1WkstQjBpdzdjb1I2bDBPSi11NDJNOEQyYkJKVnVNTC13RGVRblZRMmJMRkVCSTJLVWs1RUtNbmUyZnlqUFhZLWNxR1hwU2dLU0VUMnBHUUZjdGVBSG5tUlQ0c1FHXzhXclE?oc=5",
+      "summary": "ESA Hera Mission Closes In on Asteroids After NASA DART Impact",
+      "date": "2026-10-18",
+      "source": "cristinaiglesias.com"
+    },
+    {
+      "title": "China\u2019s Long March rockets carry forward historic grit for new space exploration - Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xYXdOampvSDF3YUtEcGhfNFQyN0oxLXNCcnhkS0tDaFFkWWRqbUUxUThpdktCNEFJdklDVTJNYWtzOERFck00bS0zRzRyYWttT0o2TmtHZVZnaVY5OEVrSUtn?oc=5",
+      "summary": "China\u2019s Long March rockets carry forward historic grit for new space exploration",
+      "date": "2026-10-18",
+      "source": "Global Times"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hZU45N3RiejNFNzMyUW9rMGJFWkNVYUxJVDRmbU9LbENrNzRvc2FiWVJhcUIxZUQ2ZWpjaUhNNWlKOUZtMG5RdnltRDN5MGJhclV4NFh4WTkzSUlydkRtU1FUT3RvN1VxcU9Xd1JHMkQ4RU52eTBZ?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-18",
+      "source": "Press Information Bureau"
+    },
+    {
+      "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2lvVFhZc0hKY3g2M00zTjB1anFCbmU5UGdNd0QtSGJ0NlU1dmkybDlGRjNMUzhwd2JyU0NlWm5lbDdYRDR5OHNVel90bnlEMldwc0lGRGtOelRaN0pkRnJWV0lTb3gxUnBYcWh4YjIyZUJZaGhsRVMtalNMaFhBZFBtdDR5RTJzRzFNc085amRveGtMVzRvYzY2RXNpWEFn?oc=5",
+      "summary": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system",
+      "date": "2026-10-17",
+      "source": "Interesting Engineering"
+    },
+    {
+      "title": "These Rival Aerospace Companies Are Competing With SpaceX - BGR",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYc0djY1J3bDJlZ0tnQk8xcFdaNlZLREp1blpUMHN4dzBUVVQ0SjV5YnRDQXdFa0hKa2N1RldwZVFKZ2wwLXBIV2VkanVWR3FRb09PQzRHNklURk5OTUhTZFllWjZVZkw5WnRoNDVR?oc=5",
+      "summary": "These Rival Aerospace Companies Are Competing With SpaceX",
+      "date": "2026-10-17",
+      "source": "BGR"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-17",
+      "source": "Press Information Bureau"
+    },
+    {
+      "title": "D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators Using 728 Qubits - Quantum Computing Report",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORjhjeEd4YmR3UDVUaEQzSk95NkszdkdNdVFCdlNIenY0aEpLaTRIWTZ5Q09TSGhvN1RYWE5VQTVMRG83b3h1MTNGZzhFZkk1OEJKbmk4SUFpX0RPajNMZ0JEUXQxSmFSeEYySktEZTNZcEN3akFieEdkbGtrdHU5ZzVjcmlzRTdwNjE3NjdrcGptTElrRDVVbG92OVVDaHA2aFdNaTRjQkdmSnJ5YVFwVmUzUHZ1eURxNkhnRU8xejRTRFBPWFlLd0VHNmc2QTBRWk1ZS2wzNExfclpTT1F3dmN30gHnAUFVX3lxTFBmVWFET000YXREWEp1SU80OVNXWlRMZ3N2RENpMF92T0dVbEpWTnNZMmZRMHMwc1hNMjFwbk5EZ3JCZmdzSkxvN3BMem84dVcwSl9rci1jRW9RdDJjS1JZbkdfdUkwbWZXNElxOUEyZEh4TTZlTlZSS2ljQmI0U2ZxUUg3UDZfbzVpQzB6Q3hjQWZJMGttc2g1WXQzVTRqNFpSZUE1S3NnczlYcmtYeDFPbllFREJCR1IxaTEtd3FrWFVndWhLZHR6NXk1MUhMSU1FT201NzQ4MlJEWDNLcXFUX3RORmE4UQ?oc=5",
+      "summary": "D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators Using 728 Qubits",
+      "date": "2026-10-17",
+      "source": "Quantum Computing Report",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
       "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
       "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
       "summary": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency\u2019s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his career more than four decades ago. \u201cMarshall contributions to NASA\u2019s missions are historic and it\u2019s [\u2026]",
@@ -34,11 +107,49 @@
       "source": "NASA"
     },
     {
+      "title": "Lockheed Martin receives $16.1 million F-35 processor support contract - Military Aerospace",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWkUzWjFqdEhFNldjMEdKY2hBZmNnRDNlUDktSnBHOVFLRzdRSW5ZTkt6S2JieldYUW4yWVVnT1dCdmJyV01xTXBGeXlrb0V5V2hFWS1BZk5saDFoMUdRZHdKM3hWaklFMXhYejB5NjkwMUNZTGxpVVFTaGZaSHk4dEZNLXRaUExtU3RWVTFSQjd3RXFSTlJtaDRYY25YbkdpRkVfTzhDT2VnYmNmem5CQWFVdjB4ZDEtYU02WE5lUThJbFJfdjg1bw?oc=5",
+      "summary": "Lockheed Martin receives $16.1 million F-35 processor support contract",
+      "date": "2026-10-16",
+      "source": "Military Aerospace"
+    },
+    {
+      "title": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space - Space",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTzdsemhSY2dtSXlSU0NLaXRTOUxhd3hBakZlenFuNEtWUHRSNWRuVm5BVXdfUXlkSkJFRUcxZnpVcUFoVVZyWG82OGhnSjZmN0dkbGJnWFdzcUs5TDhsUHJUNXBvcGRDU1FzckJlQnZZNmdWcHk3YmxZNkRNX183emh3?oc=5",
+      "summary": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space",
+      "date": "2026-10-16",
+      "source": "Space"
+    },
+    {
+      "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xdXdsX2xfOGVGUmlqX2pxQTY1ckp2R3lDdVA0Rmo5dFI1VWtrVmpEb0NOb2VmaUdiUzFRZ3ZsWGx2TjkwZ2hrN0s0WlI4Tmw3cHN1UERTT0YyOVFKN0h1X01OR0R1ZXMzR0ZSZmtVMA?oc=5",
+      "summary": "The History of Nuclear Power in Space",
+      "date": "2026-10-16",
+      "source": "Department of Energy (.gov)"
+    },
+    {
+      "title": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack - Quantum Computing Report",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc25yT09DbW1pN2pqOEoyTkRMMjBNOE5sS2NkRURybzJ1OXZ4WlJQT1V5eXBEUFRQdGxhU3BJVC1RMm53OHVNMk1zNFJiY2pwZFRXLTNDdkJ5WE9OX0p5Skl4MG9tWUFyejB3Rld2WFBNSTV4RkVQVGZJa0JaLTM5TmZMVDdGZE1UUnpNS2xSdmd1cWJQa3FjbTZBdFcwRHpIUjhNOU5WV3Y0azRIZVJNN1ZXbEI1NVhDaHA4T3RVTjJnOEtPREc2S09GZUhrdFpadVhNUmU2azNBZ9IB3wFBVV95cUxOeVY3WS1kYm1lMXBWQk9sb1JMQzhHdGtZWHk1R0wwTzlDZE5PemJ6TzBqUzl2bGZFX3NKd3Y2ODFsQkxaNzc3dTRlUEdBVmNoZl9zQy1IczJpbGIwUkNHejUyQlVCY01YNFJsX1N4Umt1a1BvSjd5aTdKZjUtRnJwUTdlbklxWkV1Rm1HWEpoUmZ1dlRpQlVoLTZEbjRpOWdobUFTU2FucTJqTXlyeGI3ekxSdWx3NE84bHFUNTZJV1dqcG5yYnduWk95TDU4Qm4xdnRfZ2h4MXFGRE43Qjc4?oc=5",
+      "summary": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack",
+      "date": "2026-10-16",
+      "source": "Quantum Computing Report",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
       "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
       "url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
       "summary": "BELLEVUE, Wash., Oct. 15, 2026 \u2014 Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new [\u2026]",
       "date": "2026-10-15",
       "source": "SpaceNews"
+    },
+    {
+      "title": "Raytheon awarded $8 billion contract for strategic communications terminal modernization - Military Aerospace",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZXZLLWlBTWZhbWQwQmY1VkZOeldBbFUzeVUyWTd1RnN2ZTN1RUdSUVpYOER5dzJHQXhnb2p1SkdxNkM0UFV4UUk1RkJ5MFhrb0hoSnhlcjlaOHRXUmZBT3FhRDRzNUtLMUZILVJHeVRjWVhxUGFIMTk5OHBzS1oyNUZ2SEwzdzhKT2dIelN6NGZSbWNqd3dIX1hpSVBuTG5yT0o3TTlObkJ0cl9BM2pUX3FnWjFHUFBERlFCZlB3NTdzaTBtVmw0dXRab1BLR2xnaUV1U21acmFfbUhMQ0dNSmZXRWhJZ1FL?oc=5",
+      "summary": "Raytheon awarded $8 billion contract for strategic communications terminal modernization",
+      "date": "2026-10-15",
+      "source": "Military Aerospace"
     },
     {
       "title": "Act for more sustainable space",
@@ -48,6 +159,20 @@
       "source": "ESA Space Transportation"
     },
     {
+      "title": "SpaceX set to launch U.S. Space Force mission Thursday from Vandenberg SFB - Santa Maria Times",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxORFgwNEVSVlQxSnJhbE9PRVp0alplNjRpb0FtT0RKODl6MS0ybzNFQVFRbFIzMnhqd3BaOThsVkdaOW56bmVDbmtDSWxqTHlYVUM4NXE2OE55dDd5TGVqY240Rm9yak1leTBtMkRreUo0amw4T3luU3p1YjYyUXFrYnJ2RUppM0UzSkhCSmhqWUdNSnlVZW1GZ3htU2dWQW1GcXJTdUNWbWhDaTFKbUZHVTZCdzhQYmhlcHluUlBIcTRKV0NxUGl5SUhON1NBZTNBN08xNWVlVFlEYmhmVXlFVEhGbFZMcFlzYWlCSDNJd0w0WTVERkR1TWxpZXg0SlBNNDZONGE2aFIxSGRhUFJN?oc=5",
+      "summary": "SpaceX set to launch U.S. Space Force mission Thursday from Vandenberg SFB",
+      "date": "2026-10-15",
+      "source": "Santa Maria Times"
+    },
+    {
+      "title": "NASA sends invites to US companies to develop commercial space stations - Open Access Government",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYkRYT3R3Vk5TWm9OMzY4Vlo0b0JDRkd0a2VKOE4tVlRFU2NEemkwMHc4ejE2VVR2bWlwY3lidUtNUVBOSERwX0x4amdSSUI1ZlZzVTF6UXBUUVVZV3FtZXA0dEM1ZnBYbnZ5Zy1TU25iT1c0Tk1laF9HWEZoNmtVazREWnRmVkYwVk5YOWRWcGx2LWRvRTZ5UHlFSFVnODA3RHR2TzJjMHFUa0hhSU1WdndCMUxpR0U?oc=5",
+      "summary": "NASA sends invites to US companies to develop commercial space stations",
+      "date": "2026-10-15",
+      "source": "Open Access Government"
+    },
+    {
       "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
       "url": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
       "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be [\u2026]",
@@ -55,11 +180,38 @@
       "source": "SpaceNews"
     },
     {
+      "title": "Firefly Aerospace Schedules Third Quarter 2026 Financial Results for November 10 - SatNews Publishers",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVVgyT2NyX1JsYzRRRlFNX1pLdXRWQUNEZEt3aEFvc2NVQlVLZ2RNYzlhcUFYUDRoZ25kOGpSR3ZTZW1SZzRRU1B2MFIyY2s2ZW9HWVpEQ3d3N3NjVG0xY0UxeUlETFU3NU43VFhnQ0lZaFFUUzJncmxfaVd3RlVodEFJTmYzWWpOYklMcThjQUJCWWc2OU5zUS1MUm1Uc1E2Q2FERnRPMmhUeUl4Skk2NG1R?oc=5",
+      "summary": "Firefly Aerospace Schedules Third Quarter 2026 Financial Results for November 10",
+      "date": "2026-10-14",
+      "source": "SatNews Publishers"
+    },
+    {
+      "title": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOek1zR1FLS01ZMmE3YU9kRU01Nk9rTndMXzlHazMtUzU2WmhiYm1PenpLWWJXczVMektNdmEzUGhwdjZDaV94OVV3aTBxU3VWcWlxN3pBMEhpLTVVQnV4VFFmWjZOeTFYRDl2Qkl1QjhlU1dQMTF1Q09FblRDbHY2WXVQWQ?oc=5",
+      "summary": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits",
+      "date": "2026-10-14",
+      "source": "Quantum Zeitgeist",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
       "title": "Mars moon lander set to launch on 19 October",
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
       "summary": "The Martian Moons eXploration ( MMX ) mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04:41 JST on 20 October 2026 (20:41 BST / 21:41 CEST on 19 October 2026). MMX will be the first mission to collect a sample from Mars\u2019s moon Phobos and bring it back to Earth. MMX is led by the Japan Aerospace Exploration Agency (JAXA), in collaboration with the National Aeronautics and Space Administration (NASA), the French space agency (CNES), the German Aerospace Center (DLR) and the European Space Agency (ESA).",
       "date": "2026-10-13",
       "source": "ESA Space Science"
+    },
+    {
+      "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbHRKcmNNYWFmMF9hSDRvZkdoUzNYUE9xX2JNUHZlSGg4NFJlX05hTHNLbnBuSE5Vb1pteUhUb1N1Sjc3ZmpycEdvYXFaS0ZneW5RY01Xd1dpMlM1RnU4ZDNwRThabzFvM3A0dEtfeFdNb1hxaEhuZFlVclVFZlNodFhlM2FGODA2Y1kxVlVB?oc=5",
+      "summary": "Fluid Simulations Gain From New Quantum Encoding Strategies",
+      "date": "2026-10-09",
+      "source": "Quantum Zeitgeist",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
     },
     {
       "title": "BUILDING THE WORLD\u2019S MOST ADVANCED MOBILE NETWORK",
