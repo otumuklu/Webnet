@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T04:40:17.413904+00:00",
+  "updated": "2026-10-18T11:14:44.960355+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,9 +20,9 @@
   ],
   "industry": [
     {
-      "title": "Boeing Quietly Raised The 777-9's Range From 7,285 To 8,000 Nautical Miles Without Announcing It - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTG52clVadDIxSlJjYjV3RDd3TDExSjN0OUpsRk5TUFFCZk9KS19hYVFCLUxUVnBtb0NMekc1TG93dkVJUHozNTlFbzdoZkN5bWx6YjhQZWVnWmZYOWIzTHNacDljM18yZFdvVnVfaTQ2TE9KOGpDRmNXcE5YYzJ5d2VoM2Yxc09LV2ZnREhOZE9TV2hBSTREWURZTjVJbnJmMXI0VDl3?oc=5",
-      "summary": "Boeing Quietly Raised The 777-9's Range From 7,285 To 8,000 Nautical Miles Without Announcing It",
+      "title": "LATAM Boeing 767 Drops 23,000 Feet As Oxygen Masks Deploy In Midair Emergency - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE85THh1TU9mczZaUHpaUGpuSUlSYks2NXZNOEJkZmQtUGN5dVA5RVZzcmI4Z2tuU24wRXdXLWx4aUpSSWh0V2psWUxkbTE1MWlaM3Bib19UbTZzUl9jbVU2TXFuVjNObFlmVVNMSFU0M1dKTUJPR0VXQ0stR2M?oc=5",
+      "summary": "LATAM Boeing 767 Drops 23,000 Feet As Oxygen Masks Deploy In Midair Emergency",
       "date": "2026-10-18",
       "source": "Simple Flying"
     },
@@ -34,18 +34,25 @@
       "source": "Aero-News Network"
     },
     {
+      "title": "JAXA MMX Hardware: Dual Phobos Samplers, H3-24L [2026] - tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44a1E3UVVuRjFRb1QwR2FmVVdzTUMwaVU5eUZYSWppTjVyV0plSF9zaDRxREhvQi1EcnJBREZfUDNHZDNTcW5UZ3pKSHlHUnRBTzVYYlBqZ1dEYm9USVNpNkUyamZsaXFSWlF2Rld3d1RTdkVwRVdF?oc=5",
+      "summary": "JAXA MMX Hardware: Dual Phobos Samplers, H3-24L [2026]",
+      "date": "2026-10-18",
+      "source": "tech-insider.org"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hZU45N3RiejNFNzMyUW9rMGJFWkNVYUxJVDRmbU9LbENrNzRvc2FiWVJhcUIxZUQ2ZWpjaUhNNWlKOUZtMG5RdnltRDN5MGJhclV4NFh4WTkzSUlydkRtU1FUT3RvN1VxcU9Xd1JHMkQ4RU52eTBZ?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-18",
+      "source": "Press Information Bureau"
+    },
+    {
       "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2lvVFhZc0hKY3g2M00zTjB1anFCbmU5UGdNd0QtSGJ0NlU1dmkybDlGRjNMUzhwd2JyU0NlWm5lbDdYRDR5OHNVel90bnlEMldwc0lGRGtOelRaN0pkRnJWV0lTb3gxUnBYcWh4YjIyZUJZaGhsRVMtalNMaFhBZFBtdDR5RTJzRzFNc085amRveGtMVzRvYzY2RXNpWEFn?oc=5",
       "summary": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system",
       "date": "2026-10-17",
       "source": "Interesting Engineering"
-    },
-    {
-      "title": "JAXA\u2019s H3 Rocket Set to Launch MMX for 10g of Phobos [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBybk9fWVc5WmJzdU9mekJrSlNCQ2VkT3VYSS1tLTRMLTVYT3BZNWVJRVlOMzhlWWthUk5XSE9Cdno1ZEpyMy1MUTBTQnRfbjJYX3ByMkFuRGxmNG1WMXRudkVRZG1NbWRFSms0V3RzZDM?oc=5",
-      "summary": "JAXA\u2019s H3 Rocket Set to Launch MMX for 10g of Phobos [2026]",
-      "date": "2026-10-17",
-      "source": "https://tech-insider.org/"
     },
     {
       "title": "These Rival Aerospace Companies Are Competing With SpaceX - BGR",
@@ -136,13 +143,6 @@
       "summary": "",
       "date": "2026-10-15",
       "source": "ESA Space Transportation"
-    },
-    {
-      "title": "SpaceX set to launch U.S. Space Force mission Thursday from Vandenberg SFB - Santa Maria Times",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxORFgwNEVSVlQxSnJhbE9PRVp0alplNjRpb0FtT0RKODl6MS0ybzNFQVFRbFIzMnhqd3BaOThsVkdaOW56bmVDbmtDSWxqTHlYVUM4NXE2OE55dDd5TGVqY240Rm9yak1leTBtMkRreUo0amw4T3luU3p1YjYyUXFrYnJ2RUppM0UzSkhCSmhqWUdNSnlVZW1GZ3htU2dWQW1GcXJTdUNWbWhDaTFKbUZHVTZCdzhQYmhlcHluUlBIcTRKV0NxUGl5SUhON1NBZTNBN08xNWVlVFlEYmhmVXlFVEhGbFZMcFlzYWlCSDNJd0w0WTVERkR1TWxpZXg0SlBNNDZONGE2aFIxSGRhUFJN?oc=5",
-      "summary": "SpaceX set to launch U.S. Space Force mission Thursday from Vandenberg SFB",
-      "date": "2026-10-15",
-      "source": "Santa Maria Times"
     },
     {
       "title": "NASA sends invites to US companies to develop commercial space stations - Open Access Government",
