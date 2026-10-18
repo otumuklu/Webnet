@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T20:40:11.056183+00:00",
+  "updated": "2026-10-18T04:40:17.413904+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,25 +20,25 @@
   ],
   "industry": [
     {
+      "title": "Boeing Quietly Raised The 777-9's Range From 7,285 To 8,000 Nautical Miles Without Announcing It - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTG52clVadDIxSlJjYjV3RDd3TDExSjN0OUpsRk5TUFFCZk9KS19hYVFCLUxUVnBtb0NMekc1TG93dkVJUHozNTlFbzdoZkN5bWx6YjhQZWVnWmZYOWIzTHNacDljM18yZFdvVnVfaTQ2TE9KOGpDRmNXcE5YYzJ5d2VoM2Yxc09LV2ZnREhOZE9TV2hBSTREWURZTjVJbnJmMXI0VDl3?oc=5",
+      "summary": "Boeing Quietly Raised The 777-9's Range From 7,285 To 8,000 Nautical Miles Without Announcing It",
+      "date": "2026-10-18",
+      "source": "Simple Flying"
+    },
+    {
+      "title": "Airbus Says Aviation Services Market To Double By 2045 - Aero-News Network",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmFFbUc2dDRxSjI3ZFUtclZqdzNRN0l4R3FuNDl3REdXTHN6dWZmSWpZQlhyekJLVm1TOG9YeklOakJRUnhOTU5NN0tucXVkdGF6SFBSRzdhSC1YU2l5WFJfQmo2R2pWZzFpbkFMaXhiZl9CWU4tWVV6LWFLQ3BhcUFTTFZFR1RpWFpsLVlRR05tNTNCQzJj?oc=5",
+      "summary": "Airbus Says Aviation Services Market To Double By 2045",
+      "date": "2026-10-18",
+      "source": "Aero-News Network"
+    },
+    {
       "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2lvVFhZc0hKY3g2M00zTjB1anFCbmU5UGdNd0QtSGJ0NlU1dmkybDlGRjNMUzhwd2JyU0NlWm5lbDdYRDR5OHNVel90bnlEMldwc0lGRGtOelRaN0pkRnJWV0lTb3gxUnBYcWh4YjIyZUJZaGhsRVMtalNMaFhBZFBtdDR5RTJzRzFNc085amRveGtMVzRvYzY2RXNpWEFn?oc=5",
       "summary": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system",
       "date": "2026-10-17",
       "source": "Interesting Engineering"
-    },
-    {
-      "title": "Why are Airbus A320neo, Boeing 737 MAX and A220 jets being dismantled so young? - Air Data News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRDN3aDNNaHBNaG8wM3doU2FOc0JwNFI2YWtWTU9aV3g4UTZMaTA5aFEtdFF1OGtZSEx3aDdoeHJwQkx1NDN4MFN2REp0c0xLSkYzNURnV1lCMXpvYnAxUTlrUzZBbmhQVVRCazU3ZUxSN2RVcHQ1R1VyV0l4c1ZpWF9TY2RfYUkyTFlhYll5aHRGVE5FREZidDZTNkNmVXgwakZmRXlnNUZmZw?oc=5",
-      "summary": "Why are Airbus A320neo, Boeing 737 MAX and A220 jets being dismantled so young?",
-      "date": "2026-10-17",
-      "source": "Air Data News"
-    },
-    {
-      "title": "Nearly 140 Airbus A330neos Now Face Inspections For Tools Left Inside Their Tails - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZMGZxeWN3X2RwTGhNSlFjR0R1X1djRURjdzNYN05UVDJ5SVRYWXJsTHpNMWVWbWh2TnJWMExiQzFFdHlaOS1iTDVmMDZVTHRqZ2VZSEFlZVRZTEV0b1pMUVFJYWRvbzNMM1RrSGVCRQ?oc=5",
-      "summary": "Nearly 140 Airbus A330neos Now Face Inspections For Tools Left Inside Their Tails",
-      "date": "2026-10-17",
-      "source": "Simple Flying"
     },
     {
       "title": "JAXA\u2019s H3 Rocket Set to Launch MMX for 10g of Phobos [2026] - https://tech-insider.org/",
@@ -152,6 +152,13 @@
       "source": "Open Access Government"
     },
     {
+      "title": "China\u2019s Space Industry: How LandSpace Rockets and Satellite Networks Threaten American Supremacy - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNaGl3M29BczllSk9ENVUtZktsQXNzTk9fMjU5WHg0T0pvVG1TQ1kyR1M2M1Rac244cG5Kd04wcjJvMG8zY1hlaUhodTZMRHVsa0JXd1Y4czYwMmd0bWozMUc5d0c1VjAzRWFYMDJ2QnB5U1BsaWItVFRldm04QkdZWk1Ldm9vZXVMVkNiTE9TRFJNUlFvUjdXWlhrOFVYMnE2ZFJxblYtQTF2UGxlVFZnVVlzUlZXNkc4eW5pcXpSaVBEMkJnczhMalNkWER2cTRXS3duVVA2YkF2UGU5Ukk0MGl0WmtzQTRicUFrN25rbw?oc=5",
+      "summary": "China\u2019s Space Industry: How LandSpace Rockets and Satellite Networks Threaten American Supremacy",
+      "date": "2026-10-15",
+      "source": "\u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a"
+    },
+    {
       "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
       "url": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
       "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be [\u2026]",
@@ -219,13 +226,6 @@
       "summary": "The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a \u2018switchback\u2019 in the solar wind\u2019s magnetic field. By fingerprinting the elusive particles within the switchback, Solar Orbiter has traced its origin back to the Sun\u2019s surface and revealed more about solar magnetism \u2013 the unruly instigator of dangerous solar storms.",
       "date": "2026-10-08",
       "source": "ESA Space Science"
-    },
-    {
-      "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xdXdsX2xfOGVGUmlqX2pxQTY1ckp2R3lDdVA0Rmo5dFI1VWtrVmpEb0NOb2VmaUdiUzFRZ3ZsWGx2TjkwZ2hrN0s0WlI4Tmw3cHN1UERTT0YyOVFKN0h1X01OR0R1ZXMzR0ZSZmtVMA?oc=5",
-      "summary": "The History of Nuclear Power in Space",
-      "date": "2026-10-08",
-      "source": "Department of Energy (.gov)"
     },
     {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
