@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T20:49:43.699609+00:00",
+  "updated": "2026-10-19T04:48:10.326378+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,18 +20,18 @@
   ],
   "industry": [
     {
+      "title": "Digital & Connectivity underpin Airbus Global Services Forecast - Runway Girl",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmpHd1dmNEZBNzZSelZMYUlkR1VhYkFldk82bFdjX1pfd1ktZ3dEOEtBQXIwbkNTXzNTZzRDNkhyMnU0R0lVSm93QXNENDRueE43SFFYa09oZFgwN29SNnJzUzkwZnk5Ujlmb21sNjJpd2dINXVZSHNJNEIzSTZobkczOXc0M2ZoSHp4dmRSRG85NTAtRGo1WVEyRVZSbkhLQ0E?oc=5",
+      "summary": "Digital & Connectivity underpin Airbus Global Services Forecast",
+      "date": "2026-10-19",
+      "source": "Runway Girl"
+    },
+    {
       "title": "Boeing 737 MAX 10 to be certified despite software glitch, airlines may refuse delivery - report - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XV2xRbGRkV0hZckcyMEVBWlZlYlVXWXlGSW8zbFpYQ3p3RGI4Y3lCWkJHaVZadlhEQWNwRkU0OVdmZHZGbFRnYnlZVS1fNElkVWFSS3l0ZTY3aE5sRlkta2xrbklabmw2ZFlIWWdRbXc2LS1Bek84UQ?oc=5",
       "summary": "Boeing 737 MAX 10 to be certified despite software glitch, airlines may refuse delivery - report",
       "date": "2026-10-18",
       "source": "The Jerusalem Post"
-    },
-    {
-      "title": "Airbus\u2019s initial hydrogen airliner likely to have 80 seats: Wagner - FlightGlobal",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS3NKWm4tX3dTckRKdFRzbWpoN29faEthSTFINTBWZmZpRy1tN2lmYUN4THpwTnV1NkJfYm56LTk4V3lEdUItdk52RWRCQjBnRHB1NXNRVE1rc1NqRHJDTG16RUt5cDgtS0NXdmpieDRja3A1UzJXenYtVmk5NHlvYThYQ0xRMEgzazdzYmNzTFNvcE4zTFQwMlRmVEJaT3JxNnprQVk3VzFLZXNHVUd2OE5NRzhqbXdXTDhwNU5HOA?oc=5",
-      "summary": "Airbus\u2019s initial hydrogen airliner likely to have 80 seats: Wagner",
-      "date": "2026-10-18",
-      "source": "FlightGlobal"
     },
     {
       "title": "JAXA's Martian Moons Exploration mission launch: how to watch live - Mashable",
@@ -53,13 +53,6 @@
       "summary": "China\u2019s Long March rockets carry forward historic grit for new space exploration",
       "date": "2026-10-18",
       "source": "Global Times"
-    },
-    {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hZU45N3RiejNFNzMyUW9rMGJFWkNVYUxJVDRmbU9LbENrNzRvc2FiWVJhcUIxZUQ2ZWpjaUhNNWlKOUZtMG5RdnltRDN5MGJhclV4NFh4WTkzSUlydkRtU1FUT3RvN1VxcU9Xd1JHMkQ4RU52eTBZ?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-18",
-      "source": "Press Information Bureau"
     },
     {
       "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
@@ -114,6 +107,13 @@
       "source": "Military Aerospace"
     },
     {
+      "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xdXdsX2xfOGVGUmlqX2pxQTY1ckp2R3lDdVA0Rmo5dFI1VWtrVmpEb0NOb2VmaUdiUzFRZ3ZsWGx2TjkwZ2hrN0s0WlI4Tmw3cHN1UERTT0YyOVFKN0h1X01OR0R1ZXMzR0ZSZmtVMA?oc=5",
+      "summary": "The History of Nuclear Power in Space",
+      "date": "2026-10-16",
+      "source": "Department of Energy (.gov)"
+    },
+    {
       "title": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space - Space",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTzdsemhSY2dtSXlSU0NLaXRTOUxhd3hBakZlenFuNEtWUHRSNWRuVm5BVXdfUXlkSkJFRUcxZnpVcUFoVVZyWG82OGhnSjZmN0dkbGJnWFdzcUs5TDhsUHJUNXBvcGRDU1FzckJlQnZZNmdWcHk3YmxZNkRNX183emh3?oc=5",
       "summary": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space",
@@ -121,11 +121,11 @@
       "source": "Space"
     },
     {
-      "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xdXdsX2xfOGVGUmlqX2pxQTY1ckp2R3lDdVA0Rmo5dFI1VWtrVmpEb0NOb2VmaUdiUzFRZ3ZsWGx2TjkwZ2hrN0s0WlI4Tmw3cHN1UERTT0YyOVFKN0h1X01OR0R1ZXMzR0ZSZmtVMA?oc=5",
-      "summary": "The History of Nuclear Power in Space",
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-16",
-      "source": "Department of Energy (.gov)"
+      "source": "Press Information Bureau"
     },
     {
       "title": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack - Quantum Computing Report",
@@ -236,6 +236,20 @@
     }
   ],
   "papers": [
+    {
+      "title": "Physics-informed Neural Networks Based on the Fokker-Planck Model for Rarefied Gas Flows",
+      "url": "https://arxiv.org/abs/2610.22390",
+      "summary": "Rarefied nonequilibrium flows are described by the Boltzmann equation, which can be solved using stochastic particle or deterministic methods. With advances in computing, data-assisted physics-informed neural networks have been widely used for flow prediction by combining governing equations with measured or computed data.",
+      "date": "2026-10-19",
+      "source": "arXiv"
+    },
+    {
+      "title": "Thermo-viscous feedback in heat transport through fracture-matrix systems with finite thermal capacity",
+      "url": "https://arxiv.org/abs/2610.22531",
+      "summary": "In geothermal systems, injected fluid flows along preferential fracture pathways and exchanges heat with matrix blocks. Reduced models often neglect temperature-dependent viscosity and assume unlimited matrix storage, although the thermal capacity accessible to the flow is finite.",
+      "date": "2026-10-19",
+      "source": "arXiv"
+    },
     {
       "title": "Adaptive Tracking Control for Underactuated Lunar Hopping Vehicles",
       "url": "https://doi.org/10.2514/1.a36655",
