@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T13:26:24.900500+00:00",
+  "updated": "2026-10-19T22:24:32.880479+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,25 +20,53 @@
   ],
   "industry": [
     {
-      "title": "GE Aerospace and RTX Earnings Preview: What to Watch as Aerospace and Defense Report - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNWFTS3k2cUdGR08tOS1SVkMtVXh5ZkpzaGlBSDlfSjBDZ1FaNlNNZll0blluZ0ZyYXBmLXNkdC1WVW5xUlRMRW1CSFFWcmU5TFlLd3ViT1pnNWwxcDVkNG1LRzJxdXF3Vnhza1JzblV6T3BHb3NlVlVyQ3ZsQ0JvT180V0wtTl9sWGI3SEZEUjhaUnRLNjZQZGttQXRTUGM3ZlVZVmhXbjFmUWZvc09IcWU1UUFEYnFiWmFiemVjUmdtNzUtUWc?oc=5",
-      "summary": "GE Aerospace and RTX Earnings Preview: What to Watch as Aerospace and Defense Report",
+      "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
+      "url": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
+      "summary": "SAN FRANCISCO \u2013Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct. 1 aboard SpaceX\u2019s Transporter-18 mission. At least [\u2026]",
       "date": "2026-10-19",
-      "source": "24/7 Wall St."
+      "source": "SpaceNews"
     },
     {
-      "title": "Boeing 737 MAX and Airbus 320neo aircraft now serviced by Airhub Aviation - Air Cargo Week",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXFFbEpTbGNndG5lS3Y0ZVpYZU1BazQ4ZWpXS0hmQlY0NHF4QkhCbXEzYXZrUEdxVW1pQUdaOTByRXYxQlJkLUx3QzdHbDVnRTBvVWxxb0FuWWNIXzBGblA5SEtEbkZxd1NhTndZS212TU9OYXpnR0huSkpfQk53cm9Pd2U2MkVabTJVQ3RTNEE4OFlkR01KdkN4WEQ3clAt?oc=5",
-      "summary": "Boeing 737 MAX and Airbus 320neo aircraft now serviced by Airhub Aviation",
+      "title": "NASA Improves Shock, Vibration Analysis",
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
+      "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those stresses will affect every part of a spacecraft. To do that, engineers in the Dynamic Environments Group with NASA\u2019s Launch [\u2026]",
       "date": "2026-10-19",
-      "source": "Air Cargo Week"
+      "source": "NASA"
     },
     {
-      "title": "Aviation Capital Group orders 75 Airbus A320neo family aircraft - Aerospace Manufacturing and Design",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOXJKN01NaGswd3NLS2FwQXM1T3Fvdy1ybXYwd1BQU2RFa3lBczdKb29GZktWd0g1U0xyQmhRUWpCQ1dSbGwwc1Nwblk5cElHSVBlZGJfaWZpekt2N2dTblVoVTRnNldBNnpvRnREX0JNY0JEcndCV0FQaG5fLVFVSzZ1MllGSTZlTUFxRTNNWGhYcVZTeFFTVVVaNDF2Vll6XzhPM1o3OWo1ZDlhclZjTVc5NHFpZFJl?oc=5",
-      "summary": "Aviation Capital Group orders 75 Airbus A320neo family aircraft",
+      "title": "Software",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
+      "summary": "Research teams at NASA\u2019s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft propulsion systems. Copies of our software can be requested from NASA\u2019s Software Catalog. JeNo Development of jet noise prediction codes is multifaceted. [\u2026]",
       "date": "2026-10-19",
-      "source": "Aerospace Manufacturing and Design"
+      "source": "NASA"
+    },
+    {
+      "title": "RTX, GE Aerospace Lead Defense Earnings Amid Soaring Demand - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMjhObEEydVdsTUs5ZjMzel81OW1KcjJONXMyZ3g5Ujh5dXVtMVdBbVhlTDRxSzY0N3cySEJhWGl6M2FBWHU2Q04yejVCMjlxc05HeU5LOFNhQ0pXMllNLWR6eEZjUlhwV2dJYmJzVkFieThMUURFMmVuYXhLdzl0dF9Ydks2ZmxPTFJfQkY0VHpFbTI2?oc=5",
+      "summary": "RTX, GE Aerospace Lead Defense Earnings Amid Soaring Demand",
+      "date": "2026-10-19",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "US set to announce certification of Boeing 737 MAX 10 on Tuesday, sources say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUC14NU1vUGNQZ29ieldSamJ3Q1dtSHUySkVSZEt5NVVLWk5PaEc5ODh1TWdNQU5mMllTb1hSVGF3ZGwtMy0zVUx0Y0dNM1kzZUFqaVd0MFNmTUZZQkZ5bWpadnEyT2RNemxZSkRuNzhHLVhMdmQzdUVIZE0yeDJBV1F4Nk93bHpURURiYVdULTZXZElMNVZSWV9KdTVjdEN3N2tBX21lTlNrcVZ6NHJLdU1iX3RrRVMyN25HNXRTaE1ITmloNkZWR09n?oc=5",
+      "summary": "US set to announce certification of Boeing 737 MAX 10 on Tuesday, sources say",
+      "date": "2026-10-19",
+      "source": "Reuters"
+    },
+    {
+      "title": "Hawaiian Airlines hosts largest-ever disability practice flight aboard Airbus A330 in Honolulu - Alaska Airlines",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSnBzSFczYnpDMjRJX2NIU1JkX1hDUE1nWjY3dkJBWFFDSzdiWmJFMUloa05VUTNJaGQyLTJVNzhTdUlXdnhPd19kbjJ1aVJfcm93YzdVSHE3T1FTZ1VfbXhLSS10My03LXpudWhwb2ZrZ0NBd3FCR3RldkRWZk1jcU9tZy1jZVBqU3hHcnM1SFVkckgyNWZ0WlZZaXpqaDRDNk5vZ0hlaTdFNkNMR1E4Smx1cnZWSDdvVkpNN1VLTUVHYS1RNTlQRE5kTFF2QnFXdUNYMXlB?oc=5",
+      "summary": "Hawaiian Airlines hosts largest-ever disability practice flight aboard Airbus A330 in Honolulu",
+      "date": "2026-10-19",
+      "source": "Alaska Airlines"
+    },
+    {
+      "title": "JAXA's Martian Moons Exploration mission launch: how to watch live - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mbHF3MzN2VHVlQVE1UjF6ODdfOEE5VC1IODBpRDl0YTJYWTM2azZhVmh1WDdRRFJGMEZXVmhseG05UVMtYU85bDFVVmNSanREWnc1TTJvb0ItaDcwOXJON3BxM3VGbC16R3pHMU1aZHhMdjJLdzJvTHJNOGNRdw?oc=5",
+      "summary": "JAXA's Martian Moons Exploration mission launch: how to watch live",
+      "date": "2026-10-19",
+      "source": "Mashable"
     },
     {
       "title": "Euclid discovers new comet - European Space Agency",
@@ -55,11 +83,48 @@
       "source": "ESA Space Science"
     },
     {
-      "title": "JAXA's Martian Moons Exploration mission launch: how to watch live - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mbHF3MzN2VHVlQVE1UjF6ODdfOEE5VC1IODBpRDl0YTJYWTM2azZhVmh1WDdRRFJGMEZXVmhseG05UVMtYU85bDFVVmNSanREWnc1TTJvb0ItaDcwOXJON3BxM3VGbC16R3pHMU1aZHhMdjJLdzJvTHJNOGNRdw?oc=5",
-      "summary": "JAXA's Martian Moons Exploration mission launch: how to watch live",
-      "date": "2026-10-18",
-      "source": "Mashable"
+      "title": "AST SpaceMobile Rises 4% as Europe's Largest Carriers Explore Joint Satellite Spectrum Bid; SpaceX and Rocket Lab Edge Higher - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQ2hsSjVxS2NfcmZKYmpTQ19vTDl0ZEFkUmg0YkR0SGQtenY2TmpGdEhfeHpnbjhLem1udzFscVJEQXVsRVZENFlNc0hWeTRrNWhyaUh5a0N6bmlhbnVPV3B5bjJiOXNXZ1lkODEzRlVZbmNDR3BTMnYxak9XcXBmRTNGWmEzbHBmV3dPU29iOXNJTll3N21YUFRnOFhzZlQ3dVVtQ1h5ZVBEYlc1bGdNN1ZSS2FEXzJaSERKY2VLdERLcjVrMm56YjQ1NzUyc2RVeXdxMVBBaGNTQjNMNmNaV0VJM2FuRFplTnB0bFh2dUVXZUFCYUluWGxR?oc=5",
+      "summary": "AST SpaceMobile Rises 4% as Europe's Largest Carriers Explore Joint Satellite Spectrum Bid; SpaceX and Rocket Lab Edge Higher",
+      "date": "2026-10-19",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "When will Pakistan\u2019s first astronaut fly into space? - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQkFuTkdPYXEtR2dicXplelZzNXBqSkgzZE5JQWZZbjVvMmEwQWpBcTZ5RmFzMFp5Q2ZnTHRENWlLdFFxcE5pMDBoSEVZbFh1eXpVZnFYaGcwWGRjeFQyWFpzYUZQTXZwd2g2b2REdi1CYU9Jb2J3NERfeDN0Z1FUbjVxZDRxakNKN2Zvb1RidFMyT2J6cDFzUUIxSF9PMGxHUlp4cE9B?oc=5",
+      "summary": "When will Pakistan\u2019s first astronaut fly into space?",
+      "date": "2026-10-19",
+      "source": "Gulf News"
+    },
+    {
+      "title": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - NVIDIA Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVG1WY2dfWHlKMC03cS1qQllzc3hyT0ptajMtQUJvdlNMZ1ZkVHM0bDdJRnloMVdQNDZxMHhXcnhyQUR5eW9EVENZWm1Yb0RMMlBCMHU2b1NfbzNaeGxSY3pFbjFpM1lNS01YbFZOMDBzc3dmRjFZM2hoSXpoQTVvbFVyeGNvRlRxWFp4QlEyMlhVWE1QeHljWTNGQkE0SlBKNDJGa0phLXhpNWFBSVBDRTE4dFFRS2puNDRuSUdKUDlscEkwaVE4TmFVS3I?oc=5",
+      "summary": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
+      "date": "2026-10-19",
+      "source": "NVIDIA Newsroom",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkRMajFZV25vZ01IU0VwaDBjMURzU3BvY0lLUFRDSWM5Z3d1Y2FMT2NzYVlTSG5WQkZjUGh4ejVLYjhXMmxEMk9tUVhxaEJ5Y0JxbDVaYkJ4aDJaNFFGVUIxZFJQX3R2aHUyMmdqeXZnNVZtR3hiWmlxeGdqeGZoQnRKTURXSUFCazg0Y1FJVksyODR0UWREdVYzajVNa0d0eEV4RkVJajQteFc5OGJJUVBjb1NEQkxLLWptbDBnYlMyRkE2UlhsX0NFS1o?oc=5",
+      "summary": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
+      "date": "2026-10-19",
+      "source": "The Quantum Insider",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "NVIDIA Uses JUPITER Exascale Supercomputer for Record-Scale Fault-Tolerant Quantum Computing Simulation - Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDV2MFBNWlA0c19Xb2NLR0RXRzVjQUZLMnYzTDdvVlZNLUJyRGVzNkdNUXRpdXEzUEcwNTZvMnlCQmxuQ3ZRN0toZXRUa0hLOUNKWXptUEYzZTM3XzFhTkd4TVphQ1F4Uk9selFCcVBKTm1MeTQ1ZGFHZjBXa01rYU9MeFp6N0hnVndLaVRHVDUtZ2lITzVGLW1qMVk2NHAzdlVFSzM1Z3I3R0xYeTA0bDN6djlYY0t1ckp6VjdPMnljLXY2TFFTMUxDRGpyNE9UaUE?oc=5",
+      "summary": "NVIDIA Uses JUPITER Exascale Supercomputer for Record-Scale Fault-Tolerant Quantum Computing Simulation",
+      "date": "2026-10-19",
+      "source": "Quiver Quantitative",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
     },
     {
       "title": "China\u2019s Long March rockets carry forward historic grit for new space exploration - Global Times",
@@ -83,18 +148,18 @@
       "source": "Interesting Engineering"
     },
     {
-      "title": "These Rival Aerospace Companies Are Competing With SpaceX - BGR",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYc0djY1J3bDJlZ0tnQk8xcFdaNlZLREp1blpUMHN4dzBUVVQ0SjV5YnRDQXdFa0hKa2N1RldwZVFKZ2wwLXBIV2VkanVWR3FRb09PQzRHNklURk5OTUhTZFllWjZVZkw5WnRoNDVR?oc=5",
-      "summary": "These Rival Aerospace Companies Are Competing With SpaceX",
-      "date": "2026-10-17",
-      "source": "BGR"
-    },
-    {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
       "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-17",
       "source": "Press Information Bureau"
+    },
+    {
+      "title": "These Rival Aerospace Companies Are Competing With SpaceX - BGR",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYc0djY1J3bDJlZ0tnQk8xcFdaNlZLREp1blpUMHN4dzBUVVQ0SjV5YnRDQXdFa0hKa2N1RldwZVFKZ2wwLXBIV2VkanVWR3FRb09PQzRHNklURk5OTUhTZFllWjZVZkw5WnRoNDVR?oc=5",
+      "summary": "These Rival Aerospace Companies Are Competing With SpaceX",
+      "date": "2026-10-17",
+      "source": "BGR"
     },
     {
       "title": "D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators Using 728 Qubits - Quantum Computing Report",
@@ -105,20 +170,6 @@
       "topics": [
         "Quantum computing for fluid science"
       ]
-    },
-    {
-      "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
-      "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
-      "summary": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency\u2019s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his career more than four decades ago. \u201cMarshall contributions to NASA\u2019s missions are historic and it\u2019s [\u2026]",
-      "date": "2026-10-16",
-      "source": "NASA"
-    },
-    {
-      "title": "Artemis II Heat Shield After Splashdown",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
-      "summary": "Shortly after NASA\u2019s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft\u2019s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth\u2019s atmosphere. This rigorous analysis confirmed that the [\u2026]",
-      "date": "2026-10-16",
-      "source": "NASA"
     },
     {
       "title": "Lockheed Martin receives $16.1 million F-35 processor support contract - Military Aerospace",
@@ -166,55 +217,24 @@
       "source": "ESA Space Transportation"
     },
     {
-      "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
-      "url": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
-      "summary": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details of the spacecraft had yet to be [\u2026]",
+      "title": "Firefly Aerospace to Announce Third Quarter 2026 Financial Results on November 10, 2026 - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNMm9TZVNHdTRQcWlsZ0lIeHNXdTg0NFBuUV9ZZlYzcm5QOGFwSXNETVBwak9UMUk0dmpScEZacHo0VXdUMXo5Q19fWjdEaHBJTGoxRHlrVk9qX1FqQkdLaXRZTFVrUllIeDFFZFAtbERsa2NELW8zeEFGRUw5NUZGeEE3d245RjVRYVNLbEp3bmF6MHZzb3RtZlJIcXhTRG92X2RGMDdfTGU1MnJXcmdpMnZXR2hpQ0tjQ2h3TmozQ0ctXzF6TWgxQnpzLVJhS3pDS3ppWXZrSzVXeklNcDJEOExDRUhvYWlKUVJlZHJQWQ?oc=5",
+      "summary": "Firefly Aerospace to Announce Third Quarter 2026 Financial Results on November 10, 2026",
       "date": "2026-10-14",
-      "source": "SpaceNews"
+      "source": "GlobeNewswire"
     },
     {
-      "title": "Firefly Aerospace Schedules Third Quarter 2026 Financial Results for November 10 - SatNews Publishers",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVVgyT2NyX1JsYzRRRlFNX1pLdXRWQUNEZEt3aEFvc2NVQlVLZ2RNYzlhcUFYUDRoZ25kOGpSR3ZTZW1SZzRRU1B2MFIyY2s2ZW9HWVpEQ3d3N3NjVG0xY0UxeUlETFU3NU43VFhnQ0lZaFFUUzJncmxfaVd3RlVodEFJTmYzWWpOYklMcThjQUJCWWc2OU5zUS1MUm1Uc1E2Q2FERnRPMmhUeUl4Skk2NG1R?oc=5",
-      "summary": "Firefly Aerospace Schedules Third Quarter 2026 Financial Results for November 10",
+      "title": "Where winds blow and lava flows",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Where_winds_blow_and_lava_flows",
+      "summary": "Image: Where winds blow and lava flows",
       "date": "2026-10-14",
-      "source": "SatNews Publishers"
+      "source": "ESA Space Science"
     },
     {
       "title": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits - Quantum Zeitgeist",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOek1zR1FLS01ZMmE3YU9kRU01Nk9rTndMXzlHazMtUzU2WmhiYm1PenpLWWJXczVMektNdmEzUGhwdjZDaV94OVV3aTBxU3VWcWlxN3pBMEhpLTVVQnV4VFFmWjZOeTFYRDl2Qkl1QjhlU1dQMTF1Q09FblRDbHY2WXVQWQ?oc=5",
       "summary": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits",
       "date": "2026-10-14",
-      "source": "Quantum Zeitgeist",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
-      "title": "Mars moon lander set to launch on 19 October",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
-      "summary": "The Martian Moons eXploration ( MMX ) mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04:41 JST on 20 October 2026 (20:41 BST / 21:41 CEST on 19 October 2026). MMX will be the first mission to collect a sample from Mars\u2019s moon Phobos and bring it back to Earth. MMX is led by the Japan Aerospace Exploration Agency (JAXA), in collaboration with the National Aeronautics and Space Administration (NASA), the French space agency (CNES), the German Aerospace Center (DLR) and the European Space Agency (ESA).",
-      "date": "2026-10-13",
-      "source": "ESA Space Science"
-    },
-    {
-      "title": "TXST\u2019s first-ever satellite launches into space : Newsroom - Texas State University",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWi15aWI4UW9XdlNCSUxqSUV6b3BBWmtmTWxsNnota3plSGdTLVlRalNSLVFTTHFlRV9TYXlLTTlCVUtCTkFMSFYwQjJjdVJicEJGcHBPVVl5b1czWVZnM2N5QnZlWDZZVWVqSTFSQjFaS2N4clBtT2VxNGlWeG42REhQTWtOcEhCVWJ4WERINXFzY3Q5SGNhLVJfVFA?oc=5",
-      "summary": "TXST\u2019s first-ever satellite launches into space : Newsroom",
-      "date": "2026-10-13",
-      "source": "Texas State University"
-    },
-    {
-      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
-      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
-      "date": "2026-10-09",
-      "source": "425business.com"
-    },
-    {
-      "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbHRKcmNNYWFmMF9hSDRvZkdoUzNYUE9xX2JNUHZlSGg4NFJlX05hTHNLbnBuSE5Vb1pteUhUb1N1Sjc3ZmpycEdvYXFaS0ZneW5RY01Xd1dpMlM1RnU4ZDNwRThabzFvM3A0dEtfeFdNb1hxaEhuZFlVclVFZlNodFhlM2FGODA2Y1kxVlVB?oc=5",
-      "summary": "Fluid Simulations Gain From New Quantum Encoding Strategies",
-      "date": "2026-10-09",
       "source": "Quantum Zeitgeist",
       "topics": [
         "Quantum computing for fluid science"
