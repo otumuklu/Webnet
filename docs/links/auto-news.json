@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T04:48:10.326378+00:00",
+  "updated": "2026-10-19T13:26:24.900500+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,18 +20,39 @@
   ],
   "industry": [
     {
-      "title": "Digital & Connectivity underpin Airbus Global Services Forecast - Runway Girl",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmpHd1dmNEZBNzZSelZMYUlkR1VhYkFldk82bFdjX1pfd1ktZ3dEOEtBQXIwbkNTXzNTZzRDNkhyMnU0R0lVSm93QXNENDRueE43SFFYa09oZFgwN29SNnJzUzkwZnk5Ujlmb21sNjJpd2dINXVZSHNJNEIzSTZobkczOXc0M2ZoSHp4dmRSRG85NTAtRGo1WVEyRVZSbkhLQ0E?oc=5",
-      "summary": "Digital & Connectivity underpin Airbus Global Services Forecast",
+      "title": "GE Aerospace and RTX Earnings Preview: What to Watch as Aerospace and Defense Report - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNWFTS3k2cUdGR08tOS1SVkMtVXh5ZkpzaGlBSDlfSjBDZ1FaNlNNZll0blluZ0ZyYXBmLXNkdC1WVW5xUlRMRW1CSFFWcmU5TFlLd3ViT1pnNWwxcDVkNG1LRzJxdXF3Vnhza1JzblV6T3BHb3NlVlVyQ3ZsQ0JvT180V0wtTl9sWGI3SEZEUjhaUnRLNjZQZGttQXRTUGM3ZlVZVmhXbjFmUWZvc09IcWU1UUFEYnFiWmFiemVjUmdtNzUtUWc?oc=5",
+      "summary": "GE Aerospace and RTX Earnings Preview: What to Watch as Aerospace and Defense Report",
       "date": "2026-10-19",
-      "source": "Runway Girl"
+      "source": "24/7 Wall St."
     },
     {
-      "title": "Boeing 737 MAX 10 to be certified despite software glitch, airlines may refuse delivery - report - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XV2xRbGRkV0hZckcyMEVBWlZlYlVXWXlGSW8zbFpYQ3p3RGI4Y3lCWkJHaVZadlhEQWNwRkU0OVdmZHZGbFRnYnlZVS1fNElkVWFSS3l0ZTY3aE5sRlkta2xrbklabmw2ZFlIWWdRbXc2LS1Bek84UQ?oc=5",
-      "summary": "Boeing 737 MAX 10 to be certified despite software glitch, airlines may refuse delivery - report",
-      "date": "2026-10-18",
-      "source": "The Jerusalem Post"
+      "title": "Boeing 737 MAX and Airbus 320neo aircraft now serviced by Airhub Aviation - Air Cargo Week",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXFFbEpTbGNndG5lS3Y0ZVpYZU1BazQ4ZWpXS0hmQlY0NHF4QkhCbXEzYXZrUEdxVW1pQUdaOTByRXYxQlJkLUx3QzdHbDVnRTBvVWxxb0FuWWNIXzBGblA5SEtEbkZxd1NhTndZS212TU9OYXpnR0huSkpfQk53cm9Pd2U2MkVabTJVQ3RTNEE4OFlkR01KdkN4WEQ3clAt?oc=5",
+      "summary": "Boeing 737 MAX and Airbus 320neo aircraft now serviced by Airhub Aviation",
+      "date": "2026-10-19",
+      "source": "Air Cargo Week"
+    },
+    {
+      "title": "Aviation Capital Group orders 75 Airbus A320neo family aircraft - Aerospace Manufacturing and Design",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOXJKN01NaGswd3NLS2FwQXM1T3Fvdy1ybXYwd1BQU2RFa3lBczdKb29GZktWd0g1U0xyQmhRUWpCQ1dSbGwwc1Nwblk5cElHSVBlZGJfaWZpekt2N2dTblVoVTRnNldBNnpvRnREX0JNY0JEcndCV0FQaG5fLVFVSzZ1MllGSTZlTUFxRTNNWGhYcVZTeFFTVVVaNDF2Vll6XzhPM1o3OWo1ZDlhclZjTVc5NHFpZFJl?oc=5",
+      "summary": "Aviation Capital Group orders 75 Airbus A320neo family aircraft",
+      "date": "2026-10-19",
+      "source": "Aerospace Manufacturing and Design"
+    },
+    {
+      "title": "Euclid discovers new comet - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMHFNVUFoWnIzTEloTERZUFRHTkVNMmg1VWVPUEE1cmRwM0ZnTGZvaU51VHNYajk3X21veG1KWkxXMjV3ZnBUNUIyWlZsYUJiaHBtVmxlMklkMFNBcThJZzRhR3pobU1hRkh2ZFBDTnN3ajUxajJ6c3JySlUzTXVrb1NQNWEweklibHRkOThOTTQ?oc=5",
+      "summary": "Euclid discovers new comet",
+      "date": "2026-10-19",
+      "source": "European Space Agency"
+    },
+    {
+      "title": "Euclid discovers new comet",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "summary": "The European Space Agency\u2019s Euclid space telescope has discovered its first previously unknown comet, in images taken between 16 and 24 September 2026.",
+      "date": "2026-10-19",
+      "source": "ESA Space Science"
     },
     {
       "title": "JAXA's Martian Moons Exploration mission launch: how to watch live - Mashable",
@@ -41,18 +62,18 @@
       "source": "Mashable"
     },
     {
-      "title": "ESA Hera Mission Closes In on Asteroids After NASA DART Impact - cristinaiglesias.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX3hLeDlUdld0dGNLVDlDOU5jNkljdTlEWVl5SFk3aHBEel9JZVhEZEpCWndMaklTeHlsdnI1aGM1WkstQjBpdzdjb1I2bDBPSi11NDJNOEQyYkJKVnVNTC13RGVRblZRMmJMRkVCSTJLVWs1RUtNbmUyZnlqUFhZLWNxR1hwU2dLU0VUMnBHUUZjdGVBSG5tUlQ0c1FHXzhXclE?oc=5",
-      "summary": "ESA Hera Mission Closes In on Asteroids After NASA DART Impact",
-      "date": "2026-10-18",
-      "source": "cristinaiglesias.com"
-    },
-    {
       "title": "China\u2019s Long March rockets carry forward historic grit for new space exploration - Global Times",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xYXdOampvSDF3YUtEcGhfNFQyN0oxLXNCcnhkS0tDaFFkWWRqbUUxUThpdktCNEFJdklDVTJNYWtzOERFck00bS0zRzRyYWttT0o2TmtHZVZnaVY5OEVrSUtn?oc=5",
       "summary": "China\u2019s Long March rockets carry forward historic grit for new space exploration",
       "date": "2026-10-18",
       "source": "Global Times"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hZU45N3RiejNFNzMyUW9rMGJFWkNVYUxJVDRmbU9LbENrNzRvc2FiWVJhcUIxZUQ2ZWpjaUhNNWlKOUZtMG5RdnltRDN5MGJhclV4NFh4WTkzSUlydkRtU1FUT3RvN1VxcU9Xd1JHMkQ4RU52eTBZ?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-18",
+      "source": "Press Information Bureau"
     },
     {
       "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
@@ -121,13 +142,6 @@
       "source": "Space"
     },
     {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-16",
-      "source": "Press Information Bureau"
-    },
-    {
       "title": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack - Quantum Computing Report",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc25yT09DbW1pN2pqOEoyTkRMMjBNOE5sS2NkRURybzJ1OXZ4WlJQT1V5eXBEUFRQdGxhU3BJVC1RMm53OHVNMk1zNFJiY2pwZFRXLTNDdkJ5WE9OX0p5Skl4MG9tWUFyejB3Rld2WFBNSTV4RkVQVGZJa0JaLTM5TmZMVDdGZE1UUnpNS2xSdmd1cWJQa3FjbTZBdFcwRHpIUjhNOU5WV3Y0azRIZVJNN1ZXbEI1NVhDaHA4T3RVTjJnOEtPREc2S09GZUhrdFpadVhNUmU2azNBZ9IB3wFBVV95cUxOeVY3WS1kYm1lMXBWQk9sb1JMQzhHdGtZWHk1R0wwTzlDZE5PemJ6TzBqUzl2bGZFX3NKd3Y2ODFsQkxaNzc3dTRlUEdBVmNoZl9zQy1IczJpbGIwUkNHejUyQlVCY01YNFJsX1N4Umt1a1BvSjd5aTdKZjUtRnJwUTdlbklxWkV1Rm1HWEpoUmZ1dlRpQlVoLTZEbjRpOWdobUFTU2FucTJqTXlyeGI3ekxSdWx3NE84bHFUNTZJV1dqcG5yYnduWk95TDU4Qm4xdnRfZ2h4MXFGRE43Qjc4?oc=5",
       "summary": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack",
@@ -145,32 +159,11 @@
       "source": "SpaceNews"
     },
     {
-      "title": "Raytheon awarded $8 billion contract for strategic communications terminal modernization - Military Aerospace",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZXZLLWlBTWZhbWQwQmY1VkZOeldBbFUzeVUyWTd1RnN2ZTN1RUdSUVpYOER5dzJHQXhnb2p1SkdxNkM0UFV4UUk1RkJ5MFhrb0hoSnhlcjlaOHRXUmZBT3FhRDRzNUtLMUZILVJHeVRjWVhxUGFIMTk5OHBzS1oyNUZ2SEwzdzhKT2dIelN6NGZSbWNqd3dIX1hpSVBuTG5yT0o3TTlObkJ0cl9BM2pUX3FnWjFHUFBERlFCZlB3NTdzaTBtVmw0dXRab1BLR2xnaUV1U21acmFfbUhMQ0dNSmZXRWhJZ1FL?oc=5",
-      "summary": "Raytheon awarded $8 billion contract for strategic communications terminal modernization",
-      "date": "2026-10-15",
-      "source": "Military Aerospace"
-    },
-    {
       "title": "Act for more sustainable space",
       "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Act_for_more_sustainable_space",
       "summary": "",
       "date": "2026-10-15",
       "source": "ESA Space Transportation"
-    },
-    {
-      "title": "SpaceX set to launch U.S. Space Force mission Thursday from Vandenberg SFB - Santa Maria Times",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxORFgwNEVSVlQxSnJhbE9PRVp0alplNjRpb0FtT0RKODl6MS0ybzNFQVFRbFIzMnhqd3BaOThsVkdaOW56bmVDbmtDSWxqTHlYVUM4NXE2OE55dDd5TGVqY240Rm9yak1leTBtMkRreUo0amw4T3luU3p1YjYyUXFrYnJ2RUppM0UzSkhCSmhqWUdNSnlVZW1GZ3htU2dWQW1GcXJTdUNWbWhDaTFKbUZHVTZCdzhQYmhlcHluUlBIcTRKV0NxUGl5SUhON1NBZTNBN08xNWVlVFlEYmhmVXlFVEhGbFZMcFlzYWlCSDNJd0w0WTVERkR1TWxpZXg0SlBNNDZONGE2aFIxSGRhUFJN?oc=5",
-      "summary": "SpaceX set to launch U.S. Space Force mission Thursday from Vandenberg SFB",
-      "date": "2026-10-15",
-      "source": "Santa Maria Times"
-    },
-    {
-      "title": "NASA sends invites to US companies to develop commercial space stations - Open Access Government",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYkRYT3R3Vk5TWm9OMzY4Vlo0b0JDRkd0a2VKOE4tVlRFU2NEemkwMHc4ejE2VVR2bWlwY3lidUtNUVBOSERwX0x4amdSSUI1ZlZzVTF6UXBUUVVZV3FtZXA0dEM1ZnBYbnZ5Zy1TU25iT1c0Tk1laF9HWEZoNmtVazREWnRmVkYwVk5YOWRWcGx2LWRvRTZ5UHlFSFVnODA3RHR2TzJjMHFUa0hhSU1WdndCMUxpR0U?oc=5",
-      "summary": "NASA sends invites to US companies to develop commercial space stations",
-      "date": "2026-10-15",
-      "source": "Open Access Government"
     },
     {
       "title": "How mini-constellations could more quickly bring new tech to Europe, and to orbit",
@@ -204,6 +197,20 @@
       "source": "ESA Space Science"
     },
     {
+      "title": "TXST\u2019s first-ever satellite launches into space : Newsroom - Texas State University",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWi15aWI4UW9XdlNCSUxqSUV6b3BBWmtmTWxsNnota3plSGdTLVlRalNSLVFTTHFlRV9TYXlLTTlCVUtCTkFMSFYwQjJjdVJicEJGcHBPVVl5b1czWVZnM2N5QnZlWDZZVWVqSTFSQjFaS2N4clBtT2VxNGlWeG42REhQTWtOcEhCVWJ4WERINXFzY3Q5SGNhLVJfVFA?oc=5",
+      "summary": "TXST\u2019s first-ever satellite launches into space : Newsroom",
+      "date": "2026-10-13",
+      "source": "Texas State University"
+    },
+    {
+      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
+      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
+      "date": "2026-10-09",
+      "source": "425business.com"
+    },
+    {
       "title": "Fluid Simulations Gain From New Quantum Encoding Strategies - Quantum Zeitgeist",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbHRKcmNNYWFmMF9hSDRvZkdoUzNYUE9xX2JNUHZlSGg4NFJlX05hTHNLbnBuSE5Vb1pteUhUb1N1Sjc3ZmpycEdvYXFaS0ZneW5RY01Xd1dpMlM1RnU4ZDNwRThabzFvM3A0dEtfeFdNb1hxaEhuZFlVclVFZlNodFhlM2FGODA2Y1kxVlVB?oc=5",
       "summary": "Fluid Simulations Gain From New Quantum Encoding Strategies",
@@ -219,13 +226,6 @@
       "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
       "date": "2026-10-08",
       "source": "SpaceX"
-    },
-    {
-      "title": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks",
-      "summary": "The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a \u2018switchback\u2019 in the solar wind\u2019s magnetic field. By fingerprinting the elusive particles within the switchback, Solar Orbiter has traced its origin back to the Sun\u2019s surface and revealed more about solar magnetism \u2013 the unruly instigator of dangerous solar storms.",
-      "date": "2026-10-08",
-      "source": "ESA Space Science"
     },
     {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
@@ -249,6 +249,34 @@
       "summary": "In geothermal systems, injected fluid flows along preferential fracture pathways and exchanges heat with matrix blocks. Reduced models often neglect temperature-dependent viscosity and assume unlimited matrix storage, although the thermal capacity accessible to the flow is finite.",
       "date": "2026-10-19",
       "source": "arXiv"
+    },
+    {
+      "title": "Acoustic diffraction and pressure-amplitude recovery behind an air bubble subjected to a collapse-induced pulse",
+      "url": "https://doi.org/10.1063/5.0348564",
+      "summary": "Understanding the interaction between pressure waves and air bubbles is important for load attenuation by bubble curtains and pressure-wave shielding in water. In this study, numerical simulations and theoretical modeling are combined to examine the interaction between a collapse-induced pressure wave and an air bubble.",
+      "date": "2026-10-19",
+      "source": "Physics of Fluids"
+    },
+    {
+      "title": "Frequency synchronisation and modal mapping of wake dynamics to the performance of a vertical-axis turbine",
+      "url": "https://doi.org/10.1017/jfm.2026.12142",
+      "summary": "The transition towards sustainable marine energy relies partly on efficient deployment of vertical-axis tidal turbines, yet their widespread application is constrained by the complex, unsteady fluid dynamics inherent in their operation. While vertical-axis turbines offer superior structural scalability, they experience intricate vortex shedding and wake-induced energy losses which can make performance difficult to pr",
+      "date": "2026-10-19",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "Self-limiting turbulent drag reduction via a viscoelastic lubricating layer",
+      "url": "https://doi.org/10.1017/jfm.2026.12167",
+      "summary": "We investigate drag reduction (DR) in a turbulent channel flow lubricated by a thin viscoelastic layer using direct numerical simulations at a shear Reynolds number italic Re Subscript tau Baseline equals 300 Re \u03c4 = 300 $\\textit{Re}_\\tau = 300$ , coupling a phase-field description of the interfacial dynamics with a FENE-CR model for the polymeric stresses. Different elasticity levels are considered by varying the she",
+      "date": "2026-10-19",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
+      "url": "https://doi.org/10.1017/jfm.2026.12064",
+      "summary": "Coenen, Zhang & S\u00e1nchez ( J. Fluid Mech.",
+      "date": "2026-10-19",
+      "source": "Journal of Fluid Mechanics"
     },
     {
       "title": "Adaptive Tracking Control for Underactuated Lunar Hopping Vehicles",
@@ -291,34 +319,6 @@
       "summary": "",
       "date": "2026-10-16",
       "source": "Physical Review Fluids"
-    },
-    {
-      "title": "Crossflow-induced port reversal and thermal plume interaction in a non-uniform rosette multi-port diffuser",
-      "url": "https://doi.org/10.1063/5.0355976",
-      "summary": "A non-uniform rosette multi-port diffuser with large thin-walled rectangular side openings provides a flow configuration in which internal riser flow, port-level exchange, and external buoyant plumes are coupled under crossflow. This study combines laboratory observations with validated three-dimensional computational fluid dynamics simulations to investigate buoyant thermal jets discharged from this diffuser under q",
-      "date": "2026-10-15",
-      "source": "Physics of Fluids"
-    },
-    {
-      "title": "Magnetohydrodynamic drag on an oscillating sphere in a rotating spherical cavity",
-      "url": "https://doi.org/10.1017/jfm.2026.12095",
-      "summary": "Oscillating-sphere drag is a classical fluid-mechanics problem, yet no theory simultaneously accounts for confinement, rotation, viscosity and magnetic fields. We consider a conducting sphere undergoing translational oscillations inside a rotating spherical cavity, modelling confined magnetohydrodynamic (MHD) flows relevant to planetary interiors and liquid-metal experiments.",
-      "date": "2026-10-15",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Beyond classical similitude: group theoretic extrapolation of hypersonic stagnation-point boundary layers",
-      "url": "https://doi.org/10.1017/jfm.2026.12108",
-      "summary": "Motivated by the need to extrapolate the results from ground-based experiments to the conditions of high-speed flight, we present the Lie equivalence-symmetry analysis of the hypersonic stagnation-point boundary layers (BLs). We demonstrate the application of the equivalence symmetry on the set of coupled ordinary differential equations (ODEs) which are physically relevant in hypersonics.",
-      "date": "2026-10-13",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Propagation and absorption of sound in a waveguide with side-wall impedance gradient",
-      "url": "https://doi.org/10.1017/jfm.2026.12050",
-      "summary": "Over the past two decades, acoustic retarding structures, analogised to sonic \u2018black holes\u2019 (SBH), have garnered significant attention for their potential to achieve perfect sound absorption. Typical designs feature annular rings with progressively smaller radii designed to bring sound waves to rest at zero radius.",
-      "date": "2026-10-13",
-      "source": "Journal of Fluid Mechanics"
     }
   ],
   "funding": [
