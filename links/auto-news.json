@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T22:24:32.880479+00:00",
+  "updated": "2026-10-20T04:56:51.596268+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -19,6 +19,37 @@
     "Simons Foundation"
   ],
   "industry": [
+    {
+      "title": "Boeing 737 Max Fraud Lawsuit Tossed for Good After Investor Never Bought Stock - Law Commentary",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSDN4cFN3RURXa1BHZzRpb0Y1N25VcmNmSmtNZlYzODAzWmg3Rk9DQko4REVTTm94eHI2aENKVlhNMmt6MnMyR3ZRai1Wbl9kbnBtWFpGbk5qVEdxZFVuZXFVSldiYS02ZjV2SUo3aHJSd2hka2kzYkJsNWhHZ294LWo5VQ?oc=5",
+      "summary": "Boeing 737 Max Fraud Lawsuit Tossed for Good After Investor Never Bought Stock",
+      "date": "2026-10-20",
+      "source": "Law Commentary"
+    },
+    {
+      "title": "Airhub Aviation Expands Base Maintenance Approval for Airbus A320neo and Boeing 737 MAX - Hotelier Buzz",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORTVKeE9uVWNPOW1WVHhwWS1ldGhPb2ZVT1NjV3R4VmY5QktvSmFYOHBOMW84YVFQejdhdXdQREo2bXRGVWplMzlGQnpNSUVHM25tZ0FsOXJZVjU5elUzMkpjMlBUZm9HWUpWbVVCTjBXanlGT05NUGNPMEp5bmdleXkzcS02Xzh4U3pBTmhuZw?oc=5",
+      "summary": "Airhub Aviation Expands Base Maintenance Approval for Airbus A320neo and Boeing 737 MAX",
+      "date": "2026-10-20",
+      "source": "Hotelier Buzz"
+    },
+    {
+      "title": "JAXA\u2019s MMX Enroute to Mars To Return Samples of Phobos - Space Policy Online",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa1dvZlRYTEVlbjNKM081bHlnY0xxOXZDOWQ2TXVkZzlNaXBpNklQcnhzUE1LOW4zQ0NXT1VQTkx3eVhOTmlWbUtIX1FFVHZVWWZEX2Q1Ukw3WldZZm9TMF82bWdUX3ZZMzNDeDlVMS1QMDBEVlIyTW5EcVVnU3NSWmhTeXU0VXVreFJTWkppVWcxTlE?oc=5",
+      "summary": "JAXA\u2019s MMX Enroute to Mars To Return Samples of Phobos",
+      "date": "2026-10-20",
+      "source": "Space Policy Online"
+    },
+    {
+      "title": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation - 36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fN1djbHNSNXp2Q3lPcGpacnA0V1R5R1NEN001UnE1bElCbm91bFZ3SHBCQ1QyYnZtdjk3VnB5OU5sMklaYzlXWnBrZ0NYZnkzR3B3?oc=5",
+      "summary": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation",
+      "date": "2026-10-20",
+      "source": "36Kr",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
     {
       "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
       "url": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
@@ -48,27 +79,6 @@
       "source": "Investor's Business Daily"
     },
     {
-      "title": "US set to announce certification of Boeing 737 MAX 10 on Tuesday, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUC14NU1vUGNQZ29ieldSamJ3Q1dtSHUySkVSZEt5NVVLWk5PaEc5ODh1TWdNQU5mMllTb1hSVGF3ZGwtMy0zVUx0Y0dNM1kzZUFqaVd0MFNmTUZZQkZ5bWpadnEyT2RNemxZSkRuNzhHLVhMdmQzdUVIZE0yeDJBV1F4Nk93bHpURURiYVdULTZXZElMNVZSWV9KdTVjdEN3N2tBX21lTlNrcVZ6NHJLdU1iX3RrRVMyN25HNXRTaE1ITmloNkZWR09n?oc=5",
-      "summary": "US set to announce certification of Boeing 737 MAX 10 on Tuesday, sources say",
-      "date": "2026-10-19",
-      "source": "Reuters"
-    },
-    {
-      "title": "Hawaiian Airlines hosts largest-ever disability practice flight aboard Airbus A330 in Honolulu - Alaska Airlines",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSnBzSFczYnpDMjRJX2NIU1JkX1hDUE1nWjY3dkJBWFFDSzdiWmJFMUloa05VUTNJaGQyLTJVNzhTdUlXdnhPd19kbjJ1aVJfcm93YzdVSHE3T1FTZ1VfbXhLSS10My03LXpudWhwb2ZrZ0NBd3FCR3RldkRWZk1jcU9tZy1jZVBqU3hHcnM1SFVkckgyNWZ0WlZZaXpqaDRDNk5vZ0hlaTdFNkNMR1E4Smx1cnZWSDdvVkpNN1VLTUVHYS1RNTlQRE5kTFF2QnFXdUNYMXlB?oc=5",
-      "summary": "Hawaiian Airlines hosts largest-ever disability practice flight aboard Airbus A330 in Honolulu",
-      "date": "2026-10-19",
-      "source": "Alaska Airlines"
-    },
-    {
-      "title": "JAXA's Martian Moons Exploration mission launch: how to watch live - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mbHF3MzN2VHVlQVE1UjF6ODdfOEE5VC1IODBpRDl0YTJYWTM2azZhVmh1WDdRRFJGMEZXVmhseG05UVMtYU85bDFVVmNSanREWnc1TTJvb0ItaDcwOXJON3BxM3VGbC16R3pHMU1aZHhMdjJLdzJvTHJNOGNRdw?oc=5",
-      "summary": "JAXA's Martian Moons Exploration mission launch: how to watch live",
-      "date": "2026-10-19",
-      "source": "Mashable"
-    },
-    {
       "title": "Euclid discovers new comet - European Space Agency",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMHFNVUFoWnIzTEloTERZUFRHTkVNMmg1VWVPUEE1cmRwM0ZnTGZvaU51VHNYajk3X21veG1KWkxXMjV3ZnBUNUIyWlZsYUJiaHBtVmxlMklkMFNBcThJZzRhR3pobU1hRkh2ZFBDTnN3ajUxajJ6c3JySlUzTXVrb1NQNWEweklibHRkOThOTTQ?oc=5",
       "summary": "Euclid discovers new comet",
@@ -88,6 +98,13 @@
       "summary": "AST SpaceMobile Rises 4% as Europe's Largest Carriers Explore Joint Satellite Spectrum Bid; SpaceX and Rocket Lab Edge Higher",
       "date": "2026-10-19",
       "source": "24/7 Wall St."
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-19",
+      "source": "Press Information Bureau"
     },
     {
       "title": "When will Pakistan\u2019s first astronaut fly into space? - Gulf News",
@@ -117,11 +134,31 @@
       ]
     },
     {
+      "title": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer - Quantum Computing Report",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEFicmZTZGFDdUFvU0oybHE5SXBSbHhBclcyNjRUaW1CRzliTl9DZlAwVTdxczNfRWVmdGt4TW9NMG0yTUdkVUdwcDFQa0NBTGM5NTRYTmdEa3VnT0F1NHNZeG5fUy01eGRhOV94SXJVSkUyNXZ1MmF2VWRXanVzR29lTmVYa0JuMElBTk90ejRRRGt6OFFmWXBCY21SV3ZaX1l4eS1LcmlHUVpGMmJVSVJkOXdqeTJib21EZGRyRjhSeVktZ1HSAcsBQVVfeXFMTmRRaG1xa0pESGNDSW1YMmxaTmJ0eTJqRjdya0hreXNqeVkwdEpCQjVxRWVxMzBSaVhTWUJMOXpJTUF3VU95M3dIczhHUTEwZUg1Z21JaVU5VktucWJhUDVSV2djSWhxVnVuR3RwdEhrUkVvX1RuNlcxRW96TXdDbDZ5Rk5scEdqUTB1ZnJWSHJUeW04SkRNR0UwT05CQ2FScXR4RUZwc0VrbVkyT3NNeC1VVGRHZGlsbWZHSlhsalNLM3lkeWRablY4WlU?oc=5",
+      "summary": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
+      "date": "2026-10-19",
+      "source": "Quantum Computing Report",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
       "title": "NVIDIA Uses JUPITER Exascale Supercomputer for Record-Scale Fault-Tolerant Quantum Computing Simulation - Quiver Quantitative",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDV2MFBNWlA0c19Xb2NLR0RXRzVjQUZLMnYzTDdvVlZNLUJyRGVzNkdNUXRpdXEzUEcwNTZvMnlCQmxuQ3ZRN0toZXRUa0hLOUNKWXptUEYzZTM3XzFhTkd4TVphQ1F4Uk9selFCcVBKTm1MeTQ1ZGFHZjBXa01rYU9MeFp6N0hnVndLaVRHVDUtZ2lITzVGLW1qMVk2NHAzdlVFSzM1Z3I3R0xYeTA0bDN6djlYY0t1ckp6VjdPMnljLXY2TFFTMUxDRGpyNE9UaUE?oc=5",
       "summary": "NVIDIA Uses JUPITER Exascale Supercomputer for Record-Scale Fault-Tolerant Quantum Computing Simulation",
       "date": "2026-10-19",
       "source": "Quiver Quantitative",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "NVIDIA\u2019s largest-ever 104-qubit simulation models realistic quantum hardware errors - Interesting Engineering",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcnFLdS1ybEo4YmtFNklvNl96Y1VnSTdtU1kxV0tENG45SjhXdWpCQVdneW9yMUU5V1EwLV9xRzhzZ1QzT0NCR0lvd1c5UXQySEpoMUFJVjc2a29lSVhQNHlzOFhGT0syR3VlTkNJSURyZ3hRNGQtNlM4RzBPbGtvRW8tcDJGZWxLWUx1T2tsSQ?oc=5",
+      "summary": "NVIDIA\u2019s largest-ever 104-qubit simulation models realistic quantum hardware errors",
+      "date": "2026-10-19",
+      "source": "Interesting Engineering",
       "topics": [
         "Quantum computing for fluid science"
       ]
@@ -134,42 +171,11 @@
       "source": "Global Times"
     },
     {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hZU45N3RiejNFNzMyUW9rMGJFWkNVYUxJVDRmbU9LbENrNzRvc2FiWVJhcUIxZUQ2ZWpjaUhNNWlKOUZtMG5RdnltRDN5MGJhclV4NFh4WTkzSUlydkRtU1FUT3RvN1VxcU9Xd1JHMkQ4RU52eTBZ?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-18",
-      "source": "Press Information Bureau"
-    },
-    {
       "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2lvVFhZc0hKY3g2M00zTjB1anFCbmU5UGdNd0QtSGJ0NlU1dmkybDlGRjNMUzhwd2JyU0NlWm5lbDdYRDR5OHNVel90bnlEMldwc0lGRGtOelRaN0pkRnJWV0lTb3gxUnBYcWh4YjIyZUJZaGhsRVMtalNMaFhBZFBtdDR5RTJzRzFNc085amRveGtMVzRvYzY2RXNpWEFn?oc=5",
       "summary": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system",
       "date": "2026-10-17",
       "source": "Interesting Engineering"
-    },
-    {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-17",
-      "source": "Press Information Bureau"
-    },
-    {
-      "title": "These Rival Aerospace Companies Are Competing With SpaceX - BGR",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYc0djY1J3bDJlZ0tnQk8xcFdaNlZLREp1blpUMHN4dzBUVVQ0SjV5YnRDQXdFa0hKa2N1RldwZVFKZ2wwLXBIV2VkanVWR3FRb09PQzRHNklURk5OTUhTZFllWjZVZkw5WnRoNDVR?oc=5",
-      "summary": "These Rival Aerospace Companies Are Competing With SpaceX",
-      "date": "2026-10-17",
-      "source": "BGR"
-    },
-    {
-      "title": "D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators Using 728 Qubits - Quantum Computing Report",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORjhjeEd4YmR3UDVUaEQzSk95NkszdkdNdVFCdlNIenY0aEpLaTRIWTZ5Q09TSGhvN1RYWE5VQTVMRG83b3h1MTNGZzhFZkk1OEJKbmk4SUFpX0RPajNMZ0JEUXQxSmFSeEYySktEZTNZcEN3akFieEdkbGtrdHU5ZzVjcmlzRTdwNjE3NjdrcGptTElrRDVVbG92OVVDaHA2aFdNaTRjQkdmSnJ5YVFwVmUzUHZ1eURxNkhnRU8xejRTRFBPWFlLd0VHNmc2QTBRWk1ZS2wzNExfclpTT1F3dmN30gHnAUFVX3lxTFBmVWFET000YXREWEp1SU80OVNXWlRMZ3N2RENpMF92T0dVbEpWTnNZMmZRMHMwc1hNMjFwbk5EZ3JCZmdzSkxvN3BMem84dVcwSl9rci1jRW9RdDJjS1JZbkdfdUkwbWZXNElxOUEyZEh4TTZlTlZSS2ljQmI0U2ZxUUg3UDZfbzVpQzB6Q3hjQWZJMGttc2g1WXQzVTRqNFpSZUE1S3NnczlYcmtYeDFPbllFREJCR1IxaTEtd3FrWFVndWhLZHR6NXk1MUhMSU1FT201NzQ4MlJEWDNLcXFUX3RORmE4UQ?oc=5",
-      "summary": "D-Wave Demonstrates 3D Analog-Digital Quantum Simulation of Higher-Order Topological Insulators Using 728 Qubits",
-      "date": "2026-10-17",
-      "source": "Quantum Computing Report",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
     },
     {
       "title": "Lockheed Martin receives $16.1 million F-35 processor support contract - Military Aerospace",
@@ -184,23 +190,6 @@
       "summary": "The History of Nuclear Power in Space",
       "date": "2026-10-16",
       "source": "Department of Energy (.gov)"
-    },
-    {
-      "title": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space - Space",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTzdsemhSY2dtSXlSU0NLaXRTOUxhd3hBakZlenFuNEtWUHRSNWRuVm5BVXdfUXlkSkJFRUcxZnpVcUFoVVZyWG82OGhnSjZmN0dkbGJnWFdzcUs5TDhsUHJUNXBvcGRDU1FzckJlQnZZNmdWcHk3YmxZNkRNX183emh3?oc=5",
-      "summary": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space",
-      "date": "2026-10-16",
-      "source": "Space"
-    },
-    {
-      "title": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack - Quantum Computing Report",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc25yT09DbW1pN2pqOEoyTkRMMjBNOE5sS2NkRURybzJ1OXZ4WlJQT1V5eXBEUFRQdGxhU3BJVC1RMm53OHVNMk1zNFJiY2pwZFRXLTNDdkJ5WE9OX0p5Skl4MG9tWUFyejB3Rld2WFBNSTV4RkVQVGZJa0JaLTM5TmZMVDdGZE1UUnpNS2xSdmd1cWJQa3FjbTZBdFcwRHpIUjhNOU5WV3Y0azRIZVJNN1ZXbEI1NVhDaHA4T3RVTjJnOEtPREc2S09GZUhrdFpadVhNUmU2azNBZ9IB3wFBVV95cUxOeVY3WS1kYm1lMXBWQk9sb1JMQzhHdGtZWHk1R0wwTzlDZE5PemJ6TzBqUzl2bGZFX3NKd3Y2ODFsQkxaNzc3dTRlUEdBVmNoZl9zQy1IczJpbGIwUkNHejUyQlVCY01YNFJsX1N4Umt1a1BvSjd5aTdKZjUtRnJwUTdlbklxWkV1Rm1HWEpoUmZ1dlRpQlVoLTZEbjRpOWdobUFTU2FucTJqTXlyeGI3ekxSdWx3NE84bHFUNTZJV1dqcG5yYnduWk95TDU4Qm4xdnRfZ2h4MXFGRE43Qjc4?oc=5",
-      "summary": "EMode Photonix Raises $1M Pre-Seed Round Led by Ground State Ventures for Photonic Circuit Simulation Stack",
-      "date": "2026-10-16",
-      "source": "Quantum Computing Report",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
     },
     {
       "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
@@ -231,14 +220,18 @@
       "source": "ESA Space Science"
     },
     {
-      "title": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOek1zR1FLS01ZMmE3YU9kRU01Nk9rTndMXzlHazMtUzU2WmhiYm1PenpLWWJXczVMektNdmEzUGhwdjZDaV94OVV3aTBxU3VWcWlxN3pBMEhpLTVVQnV4VFFmWjZOeTFYRDl2Qkl1QjhlU1dQMTF1Q09FblRDbHY2WXVQWQ?oc=5",
-      "summary": "Quantum Algorithm Simulates Complex Environments With Fewer Qubits",
-      "date": "2026-10-14",
-      "source": "Quantum Zeitgeist",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
+      "title": "TXST\u2019s first-ever satellite launches into space : Newsroom - Texas State University",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWi15aWI4UW9XdlNCSUxqSUV6b3BBWmtmTWxsNnota3plSGdTLVlRalNSLVFTTHFlRV9TYXlLTTlCVUtCTkFMSFYwQjJjdVJicEJGcHBPVVl5b1czWVZnM2N5QnZlWDZZVWVqSTFSQjFaS2N4clBtT2VxNGlWeG42REhQTWtOcEhCVWJ4WERINXFzY3Q5SGNhLVJfVFA?oc=5",
+      "summary": "TXST\u2019s first-ever satellite launches into space : Newsroom",
+      "date": "2026-10-13",
+      "source": "Texas State University"
+    },
+    {
+      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
+      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
+      "date": "2026-10-09",
+      "source": "425business.com"
     },
     {
       "title": "BUILDING THE WORLD\u2019S MOST ADVANCED MOBILE NETWORK",
@@ -246,6 +239,13 @@
       "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
       "date": "2026-10-08",
       "source": "SpaceX"
+    },
+    {
+      "title": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry - Japan Wire by Kyodo News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80MnA5aWNhbmNnbXlNYVpPTmRUbUxJVlRCV0lyTS1iUU5qSFZoNi1BQVljOUNQRDJLNDNmQkQxU1dTUWhmZmF5NFlzdUxuZjJGZnRrZ3V2VENndw?oc=5",
+      "summary": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry",
+      "date": "2026-10-08",
+      "source": "Japan Wire by Kyodo News"
     },
     {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
@@ -257,17 +257,17 @@
   ],
   "papers": [
     {
-      "title": "Physics-informed Neural Networks Based on the Fokker-Planck Model for Rarefied Gas Flows",
-      "url": "https://arxiv.org/abs/2610.22390",
-      "summary": "Rarefied nonequilibrium flows are described by the Boltzmann equation, which can be solved using stochastic particle or deterministic methods. With advances in computing, data-assisted physics-informed neural networks have been widely used for flow prediction by combining governing equations with measured or computed data.",
-      "date": "2026-10-19",
+      "title": "From Classical Trapping to Curvature-Induced Bolus Formation in Peristaltic Wave-Driven Flows",
+      "url": "https://arxiv.org/abs/2610.24219",
+      "summary": "Bolus formation is one of the most distinctive features of peristaltic transport, yet the mechanisms governing its development remain incompletely understood. In this work, axisymmetric peristaltic-wave-driven flows under zero-pressure-gradient conditions are investigated using a high-fidelity lattice Boltzmann framework over a broad range of wave amplitudes",
+      "date": "2026-10-20",
       "source": "arXiv"
     },
     {
-      "title": "Thermo-viscous feedback in heat transport through fracture-matrix systems with finite thermal capacity",
-      "url": "https://arxiv.org/abs/2610.22531",
-      "summary": "In geothermal systems, injected fluid flows along preferential fracture pathways and exchanges heat with matrix blocks. Reduced models often neglect temperature-dependent viscosity and assume unlimited matrix storage, although the thermal capacity accessible to the flow is finite.",
-      "date": "2026-10-19",
+      "title": "A consistent coupled level-set and volume-of-fluid solver for two-phase flow in OpenFOAM",
+      "url": "https://arxiv.org/abs/2610.24225",
+      "summary": "Coupled level-set and volume-of-fluid methods combine the mass conservation of a transported volume fraction with the smooth interface description of a signed-distance function. In the simple coupled variant, the level set is rebuilt from the volume fraction during every time step rather than transported, and it supplies the interface curvature and the fluid",
+      "date": "2026-10-20",
       "source": "arXiv"
     },
     {
@@ -443,17 +443,6 @@
       "summary": "",
       "topics": [
         "chemistry"
-      ]
-    },
-    {
-      "title": "The DOE Quantum Genesis Q Competition",
-      "url": "https://www.grants.gov/search-results-detail/363869",
-      "date": "10/19/2026",
-      "source": "Office of Science",
-      "status": "Open",
-      "summary": "",
-      "topics": [
-        "quantum"
       ]
     },
     {
