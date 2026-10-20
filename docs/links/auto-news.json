@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T11:45:28.955899+00:00",
+  "updated": "2026-10-20T17:14:14.916075+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,25 +20,32 @@
   ],
   "industry": [
     {
-      "title": "RTX lifts 2026 forecasts as aerospace, defense demand drives record backlog - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSUExWWg3eUQtTEwzYWhHRE9zbnNlNmQ3RGc5R084bzJMNlFnTzR6MVdMTVFuTEpPOGJxRnpLUG80RTBNN2xjR1VfcEFoU2tSeXViYnZPVXB2SFB1Z05MU0tTMFBId0VwR3RpNExzXzBLdm5Vc0FIQjhLRFYwQnNVazk3VWhKWUJIdnM1YnM3YWcxRm8zYnNqdWxIOVhzYnNrSjFJQ0JGeW82bnJnU2NSUWJBTEZDM1NqbzJxaUdhSG5pTE1JREItYllRMGlScVE?oc=5",
-      "summary": "RTX lifts 2026 forecasts as aerospace, defense demand drives record backlog",
+      "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
+      "url": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+      "summary": "LOS ANGELES \u2014 October 20, 2026 AnySignal, a leading provider of software-defined radios and space-based networking, today announced an agreement with Reflect Orbital to deliver space-to-earth communications for Reflect Orbital\u2019s inaugural [\u2026]",
+      "date": "2026-10-20",
+      "source": "SpaceNews"
+    },
+    {
+      "title": "News | RTX Reports Q3 2026 Results - RTX",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUl9TRk1CTENYMnJUR2VLVjhhWlJTOHNDM3I0Sm9pYjhrMHZZVUN6Q1FZcUlPaEUxLXFLWlcxV0RkbXM0ai1qMWJFT3pyTVFvdS1tR0xYd0FKbFR1SDdUSEkybV9fY1lNS1pfQ3dVV0ZHa3JrNnZ2VG9GRGszb2gwXw?oc=5",
+      "summary": "News |  Reports Q3 2026 Results RTX",
+      "date": "2026-10-20",
+      "source": "RTX"
+    },
+    {
+      "title": "GE Aerospace raises profit outlook as engine repairs defy fuel shock, Boeing costs loom - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNnVUT0tINU83dGVFSG5iTnFZNFlyQk9vT3lHZEY0dU5rUUFJRGlTYndPWEdiM2M0a0lKLU5FUW5CV2JvZ2NJTDI5MXlkVk85NlFwOU1XdUk0VzdKZ2FpZXJDUUJNMlZWZURPcVpXLWVKQzZ4SUcyYkEwQnhZY2xUd0VIc3g3dHEyU0RncnZrVkV5MzQtTGdWbFAwXzJzR1RNU1BBb2pjdm5EcVBaTVZtajBzV1B4XzRHY2YyaG93YXR1Z05ESGR4TlAxR0N6Q2xq?oc=5",
+      "summary": "GE Aerospace raises profit outlook as engine repairs defy fuel shock, Boeing costs loom",
       "date": "2026-10-20",
       "source": "Reuters"
     },
     {
-      "title": "Boeing Introduces Dataliner, a New Aircraft Data Intelligence Platform - Boeing",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORHBuOFR4LTkyOXpNMWxCbmNJSGpNLVBqUjFCbVpiSXlJb01CXzBnamVTNDBmRnl5dTBXMmpUeE1vUWVLTjBqdDNqaEtObUVfNDlqUUN4ZEI4bGpMTnVabm5ZcE5icWNZYXRrblhYbGhBNDVwVno5bU9WczR4LVZQeFZIVnd2dDhFa2tOLVdaaVprZGJJV293YmlReUZ3VXVYMGlJaDM1VGpxZWdqNDZzSUZoVTRrQ19PV3V1TENFMDVnZmVwa2hac3hZbEdnSFVxT0JZejYyVUhsbmtzZ3JtRXN1eE5EMjlV?oc=5",
-      "summary": "Introduces Dataliner, a New Aircraft Data Intelligence Platform Boeing",
+      "title": "Airbus scales back hydrogen ambitions, aiming for 80-seat aircraft - Aerospace America",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTFF2UmNBbkRjVFpIMEdqUXlReDhCVUJGcUtYQ3l4UG1nbjN3aGpHMFk5Tk1tYVIxVmN3R0hIZXZtMHExQnM1d3lUTHllTktJd0R0UWhQejFxY0ppZkpIN1RmSlh2MDJiWi01VEQyTEFCN2NaWTRqdUd0d1kxT3l5dHZQQmV2SWZEZ0h1WWZJNGV3eVVnbnJQd1dFY3R5X0JZUEE?oc=5",
+      "summary": "Airbus scales back hydrogen ambitions, aiming for 80-seat aircraft",
       "date": "2026-10-20",
-      "source": "Boeing"
-    },
-    {
-      "title": "Airbus H140 flight testing: Hot and high expectations in the U.S. - Airbus",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3VMSzE2RDVMVG9hdWdBTTFkcU01SmFkNm9kTE1YRnFXeWQ3RUV2MF9xTW1yaUhTU0s3Uk9welRMS0R6TWZ5S0JpU1AtUXNhM2hROXBnWnRkNkM0NGtteWRfT1ZNbTVNcE1HbDlQR1RqQVFUYWZfQUM4QkhCNmM5Qmt1T2IteExwb2dZYzRMRWI0NXRJUGVkQUFrOWlzWHlFRGxpX1pvMnJ5ZUxxbFdkZDBfTQ?oc=5",
-      "summary": "H140 flight testing: Hot and high expectations in the U.S. Airbus",
-      "date": "2026-10-20",
-      "source": "Airbus"
+      "source": "Aerospace America"
     },
     {
       "title": "JAXA\u2019s MMX Enroute to Mars To Return Samples of Phobos - Space Policy Online",
@@ -48,11 +55,11 @@
       "source": "Space Policy Online"
     },
     {
-      "title": "New brain for Galileo - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS3k3S2xDTjdfUm81MFNqSE9NNnp3QU5rSlVMYmtrZmVaR0VaNmwwNGpIcjZocXM3Z0RzNHlDWjdOaVVCV2l2VWVmWEp6VDB6N3BIc2RmMFhUbUdRSG4ydXBaUWU5Z2Y2cHRhUWlXS2JUT3BEczhYcERQVThaNTdtUktIUTJBeEpHZTJj?oc=5",
-      "summary": "New brain for Galileo",
+      "title": "ESA\u2019s newest satellite captures Hurricane Rachel from space - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMnhEelREdThidHRMVXc3cjZIVlVZSDhLWjg3MWU4UDBvWjdNTUFLaGNrRVR3UFFnbG1DRlVhODVpV2hCQ054dEZYQU5aTVNfNVcxQllZVVd3bUFaT1FFNHFRd2I4REhLU1RNVlA4OFJQRlhKSUJ6dHh2Z1lXSjgyczVTSjF4YWF2NGZB?oc=5",
+      "summary": "ESA\u2019s newest satellite captures Hurricane Rachel from space",
       "date": "2026-10-20",
-      "source": "European Space Agency"
+      "source": "AOL.com"
     },
     {
       "title": "MMX lifts off to Mars\u2019s moon Phobos",
@@ -60,6 +67,40 @@
       "summary": "Image: MMX lifts off to Mars\u2019s moon Phobos",
       "date": "2026-10-20",
       "source": "ESA Space Science"
+    },
+    {
+      "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
+      "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
+      "date": "2026-10-20",
+      "source": "Space"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HekFocy1TVjNIaHhMUFR6bWc5ZE9rc2huWmxLSFhTVkVWa0x1WnBmRFdkZWlWb1JlV0lDNEdkQ0NHQ0NCblNxN2hPaWt6R09oU0VpazVabVpsdzEyOEJ1ajRYNmsyYTRxOXRtOE1uUTU5Z3VYRjJ4Rg?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-20",
+      "source": "Press Information Bureau"
+    },
+    {
+      "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VTjQweGlCMUVaV3J4RGZSWGVlV0ZhTjhvSXpYekNhZE5ITzhvVVBpejZIR1lmWnRjRWF3M2UyT2JUbVRwRl9uc2ZPSllDdnUzT2xjMmNOaExkZVFsZEE?oc=5",
+      "summary": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run",
+      "date": "2026-10-20",
+      "source": "AZoQuantum",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbVVtMmNjazNneDNFRUplM0xvVGVZdDBDUHhyU3lvbGdHR3ZPcS11WTVmRGhTZmZoSkZwR2xYcUdYSmJBY0NxaGFicjhHWjJ5eGJ0WE5rTlpTNEFscEZNSUpuc2R1dWNfSkZ0elE3eXo5MF9NSUpFTGRMTm1rUi1XS21uRHUyUEtfVTZyOVpWYzMwQ3ZocFdpNm0xRzBkQUx3RzV4R3UxWU9Oekh0aWN6Q3dWOGY1d3AwZzVsREFLSQ?oc=5",
+      "summary": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre",
+      "date": "2026-10-20",
+      "source": "HPCwire",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
     },
     {
       "title": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation - 36Kr",
@@ -131,16 +172,6 @@
       ]
     },
     {
-      "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - The Quantum Insider",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkRMajFZV25vZ01IU0VwaDBjMURzU3BvY0lLUFRDSWM5Z3d1Y2FMT2NzYVlTSG5WQkZjUGh4ejVLYjhXMmxEMk9tUVhxaEJ5Y0JxbDVaYkJ4aDJaNFFGVUIxZFJQX3R2aHUyMmdqeXZnNVZtR3hiWmlxeGdqeGZoQnRKTURXSUFCazg0Y1FJVksyODR0UWREdVYzajVNa0d0eEV4RkVJajQteFc5OGJJUVBjb1NEQkxLLWptbDBnYlMyRkE2UlhsX0NFS1o?oc=5",
-      "summary": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
-      "date": "2026-10-19",
-      "source": "The Quantum Insider",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
       "title": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer - Quantum Computing Report",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEFicmZTZGFDdUFvU0oybHE5SXBSbHhBclcyNjRUaW1CRzliTl9DZlAwVTdxczNfRWVmdGt4TW9NMG0yTUdkVUdwcDFQa0NBTGM5NTRYTmdEa3VnT0F1NHNZeG5fUy01eGRhOV94SXJVSkUyNXZ1MmF2VWRXanVzR29lTmVYa0JuMElBTk90ejRRRGt6OFFmWXBCY21SV3ZaX1l4eS1LcmlHUVpGMmJVSVJkOXdqeTJib21EZGRyRjhSeVktZ1HSAcsBQVVfeXFMTmRRaG1xa0pESGNDSW1YMmxaTmJ0eTJqRjdya0hreXNqeVkwdEpCQjVxRWVxMzBSaVhTWUJMOXpJTUF3VU95M3dIczhHUTEwZUg1Z21JaVU5VktucWJhUDVSV2djSWhxVnVuR3RwdEhrUkVvX1RuNlcxRW96TXdDbDZ5Rk5scEdqUTB1ZnJWSHJUeW04SkRNR0UwT05CQ2FScXR4RUZwc0VrbVkyT3NNeC1VVGRHZGlsbWZHSlhsalNLM3lkeWRablY4WlU?oc=5",
       "summary": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
@@ -151,21 +182,11 @@
       ]
     },
     {
-      "title": "NVIDIA Uses JUPITER Exascale Supercomputer for Record-Scale Fault-Tolerant Quantum Computing Simulation - Quiver Quantitative",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDV2MFBNWlA0c19Xb2NLR0RXRzVjQUZLMnYzTDdvVlZNLUJyRGVzNkdNUXRpdXEzUEcwNTZvMnlCQmxuQ3ZRN0toZXRUa0hLOUNKWXptUEYzZTM3XzFhTkd4TVphQ1F4Uk9selFCcVBKTm1MeTQ1ZGFHZjBXa01rYU9MeFp6N0hnVndLaVRHVDUtZ2lITzVGLW1qMVk2NHAzdlVFSzM1Z3I3R0xYeTA0bDN6djlYY0t1ckp6VjdPMnljLXY2TFFTMUxDRGpyNE9UaUE?oc=5",
-      "summary": "NVIDIA Uses JUPITER Exascale Supercomputer for Record-Scale Fault-Tolerant Quantum Computing Simulation",
+      "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkRMajFZV25vZ01IU0VwaDBjMURzU3BvY0lLUFRDSWM5Z3d1Y2FMT2NzYVlTSG5WQkZjUGh4ejVLYjhXMmxEMk9tUVhxaEJ5Y0JxbDVaYkJ4aDJaNFFGVUIxZFJQX3R2aHUyMmdqeXZnNVZtR3hiWmlxeGdqeGZoQnRKTURXSUFCazg0Y1FJVksyODR0UWREdVYzajVNa0d0eEV4RkVJajQteFc5OGJJUVBjb1NEQkxLLWptbDBnYlMyRkE2UlhsX0NFS1o?oc=5",
+      "summary": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
       "date": "2026-10-19",
-      "source": "Quiver Quantitative",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
-      "title": "NVIDIA's Record Simulation Of A 104-qubit Fault-tolerant Quantum Computer - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaU0JEcnZBTngxekppbDRtYzNUeHktcFdzQUhuMzdYVnpXVDJzZWxfWVNwM2lHWEFUbUo3bk82ZC1wbnIwMXFyQV9Vbktybi1MNWIzSks1RHd4SzUyUUxhNjgwbjhEX1VYVlA5STd3a0ZjaXBIYUtud0laZw?oc=5",
-      "summary": "NVIDIA's Record Simulation Of A 104-qubit Fault-tolerant Quantum Computer",
-      "date": "2026-10-19",
-      "source": "Quantum Zeitgeist",
+      "source": "The Quantum Insider",
       "topics": [
         "Quantum computing for fluid science"
       ]
@@ -190,13 +211,6 @@
       "summary": "The History of Nuclear Power in Space",
       "date": "2026-10-16",
       "source": "Department of Energy (.gov)"
-    },
-    {
-      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
-      "url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
-      "summary": "BELLEVUE, Wash., Oct. 15, 2026 \u2014 Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new [\u2026]",
-      "date": "2026-10-15",
-      "source": "SpaceNews"
     },
     {
       "title": "Act for more sustainable space",
@@ -227,25 +241,11 @@
       "source": "Advanced Manufacturing"
     },
     {
-      "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1BXWERfYXB1aFNXR2Y4Q1A1bVBWVzJ5aTFzb285eVFJWGFrdFZyeVJ1ZVNxTEVNT2NKWE1nVTNDS2xqWWRxRklHeF9WZ09xc3ZZS24ycE8zUkV0MnNla0NqSko5dzBBRHpZU2tDNTNreDg4VjZsdnFSOW8yTGxBRHctOUZobmF1M0JaWjBpMHJpLUN2OWN4TWxJYktBRnVjZndpWEZHNHM3LXlYeGZDWF80a1pkSlpzVFJWemo5dU9zUEFXM0dFaDEwbHkxS2xzbExB?oc=5",
-      "summary": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle",
-      "date": "2026-10-09",
-      "source": "425business.com"
-    },
-    {
       "title": "BUILDING THE WORLD\u2019S MOST ADVANCED MOBILE NETWORK",
       "url": "https://www.spacex.com/updates#starlink-mobile-spectrum",
       "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
       "date": "2026-10-08",
       "source": "SpaceX"
-    },
-    {
-      "title": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry - Japan Wire by Kyodo News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80MnA5aWNhbmNnbXlNYVpPTmRUbUxJVlRCV0lyTS1iUU5qSFZoNi1BQVljOUNQRDJLNDNmQkQxU1dTUWhmZmF5NFlzdUxuZjJGZnRrZ3V2VENndw?oc=5",
-      "summary": "FOCUS: Nuri rocket's 5th launch signals S. Korea's shift toward integrated space industry",
-      "date": "2026-10-08",
-      "source": "Japan Wire by Kyodo News"
     },
     {
       "title": "G\u00e9raldine Naja with the WIA-Europe award",
@@ -306,9 +306,9 @@
       "source": "Physics of Fluids"
     },
     {
-      "title": "Frequency synchronisation and modal mapping of wake dynamics to the performance of a vertical-axis turbine",
-      "url": "https://doi.org/10.1017/jfm.2026.12142",
-      "summary": "The transition towards sustainable marine energy relies partly on efficient deployment of vertical-axis tidal turbines, yet their widespread application is constrained by the complex, unsteady fluid dynamics inherent in their operation. While vertical-axis turbines offer superior structural scalability, they experience intricate vortex shedding and wake-induced energy losses which can make performance difficult to pr",
+      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
+      "url": "https://doi.org/10.1017/jfm.2026.12064",
+      "summary": "Coenen, Zhang & S\u00e1nchez ( J. Fluid Mech.",
       "date": "2026-10-19",
       "source": "Journal of Fluid Mechanics"
     },
@@ -320,9 +320,9 @@
       "source": "Journal of Fluid Mechanics"
     },
     {
-      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
-      "url": "https://doi.org/10.1017/jfm.2026.12064",
-      "summary": "Coenen, Zhang & S\u00e1nchez ( J. Fluid Mech.",
+      "title": "Frequency synchronisation and modal mapping of wake dynamics to the performance of a vertical-axis turbine",
+      "url": "https://doi.org/10.1017/jfm.2026.12142",
+      "summary": "The transition towards sustainable marine energy relies partly on efficient deployment of vertical-axis tidal turbines, yet their widespread application is constrained by the complex, unsteady fluid dynamics inherent in their operation. While vertical-axis turbines offer superior structural scalability, they experience intricate vortex shedding and wake-induced energy losses which can make performance difficult to pr",
       "date": "2026-10-19",
       "source": "Journal of Fluid Mechanics"
     },
