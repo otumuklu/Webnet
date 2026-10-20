@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T17:14:14.916075+00:00",
+  "updated": "2026-10-20T21:41:09.600230+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -27,6 +27,20 @@
       "source": "SpaceNews"
     },
     {
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "summary": "Editor\u2019s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissions from [\u2026]",
+      "date": "2026-10-20",
+      "source": "NASA"
+    },
+    {
+      "title": "NASA\u2019s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+      "summary": "Destined for Mars and beyond, NASA\u2019s Space Reactor-1 (SR-1) Freedom will be humanity\u2019s first fission-powered spacecraft to travel outside Earth\u2019s orbit. Announced during NASA\u2019s \u201cIgnition\u201d event, this mission will demonstrate nuclear electric propulsion in deep space, and progress is underway on its key element: the nuclear power module. To expedite development of the spacecraft, NASA [\u2026]",
+      "date": "2026-10-20",
+      "source": "NASA"
+    },
+    {
       "title": "News | RTX Reports Q3 2026 Results - RTX",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUl9TRk1CTENYMnJUR2VLVjhhWlJTOHNDM3I0Sm9pYjhrMHZZVUN6Q1FZcUlPaEUxLXFLWlcxV0RkbXM0ai1qMWJFT3pyTVFvdS1tR0xYd0FKbFR1SDdUSEkybV9fY1lNS1pfQ3dVV0ZHa3JrNnZ2VG9GRGszb2gwXw?oc=5",
       "summary": "News |  Reports Q3 2026 Results RTX",
@@ -48,18 +62,18 @@
       "source": "Aerospace America"
     },
     {
-      "title": "JAXA\u2019s MMX Enroute to Mars To Return Samples of Phobos - Space Policy Online",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa1dvZlRYTEVlbjNKM081bHlnY0xxOXZDOWQ2TXVkZzlNaXBpNklQcnhzUE1LOW4zQ0NXT1VQTkx3eVhOTmlWbUtIX1FFVHZVWWZEX2Q1Ukw3WldZZm9TMF82bWdUX3ZZMzNDeDlVMS1QMDBEVlIyTW5EcVVnU3NSWmhTeXU0VXVreFJTWkppVWcxTlE?oc=5",
-      "summary": "JAXA\u2019s MMX Enroute to Mars To Return Samples of Phobos",
+      "title": "JAXA Launches MMX to Phobos: 10g Sample by 2031 - https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43WXhVNUk0U0lsekZGWUc0eDdYWU5iRUlaRmUycGZIUG0tNTA3TGN3ckcyNlpPM29zazdrU3FBUFVTRGdiTnJGLVhOdWxuMWZ2aGRuMzVyb2JPZWQyeTlRY3pkcXExNFRFRTNHSlNCRm1IZmR2Rnc?oc=5",
+      "summary": "JAXA Launches MMX to Phobos: 10g Sample by 2031",
       "date": "2026-10-20",
-      "source": "Space Policy Online"
+      "source": "https://tech-insider.org/"
     },
     {
-      "title": "ESA\u2019s newest satellite captures Hurricane Rachel from space - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMnhEelREdThidHRMVXc3cjZIVlVZSDhLWjg3MWU4UDBvWjdNTUFLaGNrRVR3UFFnbG1DRlVhODVpV2hCQ054dEZYQU5aTVNfNVcxQllZVVd3bUFaT1FFNHFRd2I4REhLU1RNVlA4OFJQRlhKSUJ6dHh2Z1lXSjgyczVTSjF4YWF2NGZB?oc=5",
-      "summary": "ESA\u2019s newest satellite captures Hurricane Rachel from space",
+      "title": "MMX lifts off to Mars\u2019s moon Phobos - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdUVlOXpGcEdDemZ1aE55ZFdaT19GeF9ZZzBaVmlINjRkQlVlMmlBanNvZ3A2OUhCREhQQ2I0YkJObVFOV2NxZHlvczVRRU9GYzhrZDFoemdybVNjay1Nc3hIWFEtOUFrRkRCUlJGM09UU0tWazZDNzJ2Yi05Q0h5bGVTb0tkZXlqWEJRYWNn?oc=5",
+      "summary": "MMX lifts off to Mars\u2019s moon Phobos",
       "date": "2026-10-20",
-      "source": "AOL.com"
+      "source": "European Space Agency"
     },
     {
       "title": "MMX lifts off to Mars\u2019s moon Phobos",
@@ -113,27 +127,6 @@
       ]
     },
     {
-      "title": "UARX Space troubleshoots anomalies on maiden OTV Flight",
-      "url": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
-      "summary": "SAN FRANCISCO \u2013Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct. 1 aboard SpaceX\u2019s Transporter-18 mission. At least [\u2026]",
-      "date": "2026-10-19",
-      "source": "SpaceNews"
-    },
-    {
-      "title": "NASA Improves Shock, Vibration Analysis",
-      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
-      "summary": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those stresses will affect every part of a spacecraft. To do that, engineers in the Dynamic Environments Group with NASA\u2019s Launch [\u2026]",
-      "date": "2026-10-19",
-      "source": "NASA"
-    },
-    {
-      "title": "Software",
-      "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
-      "summary": "Research teams at NASA\u2019s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft propulsion systems. Copies of our software can be requested from NASA\u2019s Software Catalog. JeNo Development of jet noise prediction codes is multifaceted. [\u2026]",
-      "date": "2026-10-19",
-      "source": "NASA"
-    },
-    {
       "title": "Celebrating BepiColombo, three words at a time",
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time",
       "summary": "Video: 00:03:32 BepiColombo launched on 20 October 2018. This year, the anniversary is special. After eight years of travelling through the inner Solar System, the ESA/JAXA mission will arrive at Mercury on 9 December, 2026. To celebrate, mission team members were asked to describe BepiColombo in just three words. Their answers capture the character of the mission and the people behind it. Complex, collaborative and transformative are among the words chosen, reflecting both the demanding journey to Mercury and the international teamwork that has made it possible. Together, their words offer a personal snapshot of BepiColombo as it approaches its long-awaited destination .",
@@ -146,6 +139,13 @@
       "summary": "AST SpaceMobile Rises 4% as Europe's Largest Carriers Explore Joint Satellite Spectrum Bid; SpaceX and Rocket Lab Edge Higher",
       "date": "2026-10-19",
       "source": "24/7 Wall St."
+    },
+    {
+      "title": "No more waiting in space launch queues: Poland to build its own satellite launchers - MILMAG",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUp4MVotYlNGc2JyOC1OdDd2bGY1U0VPQ2JDMGpSVi1DV2J4SnVhSDZockpxd08yRld5NlZhbnBZeERtNU5kVldyTzNSeFBHbHczY2M5aFNDSWNFR3YxbkRfN3BXLXAxSFlmMlF3WUhheno1cXNGb1ctb3NzNmQ4d3UteEtoTUJZQlU1b0o4R3IzSU53Q1ZpVlliSHI5S25Ec0lCTUdaRQ?oc=5",
+      "summary": "No more waiting in space launch queues: Poland to build its own satellite launchers",
+      "date": "2026-10-19",
+      "source": "MILMAG"
     },
     {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
@@ -172,21 +172,21 @@
       ]
     },
     {
-      "title": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer - Quantum Computing Report",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEFicmZTZGFDdUFvU0oybHE5SXBSbHhBclcyNjRUaW1CRzliTl9DZlAwVTdxczNfRWVmdGt4TW9NMG0yTUdkVUdwcDFQa0NBTGM5NTRYTmdEa3VnT0F1NHNZeG5fUy01eGRhOV94SXJVSkUyNXZ1MmF2VWRXanVzR29lTmVYa0JuMElBTk90ejRRRGt6OFFmWXBCY21SV3ZaX1l4eS1LcmlHUVpGMmJVSVJkOXdqeTJib21EZGRyRjhSeVktZ1HSAcsBQVVfeXFMTmRRaG1xa0pESGNDSW1YMmxaTmJ0eTJqRjdya0hreXNqeVkwdEpCQjVxRWVxMzBSaVhTWUJMOXpJTUF3VU95M3dIczhHUTEwZUg1Z21JaVU5VktucWJhUDVSV2djSWhxVnVuR3RwdEhrUkVvX1RuNlcxRW96TXdDbDZ5Rk5scEdqUTB1ZnJWSHJUeW04SkRNR0UwT05CQ2FScXR4RUZwc0VrbVkyT3NNeC1VVGRHZGlsbWZHSlhsalNLM3lkeWRablY4WlU?oc=5",
-      "summary": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
-      "date": "2026-10-19",
-      "source": "Quantum Computing Report",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
       "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - The Quantum Insider",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkRMajFZV25vZ01IU0VwaDBjMURzU3BvY0lLUFRDSWM5Z3d1Y2FMT2NzYVlTSG5WQkZjUGh4ejVLYjhXMmxEMk9tUVhxaEJ5Y0JxbDVaYkJ4aDJaNFFGVUIxZFJQX3R2aHUyMmdqeXZnNVZtR3hiWmlxeGdqeGZoQnRKTURXSUFCazg0Y1FJVksyODR0UWREdVYzajVNa0d0eEV4RkVJajQteFc5OGJJUVBjb1NEQkxLLWptbDBnYlMyRkE2UlhsX0NFS1o?oc=5",
       "summary": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
       "date": "2026-10-19",
       "source": "The Quantum Insider",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer - Quantum Computing Report",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEFicmZTZGFDdUFvU0oybHE5SXBSbHhBclcyNjRUaW1CRzliTl9DZlAwVTdxczNfRWVmdGt4TW9NMG0yTUdkVUdwcDFQa0NBTGM5NTRYTmdEa3VnT0F1NHNZeG5fUy01eGRhOV94SXJVSkUyNXZ1MmF2VWRXanVzR29lTmVYa0JuMElBTk90ejRRRGt6OFFmWXBCY21SV3ZaX1l4eS1LcmlHUVpGMmJVSVJkOXdqeTJib21EZGRyRjhSeVktZ1HSAcsBQVVfeXFMTmRRaG1xa0pESGNDSW1YMmxaTmJ0eTJqRjdya0hreXNqeVkwdEpCQjVxRWVxMzBSaVhTWUJMOXpJTUF3VU95M3dIczhHUTEwZUg1Z21JaVU5VktucWJhUDVSV2djSWhxVnVuR3RwdEhrUkVvX1RuNlcxRW96TXdDbDZ5Rk5scEdqUTB1ZnJWSHJUeW04SkRNR0UwT05CQ2FScXR4RUZwc0VrbVkyT3NNeC1VVGRHZGlsbWZHSlhsalNLM3lkeWRablY4WlU?oc=5",
+      "summary": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
+      "date": "2026-10-19",
+      "source": "Quantum Computing Report",
       "topics": [
         "Quantum computing for fluid science"
       ]
@@ -213,6 +213,13 @@
       "source": "Department of Energy (.gov)"
     },
     {
+      "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
+      "url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+      "summary": "BELLEVUE, Wash., Oct. 15, 2026 \u2014 Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new [\u2026]",
+      "date": "2026-10-15",
+      "source": "SpaceNews"
+    },
+    {
       "title": "Act for more sustainable space",
       "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Act_for_more_sustainable_space",
       "summary": "",
@@ -225,13 +232,6 @@
       "summary": "Firefly Aerospace to Announce Third Quarter 2026 Financial Results on November 10, 2026",
       "date": "2026-10-14",
       "source": "GlobeNewswire"
-    },
-    {
-      "title": "TXST\u2019s first-ever satellite launches into space : Newsroom - Texas State University",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWi15aWI4UW9XdlNCSUxqSUV6b3BBWmtmTWxsNnota3plSGdTLVlRalNSLVFTTHFlRV9TYXlLTTlCVUtCTkFMSFYwQjJjdVJicEJGcHBPVVl5b1czWVZnM2N5QnZlWDZZVWVqSTFSQjFaS2N4clBtT2VxNGlWeG42REhQTWtOcEhCVWJ4WERINXFzY3Q5SGNhLVJfVFA?oc=5",
-      "summary": "TXST\u2019s first-ever satellite launches into space : Newsroom",
-      "date": "2026-10-13",
-      "source": "Texas State University"
     },
     {
       "title": "Lockheed Martin Expanding Aerospace Operations in Colorado - Advanced Manufacturing",
@@ -299,6 +299,13 @@
       "source": "Physics of Fluids"
     },
     {
+      "title": "Stratified core lid as a spectral selector for trapped MAC modes",
+      "url": "https://doi.org/10.1103/wp4l-h4tr",
+      "summary": "",
+      "date": "2026-10-20",
+      "source": "Physical Review Fluids"
+    },
+    {
       "title": "Acoustic diffraction and pressure-amplitude recovery behind an air bubble subjected to a collapse-induced pulse",
       "url": "https://doi.org/10.1063/5.0348564",
       "summary": "Understanding the interaction between pressure waves and air bubbles is important for load attenuation by bubble curtains and pressure-wave shielding in water. In this study, numerical simulations and theoretical modeling are combined to examine the interaction between a collapse-induced pressure wave and an air bubble.",
@@ -329,13 +336,6 @@
     {
       "title": "Inertial migration of a force-driven sphere in shear flows of shear-thinning fluids",
       "url": "https://doi.org/10.1103/b9s5-6sjy",
-      "summary": "",
-      "date": "2026-10-16",
-      "source": "Physical Review Fluids"
-    },
-    {
-      "title": "Pressure and size dependence of roton emission and vortex creation by moving objects in He II in T \u2192 0 limit: Generalized nonlocal Gross-Pitaevskii model",
-      "url": "https://doi.org/10.1103/n4hm-rnpj",
       "summary": "",
       "date": "2026-10-16",
       "source": "Physical Review Fluids"
