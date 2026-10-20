@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T04:56:51.596268+00:00",
+  "updated": "2026-10-20T11:45:28.955899+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,18 +20,25 @@
   ],
   "industry": [
     {
-      "title": "Boeing 737 Max Fraud Lawsuit Tossed for Good After Investor Never Bought Stock - Law Commentary",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSDN4cFN3RURXa1BHZzRpb0Y1N25VcmNmSmtNZlYzODAzWmg3Rk9DQko4REVTTm94eHI2aENKVlhNMmt6MnMyR3ZRai1Wbl9kbnBtWFpGbk5qVEdxZFVuZXFVSldiYS02ZjV2SUo3aHJSd2hka2kzYkJsNWhHZ294LWo5VQ?oc=5",
-      "summary": "Boeing 737 Max Fraud Lawsuit Tossed for Good After Investor Never Bought Stock",
+      "title": "RTX lifts 2026 forecasts as aerospace, defense demand drives record backlog - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSUExWWg3eUQtTEwzYWhHRE9zbnNlNmQ3RGc5R084bzJMNlFnTzR6MVdMTVFuTEpPOGJxRnpLUG80RTBNN2xjR1VfcEFoU2tSeXViYnZPVXB2SFB1Z05MU0tTMFBId0VwR3RpNExzXzBLdm5Vc0FIQjhLRFYwQnNVazk3VWhKWUJIdnM1YnM3YWcxRm8zYnNqdWxIOVhzYnNrSjFJQ0JGeW82bnJnU2NSUWJBTEZDM1NqbzJxaUdhSG5pTE1JREItYllRMGlScVE?oc=5",
+      "summary": "RTX lifts 2026 forecasts as aerospace, defense demand drives record backlog",
       "date": "2026-10-20",
-      "source": "Law Commentary"
+      "source": "Reuters"
     },
     {
-      "title": "Airhub Aviation Expands Base Maintenance Approval for Airbus A320neo and Boeing 737 MAX - Hotelier Buzz",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORTVKeE9uVWNPOW1WVHhwWS1ldGhPb2ZVT1NjV3R4VmY5QktvSmFYOHBOMW84YVFQejdhdXdQREo2bXRGVWplMzlGQnpNSUVHM25tZ0FsOXJZVjU5elUzMkpjMlBUZm9HWUpWbVVCTjBXanlGT05NUGNPMEp5bmdleXkzcS02Xzh4U3pBTmhuZw?oc=5",
-      "summary": "Airhub Aviation Expands Base Maintenance Approval for Airbus A320neo and Boeing 737 MAX",
+      "title": "Boeing Introduces Dataliner, a New Aircraft Data Intelligence Platform - Boeing",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORHBuOFR4LTkyOXpNMWxCbmNJSGpNLVBqUjFCbVpiSXlJb01CXzBnamVTNDBmRnl5dTBXMmpUeE1vUWVLTjBqdDNqaEtObUVfNDlqUUN4ZEI4bGpMTnVabm5ZcE5icWNZYXRrblhYbGhBNDVwVno5bU9WczR4LVZQeFZIVnd2dDhFa2tOLVdaaVprZGJJV293YmlReUZ3VXVYMGlJaDM1VGpxZWdqNDZzSUZoVTRrQ19PV3V1TENFMDVnZmVwa2hac3hZbEdnSFVxT0JZejYyVUhsbmtzZ3JtRXN1eE5EMjlV?oc=5",
+      "summary": "Introduces Dataliner, a New Aircraft Data Intelligence Platform Boeing",
       "date": "2026-10-20",
-      "source": "Hotelier Buzz"
+      "source": "Boeing"
+    },
+    {
+      "title": "Airbus H140 flight testing: Hot and high expectations in the U.S. - Airbus",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3VMSzE2RDVMVG9hdWdBTTFkcU01SmFkNm9kTE1YRnFXeWQ3RUV2MF9xTW1yaUhTU0s3Uk9welRMS0R6TWZ5S0JpU1AtUXNhM2hROXBnWnRkNkM0NGtteWRfT1ZNbTVNcE1HbDlQR1RqQVFUYWZfQUM4QkhCNmM5Qmt1T2IteExwb2dZYzRMRWI0NXRJUGVkQUFrOWlzWHlFRGxpX1pvMnJ5ZUxxbFdkZDBfTQ?oc=5",
+      "summary": "H140 flight testing: Hot and high expectations in the U.S. Airbus",
+      "date": "2026-10-20",
+      "source": "Airbus"
     },
     {
       "title": "JAXA\u2019s MMX Enroute to Mars To Return Samples of Phobos - Space Policy Online",
@@ -39,6 +46,20 @@
       "summary": "JAXA\u2019s MMX Enroute to Mars To Return Samples of Phobos",
       "date": "2026-10-20",
       "source": "Space Policy Online"
+    },
+    {
+      "title": "New brain for Galileo - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS3k3S2xDTjdfUm81MFNqSE9NNnp3QU5rSlVMYmtrZmVaR0VaNmwwNGpIcjZocXM3Z0RzNHlDWjdOaVVCV2l2VWVmWEp6VDB6N3BIc2RmMFhUbUdRSG4ydXBaUWU5Z2Y2cHRhUWlXS2JUT3BEczhYcERQVThaNTdtUktIUTJBeEpHZTJj?oc=5",
+      "summary": "New brain for Galileo",
+      "date": "2026-10-20",
+      "source": "European Space Agency"
+    },
+    {
+      "title": "MMX lifts off to Mars\u2019s moon Phobos",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos",
+      "summary": "Image: MMX lifts off to Mars\u2019s moon Phobos",
+      "date": "2026-10-20",
+      "source": "ESA Space Science"
     },
     {
       "title": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation - 36Kr",
@@ -72,23 +93,9 @@
       "source": "NASA"
     },
     {
-      "title": "RTX, GE Aerospace Lead Defense Earnings Amid Soaring Demand - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMjhObEEydVdsTUs5ZjMzel81OW1KcjJONXMyZ3g5Ujh5dXVtMVdBbVhlTDRxSzY0N3cySEJhWGl6M2FBWHU2Q04yejVCMjlxc05HeU5LOFNhQ0pXMllNLWR6eEZjUlhwV2dJYmJzVkFieThMUURFMmVuYXhLdzl0dF9Ydks2ZmxPTFJfQkY0VHpFbTI2?oc=5",
-      "summary": "RTX, GE Aerospace Lead Defense Earnings Amid Soaring Demand",
-      "date": "2026-10-19",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Euclid discovers new comet - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMHFNVUFoWnIzTEloTERZUFRHTkVNMmg1VWVPUEE1cmRwM0ZnTGZvaU51VHNYajk3X21veG1KWkxXMjV3ZnBUNUIyWlZsYUJiaHBtVmxlMklkMFNBcThJZzRhR3pobU1hRkh2ZFBDTnN3ajUxajJ6c3JySlUzTXVrb1NQNWEweklibHRkOThOTTQ?oc=5",
-      "summary": "Euclid discovers new comet",
-      "date": "2026-10-19",
-      "source": "European Space Agency"
-    },
-    {
-      "title": "Euclid discovers new comet",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
-      "summary": "The European Space Agency\u2019s Euclid space telescope has discovered its first previously unknown comet, in images taken between 16 and 24 September 2026.",
+      "title": "Celebrating BepiColombo, three words at a time",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time",
+      "summary": "Video: 00:03:32 BepiColombo launched on 20 October 2018. This year, the anniversary is special. After eight years of travelling through the inner Solar System, the ESA/JAXA mission will arrive at Mercury on 9 December, 2026. To celebrate, mission team members were asked to describe BepiColombo in just three words. Their answers capture the character of the mission and the people behind it. Complex, collaborative and transformative are among the words chosen, reflecting both the demanding journey to Mercury and the international teamwork that has made it possible. Together, their words offer a personal snapshot of BepiColombo as it approaches its long-awaited destination .",
       "date": "2026-10-19",
       "source": "ESA Space Science"
     },
@@ -154,11 +161,11 @@
       ]
     },
     {
-      "title": "NVIDIA\u2019s largest-ever 104-qubit simulation models realistic quantum hardware errors - Interesting Engineering",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcnFLdS1ybEo4YmtFNklvNl96Y1VnSTdtU1kxV0tENG45SjhXdWpCQVdneW9yMUU5V1EwLV9xRzhzZ1QzT0NCR0lvd1c5UXQySEpoMUFJVjc2a29lSVhQNHlzOFhGT0syR3VlTkNJSURyZ3hRNGQtNlM4RzBPbGtvRW8tcDJGZWxLWUx1T2tsSQ?oc=5",
-      "summary": "NVIDIA\u2019s largest-ever 104-qubit simulation models realistic quantum hardware errors",
+      "title": "NVIDIA's Record Simulation Of A 104-qubit Fault-tolerant Quantum Computer - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaU0JEcnZBTngxekppbDRtYzNUeHktcFdzQUhuMzdYVnpXVDJzZWxfWVNwM2lHWEFUbUo3bk82ZC1wbnIwMXFyQV9Vbktybi1MNWIzSks1RHd4SzUyUUxhNjgwbjhEX1VYVlA5STd3a0ZjaXBIYUtud0laZw?oc=5",
+      "summary": "NVIDIA's Record Simulation Of A 104-qubit Fault-tolerant Quantum Computer",
       "date": "2026-10-19",
-      "source": "Interesting Engineering",
+      "source": "Quantum Zeitgeist",
       "topics": [
         "Quantum computing for fluid science"
       ]
@@ -171,18 +178,11 @@
       "source": "Global Times"
     },
     {
-      "title": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system - Interesting Engineering",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2lvVFhZc0hKY3g2M00zTjB1anFCbmU5UGdNd0QtSGJ0NlU1dmkybDlGRjNMUzhwd2JyU0NlWm5lbDdYRDR5OHNVel90bnlEMldwc0lGRGtOelRaN0pkRnJWV0lTb3gxUnBYcWh4YjIyZUJZaGhsRVMtalNMaFhBZFBtdDR5RTJzRzFNc085amRveGtMVzRvYzY2RXNpWEFn?oc=5",
-      "summary": "New flying taxi to combine 30G crash seats with Northrop Grumman navigation system",
-      "date": "2026-10-17",
-      "source": "Interesting Engineering"
-    },
-    {
-      "title": "Lockheed Martin receives $16.1 million F-35 processor support contract - Military Aerospace",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWkUzWjFqdEhFNldjMEdKY2hBZmNnRDNlUDktSnBHOVFLRzdRSW5ZTkt6S2JieldYUW4yWVVnT1dCdmJyV01xTXBGeXlrb0V5V2hFWS1BZk5saDFoMUdRZHdKM3hWaklFMXhYejB5NjkwMUNZTGxpVVFTaGZaSHk4dEZNLXRaUExtU3RWVTFSQjd3RXFSTlJtaDRYY25YbkdpRkVfTzhDT2VnYmNmem5CQWFVdjB4ZDEtYU02WE5lUThJbFJfdjg1bw?oc=5",
-      "summary": "Lockheed Martin receives $16.1 million F-35 processor support contract",
+      "title": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ21IZGtuR1BVZl9NUkpyejdMUW83emFwY3lncndQSjVzeURfenJiWlVLalpHTFFzeFVmWHNBZXRHWllEZ1lweVhjQjhOUVJVbGcyOGdhNVI3eWRhTlBEeWxMTjBkVkU1V2t2dGNIUHI0TGFwNk83YXV0RFFMSkJvMTkwZEJ2STZaZEF3UGNGZmU1SERnMnFtLXQ5Si1tazhPLUtEQ1E4dkppeFpzajNhcFR2ZDI2Y0NmY0d3b2RzcnFnUU4zT2lKNjVpenBFOXVfM2s4VG5LUnBJcEZ1T3pZUlVsbVc?oc=5",
+      "summary": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF",
       "date": "2026-10-16",
-      "source": "Military Aerospace"
+      "source": "Business Wire"
     },
     {
       "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
@@ -213,18 +213,18 @@
       "source": "GlobeNewswire"
     },
     {
-      "title": "Where winds blow and lava flows",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Where_winds_blow_and_lava_flows",
-      "summary": "Image: Where winds blow and lava flows",
-      "date": "2026-10-14",
-      "source": "ESA Space Science"
-    },
-    {
       "title": "TXST\u2019s first-ever satellite launches into space : Newsroom - Texas State University",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWi15aWI4UW9XdlNCSUxqSUV6b3BBWmtmTWxsNnota3plSGdTLVlRalNSLVFTTHFlRV9TYXlLTTlCVUtCTkFMSFYwQjJjdVJicEJGcHBPVVl5b1czWVZnM2N5QnZlWDZZVWVqSTFSQjFaS2N4clBtT2VxNGlWeG42REhQTWtOcEhCVWJ4WERINXFzY3Q5SGNhLVJfVFA?oc=5",
       "summary": "TXST\u2019s first-ever satellite launches into space : Newsroom",
       "date": "2026-10-13",
       "source": "Texas State University"
+    },
+    {
+      "title": "Lockheed Martin Expanding Aerospace Operations in Colorado - Advanced Manufacturing",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV3FzdzlmMHA0aV8yd1hmQ1drR2tuVjUtcjhqUjFUME9ObmlIV01XdTJPOTRmQnFqRjdBMlFfTDUyUjRaYURRbjJCU3E5WFZWanMxTnRQREcxeWl2d2V6S21YNXFlaW1JOGJtanhtNHdkeHhySkJBTlVuUERqaGhaRVkxS0dXMlN1S09idUQ1UW14WjNkOXdzSjAwbjNTbmNIVzNmUDFNc3JJa01yZ3hTS2dKXzZxWnFlcGZ6X0JXYjNpSnJfSFcxT1h0UUp3R1FIaHlSRDRLSXpYMkM2MDJMb3QwSWVqY1RscmY3cw?oc=5",
+      "summary": "Lockheed Martin Expanding Aerospace Operations in Colorado",
+      "date": "2026-10-12",
+      "source": "Advanced Manufacturing"
     },
     {
       "title": "Tukwila\u2019s Starfish Space Celebrates Launch of First Satellite-Servicing Vehicle - 425business.com",
@@ -271,6 +271,34 @@
       "source": "arXiv"
     },
     {
+      "title": "Artificial Neural Networks for Performance Prediction of CO2 Transcritical Heat Pump System",
+      "url": "https://doi.org/10.2514/1.t7508",
+      "summary": "The rising global demand for energy-efficient heating systems has increased interest in [Formula: see text]-based transcritical heat pumps due to their unique thermodynamic behavior and environmental advantages. However, conventional models struggle with the nonlinear nature of transcritical cycles, and existing artificial neural network (ANN) approaches often fail to capture key interacting parameters under varying ",
+      "date": "2026-10-20",
+      "source": "Journal of Thermophysics and Heat Transfer"
+    },
+    {
+      "title": "The Effect of Acoustic Noise on Aero-Optical Measurements in Wind Tunnels",
+      "url": "https://doi.org/10.2514/1.j066890",
+      "summary": "Both ground and flight test data show that optical wavefront measurements can detect and be influenced by acoustic noise, where the optical aberrations originate from density variations associated with the sound waves. This finding has implications regarding the potential effect of background acoustic noise on optical measurements during wind-tunnel testing.",
+      "date": "2026-10-20",
+      "source": "AIAA Journal"
+    },
+    {
+      "title": "Beam\u2013Spacecraft Plasma Interaction and Charging Experiment",
+      "url": "https://doi.org/10.2514/1.a36749",
+      "summary": "The use of high-power electron beams in low-density space environments could open a wealth of new opportunities in magnetospheric science and help answer several fundamental, outstanding questions. However, emitting a sufficiently high-power electron beam in a low-density plasma environment induces a charge on the spacecraft that inevitably leads to beam return.",
+      "date": "2026-10-20",
+      "source": "Journal of Spacecraft and Rockets"
+    },
+    {
+      "title": "Direct simulation Monte Carlo based on the vibrationally state-resolved rotational relaxation model",
+      "url": "https://doi.org/10.1063/5.0345526",
+      "summary": "This study implements a vibrationally state-resolved rotational relaxation model within the direct simulation Monte Carlo (DSMC) framework. The model, which employs an exponential correlation function to characterize rotational energy transition probabilities, is integrated via two approaches: (i) the temperature-dependent rotational collision number Zrot(T) is constructed based on a set of pre-calculated vibrational",
+      "date": "2026-10-20",
+      "source": "Physics of Fluids"
+    },
+    {
       "title": "Acoustic diffraction and pressure-amplitude recovery behind an air bubble subjected to a collapse-induced pulse",
       "url": "https://doi.org/10.1063/5.0348564",
       "summary": "Understanding the interaction between pressure waves and air bubbles is important for load attenuation by bubble curtains and pressure-wave shielding in water. In this study, numerical simulations and theoretical modeling are combined to examine the interaction between a collapse-induced pressure wave and an air bubble.",
@@ -297,34 +325,6 @@
       "summary": "Coenen, Zhang & S\u00e1nchez ( J. Fluid Mech.",
       "date": "2026-10-19",
       "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Adaptive Tracking Control for Underactuated Lunar Hopping Vehicles",
-      "url": "https://doi.org/10.2514/1.a36655",
-      "summary": "This paper develops two different adaptive control solutions for a propulsive exploration lunar hopping vehicle along with their performance characterization. Full six-degree-of-freedom error dynamics relative to an a priori defined reference trajectory are outlined for controller derivation.",
-      "date": "2026-10-16",
-      "source": "Journal of Spacecraft and Rockets"
-    },
-    {
-      "title": "Novel Surrogate-Assisted Structural Optimization Framework for Full-Aircraft Configurations",
-      "url": "https://doi.org/10.2514/1.c038967",
-      "summary": "Designing lighter aircraft structures while satisfying strength, stability, and aeroelastic requirements remains a central challenge in preliminary aircraft design. Many early-stage aircraft structural optimization studies rely on beam, equivalent-plate, or semi-empirical structural representations, while many higher-fidelity studies focus on isolated components, particularly wings, rather than the simultaneous sizin",
-      "date": "2026-10-16",
-      "source": "Journal of Aircraft"
-    },
-    {
-      "title": "Application and Assessment of Machine Learning Methods for Aircraft Design Problems",
-      "url": "https://doi.org/10.2514/1.i011755",
-      "summary": "In this work, we present a comparative study on machine-learning-based surrogate modeling for multidisciplinary aerospace applications. The main objective of the work is to demonstrate the predictive capability of traditional machine learning methods, including linear regression, random forest, gradient boosting, extreme gradient boosting, support vector regression, Gaussian process regression, and multilayer percept",
-      "date": "2026-10-16",
-      "source": "Journal of Aerospace Information Systems"
-    },
-    {
-      "title": "A data-driven approach for morphological characterization and classification of flying inkjet droplets",
-      "url": "https://doi.org/10.1063/5.0348484",
-      "summary": "We present a data-driven framework for the characterization of flying inkjet droplets based on a compact parametric representation of droplet contours. Starting from a large image database of experimentally generated droplets, the outer contours are extracted and described using elliptic Fourier descriptors, providing an accurate and low-dimensional representation of a wide range of droplet morphologies.",
-      "date": "2026-10-16",
-      "source": "Physics of Fluids"
     },
     {
       "title": "Inertial migration of a force-driven sphere in shear flows of shear-thinning fluids",
