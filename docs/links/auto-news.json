@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T04:56:13.645625+00:00",
+  "updated": "2026-10-21T11:57:18.319644+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,18 +20,60 @@
   ],
   "industry": [
     {
-      "title": "FAA certifies Boeing\u2019s 737 MAX 10 Tuesday - HeraldNet.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYk5INHhMaEZWcGIxYXJWVUYyRmJvREFFRzdUNm5fVmZOemkzNzZxQURzVEtzcVBVQ2ZqTGxTSGJpRDdHbmxWTGhkNENfZ19zeXJlbjdEMW5uUlVNbXBzNGVYd0RhNHoxNEcwczBNSDRKVVRXdG5KbjVlT0VDTzFGSzlpQzU?oc=5",
-      "summary": "FAA certifies Boeing\u2019s 737 MAX 10 Tuesday",
+      "title": "RTX's Collins Aerospace launches Tower MicroELITE surveillance solution at San Bernardino International Airport - RTX",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmFqYXUzcGFkUDVfWVJiQWs1RkRDTXpGOEdNWXBpQ2VXN0VsZG9uNTFweEVpMzFHLXctbW1tV05TU1Mwb3dQVHNSNk5SVG01NUxfVFVXZVZHcmR4aFhHbDd5Qmp1d2RPUy1VamhyQkxWUTFVS0ttV3RpeDZEN2tkd3FJNXUycExEVkdRME9TSU9EZHg4VGVxd2tqVG9ESjNhLVdmVWZLbjRBdW5fM2NMWXZYMUZzejRPN0ZyTV9NU3hGSjFTbzNn?oc=5",
+      "summary": "'s Collins Aerospace launches Tower MicroELITE surveillance solution at San Bernardino International Airport RTX",
       "date": "2026-10-21",
-      "source": "HeraldNet.com"
+      "source": "RTX"
     },
     {
-      "title": "Aviation Capital Group Orders 75 Airbus A320neo Family Aircraft - Machine Maker",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWjJxZUtFZXhIcV9MMjZOa2dCaWlvTFFmX1RnZ085WVdDVzhKb2dLc2Y2ZmFnTERHakNkSnZ2REtmTWNVLXpaTlNxdlpLVE9qS1BiTEJnZ3lvSG00YlNVd3Q3SHMxckpsSDJHT2hHbzhZdVRhcTU4N25RSXJZTldXZHQ5NkxlZHhsX3Zhdk5oMGYtZW1BWjFIVkJRWF9OQQ?oc=5",
-      "summary": "Aviation Capital Group Orders 75 Airbus A320neo Family Aircraft",
+      "title": "Rocket Lab Shares Rise 3% After Hours Ahead of Q3 Earnings Report - Rocket Lab (NASDAQ:RKLB), SpaceX (NAS - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUZwMWk3RmVKYTB4SUY3dTcyNTJMMG1JbC1BWll4Szk0VG1KaV91X0wzTTctd1JrUmdRWFN6OVdhYzYyNHE0TXd4MGNuRjBBVGV5N1dfd0RIRzNBV1U5S1c0TE1oSkxycUl3aktFRnhYVXRWUkJ4SDZjbjBNT0JSMHhiM0JwR3M3cU1sc0lscjJHZUxROUpOVWJtLWI2OHl0ZUtpTDNsS3RzeTZRRmNJM1RhaUc?oc=5",
+      "summary": "Rocket Lab Shares Rise 3% After Hours Ahead of Q3 Earnings Report - Rocket Lab (NASDAQ:RKLB), SpaceX (NAS",
       "date": "2026-10-21",
-      "source": "Machine Maker"
+      "source": "Benzinga"
+    },
+    {
+      "title": "Boeing certifies 737 Max 10 after years of delays - Aerospace Testing International",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZldKemZmaW1jRlMtYThQT1ByVXREa3BUY1RtOHBfV01CV0tDR2x6WnJ0Z1loSzRCT3l6cHB4RTVvTjB4VWZZWmFONlZjZU14QU1zRy1FWXpCOXVSXzFaQ3NQVjR5REdqN0pVNHJmWVFQLWQ5eW5zZzBoUmVyWWVYcm1PSm16eU9ROGswVjJxZnVqZDI2d2lDRVlodmJ1eFZqNlhTUS1GWC0?oc=5",
+      "summary": "Boeing certifies 737 Max 10 after years of delays",
+      "date": "2026-10-21",
+      "source": "Aerospace Testing International"
+    },
+    {
+      "title": "Vertical Aerospace Further Strengthens Board With Appointment of Former Airbus Executive Marc Fontaine, CEO of Helsing France - Rutland Herald",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPTm9NakI2M3ZWandOa2h5cVFuQjZnbE1PNHcyQjNZRUY5cGdNV0NOWmpJcVVHSUdid2tmQ2x2MzM0U29XbnFvUXJBNzFhTnFOeHhDQ0tXa1ZQYzNQQi1PNWtGdHhDdkZTRG52SmdKN1Yyc3dBTV9CbEw1LU5PUXdEdVNETy01YURmMk1WNWRndmN4RWJ3YUpkNVpfWjNfbEtqLWpNRVVBanpxZ19UQUxBMDlwUGF6Rm9IVkpncFk2QVlONkhUUEtpbUltZnAtYVpRbG1iSTVBVUFJVEV2TzFvbHptbjU0QnFsd2pINlBiMXF2Uy1IYmUtZmc3Y2N2cVNXWnRoWjZ3WTgzN0hYSnVqaVU2LWlJMWZ0LV9pc3lMazVkSFlnSkcyRzAyZw?oc=5",
+      "summary": "Vertical Aerospace Further Strengthens Board With Appointment of Former Airbus Executive Marc Fontaine, CEO of Helsing France",
+      "date": "2026-10-21",
+      "source": "Rutland Herald"
+    },
+    {
+      "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft - Japan Aerospace Exploration Agency",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xUkE3WUE2bk1zLTdpZmg4eV92Q1QwTXlfQV9TdktZcUk3LXNSd3NKVzI3WC1kb25DaDd6RVMtckNZTW5uSmJ2Uk5lZGRpU1hKQk5IOHVFa2drYk9NSm1Eb1BzX2o?oc=5",
+      "summary": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
+      "date": "2026-10-21",
+      "source": "Japan Aerospace Exploration Agency"
+    },
+    {
+      "title": "ESA\u2019s Space Rider Suffers Mishap In Drop Test - Aviation Week",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWN0OENGR3ExUjlsbHphMHJQNEx5SDJCS291cXN4RnRwWDN0OV9RYi1NNktla240Sm9fSkp6OExHTk85SGJna3RxSzJWME1GSWtTY2laVnF0RUVGak9BTmFVOE9JRERsS0FRNFVaVExqaEZBYVN1Tms4dkxwb180SnpZNWo5Sm1zUmFqS0pjVFdBZDlh?oc=5",
+      "summary": "ESA\u2019s Space Rider Suffers Mishap In Drop Test",
+      "date": "2026-10-21",
+      "source": "Aviation Week"
+    },
+    {
+      "title": "China launches satellite from offshore platform in Shandong - Yeni Safak English",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNTJBYVFISl8zUlhQYmY0dmNtd2xVdFhTcmpaNWlrN1hjalJsQk1jVjlmdTY0QzlSYXBHMGl1UEh5ZFdQVVIzOHNnMWxGWTk1aGR3WGtSZTBpTkxsWm0xRWI0dERIOGpYVl9RV3VONzRIcUJOY2w3Nk5QcHptcVY1QXBhY0JUczlxc2F0VnVnblFLTFZ3T2s0QVhkU1R3TU1RbEZoaWl3?oc=5",
+      "summary": "China launches satellite from offshore platform in Shandong",
+      "date": "2026-10-21",
+      "source": "Yeni Safak English"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuMkJqa2FtYW0yTnZuYlEwUVMwOG54V3ZjX3Jxa0pBWU9GNzUtd2lTSHd6YVVROEppVFBoRmdUZDhpM2lnbXlERGZHcEdlZkstVDVQbzl2bXNXTW5XZEIxM1dnai1MUmdGdFBoSlJzUDFsZzJ5bHZJVw?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-21",
+      "source": "Press Information Bureau"
     },
     {
       "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
@@ -55,46 +97,11 @@
       "source": "NASA"
     },
     {
-      "title": "News | RTX Reports Q3 2026 Results - RTX",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUl9TRk1CTENYMnJUR2VLVjhhWlJTOHNDM3I0Sm9pYjhrMHZZVUN6Q1FZcUlPaEUxLXFLWlcxV0RkbXM0ai1qMWJFT3pyTVFvdS1tR0xYd0FKbFR1SDdUSEkybV9fY1lNS1pfQ3dVV0ZHa3JrNnZ2VG9GRGszb2gwXw?oc=5",
-      "summary": "News |  Reports Q3 2026 Results RTX",
-      "date": "2026-10-20",
-      "source": "RTX"
-    },
-    {
-      "title": "How Rocket Lab Corporation Became A Falling Knife (NASDAQ:RKLB) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWDZyeUk1NnE5aU9tSXF4OS1oZ1JhaDJZRVFBZTJISW9tU2tTYmRSVWNtYmRkc1VtNnp5Qy1OeGd2ODhiSk1EYnRQWnhWczN0dlUxSEhzXzBzQWJaN0xYd0RqWFZjV3F1Zi1vcVJscmdFTUxOVTZyeHNvWl9UMWk5X292UlRXa3ZmR21WVGFfaXc2cUR3?oc=5",
-      "summary": "How Rocket Lab Corporation Became A Falling Knife (NASDAQ:RKLB)",
-      "date": "2026-10-20",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "JAXA Launches MMX to Phobos: 10g Sample, 2031 Return [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43WXhVNUk0U0lsekZGWUc0eDdYWU5iRUlaRmUycGZIUG0tNTA3TGN3ckcyNlpPM29zazdrU3FBUFVTRGdiTnJGLVhOdWxuMWZ2aGRuMzVyb2JPZWQyeTlRY3pkcXExNFRFRTNHSlNCRm1IZmR2Rnc?oc=5",
-      "summary": "JAXA Launches MMX to Phobos: 10g Sample, 2031 Return [2026]",
-      "date": "2026-10-20",
-      "source": "https://tech-insider.org/"
-    },
-    {
-      "title": "European Space Agency studies whether moon mining can turn a profit - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbEVuMS1LR2dXU2NUSjlHR1gzLTgwVmZ4Tm5uOEFxbnVXU2Z6cTFvSWFPSDJXVnFRMlMtM2dyRTBqVzUtaWNOU1hjR3ROdk5IR3E3QTJMTHBEYklNNlFRVVlWR1ZfUFhfQWxlVU5zXzJoUTJqeU1na1FLTDladHZiOGNSa3RhWE5Zc0puRjdSeVdKeWlXdU91QmxsSG1NYlAxTHAya0RMV2ZPNi1HTlNaWWtDd3dGUktObGc?oc=5",
-      "summary": "European Space Agency studies whether moon mining can turn a profit",
-      "date": "2026-10-20",
-      "source": "Scripps News"
-    },
-    {
       "title": "MMX lifts off to Mars\u2019s moon Phobos",
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos",
       "summary": "Image: MMX lifts off to Mars\u2019s moon Phobos",
       "date": "2026-10-20",
       "source": "ESA Space Science"
-    },
-    {
-      "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
-      "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
-      "date": "2026-10-20",
-      "source": "Space"
     },
     {
       "title": "SpaceX launches its 'Starfall' return capsule for 2nd time ever (video) - Space",
@@ -105,20 +112,17 @@
     },
     {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HekFocy1TVjNIaHhMUFR6bWc5ZE9rc2huWmxLSFhTVkVWa0x1WnBmRFdkZWlWb1JlV0lDNEdkQ0NHQ0NCblNxN2hPaWt6R09oU0VpazVabVpsdzEyOEJ1ajRYNmsyYTRxOXRtOE1uUTU5Z3VYRjJ4Rg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTEZGZFUyR2RHVDFaYkRORF9SVzRjUnJsa2J0c0VNT09fUGdaY1JnaXZ0c2VMbXNfUmJ5ZEZFVlg4bjFvYmdwQ0JUVGU1YlVuQVJTS3kwVTJrRkYzb0JKX3FsWGx2ZWpzQmwtM1pOalpxNC05bmc?oc=5",
       "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-20",
       "source": "Press Information Bureau"
     },
     {
-      "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VTjQweGlCMUVaV3J4RGZSWGVlV0ZhTjhvSXpYekNhZE5ITzhvVVBpejZIR1lmWnRjRWF3M2UyT2JUbVRwRl9uc2ZPSllDdnUzT2xjMmNOaExkZVFsZEE?oc=5",
-      "summary": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run",
+      "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
+      "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
       "date": "2026-10-20",
-      "source": "AZoQuantum",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
+      "source": "Space"
     },
     {
       "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
@@ -126,6 +130,16 @@
       "summary": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre",
       "date": "2026-10-20",
       "source": "HPCwire",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VTjQweGlCMUVaV3J4RGZSWGVlV0ZhTjhvSXpYekNhZE5ITzhvVVBpejZIR1lmWnRjRWF3M2UyT2JUbVRwRl9uc2ZPSllDdnUzT2xjMmNOaExkZVFsZEE?oc=5",
+      "summary": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run",
+      "date": "2026-10-20",
+      "source": "AZoQuantum",
       "topics": [
         "Quantum computing for fluid science"
       ]
@@ -160,13 +174,6 @@
       "summary": "No more waiting in space launch queues: Poland to build its own satellite launchers",
       "date": "2026-10-19",
       "source": "MILMAG"
-    },
-    {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wRTFPZGZsb0NmUHhjSTdJeFM0RzZaSkhSRm1kaW1sRkJUUXRuU3BNUHpmUnhxeUFuMXpMZU5tcDBDN1E4bEJQWDlWbzZuSEcwUFE1bklIQkFmaUQzdG0teWVvZlBBdDN2bEVVZTljdjd6VDZKb3ln?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-19",
-      "source": "Press Information Bureau"
     },
     {
       "title": "When will Pakistan\u2019s first astronaut fly into space? - Gulf News",
@@ -206,18 +213,18 @@
       ]
     },
     {
-      "title": "China\u2019s Long March rockets carry forward historic grit for new space exploration - Global Times",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xYXdOampvSDF3YUtEcGhfNFQyN0oxLXNCcnhkS0tDaFFkWWRqbUUxUThpdktCNEFJdklDVTJNYWtzOERFck00bS0zRzRyYWttT0o2TmtHZVZnaVY5OEVrSUtn?oc=5",
-      "summary": "China\u2019s Long March rockets carry forward historic grit for new space exploration",
-      "date": "2026-10-18",
-      "source": "Global Times"
-    },
-    {
       "title": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ21IZGtuR1BVZl9NUkpyejdMUW83emFwY3lncndQSjVzeURfenJiWlVLalpHTFFzeFVmWHNBZXRHWllEZ1lweVhjQjhOUVJVbGcyOGdhNVI3eWRhTlBEeWxMTjBkVkU1V2t2dGNIUHI0TGFwNk83YXV0RFFMSkJvMTkwZEJ2STZaZEF3UGNGZmU1SERnMnFtLXQ5Si1tazhPLUtEQ1E4dkppeFpzajNhcFR2ZDI2Y0NmY0d3b2RzcnFnUU4zT2lKNjVpenBFOXVfM2s4VG5LUnBJcEZ1T3pZUlVsbVc?oc=5",
       "summary": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF",
       "date": "2026-10-16",
       "source": "Business Wire"
+    },
+    {
+      "title": "Firefly Aerospace (Backpack Securities) Price: FLY/USD Live Price Chart, Market Cap & News Today - CoinGecko",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3WVZqU2NNZGxnR0FubUViOGJjZ3FnWnMyM0tKX3gzdFRvNW1TWHFUc2FMUHhnMWtzZ3RBdnVQX3hhWXRUUU03YlI2R2hHYXgxZ2wxVGRUY0gxYlkyQThFaEZkaUswTmZhdlF3LXExWUJiemgtX2U4MjFKV1M?oc=5",
+      "summary": "Firefly Aerospace (Backpack Securities) Price: FLY/USD Live Price Chart, Market Cap & News Today",
+      "date": "2026-10-16",
+      "source": "CoinGecko"
     },
     {
       "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
@@ -232,13 +239,6 @@
       "summary": "",
       "date": "2026-10-15",
       "source": "ESA Space Transportation"
-    },
-    {
-      "title": "Firefly Aerospace to Announce Third Quarter 2026 Financial Results on November 10, 2026 - GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNMm9TZVNHdTRQcWlsZ0lIeHNXdTg0NFBuUV9ZZlYzcm5QOGFwSXNETVBwak9UMUk0dmpScEZacHo0VXdUMXo5Q19fWjdEaHBJTGoxRHlrVk9qX1FqQkdLaXRZTFVrUllIeDFFZFAtbERsa2NELW8zeEFGRUw5NUZGeEE3d245RjVRYVNLbEp3bmF6MHZzb3RtZlJIcXhTRG92X2RGMDdfTGU1MnJXcmdpMnZXR2hpQ0tjQ2h3TmozQ0ctXzF6TWgxQnpzLVJhS3pDS3ppWXZrSzVXeklNcDJEOExDRUhvYWlKUVJlZHJQWQ?oc=5",
-      "summary": "Firefly Aerospace to Announce Third Quarter 2026 Financial Results on November 10, 2026",
-      "date": "2026-10-14",
-      "source": "GlobeNewswire"
     },
     {
       "title": "BUILDING THE WORLD\u2019S MOST ADVANCED MOBILE NETWORK",
@@ -269,6 +269,27 @@
       "summary": "We present a novel framework for reconstructing fine-resolution scalar fields from coarse-resolution data in 2D unsteady flames using an extension of neural implicit flow (NIF). The framework leverages the novel architecture of NIF to develop an efficient representation of scalar fields in spatio-temporal reacting flows.",
       "date": "2026-10-21",
       "source": "arXiv"
+    },
+    {
+      "title": "Richtmyer\u2013Meshkov instability on high-temperature non-equilibrium air pairs",
+      "url": "https://doi.org/10.1063/5.0347890",
+      "summary": "The influence of high-temperature non-equilibrium effects, induced by strong-shock waves, on the Richtmyer\u2013Meshkov instability (RMI) remains less understood. In this study, the RMI at an air interface with an initial temperature difference is numerically investigated for Mach numbers 6.0\u20138.0 across three thermochemistry models: frozen (FR) flow, thermal non-equilibrium (TN) flow, and thermochemical non-equilibrium (T",
+      "date": "2026-10-21",
+      "source": "Physics of Fluids"
+    },
+    {
+      "title": "Diffusion-driven flow about an impermeable sphere or cylinder in a stably stratified liquid: the singular limit of small Rayleigh numbers",
+      "url": "https://doi.org/10.1017/jfm.2026.12152",
+      "summary": "When an impermeable spherical particle is suspended in stably stratified ambient salinity gradient, the curving of the constant-density surfaces gives rise to non-conservative body forces which cannot be supported by pressure gradients. As a result, fluid motion is engendered.",
+      "date": "2026-10-21",
+      "source": "Journal of Fluid Mechanics"
+    },
+    {
+      "title": "A semi-analytical approach to resolving hydrodynamic interactions between two model microswimmers",
+      "url": "https://doi.org/10.1017/jfm.2026.12097",
+      "summary": "In an active suspension, hydrodynamic interactions between constituent microswimmers play an important role in their collective motion and rheological properties. To advance the understanding of these interactions, we introduce the boundary collocation method (BCM) and an easy-to-implement extension called the lubrication-theory-informed BCM to solve Stokes flow problems involving two spherical boundaries, where one ",
+      "date": "2026-10-21",
+      "source": "Journal of Fluid Mechanics"
     },
     {
       "title": "Artificial Neural Networks for Performance Prediction of CO2 Transcritical Heat Pump System",
@@ -304,27 +325,6 @@
       "summary": "",
       "date": "2026-10-20",
       "source": "Physical Review Fluids"
-    },
-    {
-      "title": "Acoustic diffraction and pressure-amplitude recovery behind an air bubble subjected to a collapse-induced pulse",
-      "url": "https://doi.org/10.1063/5.0348564",
-      "summary": "Understanding the interaction between pressure waves and air bubbles is important for load attenuation by bubble curtains and pressure-wave shielding in water. In this study, numerical simulations and theoretical modeling are combined to examine the interaction between a collapse-induced pressure wave and an air bubble.",
-      "date": "2026-10-19",
-      "source": "Physics of Fluids"
-    },
-    {
-      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
-      "url": "https://doi.org/10.1017/jfm.2026.12064",
-      "summary": "Coenen, Zhang & S\u00e1nchez ( J. Fluid Mech.",
-      "date": "2026-10-19",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Self-limiting turbulent drag reduction via a viscoelastic lubricating layer",
-      "url": "https://doi.org/10.1017/jfm.2026.12167",
-      "summary": "We investigate drag reduction (DR) in a turbulent channel flow lubricated by a thin viscoelastic layer using direct numerical simulations at a shear Reynolds number italic Re Subscript tau Baseline equals 300 Re \u03c4 = 300 $\\textit{Re}_\\tau = 300$ , coupling a phase-field description of the interfacial dynamics with a FENE-CR model for the polymeric stresses. Different elasticity levels are considered by varying the she",
-      "date": "2026-10-19",
-      "source": "Journal of Fluid Mechanics"
     },
     {
       "title": "Frequency synchronisation and modal mapping of wake dynamics to the performance of a vertical-axis turbine",
