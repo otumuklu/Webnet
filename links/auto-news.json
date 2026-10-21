@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T21:41:09.600230+00:00",
+  "updated": "2026-10-21T04:56:13.645625+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -19,6 +19,20 @@
     "Simons Foundation"
   ],
   "industry": [
+    {
+      "title": "FAA certifies Boeing\u2019s 737 MAX 10 Tuesday - HeraldNet.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYk5INHhMaEZWcGIxYXJWVUYyRmJvREFFRzdUNm5fVmZOemkzNzZxQURzVEtzcVBVQ2ZqTGxTSGJpRDdHbmxWTGhkNENfZ19zeXJlbjdEMW5uUlVNbXBzNGVYd0RhNHoxNEcwczBNSDRKVVRXdG5KbjVlT0VDTzFGSzlpQzU?oc=5",
+      "summary": "FAA certifies Boeing\u2019s 737 MAX 10 Tuesday",
+      "date": "2026-10-21",
+      "source": "HeraldNet.com"
+    },
+    {
+      "title": "Aviation Capital Group Orders 75 Airbus A320neo Family Aircraft - Machine Maker",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWjJxZUtFZXhIcV9MMjZOa2dCaWlvTFFmX1RnZ085WVdDVzhKb2dLc2Y2ZmFnTERHakNkSnZ2REtmTWNVLXpaTlNxdlpLVE9qS1BiTEJnZ3lvSG00YlNVd3Q3SHMxckpsSDJHT2hHbzhZdVRhcTU4N25RSXJZTldXZHQ5NkxlZHhsX3Zhdk5oMGYtZW1BWjFIVkJRWF9OQQ?oc=5",
+      "summary": "Aviation Capital Group Orders 75 Airbus A320neo Family Aircraft",
+      "date": "2026-10-21",
+      "source": "Machine Maker"
+    },
     {
       "title": "AnySignal to Deliver Space-to-Earth Communications for Three Reflect Orbital Missions",
       "url": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
@@ -48,32 +62,25 @@
       "source": "RTX"
     },
     {
-      "title": "GE Aerospace raises profit outlook as engine repairs defy fuel shock, Boeing costs loom - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNnVUT0tINU83dGVFSG5iTnFZNFlyQk9vT3lHZEY0dU5rUUFJRGlTYndPWEdiM2M0a0lKLU5FUW5CV2JvZ2NJTDI5MXlkVk85NlFwOU1XdUk0VzdKZ2FpZXJDUUJNMlZWZURPcVpXLWVKQzZ4SUcyYkEwQnhZY2xUd0VIc3g3dHEyU0RncnZrVkV5MzQtTGdWbFAwXzJzR1RNU1BBb2pjdm5EcVBaTVZtajBzV1B4XzRHY2YyaG93YXR1Z05ESGR4TlAxR0N6Q2xq?oc=5",
-      "summary": "GE Aerospace raises profit outlook as engine repairs defy fuel shock, Boeing costs loom",
+      "title": "How Rocket Lab Corporation Became A Falling Knife (NASDAQ:RKLB) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWDZyeUk1NnE5aU9tSXF4OS1oZ1JhaDJZRVFBZTJISW9tU2tTYmRSVWNtYmRkc1VtNnp5Qy1OeGd2ODhiSk1EYnRQWnhWczN0dlUxSEhzXzBzQWJaN0xYd0RqWFZjV3F1Zi1vcVJscmdFTUxOVTZyeHNvWl9UMWk5X292UlRXa3ZmR21WVGFfaXc2cUR3?oc=5",
+      "summary": "How Rocket Lab Corporation Became A Falling Knife (NASDAQ:RKLB)",
       "date": "2026-10-20",
-      "source": "Reuters"
+      "source": "Seeking Alpha"
     },
     {
-      "title": "Airbus scales back hydrogen ambitions, aiming for 80-seat aircraft - Aerospace America",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTFF2UmNBbkRjVFpIMEdqUXlReDhCVUJGcUtYQ3l4UG1nbjN3aGpHMFk5Tk1tYVIxVmN3R0hIZXZtMHExQnM1d3lUTHllTktJd0R0UWhQejFxY0ppZkpIN1RmSlh2MDJiWi01VEQyTEFCN2NaWTRqdUd0d1kxT3l5dHZQQmV2SWZEZ0h1WWZJNGV3eVVnbnJQd1dFY3R5X0JZUEE?oc=5",
-      "summary": "Airbus scales back hydrogen ambitions, aiming for 80-seat aircraft",
-      "date": "2026-10-20",
-      "source": "Aerospace America"
-    },
-    {
-      "title": "JAXA Launches MMX to Phobos: 10g Sample by 2031 - https://tech-insider.org/",
+      "title": "JAXA Launches MMX to Phobos: 10g Sample, 2031 Return [2026] - https://tech-insider.org/",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43WXhVNUk0U0lsekZGWUc0eDdYWU5iRUlaRmUycGZIUG0tNTA3TGN3ckcyNlpPM29zazdrU3FBUFVTRGdiTnJGLVhOdWxuMWZ2aGRuMzVyb2JPZWQyeTlRY3pkcXExNFRFRTNHSlNCRm1IZmR2Rnc?oc=5",
-      "summary": "JAXA Launches MMX to Phobos: 10g Sample by 2031",
+      "summary": "JAXA Launches MMX to Phobos: 10g Sample, 2031 Return [2026]",
       "date": "2026-10-20",
       "source": "https://tech-insider.org/"
     },
     {
-      "title": "MMX lifts off to Mars\u2019s moon Phobos - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdUVlOXpGcEdDemZ1aE55ZFdaT19GeF9ZZzBaVmlINjRkQlVlMmlBanNvZ3A2OUhCREhQQ2I0YkJObVFOV2NxZHlvczVRRU9GYzhrZDFoemdybVNjay1Nc3hIWFEtOUFrRkRCUlJGM09UU0tWazZDNzJ2Yi05Q0h5bGVTb0tkZXlqWEJRYWNn?oc=5",
-      "summary": "MMX lifts off to Mars\u2019s moon Phobos",
+      "title": "European Space Agency studies whether moon mining can turn a profit - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbEVuMS1LR2dXU2NUSjlHR1gzLTgwVmZ4Tm5uOEFxbnVXU2Z6cTFvSWFPSDJXVnFRMlMtM2dyRTBqVzUtaWNOU1hjR3ROdk5IR3E3QTJMTHBEYklNNlFRVVlWR1ZfUFhfQWxlVU5zXzJoUTJqeU1na1FLTDladHZiOGNSa3RhWE5Zc0puRjdSeVdKeWlXdU91QmxsSG1NYlAxTHAya0RMV2ZPNi1HTlNaWWtDd3dGUktObGc?oc=5",
+      "summary": "European Space Agency studies whether moon mining can turn a profit",
       "date": "2026-10-20",
-      "source": "European Space Agency"
+      "source": "Scripps News"
     },
     {
       "title": "MMX lifts off to Mars\u2019s moon Phobos",
@@ -86,6 +93,13 @@
       "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
       "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
+      "date": "2026-10-20",
+      "source": "Space"
+    },
+    {
+      "title": "SpaceX launches its 'Starfall' return capsule for 2nd time ever (video) - Space",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRjdqQ01oN2pUNHpXd0NsU1JKZEhJampaeFo5ZGhqMzBrUlFtNVB0S3prUFIyQkdiUFh0TGRlNTh0RGRreVhLNjg0OGllUVZrVDU3OU5pUGhzOUdfVE1RQ2VQV0JnVk9GUlhEWWdMWWt4Z2pTemFlYmpFaGVaVldsZHVucGthd0tUSFNfY3Q3N0FSUEl4SHFEeUljb01fNENmanNKM0FTNkl2RVNTbFNYMlVIRDczZGJrYWQyaEVscHJyTGxLd2c?oc=5",
+      "summary": "X launches its 'Starfall' return capsule for 2nd time ever (video) Space",
       "date": "2026-10-20",
       "source": "Space"
     },
@@ -206,13 +220,6 @@
       "source": "Business Wire"
     },
     {
-      "title": "The History of Nuclear Power in Space - Department of Energy (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xdXdsX2xfOGVGUmlqX2pxQTY1ckp2R3lDdVA0Rmo5dFI1VWtrVmpEb0NOb2VmaUdiUzFRZ3ZsWGx2TjkwZ2hrN0s0WlI4Tmw3cHN1UERTT0YyOVFKN0h1X01OR0R1ZXMzR0ZSZmtVMA?oc=5",
-      "summary": "The History of Nuclear Power in Space",
-      "date": "2026-10-16",
-      "source": "Department of Energy (.gov)"
-    },
-    {
       "title": "Agile Space Industries Expands to Seattle Area with New Bellevue Office",
       "url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
       "summary": "BELLEVUE, Wash., Oct. 15, 2026 \u2014 Agile Space Industries, a leading provider of in-space chemical propulsion solutions, has expanded into the Seattle metropolitan area with the opening of a new [\u2026]",
@@ -234,13 +241,6 @@
       "source": "GlobeNewswire"
     },
     {
-      "title": "Lockheed Martin Expanding Aerospace Operations in Colorado - Advanced Manufacturing",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV3FzdzlmMHA0aV8yd1hmQ1drR2tuVjUtcjhqUjFUME9ObmlIV01XdTJPOTRmQnFqRjdBMlFfTDUyUjRaYURRbjJCU3E5WFZWanMxTnRQREcxeWl2d2V6S21YNXFlaW1JOGJtanhtNHdkeHhySkJBTlVuUERqaGhaRVkxS0dXMlN1S09idUQ1UW14WjNkOXdzSjAwbjNTbmNIVzNmUDFNc3JJa01yZ3hTS2dKXzZxWnFlcGZ6X0JXYjNpSnJfSFcxT1h0UUp3R1FIaHlSRDRLSXpYMkM2MDJMb3QwSWVqY1RscmY3cw?oc=5",
-      "summary": "Lockheed Martin Expanding Aerospace Operations in Colorado",
-      "date": "2026-10-12",
-      "source": "Advanced Manufacturing"
-    },
-    {
       "title": "BUILDING THE WORLD\u2019S MOST ADVANCED MOBILE NETWORK",
       "url": "https://www.spacex.com/updates#starlink-mobile-spectrum",
       "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
@@ -257,17 +257,17 @@
   ],
   "papers": [
     {
-      "title": "From Classical Trapping to Curvature-Induced Bolus Formation in Peristaltic Wave-Driven Flows",
-      "url": "https://arxiv.org/abs/2610.24219",
-      "summary": "Bolus formation is one of the most distinctive features of peristaltic transport, yet the mechanisms governing its development remain incompletely understood. In this work, axisymmetric peristaltic-wave-driven flows under zero-pressure-gradient conditions are investigated using a high-fidelity lattice Boltzmann framework over a broad range of wave amplitudes",
-      "date": "2026-10-20",
+      "title": "Triadic energy routes in a short laminar separation bubble",
+      "url": "https://arxiv.org/abs/2610.27035",
+      "summary": "The kinetic energy budget of a laminar separation bubble on a compressor blade is formed mode by mode in frequency and spanwise wavenumber from a direct numerical simulation at a Reynolds number of $2.5\\times10^{5}$ based on the axial chord. The nonlinear transfer between modes is evaluated as a triadic tensor that gives the energy exchanged in every triad, ",
+      "date": "2026-10-21",
       "source": "arXiv"
     },
     {
-      "title": "A consistent coupled level-set and volume-of-fluid solver for two-phase flow in OpenFOAM",
-      "url": "https://arxiv.org/abs/2610.24225",
-      "summary": "Coupled level-set and volume-of-fluid methods combine the mass conservation of a transported volume fraction with the smooth interface description of a signed-distance function. In the simple coupled variant, the level set is rebuilt from the volume fraction during every time step rather than transported, and it supplies the interface curvature and the fluid",
-      "date": "2026-10-20",
+      "title": "A Neural Implicit Flow Super-Resolution Approach for Reacting Flows",
+      "url": "https://arxiv.org/abs/2610.27215",
+      "summary": "We present a novel framework for reconstructing fine-resolution scalar fields from coarse-resolution data in 2D unsteady flames using an extension of neural implicit flow (NIF). The framework leverages the novel architecture of NIF to develop an efficient representation of scalar fields in spatio-temporal reacting flows.",
+      "date": "2026-10-21",
       "source": "arXiv"
     },
     {
