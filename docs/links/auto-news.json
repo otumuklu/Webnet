@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T11:59:27.566606+00:00",
+  "updated": "2026-10-22T17:15:21.928525+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,23 +20,30 @@
   ],
   "industry": [
     {
-      "title": "Why The World's Largest Aircraft Lessor Is Selling Boeing 767 Freighters Just As Cargo Demand Softens - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM1FiR2l3NTl3aTQzUmt3aHBuTnlOd0N2ZDdLLXFzMGxnbWZHN1ktSjlLRG5FZTZmNTFiamptRXlUOVpQSUJOeFhhNVBCandtMTczazVoWS1qb1Jfd21maU9wNS1nTWRmaEsxM2Q3eEI0ZGNtMUc0T3dabkN2a1pmdlB6QjJwZFozNlV0Y21ZMHFnVEp2cjJnbEFmZjZOcmIzVHNJNzRCNjJ3MWs?oc=5",
-      "summary": "Why The World's Largest Aircraft Lessor Is Selling Boeing 767 Freighters Just As Cargo Demand Softens",
+      "title": "Lockheed Martin Rises 9% as Record Backlog Lifts Outlook; RTX Gains 2%, Northrop Grumman Advances 3% - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUFp5OS1DWGF0T0ZpVGVQZXZlS1AzV3pfN0syYVdaZjMzclVnaHB2UVZLRUFqOTNJRy1FWmtJNUtya1JEbnVsV0Jhc1FHYmpjYUVFb1dDMF84czN4QmtyMGl5TFZGWHJGbHBTN3lzMWlTNDc2LWtmdVNwN1NROUs2ZERHeEZxc0VqZ05ia1VrRG5MVVFhbmlMOG90UjBXMGs2TkxyVVRUSE1mc3EycFRzSzJWR1RPNFBEZFJEX21GX192UTROaUNDMVhmdXVfY0xRblNBN2tn?oc=5",
+      "summary": "Lockheed Martin Rises 9% as Record Backlog Lifts Outlook; RTX Gains 2%, Northrop Grumman Advances 3%",
       "date": "2026-10-22",
-      "source": "Simple Flying"
+      "source": "24/7 Wall St."
     },
     {
-      "title": "Airbus forecasts 46% growth in freighter fleet - AviTrader Aviation News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa3lRQVBLdWNWeXVXS0tpUVFWUVpGYTlSTmMwM3RYQl9pUFVlSmkyMk1qODhRVXVXcTAyVk9rREYyRGh5Yk84djRZUlo5QTB6elptVW8zUG9kXzZfTEh5dWFGOXRPVFJ3NU5qU0p2ejAxYlp1NG5PcHFBNkRqWndhNWkzdUlEZw?oc=5",
-      "summary": "Airbus forecasts 46% growth in freighter fleet",
+      "title": "FAA orders inspections of nearly 2,000 Boeing 737 jets over potential loss-of-control risk - Aerospace Global News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3ZwQ1d3N01jQkZwVWZ5XzRXcmVyeHFvUFlYR3JxajlnN0RzMm10NFMxdGZjWWxvbUJESDdtazZBMDA1bV8yMUIwS0ZWaGhKcXYyX0p1ejlNT2RaN2hJWnNVSlI0U0E5MnA1dmk4MTZ0Mk1kaVA2N3FfdEZmYTR6OXZScEpNQQ?oc=5",
+      "summary": "FAA orders inspections of nearly 2,000 Boeing 737 jets over potential loss-of-control risk",
       "date": "2026-10-22",
-      "source": "AviTrader Aviation News"
+      "source": "Aerospace Global News"
     },
     {
-      "title": "Help a lost lunar rover find its way in new ESA competition - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3hFN0tudHNrOU1UV09HOENQR2xTeEpBVFFPcUowaTdnTzJZS0RiaEc3NXRhVXNUZ2ZZbUxvZWRUdTFJWDRKTU51b1h0dmpWdHZpSWpJM3ZmLXozYnk5QkcxbDZoT3pfNUMwLW9yM3U3NDJ3M2dMXzB1eURhLTVuMUxqaGV3Nno1alpNX0dHVW5IajdaSXcta3VtQUxmZEJlOVNVRzV5YmhnYjNmeDJKVGJHZXVpUUc4dzl4M1NvRkxXTEk?oc=5",
-      "summary": "Help a lost lunar rover find its way in new ESA competition",
+      "title": "Montana Aerospace Builds Metal-Composite Pylon Fairing For Next Airbus - Aviation Week",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNanNPR0tZVEIzaE5IUnVJUXVQcUhyTTY1RVJVLV85VmhkX1V0T2paQS1xQ256a1lYOTA3VVN3emV2Q1kxN0ViRW50U1o3eWJCOVR3eEZORGN5d0I5NFlmX0xRLU95RTFvWEJvMUJRT0VjUFJLVXBMYVBNeTFFcFl0cFRlc3dCX21xSlRLdzgzQ2kyNGVWcTVDblZmekx3QlNYVGN4SEp2VXpKYkp1VDE5M2xVR01VcFpoUTlXMzBn?oc=5",
+      "summary": "Montana Aerospace Builds Metal-Composite Pylon Fairing For Next Airbus",
+      "date": "2026-10-22",
+      "source": "Aviation Week"
+    },
+    {
+      "title": "ESA Council approves appointment of two new directors - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWmNXUjc1Q2FibWZDUng4SWJqc1BwXzRWSnpzdE43LWY2ZnZqc3dVVVhYdlNienhxWXlZNWc5emduRnFxbzBMMDZ3SnZ5MXBxdGpPMldFSEFmOFdKcU1RMkFRcG9OMDYyMXZXVk5LNDBFVm11RUFVazhZYjNILTJlV0p4OUZ2b09xRWVyQ2pzVmdfUkduZWhtTzlGc3VIdw?oc=5",
+      "summary": "ESA Council approves appointment of two new directors",
       "date": "2026-10-22",
       "source": "European Space Agency"
     },
@@ -49,10 +56,40 @@
     },
     {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuMkJqa2FtYW0yTnZuYlEwUVMwOG54V3ZjX3Jxa0pBWU9GNzUtd2lTSHd6YVVROEppVFBoRmdUZDhpM2lnbXlERGZHcEdlZkstVDVQbzl2bXNXTW5XZEIxM1dnai1MUmdGdFBoSlJzUDFsZzJ5bHZJVw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
       "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-22",
       "source": "Press Information Bureau"
+    },
+    {
+      "title": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure - Design And Reuse",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmtGdGFJbnZSeFpzMzdrNTRPdm1rV2dGU1lyTUcxeXFNdzRlZVBOSmVGdjhNaE0yN0NMbXRiUXYyOGJuX3lQSlMwYS1KMURHNElRbHkyRXNwejJDZWxqUFR6WWduV3hDRzR2b0pwTVM1enVWOWRpbEFPOUYtd3ZfUjZHYnpFNEM0SVM4cHZXR0dOeFRfa1NWUk40YWg1OHVWdjNWaHNtWFFsWUc1YnFTY0VaM3BMU19o?oc=5",
+      "summary": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure",
+      "date": "2026-10-22",
+      "source": "Design And Reuse",
+      "topics": [
+        "GPU-accelerated science and HPC"
+      ]
+    },
+    {
+      "title": "QMatter Integrates Quantum Computing into a Million-Atom Biomolecular Simulation - HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSnoxazE4RThCVEwxbXo4ZkpXTHdfc1gtRlBSV3AzNS1Hd0dpYU81ZnBCN3ZPTGtqT05zeE5BQjREUHlSYzA1RVkxM1p4NmhKMUplSGtMeUl0QmN2NWVNclNQLVQ5WnlURnFPX3Mtay01aVQzUnY3OFdld1hvNjhVMVNxSXA3SWd0V1lUT3lqb3d1QWd5N3BtRWVDN1JIUzRmeFhGbDU3bENZbHZneXhQRzZDZHRrSW1MdEE?oc=5",
+      "summary": "QMatter Integrates Quantum Computing into a Million-Atom Biomolecular Simulation",
+      "date": "2026-10-22",
+      "source": "HPCwire",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "Aegiq Runs 100-qubit Tests On NVIDIA\u2019s DGX Spark Server - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90YXJ5NkUzMURUUmpaU1N3MXBFcUxCQXpYZnEtNFgwTFVfeTNYOW1td2x0akxSMjZMRTU5a05lckc2Mkp5dmhxOHhMekVYOWR5cVRDS0w4M1pUUDlrRng4ZGY2N1IzV2FmWG9xNU1Pcw?oc=5",
+      "summary": "Aegiq Runs 100-qubit Tests On NVIDIA\u2019s DGX Spark Server",
+      "date": "2026-10-22",
+      "source": "Quantum Zeitgeist",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
     },
     {
       "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
@@ -88,13 +125,6 @@
       "summary": "'s Collins Aerospace introduces ARINCDirect\u2120 OpenAPI to connect flight support data across operator systems RTX",
       "date": "2026-10-21",
       "source": "RTX"
-    },
-    {
-      "title": "Rocket Lab Shares Rise 3% After Hours Ahead of Q3 Earnings Report - Rocket Lab (NASDAQ:RKLB), SpaceX (NAS - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUZwMWk3RmVKYTB4SUY3dTcyNTJMMG1JbC1BWll4Szk0VG1KaV91X0wzTTctd1JrUmdRWFN6OVdhYzYyNHE0TXd4MGNuRjBBVGV5N1dfd0RIRzNBV1U5S1c0TE1oSkxycUl3aktFRnhYVXRWUkJ4SDZjbjBNT0JSMHhiM0JwR3M3cU1sc0lscjJHZUxROUpOVWJtLWI2OHl0ZUtpTDNsS3RzeTZRRmNJM1RhaUc?oc=5",
-      "summary": "Rocket Lab Shares Rise 3% After Hours Ahead of Q3 Earnings Report - Rocket Lab (NASDAQ:RKLB), SpaceX (NAS",
-      "date": "2026-10-21",
-      "source": "Benzinga"
     },
     {
       "title": "Firefly Aerospace Completes Preliminary Design Review for NASA MoonFall Mission - Firefly Aerospace",
@@ -139,18 +169,18 @@
       "source": "The Globe and Mail"
     },
     {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hZU45N3RiejNFNzMyUW9rMGJFWkNVYUxJVDRmbU9LbENrNzRvc2FiWVJhcUIxZUQ2ZWpjaUhNNWlKOUZtMG5RdnltRDN5MGJhclV4NFh4WTkzSUlydkRtU1FUT3RvN1VxcU9Xd1JHMkQ4RU52eTBZ?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-21",
-      "source": "Press Information Bureau"
-    },
-    {
       "title": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why? - Space",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlVJcGR6MmRjWE5OeDRLT2tVSDAwVzl6RlRwem9NY1JXU1h6dWwyeUhNUEhrOTJMTWh1NkxObkNVcHIxRnhhZG9xS1ZHY0YxUjZneEtkOFBHa2YyN3QxWnFPS1RPeWtRTHJTVFlGZ2pTME14THlqbXVfSnEySFhLMEltQzFaM0JpOU40dmZlVWRGSnRiTmEyem1jc3VRQUN3dXpDVkE5Sl9sWHlvcVZKbU1uVmFXc3VhcGl3UkdJbGVzY1hpSUNxUHN5RUs4T1FNa045dkhaRFJwQ2xNTFhfc0lUOVp0MWpOOXNjU25XSHhCSlNyMTNzZ0FNM0tVbkprWEtNdnltYw?oc=5",
       "summary": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why?",
       "date": "2026-10-21",
       "source": "Space"
+    },
+    {
+      "title": "How Rocket Lab Corporation Became A Falling Knife (NASDAQ:RKLB) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWDZyeUk1NnE5aU9tSXF4OS1oZ1JhaDJZRVFBZTJISW9tU2tTYmRSVWNtYmRkc1VtNnp5Qy1OeGd2ODhiSk1EYnRQWnhWczN0dlUxSEhzXzBzQWJaN0xYd0RqWFZjV3F1Zi1vcVJscmdFTUxOVTZyeHNvWl9UMWk5X292UlRXa3ZmR21WVGFfaXc2cUR3?oc=5",
+      "summary": "How Rocket Lab Corporation Became A Falling Knife (NASDAQ:RKLB)",
+      "date": "2026-10-20",
+      "source": "Seeking Alpha"
     },
     {
       "title": "MMX lifts off to Mars\u2019s moon Phobos",
@@ -167,14 +197,11 @@
       "source": "NASA (.gov)"
     },
     {
-      "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbVVtMmNjazNneDNFRUplM0xvVGVZdDBDUHhyU3lvbGdHR3ZPcS11WTVmRGhTZmZoSkZwR2xYcUdYSmJBY0NxaGFicjhHWjJ5eGJ0WE5rTlpTNEFscEZNSUpuc2R1dWNfSkZ0elE3eXo5MF9NSUpFTGRMTm1rUi1XS21uRHUyUEtfVTZyOVpWYzMwQ3ZocFdpNm0xRzBkQUx3RzV4R3UxWU9Oekh0aWN6Q3dWOGY1d3AwZzVsREFLSQ?oc=5",
-      "summary": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre",
+      "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
+      "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
       "date": "2026-10-20",
-      "source": "HPCwire",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
+      "source": "Space"
     },
     {
       "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
@@ -197,41 +224,14 @@
       ]
     },
     {
-      "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - The Quantum Insider",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkRMajFZV25vZ01IU0VwaDBjMURzU3BvY0lLUFRDSWM5Z3d1Y2FMT2NzYVlTSG5WQkZjUGh4ejVLYjhXMmxEMk9tUVhxaEJ5Y0JxbDVaYkJ4aDJaNFFGVUIxZFJQX3R2aHUyMmdqeXZnNVZtR3hiWmlxeGdqeGZoQnRKTURXSUFCazg0Y1FJVksyODR0UWREdVYzajVNa0d0eEV4RkVJajQteFc5OGJJUVBjb1NEQkxLLWptbDBnYlMyRkE2UlhsX0NFS1o?oc=5",
-      "summary": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
-      "date": "2026-10-19",
-      "source": "The Quantum Insider",
+      "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbVVtMmNjazNneDNFRUplM0xvVGVZdDBDUHhyU3lvbGdHR3ZPcS11WTVmRGhTZmZoSkZwR2xYcUdYSmJBY0NxaGFicjhHWjJ5eGJ0WE5rTlpTNEFscEZNSUpuc2R1dWNfSkZ0elE3eXo5MF9NSUpFTGRMTm1rUi1XS21uRHUyUEtfVTZyOVpWYzMwQ3ZocFdpNm0xRzBkQUx3RzV4R3UxWU9Oekh0aWN6Q3dWOGY1d3AwZzVsREFLSQ?oc=5",
+      "summary": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre",
+      "date": "2026-10-20",
+      "source": "HPCwire",
       "topics": [
         "Quantum computing for fluid science"
       ]
-    },
-    {
-      "title": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer - Quantum Computing Report",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEFicmZTZGFDdUFvU0oybHE5SXBSbHhBclcyNjRUaW1CRzliTl9DZlAwVTdxczNfRWVmdGt4TW9NMG0yTUdkVUdwcDFQa0NBTGM5NTRYTmdEa3VnT0F1NHNZeG5fUy01eGRhOV94SXJVSkUyNXZ1MmF2VWRXanVzR29lTmVYa0JuMElBTk90ejRRRGt6OFFmWXBCY21SV3ZaX1l4eS1LcmlHUVpGMmJVSVJkOXdqeTJib21EZGRyRjhSeVktZ1HSAcsBQVVfeXFMTmRRaG1xa0pESGNDSW1YMmxaTmJ0eTJqRjdya0hreXNqeVkwdEpCQjVxRWVxMzBSaVhTWUJMOXpJTUF3VU95M3dIczhHUTEwZUg1Z21JaVU5VktucWJhUDVSV2djSWhxVnVuR3RwdEhrUkVvX1RuNlcxRW96TXdDbDZ5Rk5scEdqUTB1ZnJWSHJUeW04SkRNR0UwT05CQ2FScXR4RUZwc0VrbVkyT3NNeC1VVGRHZGlsbWZHSlhsalNLM3lkeWRablY4WlU?oc=5",
-      "summary": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
-      "date": "2026-10-19",
-      "source": "Quantum Computing Report",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
-      "title": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - NVIDIA Newsroom",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVG1WY2dfWHlKMC03cS1qQllzc3hyT0ptajMtQUJvdlNMZ1ZkVHM0bDdJRnloMVdQNDZxMHhXcnhyQUR5eW9EVENZWm1Yb0RMMlBCMHU2b1NfbzNaeGxSY3pFbjFpM1lNS01YbFZOMDBzc3dmRjFZM2hoSXpoQTVvbFVyeGNvRlRxWFp4QlEyMlhVWE1QeHljWTNGQkE0SlBKNDJGa0phLXhpNWFBSVBDRTE4dFFRS2puNDRuSUdKUDlscEkwaVE4TmFVS3I?oc=5",
-      "summary": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
-      "date": "2026-10-19",
-      "source": "NVIDIA Newsroom",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
-      "title": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ21IZGtuR1BVZl9NUkpyejdMUW83emFwY3lncndQSjVzeURfenJiWlVLalpHTFFzeFVmWHNBZXRHWllEZ1lweVhjQjhOUVJVbGcyOGdhNVI3eWRhTlBEeWxMTjBkVkU1V2t2dGNIUHI0TGFwNk83YXV0RFFMSkJvMTkwZEJ2STZaZEF3UGNGZmU1SERnMnFtLXQ5Si1tazhPLUtEQ1E4dkppeFpzajNhcFR2ZDI2Y0NmY0d3b2RzcnFnUU4zT2lKNjVpenBFOXVfM2s4VG5LUnBJcEZ1T3pZUlVsbVc?oc=5",
-      "summary": "Vertical Aerospace Strengthens Supplier Network With ANH Structure and Northrop Grumman LITEF",
-      "date": "2026-10-16",
-      "source": "Business Wire"
     },
     {
       "title": "Act for more sustainable space",
@@ -264,6 +264,27 @@
       "source": "arXiv"
     },
     {
+      "title": "State-Specific Kinetic Modeling of Atomic H for H 2 /He Entry Flows",
+      "url": "https://doi.org/10.2514/1.t7512",
+      "summary": "An 11-species thermochemical model for [Formula: see text] mixtures with state-specific kinetics for atomic [Formula: see text] is developed and used to simulate 1-D shocks at conditions relevant for ice and gas giant entry flows. To implement this kinetic model, a literature review of the state-specific excitation and ionization rate constants of atomic [Formula: see text] is first performed.",
+      "date": "2026-10-22",
+      "source": "Journal of Thermophysics and Heat Transfer"
+    },
+    {
+      "title": "Vortex Dynamics over an Airfoil Immersed in a Harmonic Longitudinal Gust",
+      "url": "https://doi.org/10.2514/1.j067063",
+      "summary": "Understanding unsteady aerodynamic forces during gust encounters is critical for the design of aircraft, rotorcraft, and wind turbines, particularly in regimes characterized by extensive boundary-layer separation. While pitching and plunging airfoil vortex dynamics are well-studied, characterization of airfoils in periodic longitudinal gusts under massively separated flow remains limited.",
+      "date": "2026-10-22",
+      "source": "AIAA Journal"
+    },
+    {
+      "title": "Lateral Efficiency, Separability, and Passenger Comfort for Urban Air Route Network Designs",
+      "url": "https://doi.org/10.2514/1.g009903",
+      "summary": "This paper presents an improved structure for an urban air route network, based on a node-edge grid. The enhanced network incorporates additional edge directions to increase routing flexibility.",
+      "date": "2026-10-22",
+      "source": "Journal of Guidance, Control, and Dynamics"
+    },
+    {
       "title": "Conditional neural field-based reduced order model for dynamic ditching load prediction",
       "url": "https://doi.org/10.1063/5.0342785",
       "summary": "Grid-based neural networks such as convolutional autoencoders are widely used in dimension reduction-based surrogate models for computational fluid dynamics. Recently, the use of coordinate-based approaches like conditional neural fields (CNFs) has emerged.",
@@ -271,31 +292,24 @@
       "source": "Physics of Fluids"
     },
     {
-      "title": "Enhanced Energy-Saving Capture via Short-Term Stays and Planetary Moon Flybys",
-      "url": "https://doi.org/10.2514/1.g009862",
-      "summary": "",
-      "date": "2026-10-21",
-      "source": "Journal of Guidance, Control, and Dynamics"
-    },
-    {
-      "title": "Richtmyer\u2013Meshkov instability on high-temperature non-equilibrium air pairs",
-      "url": "https://doi.org/10.1063/5.0347890",
-      "summary": "The influence of high-temperature non-equilibrium effects, induced by strong-shock waves, on the Richtmyer\u2013Meshkov instability (RMI) remains less understood. In this study, the RMI at an air interface with an initial temperature difference is numerically investigated for Mach numbers 6.0\u20138.0 across three thermochemistry models: frozen (FR) flow, thermal non-equilibrium (TN) flow, and thermochemical non-equilibrium (T",
-      "date": "2026-10-21",
+      "title": "Interfacial instability transition of stratified two-phase flows driven by gravity and pressure difference in inclined microchannels: A quantitative classification",
+      "url": "https://doi.org/10.1063/5.0348070",
+      "summary": "Linear stability analysis of stratified gas\u2013liquid flows with fixed Rel = 15 in inclined plane microchannels (with height H\u0303 \u2264 1 mm) is performed to disclose the instability transition driven by tangential component of gravity (TCG) and pressure difference via numerical solution of the Orr\u2013Sommerfeld equations for all wavenumber disturbances. Combining energy balance theory, five transitioning instabilities are class",
+      "date": "2026-10-22",
       "source": "Physics of Fluids"
     },
     {
-      "title": "Oscillatory liquid-metal flow in a channel under rapidly decaying applied magnetic field",
-      "url": "https://doi.org/10.1103/jd2g-7rg5",
+      "title": "Drag modulation by finite-size particles in viscoelastic Taylor-Couette turbulence",
+      "url": "https://doi.org/10.1103/6hkq-btnz",
       "summary": "",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "source": "Physical Review Fluids"
     },
     {
-      "title": "Intermittency in the elastic range of bulk polymeric turbulence",
-      "url": "https://doi.org/10.1103/llvj-xsnh",
+      "title": "Electrokinetic effects on flow and ion transport in charge-patterned corrugated nanochannels",
+      "url": "https://doi.org/10.1103/q8gx-2zjb",
       "summary": "",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "source": "Physical Review Fluids"
     },
     {
@@ -311,20 +325,6 @@
       "summary": "In an active suspension, hydrodynamic interactions between constituent microswimmers play an important role in their collective motion and rheological properties. To advance the understanding of these interactions, we introduce the boundary collocation method (BCM) and an easy-to-implement extension called the lubrication-theory-informed BCM to solve Stokes flow problems involving two spherical boundaries, where one ",
       "date": "2026-10-21",
       "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Artificial Neural Networks for Performance Prediction of CO2 Transcritical Heat Pump System",
-      "url": "https://doi.org/10.2514/1.t7508",
-      "summary": "The rising global demand for energy-efficient heating systems has increased interest in [Formula: see text]-based transcritical heat pumps due to their unique thermodynamic behavior and environmental advantages. However, conventional models struggle with the nonlinear nature of transcritical cycles, and existing artificial neural network (ANN) approaches often fail to capture key interacting parameters under varying ",
-      "date": "2026-10-20",
-      "source": "Journal of Thermophysics and Heat Transfer"
-    },
-    {
-      "title": "The Effect of Acoustic Noise on Aero-Optical Measurements in Wind Tunnels",
-      "url": "https://doi.org/10.2514/1.j066890",
-      "summary": "Both ground and flight test data show that optical wavefront measurements can detect and be influenced by acoustic noise, where the optical aberrations originate from density variations associated with the sound waves. This finding has implications regarding the potential effect of background acoustic noise on optical measurements during wind-tunnel testing.",
-      "date": "2026-10-20",
-      "source": "AIAA Journal"
     },
     {
       "title": "Frequency synchronisation and modal mapping of wake dynamics to the performance of a vertical-axis turbine",
