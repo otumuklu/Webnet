@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T04:56:01.426438+00:00",
+  "updated": "2026-10-22T11:59:27.566606+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,18 +20,32 @@
   ],
   "industry": [
     {
-      "title": "Here\u2019s How Much Bigger The Boeing 777-300ER Is Compared To The 787 Dreamliner - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamhqdDhvSVY2V1FKVkJ2enJaclRLbVRkMTFQTDBiR19WM3pybndzMmpfLVZmNHFLT0c2a1cza3JleDhPcHhvUThRUGY0bEJlcmVMWmZFbEQzM05objRWUnZjNC1NemYzNVk0aWpFWnlfMVFDY3ZkeFg0aTA0ZkxUU0FMaVJzdlFB?oc=5",
-      "summary": "Here\u2019s How Much Bigger The Boeing 777-300ER Is Compared To The 787 Dreamliner",
+      "title": "Why The World's Largest Aircraft Lessor Is Selling Boeing 767 Freighters Just As Cargo Demand Softens - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM1FiR2l3NTl3aTQzUmt3aHBuTnlOd0N2ZDdLLXFzMGxnbWZHN1ktSjlLRG5FZTZmNTFiamptRXlUOVpQSUJOeFhhNVBCandtMTczazVoWS1qb1Jfd21maU9wNS1nTWRmaEsxM2Q3eEI0ZGNtMUc0T3dabkN2a1pmdlB6QjJwZFozNlV0Y21ZMHFnVEp2cjJnbEFmZjZOcmIzVHNJNzRCNjJ3MWs?oc=5",
+      "summary": "Why The World's Largest Aircraft Lessor Is Selling Boeing 767 Freighters Just As Cargo Demand Softens",
       "date": "2026-10-22",
       "source": "Simple Flying"
     },
     {
-      "title": "UK A400M Saudi deployment highlights airlifter\u2019s role as Airbus pursues upgrades - Shephard Media",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcXFNcVRSejljdmdwZElNcEp5NDJvc3JjUERfYzFIVm43NWNYZWxDZlFtZ3dyUzBDQkJ6X3pPalo2bjN3THJyZzhGVjRHaGJxdjVUYUZyWnRObWNpQV9QMXdrT2pFSHFQQU9qbjNET2pEaW50a0t6aFdtT3E2WURZNXFjMWF3Vks5ZU9SeWlmSTlVMjkxQTdRLUhOS1I4d2phckt2VU9mcjhwUEF2ZkFXZFc5ZS1NYXRhbTg4VWdYZTdOWUF1S2c?oc=5",
-      "summary": "UK A400M Saudi deployment highlights airlifter\u2019s role as Airbus pursues upgrades",
+      "title": "Airbus forecasts 46% growth in freighter fleet - AviTrader Aviation News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa3lRQVBLdWNWeXVXS0tpUVFWUVpGYTlSTmMwM3RYQl9pUFVlSmkyMk1qODhRVXVXcTAyVk9rREYyRGh5Yk84djRZUlo5QTB6elptVW8zUG9kXzZfTEh5dWFGOXRPVFJ3NU5qU0p2ejAxYlp1NG5PcHFBNkRqWndhNWkzdUlEZw?oc=5",
+      "summary": "Airbus forecasts 46% growth in freighter fleet",
       "date": "2026-10-22",
-      "source": "Shephard Media"
+      "source": "AviTrader Aviation News"
+    },
+    {
+      "title": "Help a lost lunar rover find its way in new ESA competition - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3hFN0tudHNrOU1UV09HOENQR2xTeEpBVFFPcUowaTdnTzJZS0RiaEc3NXRhVXNUZ2ZZbUxvZWRUdTFJWDRKTU51b1h0dmpWdHZpSWpJM3ZmLXozYnk5QkcxbDZoT3pfNUMwLW9yM3U3NDJ3M2dMXzB1eURhLTVuMUxqaGV3Nno1alpNX0dHVW5IajdaSXcta3VtQUxmZEJlOVNVRzV5YmhnYjNmeDJKVGJHZXVpUUc4dzl4M1NvRkxXTEk?oc=5",
+      "summary": "Help a lost lunar rover find its way in new ESA competition",
+      "date": "2026-10-22",
+      "source": "European Space Agency"
+    },
+    {
+      "title": "Stars brewing in a nebulous cauldron",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron",
+      "summary": "Image: Stars brewing in a nebulous cauldron",
+      "date": "2026-10-22",
+      "source": "ESA Space Science"
     },
     {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
@@ -97,25 +111,11 @@
       "source": "Japan Aerospace Exploration Agency"
     },
     {
-      "title": "ESA\u2019s Space Rider Suffers Mishap In Drop Test - Aviation Week",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWN0OENGR3ExUjlsbHphMHJQNEx5SDJCS291cXN4RnRwWDN0OV9RYi1NNktla240Sm9fSkp6OExHTk85SGJna3RxSzJWME1GSWtTY2laVnF0RUVGak9BTmFVOE9JRERsS0FRNFVaVExqaEZBYVN1Tms4dkxwb180SnpZNWo5Sm1zUmFqS0pjVFdBZDlh?oc=5",
-      "summary": "ESA\u2019s Space Rider Suffers Mishap In Drop Test",
-      "date": "2026-10-21",
-      "source": "Aviation Week"
-    },
-    {
       "title": "Ceres-1 sea launch lofts first satellite for low-inclination Wuyang remote sensing constellation - SpaceNews",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWw0SjdIMlA5Ti12Nnl5bk92ZmRybW9SRVRFNHN1YUszR29rN1NVSHpkSmRLUlZkMmZlWVFKekpSV01xdlpCUlhzSnBDODBvRGVPUzdSQnNTMS05VzlWVjA0bTVyR2R2SER0ZVVBMy1Iem5lb05hTHdwV2JISnBoajFYTTdkVThIRjVhSFlJVTgzWS1SN0JoVTVGcnhra0ZiWW5LXzdBYUdVNDFERmoxMGVSWWVtbUR0SUJr?oc=5",
       "summary": "Ceres-1 sea launch lofts first satellite for low-inclination Wuyang remote sensing constellation",
       "date": "2026-10-21",
       "source": "SpaceNews"
-    },
-    {
-      "title": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why? - Space",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlVJcGR6MmRjWE5OeDRLT2tVSDAwVzl6RlRwem9NY1JXU1h6dWwyeUhNUEhrOTJMTWh1NkxObkNVcHIxRnhhZG9xS1ZHY0YxUjZneEtkOFBHa2YyN3QxWnFPS1RPeWtRTHJTVFlGZ2pTME14THlqbXVfSnEySFhLMEltQzFaM0JpOU40dmZlVWRGSnRiTmEyem1jc3VRQUN3dXpDVkE5Sl9sWHlvcVZKbU1uVmFXc3VhcGl3UkdJbGVzY1hpSUNxUHN5RUs4T1FNa045dkhaRFJwQ2xNTFhfc0lUOVp0MWpOOXNjU25XSHhCSlNyMTNzZ0FNM0tVbkprWEtNdnltYw?oc=5",
-      "summary": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why?",
-      "date": "2026-10-21",
-      "source": "Space"
     },
     {
       "title": "Hitchhiker Orbital Appoints Robert Call CEO to Advance Commercial Space Infrastructure - citybiz",
@@ -146,6 +146,13 @@
       "source": "Press Information Bureau"
     },
     {
+      "title": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why? - Space",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlVJcGR6MmRjWE5OeDRLT2tVSDAwVzl6RlRwem9NY1JXU1h6dWwyeUhNUEhrOTJMTWh1NkxObkNVcHIxRnhhZG9xS1ZHY0YxUjZneEtkOFBHa2YyN3QxWnFPS1RPeWtRTHJTVFlGZ2pTME14THlqbXVfSnEySFhLMEltQzFaM0JpOU40dmZlVWRGSnRiTmEyem1jc3VRQUN3dXpDVkE5Sl9sWHlvcVZKbU1uVmFXc3VhcGl3UkdJbGVzY1hpSUNxUHN5RUs4T1FNa045dkhaRFJwQ2xNTFhfc0lUOVp0MWpOOXNjU25XSHhCSlNyMTNzZ0FNM0tVbkprWEtNdnltYw?oc=5",
+      "summary": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why?",
+      "date": "2026-10-21",
+      "source": "Space"
+    },
+    {
       "title": "MMX lifts off to Mars\u2019s moon Phobos",
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos",
       "summary": "Image: MMX lifts off to Mars\u2019s moon Phobos",
@@ -153,11 +160,11 @@
       "source": "ESA Space Science"
     },
     {
-      "title": "SpaceX launches its 'Starfall' return capsule for 2nd time ever (video) - Space",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRjdqQ01oN2pUNHpXd0NsU1JKZEhJampaeFo5ZGhqMzBrUlFtNVB0S3prUFIyQkdiUFh0TGRlNTh0RGRreVhLNjg0OGllUVZrVDU3OU5pUGhzOUdfVE1RQ2VQV0JnVk9GUlhEWWdMWWt4Z2pTemFlYmpFaGVaVldsZHVucGthd0tUSFNfY3Q3N0FSUEl4SHFEeUljb01fNENmanNKM0FTNkl2RVNTbFNYMlVIRDczZGJrYWQyaEVscHJyTGxLd2c?oc=5",
-      "summary": "X launches its 'Starfall' return capsule for 2nd time ever (video) Space",
+      "title": "Two NASA Commercial Satellite Communication Demonstrations Launch - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenJ6S2ZEZzYyMVVFenFRMHktbDVIQUFTN3hvUGNXblNIQ2x1Z0ZQajRJSjVNS2pJcUJOME4wNU9wSnBBdUJCLVBxenhOVmplejhadnVZdUdWa05VWVRmckhscVhrblllVWJFazhQOXhxT0xvT244STFyTVJEMnZyRXVaMHpGbkg3bWo1MTctQmx0R3BMM0pVeUxkYlBBN0ZSV2F1OGFUZXRrLTZVSnZJcUkwZ1haZ1dyQWFRWQ?oc=5",
+      "summary": "Two NASA Commercial Satellite Communication Demonstrations Launch",
       "date": "2026-10-20",
-      "source": "Space"
+      "source": "NASA (.gov)"
     },
     {
       "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
@@ -190,23 +197,6 @@
       ]
     },
     {
-      "title": "Celebrating BepiColombo, three words at a time",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Celebrating_BepiColombo_three_words_at_a_time",
-      "summary": "Video: 00:03:32 BepiColombo launched on 20 October 2018. This year, the anniversary is special. After eight years of travelling through the inner Solar System, the ESA/JAXA mission will arrive at Mercury on 9 December, 2026. To celebrate, mission team members were asked to describe BepiColombo in just three words. Their answers capture the character of the mission and the people behind it. Complex, collaborative and transformative are among the words chosen, reflecting both the demanding journey to Mercury and the international teamwork that has made it possible. Together, their words offer a personal snapshot of BepiColombo as it approaches its long-awaited destination .",
-      "date": "2026-10-19",
-      "source": "ESA Space Science"
-    },
-    {
-      "title": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - NVIDIA Newsroom",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVG1WY2dfWHlKMC03cS1qQllzc3hyT0ptajMtQUJvdlNMZ1ZkVHM0bDdJRnloMVdQNDZxMHhXcnhyQUR5eW9EVENZWm1Yb0RMMlBCMHU2b1NfbzNaeGxSY3pFbjFpM1lNS01YbFZOMDBzc3dmRjFZM2hoSXpoQTVvbFVyeGNvRlRxWFp4QlEyMlhVWE1QeHljWTNGQkE0SlBKNDJGa0phLXhpNWFBSVBDRTE4dFFRS2puNDRuSUdKUDlscEkwaVE4TmFVS3I?oc=5",
-      "summary": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
-      "date": "2026-10-19",
-      "source": "NVIDIA Newsroom",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
       "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - The Quantum Insider",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkRMajFZV25vZ01IU0VwaDBjMURzU3BvY0lLUFRDSWM5Z3d1Y2FMT2NzYVlTSG5WQkZjUGh4ejVLYjhXMmxEMk9tUVhxaEJ5Y0JxbDVaYkJ4aDJaNFFGVUIxZFJQX3R2aHUyMmdqeXZnNVZtR3hiWmlxeGdqeGZoQnRKTURXSUFCazg0Y1FJVksyODR0UWREdVYzajVNa0d0eEV4RkVJajQteFc5OGJJUVBjb1NEQkxLLWptbDBnYlMyRkE2UlhsX0NFS1o?oc=5",
       "summary": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
@@ -222,6 +212,16 @@
       "summary": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
       "date": "2026-10-19",
       "source": "Quantum Computing Report",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
+      "title": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre - NVIDIA Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVG1WY2dfWHlKMC03cS1qQllzc3hyT0ptajMtQUJvdlNMZ1ZkVHM0bDdJRnloMVdQNDZxMHhXcnhyQUR5eW9EVENZWm1Yb0RMMlBCMHU2b1NfbzNaeGxSY3pFbjFpM1lNS01YbFZOMDBzc3dmRjFZM2hoSXpoQTVvbFVyeGNvRlRxWFp4QlEyMlhVWE1QeHljWTNGQkE0SlBKNDJGa0phLXhpNWFBSVBDRTE4dFFRS2puNDRuSUdKUDlscEkwaVE4TmFVS3I?oc=5",
+      "summary": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
+      "date": "2026-10-19",
+      "source": "NVIDIA Newsroom",
       "topics": [
         "Quantum computing for fluid science"
       ]
@@ -262,6 +262,13 @@
       "summary": "Bubble size, depth, and spatial distribution govern transport and uniformity in multiphase flows. A single shadowgraphic view cannot separate bubble diameter from focal-plane displacement, as image signatures depend on both, while multicamera systems add optical access, calibration, and cost.",
       "date": "2026-10-22",
       "source": "arXiv"
+    },
+    {
+      "title": "Conditional neural field-based reduced order model for dynamic ditching load prediction",
+      "url": "https://doi.org/10.1063/5.0342785",
+      "summary": "Grid-based neural networks such as convolutional autoencoders are widely used in dimension reduction-based surrogate models for computational fluid dynamics. Recently, the use of coordinate-based approaches like conditional neural fields (CNFs) has emerged.",
+      "date": "2026-10-22",
+      "source": "Physics of Fluids"
     },
     {
       "title": "Enhanced Energy-Saving Capture via Short-Term Stays and Planetary Moon Flybys",
@@ -320,16 +327,9 @@
       "source": "AIAA Journal"
     },
     {
-      "title": "Direct simulation Monte Carlo based on the vibrationally state-resolved rotational relaxation model",
-      "url": "https://doi.org/10.1063/5.0345526",
-      "summary": "This study implements a vibrationally state-resolved rotational relaxation model within the direct simulation Monte Carlo (DSMC) framework. The model, which employs an exponential correlation function to characterize rotational energy transition probabilities, is integrated via two approaches: (i) the temperature-dependent rotational collision number Zrot(T) is constructed based on a set of pre-calculated vibrational",
-      "date": "2026-10-20",
-      "source": "Physics of Fluids"
-    },
-    {
-      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
-      "url": "https://doi.org/10.1017/jfm.2026.12064",
-      "summary": "Coenen, Zhang & S\u00e1nchez ( J. Fluid Mech.",
+      "title": "Frequency synchronisation and modal mapping of wake dynamics to the performance of a vertical-axis turbine",
+      "url": "https://doi.org/10.1017/jfm.2026.12142",
+      "summary": "The transition towards sustainable marine energy relies partly on efficient deployment of vertical-axis tidal turbines, yet their widespread application is constrained by the complex, unsteady fluid dynamics inherent in their operation. While vertical-axis turbines offer superior structural scalability, they experience intricate vortex shedding and wake-induced energy losses which can make performance difficult to pr",
       "date": "2026-10-19",
       "source": "Journal of Fluid Mechanics"
     }
