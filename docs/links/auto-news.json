@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T17:15:21.928525+00:00",
+  "updated": "2026-10-22T21:41:08.666902+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -27,11 +27,11 @@
       "source": "24/7 Wall St."
     },
     {
-      "title": "FAA orders inspections of nearly 2,000 Boeing 737 jets over potential loss-of-control risk - Aerospace Global News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3ZwQ1d3N01jQkZwVWZ5XzRXcmVyeHFvUFlYR3JxajlnN0RzMm10NFMxdGZjWWxvbUJESDdtazZBMDA1bV8yMUIwS0ZWaGhKcXYyX0p1ejlNT2RaN2hJWnNVSlI0U0E5MnA1dmk4MTZ0Mk1kaVA2N3FfdEZmYTR6OXZScEpNQQ?oc=5",
-      "summary": "FAA orders inspections of nearly 2,000 Boeing 737 jets over potential loss-of-control risk",
+      "title": "FAA Certifies Largest Boeing 737 MAX Variant - Airport Industry-News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ3RmOWtIeFJzclgxdzhNYXVXMTJQZzJRcUJvUGZodWdxQmMxWTRMLUdCc0I1Q2ZvbmhjLWo0NGVMd0xYcV9ONGN0STdpN3NwUWY5b3c0M0hGalV0WWFIMHU2QzlnYnZNb09aUHlOLXFFb2ozOWdxelF4Yk8tcjRzdi1BbDk?oc=5",
+      "summary": "FAA Certifies Largest Boeing 737 MAX Variant",
       "date": "2026-10-22",
-      "source": "Aerospace Global News"
+      "source": "Airport Industry-News"
     },
     {
       "title": "Montana Aerospace Builds Metal-Composite Pylon Fairing For Next Airbus - Aviation Week",
@@ -55,6 +55,27 @@
       "source": "ESA Space Science"
     },
     {
+      "title": "Stock Market Today, Oct. 22: SpaceX Earnings Beat Sparks Profit-Taking - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWUxLSFU0YTJESkxla1c3U0xwNnBidTBlb0VqWW1MSzQ1M0ZoOTc5eHZEb2xzYUl3Ml9jQ3lZajJrVEZabWNVdUpjd3JBSzQ3SXdRbUhzcm9xemliV05nLXRoaEd1MDdaQ2Q0VGl3X2ltM3NKRUJzaHN5VWNWWlBMU2haVTdGbndmYXNNUXNBUlVOb0tNYlJHck5mTk5mUV9KMnJ1OWcyczd3dzVWS1M0dVdSeDgtcWRPbXhQRHh5M0lnWTdPV0sydkFPTkNPXzB5bjF4SVpnR25hNklKajk2cExQRm5UX1U?oc=5",
+      "summary": "Stock Market Today, Oct. 22: SpaceX Earnings Beat Sparks Profit-Taking",
+      "date": "2026-10-22",
+      "source": "The Globe and Mail"
+    },
+    {
+      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTEZGZFUyR2RHVDFaYkRORF9SVzRjUnJsa2J0c0VNT09fUGdaY1JnaXZ0c2VMbXNfUmJ5ZEZFVlg4bjFvYmdwQ0JUVGU1YlVuQVJTS3kwVTJrRkYzb0JKX3FsWGx2ZWpzQmwtM1pOalpxNC05bmc?oc=5",
+      "summary": "Strengthening India\u2019s Space Sovereignty",
+      "date": "2026-10-22",
+      "source": "Press Information Bureau"
+    },
+    {
+      "title": "Isro to launch much-delayed indigenous navigation satellite NVS-03 on Oct 30 - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamQ3VVRfOVc2WjJKZ05sX2NrQmVrWldYQWt1d0RnOW8yUmpYQks3ZVk0a2ozd2FzYVI2MFIxakFibkd1V1owLXlxVDFnWVpJS3ZUeU1IaFlGMlFTaW1hVDN1aUEzem1PanY2OXJpWlpSMmQyTGxzOFpVbUo1N3hJdHZnTGpyYm40b3puTjA4cEVwZTZOdDN5R3VB0gGgAUFVX3lxTFA0Q3hja2FNZkk5VzNKOXl3bDM0a0V0WHpTVHFFS2xVYV9yT0JqeTBKYi1xQjhVNlZLSEF6SG11cDNyVExNdDNtRGxKRk1rX0NxcGJVV3pvSlRxaURURElfRWZ3US0wRmo5QkZSNUtUaFQ0X3hUOE9BNGEtaHlXTDNkSXNoYkZDLUFhUDRXeks0aHpMbnpiTzlXRGtPZEJ6WE4?oc=5",
+      "summary": "Isro to launch much-delayed indigenous navigation satellite NVS-03 on Oct 30",
+      "date": "2026-10-22",
+      "source": "The Indian Express"
+    },
+    {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
       "summary": "Strengthening India\u2019s Space Sovereignty",
@@ -67,6 +88,16 @@
       "summary": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure",
       "date": "2026-10-22",
       "source": "Design And Reuse",
+      "topics": [
+        "GPU-accelerated science and HPC"
+      ]
+    },
+    {
+      "title": "NVIDIA, Aegiq & BAE Systems Test Quantum Boost To Engineering Workflows - Quantum Zeitgeist",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmbUJ2aDNETXpSYnZIS3NZdzhGM2twYVRjLXVIWWZUb0xKbmRTdnRkVHBXejlqOElheHU4eHBsa05uLU52T0NtLXNDMDlwNlBxV3QwT1BIaF9ud1NSWHlxLUlFVUdQYzJFb29r?oc=5",
+      "summary": "NVIDIA, Aegiq & BAE Systems Test Quantum Boost To Engineering Workflows",
+      "date": "2026-10-22",
+      "source": "Quantum Zeitgeist",
       "topics": [
         "GPU-accelerated science and HPC"
       ]
@@ -155,11 +186,11 @@
       "source": "citybiz"
     },
     {
-      "title": "Global leaders converge on biggest ever Space Tech Expo Europe 2026 - Aerospace Manufacturing magazine",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd05TV24xRFFTU3ZuU2xwWk9EVURyTTJLWER6UlFWeVV0cmR3d3hoeUpNbW5qWl80SDhBVllpRFh5V0NqMVN1ZlJjNEJ3cmVlQ3ExZlEtNF85MndPZnBwNDRnZEVrWGRNQVN2OW1zZTJDU05SeFBKUnhQelpZYjBTYTE4Q01yX3d5eVRXOXphRm9hMXg1MWNr?oc=5",
-      "summary": "Global leaders converge on biggest ever Space Tech Expo Europe 2026",
+      "title": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why? - Space",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlVJcGR6MmRjWE5OeDRLT2tVSDAwVzl6RlRwem9NY1JXU1h6dWwyeUhNUEhrOTJMTWh1NkxObkNVcHIxRnhhZG9xS1ZHY0YxUjZneEtkOFBHa2YyN3QxWnFPS1RPeWtRTHJTVFlGZ2pTME14THlqbXVfSnEySFhLMEltQzFaM0JpOU40dmZlVWRGSnRiTmEyem1jc3VRQUN3dXpDVkE5Sl9sWHlvcVZKbU1uVmFXc3VhcGl3UkdJbGVzY1hpSUNxUHN5RUs4T1FNa045dkhaRFJwQ2xNTFhfc0lUOVp0MWpOOXNjU25XSHhCSlNyMTNzZ0FNM0tVbkprWEtNdnltYw?oc=5",
+      "summary": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why?",
       "date": "2026-10-21",
-      "source": "Aerospace Manufacturing magazine"
+      "source": "Space"
     },
     {
       "title": "Ottawa expands military space ambitions with launch, satellite funding - The Globe and Mail",
@@ -167,13 +198,6 @@
       "summary": "Ottawa expands military space ambitions with launch, satellite funding",
       "date": "2026-10-21",
       "source": "The Globe and Mail"
-    },
-    {
-      "title": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why? - Space",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlVJcGR6MmRjWE5OeDRLT2tVSDAwVzl6RlRwem9NY1JXU1h6dWwyeUhNUEhrOTJMTWh1NkxObkNVcHIxRnhhZG9xS1ZHY0YxUjZneEtkOFBHa2YyN3QxWnFPS1RPeWtRTHJTVFlGZ2pTME14THlqbXVfSnEySFhLMEltQzFaM0JpOU40dmZlVWRGSnRiTmEyem1jc3VRQUN3dXpDVkE5Sl9sWHlvcVZKbU1uVmFXc3VhcGl3UkdJbGVzY1hpSUNxUHN5RUs4T1FNa045dkhaRFJwQ2xNTFhfc0lUOVp0MWpOOXNjU25XSHhCSlNyMTNzZ0FNM0tVbkprWEtNdnltYw?oc=5",
-      "summary": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why?",
-      "date": "2026-10-21",
-      "source": "Space"
     },
     {
       "title": "How Rocket Lab Corporation Became A Falling Knife (NASDAQ:RKLB) - Seeking Alpha",
@@ -188,20 +212,6 @@
       "summary": "Image: MMX lifts off to Mars\u2019s moon Phobos",
       "date": "2026-10-20",
       "source": "ESA Space Science"
-    },
-    {
-      "title": "Two NASA Commercial Satellite Communication Demonstrations Launch - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenJ6S2ZEZzYyMVVFenFRMHktbDVIQUFTN3hvUGNXblNIQ2x1Z0ZQajRJSjVNS2pJcUJOME4wNU9wSnBBdUJCLVBxenhOVmplejhadnVZdUdWa05VWVRmckhscVhrblllVWJFazhQOXhxT0xvT244STFyTVJEMnZyRXVaMHpGbkg3bWo1MTctQmx0R3BMM0pVeUxkYlBBN0ZSV2F1OGFUZXRrLTZVSnZJcUkwZ1haZ1dyQWFRWQ?oc=5",
-      "summary": "Two NASA Commercial Satellite Communication Demonstrations Launch",
-      "date": "2026-10-20",
-      "source": "NASA (.gov)"
-    },
-    {
-      "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
-      "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
-      "date": "2026-10-20",
-      "source": "Space"
     },
     {
       "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
@@ -219,16 +229,6 @@
       "summary": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation",
       "date": "2026-10-20",
       "source": "36Kr",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
-      "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbVVtMmNjazNneDNFRUplM0xvVGVZdDBDUHhyU3lvbGdHR3ZPcS11WTVmRGhTZmZoSkZwR2xYcUdYSmJBY0NxaGFicjhHWjJ5eGJ0WE5rTlpTNEFscEZNSUpuc2R1dWNfSkZ0elE3eXo5MF9NSUpFTGRMTm1rUi1XS21uRHUyUEtfVTZyOVpWYzMwQ3ZocFdpNm0xRzBkQUx3RzV4R3UxWU9Oekh0aWN6Q3dWOGY1d3AwZzVsREFLSQ?oc=5",
-      "summary": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre",
-      "date": "2026-10-20",
-      "source": "HPCwire",
       "topics": [
         "Quantum computing for fluid science"
       ]
@@ -271,18 +271,18 @@
       "source": "Journal of Thermophysics and Heat Transfer"
     },
     {
-      "title": "Vortex Dynamics over an Airfoil Immersed in a Harmonic Longitudinal Gust",
-      "url": "https://doi.org/10.2514/1.j067063",
-      "summary": "Understanding unsteady aerodynamic forces during gust encounters is critical for the design of aircraft, rotorcraft, and wind turbines, particularly in regimes characterized by extensive boundary-layer separation. While pitching and plunging airfoil vortex dynamics are well-studied, characterization of airfoils in periodic longitudinal gusts under massively separated flow remains limited.",
-      "date": "2026-10-22",
-      "source": "AIAA Journal"
-    },
-    {
       "title": "Lateral Efficiency, Separability, and Passenger Comfort for Urban Air Route Network Designs",
       "url": "https://doi.org/10.2514/1.g009903",
       "summary": "This paper presents an improved structure for an urban air route network, based on a node-edge grid. The enhanced network incorporates additional edge directions to increase routing flexibility.",
       "date": "2026-10-22",
       "source": "Journal of Guidance, Control, and Dynamics"
+    },
+    {
+      "title": "Vortex Dynamics over an Airfoil Immersed in a Harmonic Longitudinal Gust",
+      "url": "https://doi.org/10.2514/1.j067063",
+      "summary": "Understanding unsteady aerodynamic forces during gust encounters is critical for the design of aircraft, rotorcraft, and wind turbines, particularly in regimes characterized by extensive boundary-layer separation. While pitching and plunging airfoil vortex dynamics are well-studied, characterization of airfoils in periodic longitudinal gusts under massively separated flow remains limited.",
+      "date": "2026-10-22",
+      "source": "AIAA Journal"
     },
     {
       "title": "Conditional neural field-based reduced order model for dynamic ditching load prediction",
