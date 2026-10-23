@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T04:58:10.273951+00:00",
+  "updated": "2026-10-23T11:45:08.795591+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -34,18 +34,18 @@
       "source": "Simple Flying"
     },
     {
-      "title": "Air cargo executives urge Boeing and Airbus to offer new midsize freighter, with eyes on 787F - FlightGlobal",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQk1ydG1YaVpPYUhCUXpRRDRNNmtTREdSYjhZVGR5OXVWdHA2NlR0ZklvUGdxN05PRExzbjZ0WGtweGE3U21SRnZqR2ZwVVpKZW93Q2V0cTQ1UUk1NzdaRVM0UXRxRmUxYVVIcTlEV2FmSk03LWV5TjdOenExTm5CaW5SOUNjd21mMEE3ZjVXVDNMNzl2cjlsZUUwX0JoZGxfUk5QbWx5NV9vVjZuUWs5Sld0Mm02cHVGRHQ0MEFSazA0T0pTQlNROHFGazA5a2s0RE5PbnNXY1JjNE1Z?oc=5",
-      "summary": "Air cargo executives urge Boeing and Airbus to offer new midsize freighter, with eyes on 787F",
+      "title": "Airbus Australia wins approval to certify its own aircraft repairs - Aerospace Testing International",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGNYOXhYOFVFNXU3OXRqbndjS1otT2R6QWl5bTY1RXpCekRoVEpTenBvQjNfY1VYZ2lBU2pwNU0yTTllTDBJbXBKU2JleFNzcEx5MTNoTjhNRHd3VGk4UHBhai1Na1Bxckd3a19lVW9QRTZubnlhN2xEUTNiREhUMDhzWExjVVhJckNVTnRwdG5qQ3lOTUdHTzZKdkZfUTNMOHF3d2VGY193TjRuMmNiX0RBTTRjYnlBbjg3amtkdw?oc=5",
+      "summary": "Airbus Australia wins approval to certify its own aircraft repairs",
       "date": "2026-10-23",
-      "source": "FlightGlobal"
+      "source": "Aerospace Testing International"
     },
     {
-      "title": "Key outcomes of the 350th ESA Council meeting - space & defense",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSmVKWTY4aktFakJpOHphXzZJTGZPLVdsSEE4aDNTSEtFMkhzdGw5MURqdjdURWx3R0Rja1RadGJ3cU9kUXpUbzFfOVVfS0hBR0dDMi1YZmxuU1E0eUhFY1VkajlrQ3J1dmY1YzF5TTkwcUVUU1RqQWh2WFdqQQ?oc=5",
-      "summary": "Key outcomes of the 350th ESA Council meeting",
+      "title": "Earth from Space: The pink city - European Space Agency",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVlJtejJvTHJGRm5tbmxDVEZ6Mm9EOE9ibWFMcllad0VWS2xRTEhkcERhWV9IejYxSzhRQjBXbWJvbE0yNmhLLXRFYlhzdjJXMHB6NmREZDUwMy1tY3pGb0pMM0NqMlgyUXVNYjVGWFpuM2todERUM2UyQWJZSWVyUWNnRng1MTg?oc=5",
+      "summary": "Earth from Space: The pink city",
       "date": "2026-10-23",
-      "source": "space & defense"
+      "source": "European Space Agency"
     },
     {
       "title": "Satellite Manufacturing Market Expected to Reach $36.04 Billion by 2030 Driven by Robust Industry Expansion - EIN News",
@@ -81,6 +81,23 @@
       "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-22",
       "source": "Press Information Bureau"
+    },
+    {
+      "title": "Pentagon blindsided as Musk's SpaceX disrupts military satellite program: report - Raw Story",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90M0I5aldNeFFrUXhSQVlLOGh4TUtnNlY4cmJPNHB6R2FYemRjWUxjYlF0UmxZekVhWGNhek5EUWZVN2tCTHgzaF9mbFQtbWZxbENNNW1uOTRiQ2NKQ3dia3VUQ19Va0VJ0gF7QVVfeXFMTUpNUVJCSWpZZHdIbjFJSDhUME1jVHRSN0d3X2Q4RlFHVzVYUDhPbmEwRUF3Sm55V1BmRUNQQzVUNmNuWUNwY2lBWUhtTzlWVFd2MF9CMENTNW9ZMmNja1JvZmVyTUFlOGMtSEpCYXdBa1I3YzU3akFvbmtV?oc=5",
+      "summary": "Pentagon blindsided as Musk's SpaceX disrupts military satellite program: report",
+      "date": "2026-10-22",
+      "source": "Raw Story"
+    },
+    {
+      "title": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure - Design And Reuse",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmtGdGFJbnZSeFpzMzdrNTRPdm1rV2dGU1lyTUcxeXFNdzRlZVBOSmVGdjhNaE0yN0NMbXRiUXYyOGJuX3lQSlMwYS1KMURHNElRbHkyRXNwejJDZWxqUFR6WWduV3hDRzR2b0pwTVM1enVWOWRpbEFPOUYtd3ZfUjZHYnpFNEM0SVM4cHZXR0dOeFRfa1NWUk40YWg1OHVWdjNWaHNtWFFsWUc1YnFTY0VaM3BMU19o?oc=5",
+      "summary": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure",
+      "date": "2026-10-22",
+      "source": "Design And Reuse",
+      "topics": [
+        "GPU-accelerated science and HPC"
+      ]
     },
     {
       "title": "NVIDIA, Aegiq & BAE Systems Test Quantum Boost To Engineering Workflows - Quantum Zeitgeist",
@@ -162,6 +179,13 @@
       "source": "citybiz"
     },
     {
+      "title": "Global leaders converge on biggest ever Space Tech Expo Europe 2026 - Aerospace Manufacturing magazine",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd05TV24xRFFTU3ZuU2xwWk9EVURyTTJLWER6UlFWeVV0cmR3d3hoeUpNbW5qWl80SDhBVllpRFh5V0NqMVN1ZlJjNEJ3cmVlQ3ExZlEtNF85MndPZnBwNDRnZEVrWGRNQVN2OW1zZTJDU05SeFBKUnhQelpZYjBTYTE4Q01yX3d5eVRXOXphRm9hMXg1MWNr?oc=5",
+      "summary": "Global leaders converge on biggest ever Space Tech Expo Europe 2026",
+      "date": "2026-10-21",
+      "source": "Aerospace Manufacturing magazine"
+    },
+    {
       "title": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why? - Space",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlVJcGR6MmRjWE5OeDRLT2tVSDAwVzl6RlRwem9NY1JXU1h6dWwyeUhNUEhrOTJMTWh1NkxObkNVcHIxRnhhZG9xS1ZHY0YxUjZneEtkOFBHa2YyN3QxWnFPS1RPeWtRTHJTVFlGZ2pTME14THlqbXVfSnEySFhLMEltQzFaM0JpOU40dmZlVWRGSnRiTmEyem1jc3VRQUN3dXpDVkE5Sl9sWHlvcVZKbU1uVmFXc3VhcGl3UkdJbGVzY1hpSUNxUHN5RUs4T1FNa045dkhaRFJwQ2xNTFhfc0lUOVp0MWpOOXNjU25XSHhCSlNyMTNzZ0FNM0tVbkprWEtNdnltYw?oc=5",
       "summary": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why?",
@@ -190,20 +214,6 @@
       "source": "ESA Space Science"
     },
     {
-      "title": "Two NASA Commercial Satellite Communication Demonstrations Launch - NASA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenJ6S2ZEZzYyMVVFenFRMHktbDVIQUFTN3hvUGNXblNIQ2x1Z0ZQajRJSjVNS2pJcUJOME4wNU9wSnBBdUJCLVBxenhOVmplejhadnVZdUdWa05VWVRmckhscVhrblllVWJFazhQOXhxT0xvT244STFyTVJEMnZyRXVaMHpGbkg3bWo1MTctQmx0R3BMM0pVeUxkYlBBN0ZSV2F1OGFUZXRrLTZVSnZJcUkwZ1haZ1dyQWFRWQ?oc=5",
-      "summary": "Two NASA Commercial Satellite Communication Demonstrations Launch",
-      "date": "2026-10-20",
-      "source": "NASA (.gov)"
-    },
-    {
-      "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
-      "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
-      "date": "2026-10-20",
-      "source": "Space"
-    },
-    {
       "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VTjQweGlCMUVaV3J4RGZSWGVlV0ZhTjhvSXpYekNhZE5ITzhvVVBpejZIR1lmWnRjRWF3M2UyT2JUbVRwRl9uc2ZPSllDdnUzT2xjMmNOaExkZVFsZEE?oc=5",
       "summary": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run",
@@ -219,16 +229,6 @@
       "summary": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation",
       "date": "2026-10-20",
       "source": "36Kr",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
-      "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbVVtMmNjazNneDNFRUplM0xvVGVZdDBDUHhyU3lvbGdHR3ZPcS11WTVmRGhTZmZoSkZwR2xYcUdYSmJBY0NxaGFicjhHWjJ5eGJ0WE5rTlpTNEFscEZNSUpuc2R1dWNfSkZ0elE3eXo5MF9NSUpFTGRMTm1rUi1XS21uRHUyUEtfVTZyOVpWYzMwQ3ZocFdpNm0xRzBkQUx3RzV4R3UxWU9Oekh0aWN6Q3dWOGY1d3AwZzVsREFLSQ?oc=5",
-      "summary": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre",
-      "date": "2026-10-20",
-      "source": "HPCwire",
       "topics": [
         "Quantum computing for fluid science"
       ]
