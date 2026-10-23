@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T21:41:08.666902+00:00",
+  "updated": "2026-10-23T04:58:10.273951+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,32 +20,53 @@
   ],
   "industry": [
     {
+      "title": "El Ni\u00f1o Then and Now",
+      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+      "summary": "A 35-year satellite altimetry record lets scientists hold this year\u2019s El Ni\u00f1o up against its strongest predecessors.",
+      "date": "2026-10-23",
+      "source": "NASA"
+    },
+    {
+      "title": "10 Marathon Routes That Are The Boeing 777-300ER's Longest In 2026 - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56ZDNwQUNrVURVOWRNSFhsOGp5bVYxTzJ6QnJYN2pXX2ZKNl9Tb0NOUVQwUmo0WWwwcmpSMlpxX3BNeGw5YkZham40UjFXaDFqZG5VVTlvTDg4MC05V3l5R05MNWY2UENWdmdPaDNpdWw0V01nWHFxYmpGY0p0RTQ?oc=5",
+      "summary": "10 Marathon Routes That Are The Boeing 777-300ER's Longest In 2026",
+      "date": "2026-10-23",
+      "source": "Simple Flying"
+    },
+    {
+      "title": "Air cargo executives urge Boeing and Airbus to offer new midsize freighter, with eyes on 787F - FlightGlobal",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQk1ydG1YaVpPYUhCUXpRRDRNNmtTREdSYjhZVGR5OXVWdHA2NlR0ZklvUGdxN05PRExzbjZ0WGtweGE3U21SRnZqR2ZwVVpKZW93Q2V0cTQ1UUk1NzdaRVM0UXRxRmUxYVVIcTlEV2FmSk03LWV5TjdOenExTm5CaW5SOUNjd21mMEE3ZjVXVDNMNzl2cjlsZUUwX0JoZGxfUk5QbWx5NV9vVjZuUWs5Sld0Mm02cHVGRHQ0MEFSazA0T0pTQlNROHFGazA5a2s0RE5PbnNXY1JjNE1Z?oc=5",
+      "summary": "Air cargo executives urge Boeing and Airbus to offer new midsize freighter, with eyes on 787F",
+      "date": "2026-10-23",
+      "source": "FlightGlobal"
+    },
+    {
+      "title": "Key outcomes of the 350th ESA Council meeting - space & defense",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSmVKWTY4aktFakJpOHphXzZJTGZPLVdsSEE4aDNTSEtFMkhzdGw5MURqdjdURWx3R0Rja1RadGJ3cU9kUXpUbzFfOVVfS0hBR0dDMi1YZmxuU1E0eUhFY1VkajlrQ3J1dmY1YzF5TTkwcUVUU1RqQWh2WFdqQQ?oc=5",
+      "summary": "Key outcomes of the 350th ESA Council meeting",
+      "date": "2026-10-23",
+      "source": "space & defense"
+    },
+    {
+      "title": "Satellite Manufacturing Market Expected to Reach $36.04 Billion by 2030 Driven by Robust Industry Expansion - EIN News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSHpKV21XOTlyVFg1MTBXZlIyRjYtSzF5cWttdWFGQTRQdFA3V2FYM3dtX2o1RFVwZFFvZzhTbUcyVFNhMUVmV3g1N3hWeDhsVXVkbmJyNVEtRjJWeDdhS2sxdy1LbU5aYlJ0N0EwOF9jX3MzZE5CWVplY294Ny1WNVJ6TVBPcUg2WV9ubkFBSExBY3JhdDljQnpNT1AzdEEzSE0teC1jclFmTTJfeUVmY2x2U3c5TlpnYThFMDRiTjJVMFJyT0lhVjE2QWgwMzNubXl2UXA5Q0pxeHZXOE9DRFRR?oc=5",
+      "summary": "Satellite Manufacturing Market Expected to Reach $36.04 Billion by 2030 Driven by Robust Industry Expansion",
+      "date": "2026-10-23",
+      "source": "EIN News"
+    },
+    {
+      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year\u2019s symposium is focused on humanity\u2019s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels [\u2026]",
+      "date": "2026-10-22",
+      "source": "NASA"
+    },
+    {
       "title": "Lockheed Martin Rises 9% as Record Backlog Lifts Outlook; RTX Gains 2%, Northrop Grumman Advances 3% - 24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUFp5OS1DWGF0T0ZpVGVQZXZlS1AzV3pfN0syYVdaZjMzclVnaHB2UVZLRUFqOTNJRy1FWmtJNUtya1JEbnVsV0Jhc1FHYmpjYUVFb1dDMF84czN4QmtyMGl5TFZGWHJGbHBTN3lzMWlTNDc2LWtmdVNwN1NROUs2ZERHeEZxc0VqZ05ia1VrRG5MVVFhbmlMOG90UjBXMGs2TkxyVVRUSE1mc3EycFRzSzJWR1RPNFBEZFJEX21GX192UTROaUNDMVhmdXVfY0xRblNBN2tn?oc=5",
       "summary": "Lockheed Martin Rises 9% as Record Backlog Lifts Outlook; RTX Gains 2%, Northrop Grumman Advances 3%",
       "date": "2026-10-22",
       "source": "24/7 Wall St."
-    },
-    {
-      "title": "FAA Certifies Largest Boeing 737 MAX Variant - Airport Industry-News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ3RmOWtIeFJzclgxdzhNYXVXMTJQZzJRcUJvUGZodWdxQmMxWTRMLUdCc0I1Q2ZvbmhjLWo0NGVMd0xYcV9ONGN0STdpN3NwUWY5b3c0M0hGalV0WWFIMHU2QzlnYnZNb09aUHlOLXFFb2ozOWdxelF4Yk8tcjRzdi1BbDk?oc=5",
-      "summary": "FAA Certifies Largest Boeing 737 MAX Variant",
-      "date": "2026-10-22",
-      "source": "Airport Industry-News"
-    },
-    {
-      "title": "Montana Aerospace Builds Metal-Composite Pylon Fairing For Next Airbus - Aviation Week",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNanNPR0tZVEIzaE5IUnVJUXVQcUhyTTY1RVJVLV85VmhkX1V0T2paQS1xQ256a1lYOTA3VVN3emV2Q1kxN0ViRW50U1o3eWJCOVR3eEZORGN5d0I5NFlmX0xRLU95RTFvWEJvMUJRT0VjUFJLVXBMYVBNeTFFcFl0cFRlc3dCX21xSlRLdzgzQ2kyNGVWcTVDblZmekx3QlNYVGN4SEp2VXpKYkp1VDE5M2xVR01VcFpoUTlXMzBn?oc=5",
-      "summary": "Montana Aerospace Builds Metal-Composite Pylon Fairing For Next Airbus",
-      "date": "2026-10-22",
-      "source": "Aviation Week"
-    },
-    {
-      "title": "ESA Council approves appointment of two new directors - European Space Agency",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWmNXUjc1Q2FibWZDUng4SWJqc1BwXzRWSnpzdE43LWY2ZnZqc3dVVVhYdlNienhxWXlZNWc5emduRnFxbzBMMDZ3SnZ5MXBxdGpPMldFSEFmOFdKcU1RMkFRcG9OMDYyMXZXVk5LNDBFVm11RUFVazhZYjNILTJlV0p4OUZ2b09xRWVyQ2pzVmdfUkduZWhtTzlGc3VIdw?oc=5",
-      "summary": "ESA Council approves appointment of two new directors",
-      "date": "2026-10-22",
-      "source": "European Space Agency"
     },
     {
       "title": "Stars brewing in a nebulous cauldron",
@@ -55,42 +76,11 @@
       "source": "ESA Space Science"
     },
     {
-      "title": "Stock Market Today, Oct. 22: SpaceX Earnings Beat Sparks Profit-Taking - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWUxLSFU0YTJESkxla1c3U0xwNnBidTBlb0VqWW1MSzQ1M0ZoOTc5eHZEb2xzYUl3Ml9jQ3lZajJrVEZabWNVdUpjd3JBSzQ3SXdRbUhzcm9xemliV05nLXRoaEd1MDdaQ2Q0VGl3X2ltM3NKRUJzaHN5VWNWWlBMU2haVTdGbndmYXNNUXNBUlVOb0tNYlJHck5mTk5mUV9KMnJ1OWcyczd3dzVWS1M0dVdSeDgtcWRPbXhQRHh5M0lnWTdPV0sydkFPTkNPXzB5bjF4SVpnR25hNklKajk2cExQRm5UX1U?oc=5",
-      "summary": "Stock Market Today, Oct. 22: SpaceX Earnings Beat Sparks Profit-Taking",
-      "date": "2026-10-22",
-      "source": "The Globe and Mail"
-    },
-    {
       "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTEZGZFUyR2RHVDFaYkRORF9SVzRjUnJsa2J0c0VNT09fUGdaY1JnaXZ0c2VMbXNfUmJ5ZEZFVlg4bjFvYmdwQ0JUVGU1YlVuQVJTS3kwVTJrRkYzb0JKX3FsWGx2ZWpzQmwtM1pOalpxNC05bmc?oc=5",
       "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-22",
       "source": "Press Information Bureau"
-    },
-    {
-      "title": "Isro to launch much-delayed indigenous navigation satellite NVS-03 on Oct 30 - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamQ3VVRfOVc2WjJKZ05sX2NrQmVrWldYQWt1d0RnOW8yUmpYQks3ZVk0a2ozd2FzYVI2MFIxakFibkd1V1owLXlxVDFnWVpJS3ZUeU1IaFlGMlFTaW1hVDN1aUEzem1PanY2OXJpWlpSMmQyTGxzOFpVbUo1N3hJdHZnTGpyYm40b3puTjA4cEVwZTZOdDN5R3VB0gGgAUFVX3lxTFA0Q3hja2FNZkk5VzNKOXl3bDM0a0V0WHpTVHFFS2xVYV9yT0JqeTBKYi1xQjhVNlZLSEF6SG11cDNyVExNdDNtRGxKRk1rX0NxcGJVV3pvSlRxaURURElfRWZ3US0wRmo5QkZSNUtUaFQ0X3hUOE9BNGEtaHlXTDNkSXNoYkZDLUFhUDRXeks0aHpMbnpiTzlXRGtPZEJ6WE4?oc=5",
-      "summary": "Isro to launch much-delayed indigenous navigation satellite NVS-03 on Oct 30",
-      "date": "2026-10-22",
-      "source": "The Indian Express"
-    },
-    {
-      "title": "Strengthening India\u2019s Space Sovereignty - Press Information Bureau",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tNHZxQUJKbER3TktaNW5jZFozYUxpNHFxVW1mdGI5aV9PZU5WRlA2a0pGY25yeWF6MHNOMm5wakVPMmpJRFFNT3ZYbGZDYnFTX1FvQl9vVVBKcUVOVVFlalFKRmV1TG1ER1ZnOEFUMDBPcktvS0JMQg?oc=5",
-      "summary": "Strengthening India\u2019s Space Sovereignty",
-      "date": "2026-10-22",
-      "source": "Press Information Bureau"
-    },
-    {
-      "title": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure - Design And Reuse",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmtGdGFJbnZSeFpzMzdrNTRPdm1rV2dGU1lyTUcxeXFNdzRlZVBOSmVGdjhNaE0yN0NMbXRiUXYyOGJuX3lQSlMwYS1KMURHNElRbHkyRXNwejJDZWxqUFR6WWduV3hDRzR2b0pwTVM1enVWOWRpbEFPOUYtd3ZfUjZHYnpFNEM0SVM4cHZXR0dOeFRfa1NWUk40YWg1OHVWdjNWaHNtWFFsWUc1YnFTY0VaM3BMU19o?oc=5",
-      "summary": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure",
-      "date": "2026-10-22",
-      "source": "Design And Reuse",
-      "topics": [
-        "GPU-accelerated science and HPC"
-      ]
     },
     {
       "title": "NVIDIA, Aegiq & BAE Systems Test Quantum Boost To Engineering Workflows - Quantum Zeitgeist",
@@ -135,20 +125,6 @@
       "summary": "LOS ALAMOS, N.M. \u2014 October 21, 2026 \u2014 Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction [\u2026]",
       "date": "2026-10-21",
       "source": "SpaceNews"
-    },
-    {
-      "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
-      "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
-      "summary": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA\u2019s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA\u2019s SLS (Space Launch System) rocket. During [\u2026]",
-      "date": "2026-10-21",
-      "source": "NASA"
-    },
-    {
-      "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
-      "url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/",
-      "summary": "Interstellar probes. Lunar drones. Helicopters on Mars. When a group of Caltech graduate students and enthusiasts began conducting rocket-propulsion tests in Pasadena\u2019s Arroyo Seco on Oct. 31, 1936, they had no idea that their work marked the inception of the Jet Propulsion Laboratory. Ninety years later, the lab, now managed by Caltech for NASA, isn\u2019t [\u2026]",
-      "date": "2026-10-21",
-      "source": "NASA"
     },
     {
       "title": "RTX's Collins Aerospace introduces ARINCDirect\u2120 OpenAPI to connect flight support data across operator systems - RTX",
@@ -214,6 +190,20 @@
       "source": "ESA Space Science"
     },
     {
+      "title": "Two NASA Commercial Satellite Communication Demonstrations Launch - NASA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenJ6S2ZEZzYyMVVFenFRMHktbDVIQUFTN3hvUGNXblNIQ2x1Z0ZQajRJSjVNS2pJcUJOME4wNU9wSnBBdUJCLVBxenhOVmplejhadnVZdUdWa05VWVRmckhscVhrblllVWJFazhQOXhxT0xvT244STFyTVJEMnZyRXVaMHpGbkg3bWo1MTctQmx0R3BMM0pVeUxkYlBBN0ZSV2F1OGFUZXRrLTZVSnZJcUkwZ1haZ1dyQWFRWQ?oc=5",
+      "summary": "Two NASA Commercial Satellite Communication Demonstrations Launch",
+      "date": "2026-10-20",
+      "source": "NASA (.gov)"
+    },
+    {
+      "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say - Space",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSFhETHhObW5nSUhxSllfRUhVRHZORjBlMG1JdFNfYm9BSDJiNDU2ZEZIbV9nQ1FDMlZObnVYY2cxOFdoS3lLMDlNckVYZE1TVWthTlEtWTlkN200WkxSNXlSbm9Na3V0RkdSb2RJSUlDQWZwWVdhUW81WWJac1NMTElkQUkyNjk5WXBBZUs0WHpJSy1ycGkzUGZTZHpOR1haajJGNEtkOUF1VVdkT0ZNQ0VLWjdGZw?oc=5",
+      "summary": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
+      "date": "2026-10-20",
+      "source": "Space"
+    },
+    {
       "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VTjQweGlCMUVaV3J4RGZSWGVlV0ZhTjhvSXpYekNhZE5ITzhvVVBpejZIR1lmWnRjRWF3M2UyT2JUbVRwRl9uc2ZPSllDdnUzT2xjMmNOaExkZVFsZEE?oc=5",
       "summary": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run",
@@ -234,34 +224,44 @@
       ]
     },
     {
+      "title": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre - HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbVVtMmNjazNneDNFRUplM0xvVGVZdDBDUHhyU3lvbGdHR3ZPcS11WTVmRGhTZmZoSkZwR2xYcUdYSmJBY0NxaGFicjhHWjJ5eGJ0WE5rTlpTNEFscEZNSUpuc2R1dWNfSkZ0elE3eXo5MF9NSUpFTGRMTm1rUi1XS21uRHUyUEtfVTZyOVpWYzMwQ3ZocFdpNm0xRzBkQUx3RzV4R3UxWU9Oekh0aWN6Q3dWOGY1d3AwZzVsREFLSQ?oc=5",
+      "summary": "NVIDIA Runs Record Fault-Tolerant Quantum Simulation at J\u00fclich Supercomputing Centre",
+      "date": "2026-10-20",
+      "source": "HPCwire",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
       "title": "Act for more sustainable space",
       "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Act_for_more_sustainable_space",
       "summary": "",
       "date": "2026-10-15",
       "source": "ESA Space Transportation"
-    },
-    {
-      "title": "BUILDING THE WORLD\u2019S MOST ADVANCED MOBILE NETWORK",
-      "url": "https://www.spacex.com/updates#starlink-mobile-spectrum",
-      "summary": "This week marked two major milestones for Starlink Mobile. SpaceX announced an agreement to acquire a nationwide low-band spectrum license portfolio of up to 14 megahertz of paired spectrum in the 800 MHz band. This prime low-band spectrum addresses one of the key remaining technical gaps that will pave the way for Starlink Mobile to become a major mobile carrier in the US.",
-      "date": "2026-10-08",
-      "source": "SpaceX"
     }
   ],
   "papers": [
     {
-      "title": "Online Seakeeping Forecast Coupling System Identification With Nonlinear Pseudo Spectral Potential-Flow",
-      "url": "https://arxiv.org/abs/2610.28694",
-      "summary": "This paper presents a grey-box framework for a robust deterministic, real-time prediction of coupled surge-heave-pitch motion in waves. The approach combines a physics-based online system identification with a nonlinear pseudo-spectral potential flow solver.",
-      "date": "2026-10-22",
+      "title": "Evaporative Cooling and Secondary Combustion in a Liquid-Hydrocarbon Rotating Detonation Combustor with Dual-Purpose Head-End Injection",
+      "url": "https://arxiv.org/abs/2610.30171",
+      "summary": "The rotating detonation engine (RDE) faces severe thermal protection challenges. This study numerically investigates a head-end dual-purpose injection configuration in which the film-cooling holes act as both fuel and coolant injectors.",
+      "date": "2026-10-23",
       "source": "arXiv"
     },
     {
-      "title": "Monocular 3D bubble reconstruction: DNS-informed ray tracing and deep learning",
-      "url": "https://arxiv.org/abs/2610.28908",
-      "summary": "Bubble size, depth, and spatial distribution govern transport and uniformity in multiphase flows. A single shadowgraphic view cannot separate bubble diameter from focal-plane displacement, as image signatures depend on both, while multicamera systems add optical access, calibration, and cost.",
-      "date": "2026-10-22",
+      "title": "GeoDiv KAN Solver for Time Fractional Navier Stokes Equations on Complex Domains to Realistic CFD Reconstruction",
+      "url": "https://arxiv.org/abs/2610.30179",
+      "summary": "Scientific machine learning provides a promising framework for solving complex problems in science and engineering. Notably, physics informed neural networks (PINNs) have shown considerable potential for solving differential equations and modelling engineering systems.",
+      "date": "2026-10-23",
       "source": "arXiv"
+    },
+    {
+      "title": "Inertial gravity currents released from a lock in frames under horizontal oscillations: Analytical model",
+      "url": "https://doi.org/10.1017/jfm.2026.12168",
+      "summary": "We consider the flow of a gravity current released from a lock inside a tank which performs horizontal oscillations (equivalent to internal pressure-gradient pulses), in the buoyancy\u2013inertia (high-Reynolds-number) regime. We develop a shallow-water model which provides clear-cut insights and simple predictions of the propagation, height and velocity fields as a function of time, for a wide range of parameters.",
+      "date": "2026-10-23",
+      "source": "Journal of Fluid Mechanics"
     },
     {
       "title": "State-Specific Kinetic Modeling of Atomic H for H 2 /He Entry Flows",
@@ -271,18 +271,18 @@
       "source": "Journal of Thermophysics and Heat Transfer"
     },
     {
-      "title": "Lateral Efficiency, Separability, and Passenger Comfort for Urban Air Route Network Designs",
-      "url": "https://doi.org/10.2514/1.g009903",
-      "summary": "This paper presents an improved structure for an urban air route network, based on a node-edge grid. The enhanced network incorporates additional edge directions to increase routing flexibility.",
-      "date": "2026-10-22",
-      "source": "Journal of Guidance, Control, and Dynamics"
-    },
-    {
       "title": "Vortex Dynamics over an Airfoil Immersed in a Harmonic Longitudinal Gust",
       "url": "https://doi.org/10.2514/1.j067063",
       "summary": "Understanding unsteady aerodynamic forces during gust encounters is critical for the design of aircraft, rotorcraft, and wind turbines, particularly in regimes characterized by extensive boundary-layer separation. While pitching and plunging airfoil vortex dynamics are well-studied, characterization of airfoils in periodic longitudinal gusts under massively separated flow remains limited.",
       "date": "2026-10-22",
       "source": "AIAA Journal"
+    },
+    {
+      "title": "Lateral Efficiency, Separability, and Passenger Comfort for Urban Air Route Network Designs",
+      "url": "https://doi.org/10.2514/1.g009903",
+      "summary": "This paper presents an improved structure for an urban air route network, based on a node-edge grid. The enhanced network incorporates additional edge directions to increase routing flexibility.",
+      "date": "2026-10-22",
+      "source": "Journal of Guidance, Control, and Dynamics"
     },
     {
       "title": "Conditional neural field-based reduced order model for dynamic ditching load prediction",
@@ -324,13 +324,6 @@
       "url": "https://doi.org/10.1017/jfm.2026.12097",
       "summary": "In an active suspension, hydrodynamic interactions between constituent microswimmers play an important role in their collective motion and rheological properties. To advance the understanding of these interactions, we introduce the boundary collocation method (BCM) and an easy-to-implement extension called the lubrication-theory-informed BCM to solve Stokes flow problems involving two spherical boundaries, where one ",
       "date": "2026-10-21",
-      "source": "Journal of Fluid Mechanics"
-    },
-    {
-      "title": "Frequency synchronisation and modal mapping of wake dynamics to the performance of a vertical-axis turbine",
-      "url": "https://doi.org/10.1017/jfm.2026.12142",
-      "summary": "The transition towards sustainable marine energy relies partly on efficient deployment of vertical-axis tidal turbines, yet their widespread application is constrained by the complex, unsteady fluid dynamics inherent in their operation. While vertical-axis turbines offer superior structural scalability, they experience intricate vortex shedding and wake-induced energy losses which can make performance difficult to pr",
-      "date": "2026-10-19",
       "source": "Journal of Fluid Mechanics"
     }
   ],
