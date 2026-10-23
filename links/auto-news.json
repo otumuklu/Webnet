@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T17:13:23.122869+00:00",
+  "updated": "2026-10-23T21:27:55.749505+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,32 +20,39 @@
   ],
   "industry": [
     {
-      "title": "El Ni\u00f1o Then and Now",
-      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
-      "summary": "A 35-year satellite altimetry record lets scientists hold this year\u2019s El Ni\u00f1o up against its strongest predecessors.",
+      "title": "Nov. 5: Satellite Mission Management at the Edge",
+      "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
+      "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations",
+      "date": "2026-10-23",
+      "source": "SpaceNews"
+    },
+    {
+      "title": "RS-25 Engine Tests at NASA Stennis",
+      "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+      "summary": "Teams at NASA\u2019s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA\u2019s SLS (Space Launch System) rocket, with a 111% power level. For each [\u2026]",
       "date": "2026-10-23",
       "source": "NASA"
     },
     {
-      "title": "Northrop, RTX lift profit outlooks as military demand surges - www.indiagazette.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMXJMVFhWd1JMYUkwZGxjSnM2N0t6SUEzSUE0Z1JqRjdYTmNSa3UwZGh2dTdQMUNVS0tncHVRVF8zQmdWczk1dTd6c3BudHRkdm5ZWk83MnlzTzlhb0ZSZXRxWUlxQVZfRVdPczlLTkhpbmVFWVRNWXRBb0s0a1V6T0hwTmtOZU9YOGpDWEQ3MlljeFZHVTlkb052cGFkRURHZnVyUGJR?oc=5",
-      "summary": "Northrop, RTX lift profit outlooks as military demand surges",
+      "title": "NASA, Virginia Launch Power Partnership for Energy Security",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
+      "summary": "NASA is helping to foster long-term energy security in Virginia. NASA\u2019s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new [\u2026]",
       "date": "2026-10-23",
-      "source": "www.indiagazette.com"
+      "source": "NASA"
     },
     {
-      "title": "Air Astana\u2019s first Boeing 787-9 begins flight testing ahead of 2027 debut - Aerospace Global News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdWE3bEJOdUJzbFVKMjEzcWlEZFIxcnphTnlHOGlUaTZLTWY3RWY3azlKSzM1ZVMzWFIxcWJiQXlOWGFnQTVMNHMzNnhnRW5pNUY3SlR6MFV2cjJ3ZW42NVlGS0wwMlNNZEpoWmU2V25vQWpkeW5FWHF0VlctcVFCa2RwY2NaXzBUeXc?oc=5",
-      "summary": "Air Astana\u2019s first Boeing 787-9 begins flight testing ahead of 2027 debut",
+      "title": "American Airlines Discreetly Decides To Purchase 2 Used Boeing 777-200ERs As Fleet Ages - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVkhQQzZQOXUzTk1PVTZ1NDN3Zjl6c2E2a29SUTZ4eHJIc0o5NjFBb0xha2JaNE5GTXJIbm1OSktkZUoxUjYwa3FzY1VqSDVaTmRtcVI3a2FTVHo1QXZIdlVhZzItRlNuUmppS2V3cFMwbDFHTnlQcnFabFZDTXRPVGtDSkNTZms1U3RTbkwwRDRuU1F6U3F0MzQyZS1lcW9OQzVZaTRsTTRSREU?oc=5",
+      "summary": "American Airlines Discreetly Decides To Purchase 2 Used Boeing 777-200ERs As Fleet Ages",
       "date": "2026-10-23",
-      "source": "Aerospace Global News"
+      "source": "Simple Flying"
     },
     {
-      "title": "Airbus Australia wins approval to certify its own aircraft repairs - Aerospace Testing International",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGNYOXhYOFVFNXU3OXRqbndjS1otT2R6QWl5bTY1RXpCekRoVEpTenBvQjNfY1VYZ2lBU2pwNU0yTTllTDBJbXBKU2JleFNzcEx5MTNoTjhNRHd3VGk4UHBhai1Na1Bxckd3a19lVW9QRTZubnlhN2xEUTNiREhUMDhzWExjVVhJckNVTnRwdG5qQ3lOTUdHTzZKdkZfUTNMOHF3d2VGY193TjRuMmNiX0RBTTRjYnlBbjg3amtkdw?oc=5",
-      "summary": "Airbus Australia wins approval to certify its own aircraft repairs",
+      "title": "Airbus, Delta collaborate for the 26th annual DREAM flight - Airbus",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3JQMFpJS29zdHg2RVd6MGZUV1NaSlJYSDBWSkQ4SDF1T3YyZnFBQ2Jva21aUnBIRTZSd1MxbHRUcE9JX25TeHROQjJxNndrNUZQMG5ROXBqQ1o5WUM2Y05BQXJiZFZHQ0xjaHNXZm5ZUWhSQzdLUFRkd3ZzWERIaV9NckFSSG81eGJrVm00SWxGRm9PbjdwQmdYdzVmUUt0UDdBZ3cxNkU5eldC?oc=5",
+      "summary": ", Delta collaborate for the 26th annual DREAM flight Airbus",
       "date": "2026-10-23",
-      "source": "Aerospace Testing International"
+      "source": "Airbus"
     },
     {
       "title": "Earth from Space: The pink city - European Space Agency",
@@ -79,13 +86,6 @@
       ]
     },
     {
-      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
-      "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year\u2019s symposium is focused on humanity\u2019s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels [\u2026]",
-      "date": "2026-10-22",
-      "source": "NASA"
-    },
-    {
       "title": "Lockheed Martin Rises 9% as Record Backlog Lifts Outlook; RTX Gains 2%, Northrop Grumman Advances 3% - 24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUFp5OS1DWGF0T0ZpVGVQZXZlS1AzV3pfN0syYVdaZjMzclVnaHB2UVZLRUFqOTNJRy1FWmtJNUtya1JEbnVsV0Jhc1FHYmpjYUVFb1dDMF84czN4QmtyMGl5TFZGWHJGbHBTN3lzMWlTNDc2LWtmdVNwN1NROUs2ZERHeEZxc0VqZ05ia1VrRG5MVVFhbmlMOG90UjBXMGs2TkxyVVRUSE1mc3EycFRzSzJWR1RPNFBEZFJEX21GX192UTROaUNDMVhmdXVfY0xRblNBN2tn?oc=5",
       "summary": "Lockheed Martin Rises 9% as Record Backlog Lifts Outlook; RTX Gains 2%, Northrop Grumman Advances 3%",
@@ -105,6 +105,13 @@
       "summary": "Strengthening India\u2019s Space Sovereignty",
       "date": "2026-10-22",
       "source": "Press Information Bureau"
+    },
+    {
+      "title": "Pentagon blindsided as Musk's SpaceX disrupts military satellite program: report - Raw Story",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90M0I5aldNeFFrUXhSQVlLOGh4TUtnNlY4cmJPNHB6R2FYemRjWUxjYlF0UmxZekVhWGNhek5EUWZVN2tCTHgzaF9mbFQtbWZxbENNNW1uOTRiQ2NKQ3dia3VUQ19Va0VJ0gF7QVVfeXFMTUpNUVJCSWpZZHdIbjFJSDhUME1jVHRSN0d3X2Q4RlFHVzVYUDhPbmEwRUF3Sm55V1BmRUNQQzVUNmNuWUNwY2lBWUhtTzlWVFd2MF9CMENTNW9ZMmNja1JvZmVyTUFlOGMtSEpCYXdBa1I3YzU3akFvbmtV?oc=5",
+      "summary": "Pentagon blindsided as Musk's SpaceX disrupts military satellite program: report",
+      "date": "2026-10-22",
+      "source": "Raw Story"
     },
     {
       "title": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure - Design And Reuse",
@@ -154,11 +161,11 @@
       "source": "SpaceNews"
     },
     {
-      "title": "Space Nuclear Power Corporation Awarded DARPA Agreement for Ground Test of Autonomous Nuclear Reactor Controller",
-      "url": "https://spacenews.com/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller/",
-      "summary": "LOS ALAMOS, N.M. \u2014 October 21, 2026 \u2014 Space Nuclear Power Corporation (SpaceNukes) announced today that the Defense Advanced Research Projects Agency (DARPA) has awarded the company an Other Transaction [\u2026]",
+      "title": "RTX's Collins Aerospace launches Tower MicroELITE surveillance solution at San Bernardino International Airport - RTX",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmFqYXUzcGFkUDVfWVJiQWs1RkRDTXpGOEdNWXBpQ2VXN0VsZG9uNTFweEVpMzFHLXctbW1tV05TU1Mwb3dQVHNSNk5SVG01NUxfVFVXZVZHcmR4aFhHbDd5Qmp1d2RPUy1VamhyQkxWUTFVS0ttV3RpeDZEN2tkd3FJNXUycExEVkdRME9TSU9EZHg4VGVxd2tqVG9ESjNhLVdmVWZLbjRBdW5fM2NMWXZYMUZzejRPN0ZyTV9NU3hGSjFTbzNn?oc=5",
+      "summary": "'s Collins Aerospace launches Tower MicroELITE surveillance solution at San Bernardino International Airport RTX",
       "date": "2026-10-21",
-      "source": "SpaceNews"
+      "source": "RTX"
     },
     {
       "title": "Firefly Aerospace Completes Preliminary Design Review for NASA MoonFall Mission - Firefly Aerospace",
@@ -217,13 +224,6 @@
       "source": "NASA (.gov)"
     },
     {
-      "title": "SpaceX launches its 'Starfall' return capsule for 2nd time ever (video) - Space",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRjdqQ01oN2pUNHpXd0NsU1JKZEhJampaeFo5ZGhqMzBrUlFtNVB0S3prUFIyQkdiUFh0TGRlNTh0RGRreVhLNjg0OGllUVZrVDU3OU5pUGhzOUdfVE1RQ2VQV0JnVk9GUlhEWWdMWWt4Z2pTemFlYmpFaGVaVldsZHVucGthd0tUSFNfY3Q3N0FSUEl4SHFEeUljb01fNENmanNKM0FTNkl2RVNTbFNYMlVIRDczZGJrYWQyaEVscHJyTGxLd2c?oc=5",
-      "summary": "X launches its 'Starfall' return capsule for 2nd time ever (video) Space",
-      "date": "2026-10-20",
-      "source": "Space"
-    },
-    {
       "title": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run - AZoQuantum",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VTjQweGlCMUVaV3J4RGZSWGVlV0ZhTjhvSXpYekNhZE5ITzhvVVBpejZIR1lmWnRjRWF3M2UyT2JUbVRwRl9uc2ZPSllDdnUzT2xjMmNOaExkZVFsZEE?oc=5",
       "summary": "New JUPITER Supercomputer Simulation Marks Largest Detailed Quantum Processor Run",
@@ -257,6 +257,13 @@
       "source": "arXiv"
     },
     {
+      "title": "Unsteady Aerodynamic Modeling Applied to Wing\u2013Vortex Gust Encounters",
+      "url": "https://doi.org/10.2514/1.j067043",
+      "summary": "This study evaluates two low-order models for predicting lift forces during encounters between wings and spanwise vortex gusts. The first is a quasi-steady model that relates lift to the instantaneous effective angle of attack.",
+      "date": "2026-10-23",
+      "source": "AIAA Journal"
+    },
+    {
       "title": "Physics, neural control, and evolution of insect flight",
       "url": "https://doi.org/10.1103/52xd-h14l",
       "summary": "",
@@ -283,13 +290,6 @@
       "summary": "This paper presents an improved structure for an urban air route network, based on a node-edge grid. The enhanced network incorporates additional edge directions to increase routing flexibility.",
       "date": "2026-10-22",
       "source": "Journal of Guidance, Control, and Dynamics"
-    },
-    {
-      "title": "Vortex Dynamics over an Airfoil Immersed in a Harmonic Longitudinal Gust",
-      "url": "https://doi.org/10.2514/1.j067063",
-      "summary": "Understanding unsteady aerodynamic forces during gust encounters is critical for the design of aircraft, rotorcraft, and wind turbines, particularly in regimes characterized by extensive boundary-layer separation. While pitching and plunging airfoil vortex dynamics are well-studied, characterization of airfoils in periodic longitudinal gusts under massively separated flow remains limited.",
-      "date": "2026-10-22",
-      "source": "AIAA Journal"
     },
     {
       "title": "Conditional neural field-based reduced order model for dynamic ditching load prediction",
