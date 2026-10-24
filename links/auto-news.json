@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T21:27:55.749505+00:00",
+  "updated": "2026-10-24T04:43:12.759663+00:00",
   "sources": [
     "SpaceX",
     "Blue Origin",
@@ -20,6 +20,27 @@
   ],
   "industry": [
     {
+      "title": "Allegiant raises its firm Boeing 737 MAX order to 56 aircraft - Aviacionline",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPa1N5VEhIckdlQkFhT29OajV4enl3U1FlNGxCUDZHYmpkb3c2R3lVai00a1hmNGstV08zb0VFU05jZHR1OU9VNjQ0eDU2cWdmWVRwbjgycEJtbFkxRnFiX0Zaa0R3QW44SVNCbDZRa202ZmJHZkZ2U2U2eU1IdWQxTDZnRnZGbmNicDdrVnhvM2pmakV4Um1tUGRPOVpvRzhCWWZnTl9sS01JdEZ1N2o0dkdwQVJPN2l1cWdiY0lVRUhjTkI3NUdaT0RLWERIY1ZSMXFPSDJkeGRYWHRqV3RjcWVNNnZEcGRvUng5ejJNaw?oc=5",
+      "summary": "Allegiant raises its firm Boeing 737 MAX order to 56 aircraft",
+      "date": "2026-10-24",
+      "source": "Aviacionline"
+    },
+    {
+      "title": "Did Airbus Really Trim Sidewall Panels To Squeeze 10-Abreast Economy Into The A350-1000? - Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObnAzWlV4NTVTZ1pRZGlJUS16dy1LZHhuWC13bjdfSmVQWENjTmJjSXBkaU9GeU9RRGZiS1lia3N4eklTVEF5NXFycjMwU2FLZG5NRWVqY3hkSUdBVXg2RnU3SjB2STM3RVBOT1RKZjF1VE5OOHNiZGViM0p5TXZaMUJDLWdzd0lUUGhVc1ZCM1BYOHVxWmhzdk01Yzg?oc=5",
+      "summary": "Did Airbus Really Trim Sidewall Panels To Squeeze 10-Abreast Economy Into The A350-1000?",
+      "date": "2026-10-24",
+      "source": "Simple Flying"
+    },
+    {
+      "title": "JAXA MMX Launch: Oct. 20, 10 g Phobos Goal [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMV9Hb3ZCdlJNdFdGXzRWclpwUkV5YXVYcjk2MG5xektEbXJyTzZlblhyZFZIREpYYlBvOVBOd2hfTGxlOWxDN21Jb0luTmMxdGZtN293LXA3ZGxrT3J5eDVmazBMVl9hVDNQRGpESE1uX25SNy1uYWNFejY1aUVMUUZR?oc=5",
+      "summary": "JAXA MMX Launch: Oct. 20, 10 g Phobos Goal [2026]",
+      "date": "2026-10-24",
+      "source": "shattered.io"
+    },
+    {
       "title": "Nov. 5: Satellite Mission Management at the Edge",
       "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
       "summary": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations",
@@ -27,32 +48,25 @@
       "source": "SpaceNews"
     },
     {
-      "title": "RS-25 Engine Tests at NASA Stennis",
-      "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
-      "summary": "Teams at NASA\u2019s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA\u2019s SLS (Space Launch System) rocket, with a 111% power level. For each [\u2026]",
+      "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+      "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+      "summary": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed both concepts of operations for its future crewed landers. Since NASA established initial contracts with Blue Origin and SpaceX [\u2026]",
       "date": "2026-10-23",
       "source": "NASA"
     },
     {
-      "title": "NASA, Virginia Launch Power Partnership for Energy Security",
-      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
-      "summary": "NASA is helping to foster long-term energy security in Virginia. NASA\u2019s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new [\u2026]",
+      "title": "NASA\u2019s Artemis III Mission to Test Future Moon Lander Operations",
+      "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "summary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency\u2019s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit [\u2026]",
       "date": "2026-10-23",
       "source": "NASA"
     },
     {
-      "title": "American Airlines Discreetly Decides To Purchase 2 Used Boeing 777-200ERs As Fleet Ages - Simple Flying",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVkhQQzZQOXUzTk1PVTZ1NDN3Zjl6c2E2a29SUTZ4eHJIc0o5NjFBb0xha2JaNE5GTXJIbm1OSktkZUoxUjYwa3FzY1VqSDVaTmRtcVI3a2FTVHo1QXZIdlVhZzItRlNuUmppS2V3cFMwbDFHTnlQcnFabFZDTXRPVGtDSkNTZms1U3RTbkwwRDRuU1F6U3F0MzQyZS1lcW9OQzVZaTRsTTRSREU?oc=5",
-      "summary": "American Airlines Discreetly Decides To Purchase 2 Used Boeing 777-200ERs As Fleet Ages",
+      "title": "Northrop, RTX lift profit outlooks as military demand surges - https://www.irishsun.com/",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT2VacmdoeS1tWTVkeXVtenlpRTBabHBrQlQwUEdzVE5hbXBWOUV5eHprb3NxWm1WbFdJR1EwX3A3R3kwQWtkamZKOG1iNDZGRjc2amtfSVZhNzRVYlhEMVNObVFneEtVWE5uRFZ5S3JkOEpOSGlsMFlhVWFucmF3SnQwZ3I5cWZYMzJzNkFzNXhHRnlaOFhUY0VucEF4Y001?oc=5",
+      "summary": "Northrop, RTX lift profit outlooks as military demand surges",
       "date": "2026-10-23",
-      "source": "Simple Flying"
-    },
-    {
-      "title": "Airbus, Delta collaborate for the 26th annual DREAM flight - Airbus",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3JQMFpJS29zdHg2RVd6MGZUV1NaSlJYSDBWSkQ4SDF1T3YyZnFBQ2Jva21aUnBIRTZSd1MxbHRUcE9JX25TeHROQjJxNndrNUZQMG5ROXBqQ1o5WUM2Y05BQXJiZFZHQ0xjaHNXZm5ZUWhSQzdLUFRkd3ZzWERIaV9NckFSSG81eGJrVm00SWxGRm9PbjdwQmdYdzVmUUt0UDdBZ3cxNkU5eldC?oc=5",
-      "summary": ", Delta collaborate for the 26th annual DREAM flight Airbus",
-      "date": "2026-10-23",
-      "source": "Airbus"
+      "source": "https://www.irishsun.com/"
     },
     {
       "title": "Earth from Space: The pink city - European Space Agency",
@@ -107,13 +121,6 @@
       "source": "Press Information Bureau"
     },
     {
-      "title": "Pentagon blindsided as Musk's SpaceX disrupts military satellite program: report - Raw Story",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90M0I5aldNeFFrUXhSQVlLOGh4TUtnNlY4cmJPNHB6R2FYemRjWUxjYlF0UmxZekVhWGNhek5EUWZVN2tCTHgzaF9mbFQtbWZxbENNNW1uOTRiQ2NKQ3dia3VUQ19Va0VJ0gF7QVVfeXFMTUpNUVJCSWpZZHdIbjFJSDhUME1jVHRSN0d3X2Q4RlFHVzVYUDhPbmEwRUF3Sm55V1BmRUNQQzVUNmNuWUNwY2lBWUhtTzlWVFd2MF9CMENTNW9ZMmNja1JvZmVyTUFlOGMtSEpCYXdBa1I3YzU3akFvbmtV?oc=5",
-      "summary": "Pentagon blindsided as Musk's SpaceX disrupts military satellite program: report",
-      "date": "2026-10-22",
-      "source": "Raw Story"
-    },
-    {
       "title": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure - Design And Reuse",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmtGdGFJbnZSeFpzMzdrNTRPdm1rV2dGU1lyTUcxeXFNdzRlZVBOSmVGdjhNaE0yN0NMbXRiUXYyOGJuX3lQSlMwYS1KMURHNElRbHkyRXNwejJDZWxqUFR6WWduV3hDRzR2b0pwTVM1enVWOWRpbEFPOUYtd3ZfUjZHYnpFNEM0SVM4cHZXR0dOeFRfa1NWUk40YWg1OHVWdjNWaHNtWFFsWUc1YnFTY0VaM3BMU19o?oc=5",
       "summary": "Cadence and Toyota Advance Automotive Simulation on NVIDIA AI Infrastructure",
@@ -144,28 +151,11 @@
       ]
     },
     {
-      "title": "Aegiq Runs 100-qubit Tests On NVIDIA\u2019s DGX Spark Server - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90YXJ5NkUzMURUUmpaU1N3MXBFcUxCQXpYZnEtNFgwTFVfeTNYOW1td2x0akxSMjZMRTU5a05lckc2Mkp5dmhxOHhMekVYOWR5cVRDS0w4M1pUUDlrRng4ZGY2N1IzV2FmWG9xNU1Pcw?oc=5",
-      "summary": "Aegiq Runs 100-qubit Tests On NVIDIA\u2019s DGX Spark Server",
-      "date": "2026-10-22",
-      "source": "Quantum Zeitgeist",
-      "topics": [
-        "Quantum computing for fluid science"
-      ]
-    },
-    {
       "title": "Global Satcom Services Revenues to Reach $145 Billion by 2035",
       "url": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
       "summary": "Paris, France | October 2026 \u2013 Global satellite services revenues are forecast to grow 44% to reach $145 billion by 2035, according to the 33rd edition of Novaspace\u2019s Satellite Connectivity [\u2026]",
       "date": "2026-10-21",
       "source": "SpaceNews"
-    },
-    {
-      "title": "RTX's Collins Aerospace launches Tower MicroELITE surveillance solution at San Bernardino International Airport - RTX",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmFqYXUzcGFkUDVfWVJiQWs1RkRDTXpGOEdNWXBpQ2VXN0VsZG9uNTFweEVpMzFHLXctbW1tV05TU1Mwb3dQVHNSNk5SVG01NUxfVFVXZVZHcmR4aFhHbDd5Qmp1d2RPUy1VamhyQkxWUTFVS0ttV3RpeDZEN2tkd3FJNXUycExEVkdRME9TSU9EZHg4VGVxd2tqVG9ESjNhLVdmVWZLbjRBdW5fM2NMWXZYMUZzejRPN0ZyTV9NU3hGSjFTbzNn?oc=5",
-      "summary": "'s Collins Aerospace launches Tower MicroELITE surveillance solution at San Bernardino International Airport RTX",
-      "date": "2026-10-21",
-      "source": "RTX"
     },
     {
       "title": "Firefly Aerospace Completes Preliminary Design Review for NASA MoonFall Mission - Firefly Aerospace",
@@ -175,18 +165,18 @@
       "source": "Firefly Aerospace"
     },
     {
-      "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft - Japan Aerospace Exploration Agency",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xUkE3WUE2bk1zLTdpZmg4eV92Q1QwTXlfQV9TdktZcUk3LXNSd3NKVzI3WC1kb25DaDd6RVMtckNZTW5uSmJ2Uk5lZGRpU1hKQk5IOHVFa2drYk9NSm1Eb1BzX2o?oc=5",
-      "summary": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
-      "date": "2026-10-21",
-      "source": "Japan Aerospace Exploration Agency"
-    },
-    {
       "title": "Ceres-1 sea launch lofts first satellite for low-inclination Wuyang remote sensing constellation - SpaceNews",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWw0SjdIMlA5Ti12Nnl5bk92ZmRybW9SRVRFNHN1YUszR29rN1NVSHpkSmRLUlZkMmZlWVFKekpSV01xdlpCUlhzSnBDODBvRGVPUzdSQnNTMS05VzlWVjA0bTVyR2R2SER0ZVVBMy1Iem5lb05hTHdwV2JISnBoajFYTTdkVThIRjVhSFlJVTgzWS1SN0JoVTVGcnhra0ZiWW5LXzdBYUdVNDFERmoxMGVSWWVtbUR0SUJr?oc=5",
       "summary": "Ceres-1 sea launch lofts first satellite for low-inclination Wuyang remote sensing constellation",
       "date": "2026-10-21",
       "source": "SpaceNews"
+    },
+    {
+      "title": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why? - Space",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUlVJcGR6MmRjWE5OeDRLT2tVSDAwVzl6RlRwem9NY1JXU1h6dWwyeUhNUEhrOTJMTWh1NkxObkNVcHIxRnhhZG9xS1ZHY0YxUjZneEtkOFBHa2YyN3QxWnFPS1RPeWtRTHJTVFlGZ2pTME14THlqbXVfSnEySFhLMEltQzFaM0JpOU40dmZlVWRGSnRiTmEyem1jc3VRQUN3dXpDVkE5Sl9sWHlvcVZKbU1uVmFXc3VhcGl3UkdJbGVzY1hpSUNxUHN5RUs4T1FNa045dkhaRFJwQ2xNTFhfc0lUOVp0MWpOOXNjU25XSHhCSlNyMTNzZ0FNM0tVbkprWEtNdnltYw?oc=5",
+      "summary": "Russian satellite gets too close for comfort to a commercial US satellite likely used by Ukraine. But why?",
+      "date": "2026-10-21",
+      "source": "Space"
     },
     {
       "title": "Global leaders converge on biggest ever Space Tech Expo Europe 2026 - Aerospace Manufacturing magazine",
@@ -234,6 +224,16 @@
       ]
     },
     {
+      "title": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation - 36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fN1djbHNSNXp2Q3lPcGpacnA0V1R5R1NEN001UnE1bElCbm91bFZ3SHBCQ1QyYnZtdjk3VnB5OU5sMklaYzlXWnBrZ0NYZnkzR3B3?oc=5",
+      "summary": "NVIDIA Unveils Major Breakthrough: 8,000+ GPUs Enable 90% Reduction in Physical Qubits for Record-Setting Quantum Fault-Tolerant Computing Simulation",
+      "date": "2026-10-20",
+      "source": "36Kr",
+      "topics": [
+        "Quantum computing for fluid science"
+      ]
+    },
+    {
       "title": "Act for more sustainable space",
       "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Act_for_more_sustainable_space",
       "summary": "",
@@ -242,20 +242,6 @@
     }
   ],
   "papers": [
-    {
-      "title": "Evaporative Cooling and Secondary Combustion in a Liquid-Hydrocarbon Rotating Detonation Combustor with Dual-Purpose Head-End Injection",
-      "url": "https://arxiv.org/abs/2610.30171",
-      "summary": "The rotating detonation engine (RDE) faces severe thermal protection challenges. This study numerically investigates a head-end dual-purpose injection configuration in which the film-cooling holes act as both fuel and coolant injectors.",
-      "date": "2026-10-23",
-      "source": "arXiv"
-    },
-    {
-      "title": "GeoDiv KAN Solver for Time Fractional Navier Stokes Equations on Complex Domains to Realistic CFD Reconstruction",
-      "url": "https://arxiv.org/abs/2610.30179",
-      "summary": "Scientific machine learning provides a promising framework for solving complex problems in science and engineering. Notably, physics informed neural networks (PINNs) have shown considerable potential for solving differential equations and modelling engineering systems.",
-      "date": "2026-10-23",
-      "source": "arXiv"
-    },
     {
       "title": "Unsteady Aerodynamic Modeling Applied to Wing\u2013Vortex Gust Encounters",
       "url": "https://doi.org/10.2514/1.j067043",
